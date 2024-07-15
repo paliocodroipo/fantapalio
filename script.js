@@ -7,6 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // Rimuovi eventuali opzioni esistenti
     select.innerHTML = '';
 
+    //sorta in ordine alfabetico
+    fantateams.sort((a, b) => {
+        return a.name.localeCompare(b.name);
+    });
+    
     // Aggiungi nuove opzioni dal data.js
     fantateams.forEach(team => {
         const opt = document.createElement('option');
