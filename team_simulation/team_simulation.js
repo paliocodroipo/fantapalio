@@ -95,7 +95,7 @@ function renderTeam() {
             playerCard.innerHTML = `
                 <p>${player.name}</p>
                
-                <p>${player.team}  -  $${player.cost}</p>
+                <p>${player.team} - $${player.cost}</p>
             `;
             // Aggiungi un evento per rimuovere il giocatore cliccando sulla card
             playerCard.addEventListener('click', () => removePlayer(index));
@@ -122,8 +122,7 @@ function populatePlayersList() {
         playerCard.classList.add('player-card1', `cardclass${player.team}`);
         playerCard.innerHTML = `
             <p>${player.name}</p>
-            <p>$${player.team}   -   
-            ${player.cost}</p>
+            <p>${player.team} &emsp; $${player.cost}</p>
         `;
         // Aggiungi un evento per aggiungere il giocatore cliccando sulla card
         playerCard.addEventListener('click', () => addPlayer(player));
