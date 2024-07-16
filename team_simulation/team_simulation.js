@@ -94,8 +94,8 @@ function renderTeam() {
             playerCard.classList.add('player-card1', `cardclass${player.team}`);
             playerCard.innerHTML = `
                 <p>${player.name}</p>
-                <p>$${player.cost}</p>
-                <p>${player.team}</p>
+               
+                <p>${player.team} - $${player.cost}</p>
             `;
             // Aggiungi un evento per rimuovere il giocatore cliccando sulla card
             playerCard.addEventListener('click', () => removePlayer(index));
@@ -103,6 +103,8 @@ function renderTeam() {
         });
     }
 }
+
+
 
 // Funzione per aggiornare i crediti rimanenti
 function updateCreditsCounter() {
