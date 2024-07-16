@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Crea una nuova scheda
             const card = document.createElement('div');
-            card.classList.add('team-card',`cardclass${player.team}`);
+            card.classList.add('team-card1',`cardclass${player.team}`);
             card.innerHTML = `
                 <h3>${player.name}</h3>
                 <p>Prezzo: ${player.cost}</p>
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Aggiungi la scheda per il rione
         const rioneCard = document.createElement('div');
-        rioneCard.classList.add('team-card', `cardclass${selectedTeam.rione.name}`);
+        rioneCard.classList.add('team-card1', `cardclass${selectedTeam.rione.name}`);
         rioneCard.innerHTML = `
             <h3>Rione: ${selectedTeam.rione.name}</h3>
             <p class="total">Punti finali: ${selectedTeam.rione.final_points}</p>
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Aggiungi la scheda per i totali del team
         const totalCard = document.createElement('div');
-        totalCard.classList.add('team-card');
+        totalCard.classList.add('team-card1');
         totalCard.innerHTML = `
             <h3>Totale squadra</h3>
             <p>Prezzo totale: ${selectedTeam.total_cost}</p>
