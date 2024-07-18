@@ -1034,13 +1034,13 @@
         player.stats_g2[16] = countGreaterThanNineG2 >= 3 ? 1 : 0;
         player.g2 = sumProduct(player.stats_g2, pdkWeights);
     
-        // player.stats_g3[0] = player.stats_g3[1] * 2 + player.stats_g3[3] * 3 + player.stats_g3[5];
-        // player.stats_g3[9] = player.stats_g3[7] + player.stats_g3[8];
-        // const valuesToCheckG3 = [player.stats_g3[0], player.stats_g3[9], player.stats_g3[10], player.stats_g3[12], player.stats_g3[13]];
-        // const countGreaterThanNineG3 = valuesToCheckG3.filter(value => value > 9).length;
-        // player.stats_g3[15] = countGreaterThanNineG3 >= 2 ? 1 : 0;
-        // player.stats_g3[16] = countGreaterThanNineG3 >= 3 ? 1 : 0;
-        // player.g3 = sumProduct(player.stats_g3, pdkWeights);
+        player.stats_g3[0] = player.stats_g3[1] * 2 + player.stats_g3[3] * 3 + player.stats_g3[5];
+        player.stats_g3[9] = player.stats_g3[7] + player.stats_g3[8];
+        const valuesToCheckG3 = [player.stats_g3[0], player.stats_g3[9], player.stats_g3[10], player.stats_g3[12], player.stats_g3[13]];
+        const countGreaterThanNineG3 = valuesToCheckG3.filter(value => value > 9).length;
+        player.stats_g3[15] = countGreaterThanNineG3 >= 2 ? 1 : 0;
+        player.stats_g3[16] = countGreaterThanNineG3 >= 3 ? 1 : 0;
+        player.g3 = sumProduct(player.stats_g3, pdkWeights);
     
         // player.stats_semi[0] = player.stats_semi[1] * 2 + player.stats_semi[3] * 3 + player.stats_semi[5];
         // player.stats_semi[9] = player.stats_semi[7] + player.stats_semi[8];
