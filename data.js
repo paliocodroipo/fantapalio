@@ -606,7 +606,7 @@
     MarcoRizzi.stats_semi =           [0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,2]; // 6
     DavidGaspardo.stats_semi =        [0,2,0,3,5,3,1,5,0,5,1,1,0,0,0,0,0,1,2]; // 19
     AntonioGri.stats_semi =           [0,1,0,0,2,1,1,0,0,0,0,1,0,0,0,0,0,1,2]; // 5
-    RiccardoSchinella.stats_semi =    [0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 1
+    RiccardoSchinella.stats_semi =    [0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,3]; // 1
     //                                 | | | | | | | | | | | | | | | | | | | 
     //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
     //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
