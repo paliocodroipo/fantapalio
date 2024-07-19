@@ -164,6 +164,8 @@
     // GiovanniDalFarra.stats_g2 =     []; // 7
     // MiracleObichukwu.stats_g2 =     []; // 14
     // LucaDellaLonga.stats_g2 =       []; // 3
+    // //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    // //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     // AlessandroRojatti.stats_g2 =    []; // 12
     // MicheleGorasso.stats_g2 =       []; // 21
     // GiacomoFerigo.stats_g2 =        []; // 16
@@ -188,6 +190,8 @@
     // GabrieleMiani.stats_g2 =        []; // 14
     // MarcoMarchetti.stats_g2 =       []; // 
     // MarcoLombardo.stats_g2 =        []; // 15
+    // //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    // //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     // MicheleVendrame.stats_g2 =      []; // 13
     // LorenzoSchinella.stats_g2 =     []; // 3
     // GioeleTudini.stats_g2 =         []; // 7
@@ -210,6 +214,8 @@
     // AlessandroSantin.stats_g2 =     []; // 10
     // AlessandroGalassi.stats_g2 =    []; // 19
     // PietroSoramel.stats_g2 =        []; // 16
+    // //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    // //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     // FilippoAgnoluzzi.stats_g2 =     []; // 2
     // EmanueleDaneluzzi.stats_g2 =    []; // 6
     // LucaSoramel.stats_g2 =          []; // 12
@@ -233,6 +239,8 @@
     // EugenioDeTina.stats_g2 =        []; // 9
     // LucaAnedda.stats_g2 =           []; // 5
     // DenisVanin.stats_g2 =           []; // 17
+    // //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    // //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     // ThomasBaracetti.stats_g2 =      []; // 2
     // LucaGemo.stats_g2 =             []; // 6
     // DiegoNata.stats_g2 =            []; // 19
@@ -547,8 +555,111 @@
     //                               | | | | | | | | | | | | | | | | | | | 
     //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
     //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
-    //                               | | | | | | | | | | | | | | | | | | | 
 
+    //     gx_stats =               [PTS, 2Px,3Px,FTx, OR, ASS,ST,EXP,TD,Meme]
+    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //                                 | | | | | | | | | | | | | | | | | | | 
+    MassimilianoMoretti.stats_semi=   [0,3,2,1,6,1,3,6,1,0,1,4,4,0,0,0,0,1,1]; //13
+    AndreaMoretti.stats_semi =        [0,0,1,0,1,0,0,2,1,3,1,0,0,0,0,0,0,1,1]; //24
+    LarryTrevisan.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 23
+    AlessandroCostantini.stats_semi = [0,2,0,1,3,0,0,0,0,0,0,1,1,0,0,0,0,1,4]; // 4 
+    MatteoMargarit.stats_semi =       [0,3,2,0,0,0,2,8,3,0,1,2,0,1,0,0,0,1,2]; // 22
+    MauroCuridori.stats_semi =        [2,1,2,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1]; // 2 
+    ChristianZanet.stats_semi =       [2,1,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,1,1]; // 9
+    GiacomoPiacentini.stats_semi =    [0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1]; // 20
+    GiovanniDalFarra.stats_semi =     [0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1]; // 7
+    MiracleObichukwu.stats_semi =     [0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1]; // 14
+    LucaDellaLonga.stats_semi =       [0,0,0,0,1,0,0,1,0,1,0,1,1,0,0,0,0,1,1]; // 3
+    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    AlessandroRojatti.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 12
+    MicheleGorasso.stats_semi =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 21
+    GiacomoFerigo.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,1]; // 16
+    UmbertoNobile.stats_semi =        [0,3,3,0,2,3,0,6,1,0,1,0,0,0,0,0,0,1,2]; // 15
+    DevinChiarcos.stats_semi =        [0,0,1,1,1,0,0,3,0,3,1,0,1,1,0,0,0,1,1]; // 18
+    ValentinoCigainero.stats_semi =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4]; //
+    MicheleDeAnna.stats_semi =        [2,1,1,0,0,0,2,2,0,2,0,0,1,0,0,0,0,1,1]; //
+    DavideParon.stats_semi =          [0,0,1,0,1,0,0,1,0,1,0,2,0,0,0,0,0,1,1]; // 6
+    AlessioFurlan.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 10
+    MichaelMargarit.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; //
+    SebastianoTonizzo.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 5
+    //                                 | | | | | | | | | | | | | | | | | | | 
+    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //                                 | | | | | | | | | | | | | | | | | | | 
+    DanieleGanzit.stats_semi =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3]; // 
+    GiacomoSilvestri.stats_semi =     [0,0,1,0,1,0,0,1,0,1,0,2,0,0,0,0,0,1,3]; // 9
+    VittorioGri.stats_semi =          [0,0,2,0,1,0,0,2,0,2,1,0,0,2,0,0,0,1,3]; // 11
+    VittorioBasso.stats_semi =        [0,4,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,3]; // 8
+    AlessandroRizzi.stats_semi =      [0,3,2,0,1,0,0,2,1,3,1,0,2,0,0,0,0,1,3]; // 10
+    MassimoBaldassi.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
+    GabrieleMiani.stats_semi =        [0,4,0,0,4,3,0,10,0,0,4,2,0,0,0,1,0,1,3]; // 14
+    MarcoMarchetti.stats_semi =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
+    MarcoLombardo.stats_semi =        [0,2,2,0,0,1,3,1,2,3,1,0,1,0,0,0,0,1,4]; // 15
+    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    MicheleVendrame.stats_semi =      [0,0,5,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,2]; // 13
+    LorenzoSchinella.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 3
+    GioeleTudini.stats_semi =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 7
+    FilippoPasquon.stats_semi =       [0,0,1,0,0,0,0,1,1,2,2,0,2,0,0,0,0,1,2]; // 2
+    TommasoMartello.stats_semi =      [0,0,0,0,1,3,1,0,0,0,0,2,1,0,0,0,0,1,2]; // 16
+    MarcoRizzi.stats_semi =           [0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,2]; // 6
+    DavidGaspardo.stats_semi =        [0,2,0,3,5,3,1,5,0,5,1,1,0,0,0,0,0,1,2]; // 19
+    AntonioGri.stats_semi =           [0,1,0,0,2,1,1,0,0,0,0,1,0,0,0,0,0,1,2]; // 5
+    RiccardoSchinella.stats_semi =    [0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 1
+    //                                 | | | | | | | | | | | | | | | | | | | 
+    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //                                 | | | | | | | | | | | | | | | | | | | 
+    SimoneMartinelli.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 22
+    MatteoSpagnolo.stats_semi =       [0,1,2,0,2,0,0,2,0,2,0,1,1,0,0,0,0,0,2]; // 21
+    DavideFaurlin.stats_semi =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 18
+    GiovanniTonizzo.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2]; // 5
+    AlessandroSant.stats_semi =       [0,1,3,1,5,0,0,3,0,3,0,0,2,0,0,0,0,0,2]; // 7
+    MatteoBazzaro.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 1
+    AlessandroSantin.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 10
+    AlessandroGalassi.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 19
+    PietroSoramel.stats_semi =        [0,4,4,1,6,1,3,2,1,3,1,1,2,0,0,0,0,0,3]; // 16
+    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    FilippoAgnoluzzi.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 2
+    EmanueleDaneluzzi.stats_semi =    [0,1,1,0,0,0,0,1,2,3,1,1,1,0,0,0,0,0,2]; // 6
+    LucaSoramel.stats_semi =          [0,0,4,1,0,0,2,1,2,3,2,2,1,0,0,0,0,0,3]; // 12
+    PaoloZorzi.stats_semi =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 9
+    ChristianFedrizzi.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 3
+    FilippoSappa.stats_semi =         [0,2,2,0,1,2,4,2,0,2,2,0,1,0,0,0,0,0,3]; // 15
+    GiovanniZanin.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 23
+    EnricoSant.stats_semi =           [0,0,1,2,2,0,0,4,0,4,1,3,1,0,0,0,0,0,5]; // 4
+    StefanoPolano.stats_semi =        [0,0,2,0,0,0,0,2,0,2,0,1,0,0,0,0,0,0,2]; // 17
+    //                                   | | | | | | | | | | | | | | | | | | 
+    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //                                  | | | | | | | | | | | | | | | | | | | 
+    MarcoPolo.stats_semi =            [0,0,0,0,0,0,0,2,0,2,1,0,0,0,0,0,0,0,2]; // 15
+    MarcoSerrao.stats_semi =          [0,1,5,2,4,4,3,5,0,5,0,0,0,0,0,0,0,0,2]; // 8
+    WilliamIob.stats_semi =           [1,0,2,0,0,1,1,4,0,4,0,1,1,0,0,0,0,0,2]; // 12
+    DavideBroggi.stats_semi =         [0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 3
+    AlexMicottis.stats_semi =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 21
+    MassimilianoRossi.stats_semi =    [0,3,0,0,1,0,0,5,0,0,0,3,0,0,0,0,0,0,2]; // 22
+    MassimoMasotti.stats_semi =       [0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 10
+    EugenioDeTina.stats_semi =        [0,0,0,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,2]; // 9
+    LucaAnedda.stats_semi =           [0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,3]; // 5
+    DenisVanin.stats_semi =           [0,0,2,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,2]; // 17
+    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    ThomasBaracetti.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 2
+    LucaGemo.stats_semi =             [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 6
+    DiegoNata.stats_semi =            [0,0,6,0,1,0,0,4,5,0,1,2,0,0,0,0,0,0,6]; // 19
+    MattiaRoiatti.stats_semi =        [3,0,0,1,1,0,0,2,0,2,0,0,0,0,0,0,0,0,3]; // 11
+    EdoardoPicogna.stats_semi =       [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 7
+    MauroPerina.stats_semi =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 18
+    LorenzoMoro.stats_semi =          [0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2]; // 14
+    GionaTell.stats_semi =            [0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2]; // 4
+    IacopoPivetta.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 20
+    MattiaMasotti.stats_semi =        [0,3,2,1,1,1,4,2,1,3,1,4,3,1,0,0,0,0,2]; // 13
+    //                                 | | | | | | | | | | | | | | | | | | | 
+    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
 
 
 
