@@ -742,6 +742,45 @@ GionaTell.td3 = -5
 IacopoPivetta.td3 = -5
 MattiaMasotti.td3 = 1
 
+//FINALE punteggi medi
+SimoneMartinelli.final = -0.88
+MatteoSpagnolo.final = 6.38
+DavideFaurlin.final = 0.38
+GiovanniTonizzo.final = 0.50
+AlessandroSant.final = 3.94
+MatteoBazzaro.final = 0.56
+AlessandroSantin.final = 1.50
+AlessandroGalassi.final = 0.63
+PietroSoramel.final = 9.19
+FilippoAgnoluzzi.final = 1.38
+EmanueleDaneluzzi.final = 3.69
+LucaSoramel.final = 4.44
+PaoloZorzi.final = 2.13
+ChristianFedrizzi.final = 0.94
+FilippoSappa.final = 20.13
+GiovanniZanin.final = 6.31
+EnricoSant.final = 4.19
+StefanoPolano.final = 2.08
+MarcoPolo.final = 2.44
+MarcoSerrao.final = 13.88
+WilliamIob.final = 6.44
+DavideBroggi.final = 3.38
+AlexMicottis.final = 2.31
+MassimilianoRossi.final = 6.75
+MassimoMasotti.final = 1.19
+EugenioDeTina.final = 1.94
+LucaAnedda.final = 4.00
+DenisVanin.final = 3.63
+ThomasBaracetti.final = 1.75
+LucaGemo.final = 1.38
+DiegoNata.final = 22.00
+MattiaRoiatti.final = 4.13
+EdoardoPicogna.final = 0.75
+MauroPerina.final = 2.00
+LorenzoMoro.final = 2.44
+GionaTell.final = 1.50
+IacopoPivetta.final = 1.31
+MattiaMasotti.final = 8.75
 
 
     //QUI SARANNO DA DARE TUTTI I PUNTEGGI DI TUTTI I GIOCATORI IN TUTTE LE GIORNATE
