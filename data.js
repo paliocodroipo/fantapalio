@@ -966,14 +966,13 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 
         calculateAvg(player);
     }
-// Calcola le statistiche medie per GabrieleMiani e UmbertoNobile
+// Calcola le statistiche medie
 function calculateAvg(player) {
     for (let is = 0; is < player.stats_avg.length; is++) {
         player.stats_avg[is] = (player.stats_g1[is] + player.stats_g2[is] + player.stats_g3[is] + player.stats_semi[is] + player.stats_final[is]) / 5;
     }
 }
-    // GabrieleMiani.stats_avg[0] = (GabrieleMiani.stats_g1[0] + GabrieleMiani.stats_g2[0] + GabrieleMiani.stats_g3[0] + GabrieleMiani.stats_semi[0] + GabrieleMiani.stats_final[0]) / 5;
-    // UmbertoNobile.stats_avg[0] = (UmbertoNobile.stats_g1[0] + UmbertoNobile.stats_g2[0] + UmbertoNobile.stats_g3[0] + UmbertoNobile.stats_semi[0] + UmbertoNobile.stats_final[0]) / 5;
+    GabrieleMiani.stats_avg[0] = (GabrieleMiani.stats_g1[0] + GabrieleMiani.stats_g2[0] + GabrieleMiani.stats_g3[0] + GabrieleMiani.stats_semi[0] + GabrieleMiani.stats_final[0]) / 5;
 
     console.log("Gabri");
     console.log(GabrieleMiani.stats_g1);
@@ -982,6 +981,9 @@ function calculateAvg(player) {
     console.log(GabrieleMiani.stats_semi);
     console.log(GabrieleMiani.stats_final);
     console.log(GabrieleMiani.stats_avg);
+
+    UmbertoNobile.stats_avg[0] = (UmbertoNobile.stats_g1[0] + UmbertoNobile.stats_g2[0] + UmbertoNobile.stats_g3[0] + UmbertoNobile.stats_semi[0] + UmbertoNobile.stats_final[0]) / 5;
+
     console.log("Umbi");
     console.log(UmbertoNobile.stats_g1);
     console.log(UmbertoNobile.stats_g2);
