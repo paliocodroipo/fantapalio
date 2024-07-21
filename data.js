@@ -973,7 +973,7 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     }
 
     GabrieleMiani.stats_avg[0] = (GabrieleMiani.stats_g1[0] + GabrieleMiani.stats_g2[0] + GabrieleMiani.stats_g3[0] + GabrieleMiani.stats_semi[0] + GabrieleMiani.stats_final[0]) / 5;
-    UmbertoNobile.stats_avg[0] = (GabrieleMiani.stats_g1[0] + GabrieleMiani.stats_g2[0] + GabrieleMiani.stats_g3[0] + GabrieleMiani.stats_semi[0] + GabrieleMiani.stats_final[0]) / 5;
+    UmbertoNobile.stats_avg[0] = (UmbertoNobile.stats_g1[0] + UmbertoNobile.stats_g2[0] + UmbertoNobile.stats_g3[0] + UmbertoNobile.stats_semi[0] + GabrieleMiani.stats_final[0]) / 5;
 
     console.log("Gabri");
     console.log(GabrieleMiani.stats_g1);
