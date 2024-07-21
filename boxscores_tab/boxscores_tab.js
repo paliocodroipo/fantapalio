@@ -62,7 +62,7 @@ function populateTable_g1(team, players) {
             }
         }
     });
-    tableBody.innerHTML += headerRow;
+    // tableBody.innerHTML += headerRow;
 }
 
 
@@ -126,7 +126,7 @@ function populateTable_g2(team, players) {
             }
         }
     });
-    tableBody.innerHTML += headerRow;
+    // tableBody.innerHTML += headerRow;
 }
 
 // Funzione per popolare la tabella per un team specifico
@@ -189,7 +189,7 @@ function populateTable_g3(team, players) {
             }
         }
     });
-    tableBody.innerHTML += headerRow;
+    // tableBody.innerHTML += headerRow;
 }
 
 // Funzione per popolare la tabella per un team specifico
@@ -252,7 +252,7 @@ function populateTable_semi(team, players) {
             }
         }
     });
-    tableBody.innerHTML += headerRow;
+    // tableBody.innerHTML += headerRow;
 }
 
 
@@ -316,7 +316,7 @@ function populateTable_final(team, players) {
             }
         }
     });
-    tableBody.innerHTML += headerRow;
+    // tableBody.innerHTML += headerRow;
 }
 
 // Funzione per popolare la tabella per un team specifico
@@ -426,7 +426,7 @@ function populateTable_avg(team, players) {
         
         
     });
-    tableBody.innerHTML += headerRow;
+    // tableBody.innerHTML += headerRow;
 }
 
 
@@ -499,7 +499,7 @@ function populateTable_totals(team, players) {
             }
         }
     });
-    tableBody.innerHTML += headerRow;
+    // tableBody.innerHTML += headerRow;
 }
 
 // Chiamata alla funzione per popolare le tabelle per ciascun team
