@@ -54,93 +54,188 @@
         tot_team: 0.0,
     };
 
+    // Funzione per creare un nuovo giocatore
+function createPlayer(name, cost, team) {
+    const player = deepClone(player_type);
+    player.team = team;
+    player.name = name;
+    player.cost = cost;
+    return player;
+}
 
-    //definizione players
-    // Team WEST
-    const MassimilianoMoretti = { ...player_type, team: "WEST", name: "Massimiliano Moretti", cost: 11 };
-    const AndreaMoretti = { ...player_type, team: "WEST", name: "Andrea Moretti", cost: 4 };
-    const LarryTrevisan = { ...player_type, team: "WEST", name: "Larry Trevisan", cost: 6 };
-    const AlessandroCostantini = { ...player_type, team: "WEST", name: "Alessandro Costantini", cost: 7 };
-    const MatteoMargarit = { ...player_type, team: "WEST", name: "Matteo Margarit", cost: 7 };
-    const MauroCuridori = { ...player_type, team: "WEST", name: "Mauro Curidori", cost: 5 };
-    const ChristianZanet = { ...player_type, team: "WEST", name: "Christian Zanet", cost: 6 };
-    const GiacomoPiacentini = { ...player_type, team: "WEST", name: "Giacomo Piacentini", cost: 5 };
-    const GiovanniDalFarra = { ...player_type, team: "WEST", name: "Giovanni dal Farra", cost: 4 };
-    const MiracleObichukwu = { ...player_type, team: "WEST", name: "Miracle Obichukwu", cost: 4 };
-    const LucaDellaLonga = { ...player_type, team: "WEST", name: "Luca della Longa", cost: 4 };
-    const AlessandroRojatti = { ...player_type, team: "WEST", name: "Alessandro Rojatti", cost: 4 };
-    const MicheleGorasso = { ...player_type, team: "WEST", name: "Michele Gorasso", cost: 5 };
-    const GiacomoFerigo = { ...player_type, team: "WEST", name: "Giacomo Ferigo", cost: 4 };
-    const UmbertoNobile = { ...player_type, team: "WEST", name: "Umberto Nobile", cost: 7 };
-    const DevinChiarcos = { ...player_type, team: "WEST", name: "Devin Chiarcos", cost: 4 };
-    const ValentinoCigainero = { ...player_type, team: "WEST", name: "Valentino Cigainero", cost: 5 };
-    const MicheleDeAnna = { ...player_type, team: "WEST", name: "Michele de Anna", cost: 6 };
-    const DavideParon = { ...player_type, team: "WEST", name: "Davide Paron", cost: 4 };
-    const AlessioFurlan = { ...player_type, team: "WEST", name: "Alessio Furlan", cost: 4 };
-    const MichaelMargarit = { ...player_type, team: "WEST", name: "Michael Margarit", cost: 4 };
-    const SebastianoTonizzo = { ...player_type, team: "WEST", name: "Sebastiano Tonizzo", cost: 4 };
+// Creazione dei giocatori per il team WEST
+const MassimilianoMoretti = createPlayer("Massimiliano Moretti", 11, "WEST");
+const AndreaMoretti = createPlayer("Andrea Moretti", 4, "WEST");
+const LarryTrevisan = createPlayer("Larry Trevisan", 6, "WEST");
+const AlessandroCostantini = createPlayer("Alessandro Costantini", 7, "WEST");
+const MatteoMargarit = createPlayer("Matteo Margarit", 7, "WEST");
+const MauroCuridori = createPlayer("Mauro Curidori", 5, "WEST");
+const ChristianZanet = createPlayer("Christian Zanet", 6, "WEST");
+const GiacomoPiacentini = createPlayer("Giacomo Piacentini", 5, "WEST");
+const GiovanniDalFarra = createPlayer("Giovanni dal Farra", 4, "WEST");
+const MiracleObichukwu = createPlayer("Miracle Obichukwu", 4, "WEST");
+const LucaDellaLonga = createPlayer("Luca della Longa", 4, "WEST");
+const AlessandroRojatti = createPlayer("Alessandro Rojatti", 4, "WEST");
+const MicheleGorasso = createPlayer("Michele Gorasso", 5, "WEST");
+const GiacomoFerigo = createPlayer("Giacomo Ferigo", 4, "WEST");
+const UmbertoNobile = createPlayer("Umberto Nobile", 7, "WEST");
+const DevinChiarcos = createPlayer("Devin Chiarcos", 4, "WEST");
+const ValentinoCigainero = createPlayer("Valentino Cigainero", 5, "WEST");
+const MicheleDeAnna = createPlayer("Michele de Anna", 6, "WEST");
+const DavideParon = createPlayer("Davide Paron", 4, "WEST");
+const AlessioFurlan = createPlayer("Alessio Furlan", 4, "WEST");
+const MichaelMargarit = createPlayer("Michael Margarit", 4, "WEST");
+const SebastianoTonizzo = createPlayer("Sebastiano Tonizzo", 4, "WEST");
 
-    // Team NORD
-    const DanieleGanzit = { ...player_type, team: "NORD", name: "Daniele Ganzit", cost: 5 };
-    const GiacomoSilvestri = { ...player_type, team: "NORD", name: "Giacomo Silvestri", cost: 5 };
-    const VittorioGri = { ...player_type, team: "NORD", name: "Vittorio Gri", cost: 5 };
-    const VittorioBasso = { ...player_type, team: "NORD", name: "Vittorio Basso", cost: 4 };
-    const AlessandroRizzi = { ...player_type, team: "NORD", name: "Alessandro Rizzi", cost: 7 };
-    const MassimoBaldassi = { ...player_type, team: "NORD", name: "Massimo Baldassi", cost: 4 };
-    const GabrieleMiani = { ...player_type, team: "NORD", name: "Gabriele Miani", cost: 14 };
-    const MarcoMarchetti = { ...player_type, team: "NORD", name: "Marco Marchetti", cost: 4 };
-    const MarcoLombardo = { ...player_type, team: "NORD", name: "Marco Lombardo", cost: 7 };
-    const MicheleVendrame = { ...player_type, team: "NORD", name: "Michele Vendrame", cost: 4 };
-    const LorenzoSchinella = { ...player_type, team: "NORD", name: "Lorenzo Schinella", cost: 4 };
-    const GioeleTudini = { ...player_type, team: "NORD", name: "Gioele Tudini", cost: 4 };
-    const FilippoPasquon = { ...player_type, team: "NORD", name: "Filippo Pasquon", cost: 5 };
-    const TommasoMartello = { ...player_type, team: "NORD", name: "Tommaso Martello", cost: 6 };
-    const MarcoRizzi = { ...player_type, team: "NORD", name: "Marco Rizzi", cost: 4 };
-    const DavidGaspardo = { ...player_type, team: "NORD", name: "David Gaspardo", cost: 9 };
-    const AntonioGri = { ...player_type, team: "NORD", name: "Antonio Gri", cost: 4 };
-    const RiccardoSchinella = { ...player_type, team: "NORD", name: "Riccardo Schinella", cost: 4 };
+// Creazione dei giocatori per il team NORD
+const DanieleGanzit = createPlayer("Daniele Ganzit", 5, "NORD");
+const GiacomoSilvestri = createPlayer("Giacomo Silvestri", 5, "NORD");
+const VittorioGri = createPlayer("Vittorio Gri", 5, "NORD");
+const VittorioBasso = createPlayer("Vittorio Basso", 4, "NORD");
+const AlessandroRizzi = createPlayer("Alessandro Rizzi", 7, "NORD");
+const MassimoBaldassi = createPlayer("Massimo Baldassi", 4, "NORD");
+const GabrieleMiani = createPlayer("Gabriele Miani", 14, "NORD");
+const MarcoMarchetti = createPlayer("Marco Marchetti", 4, "NORD");
+const MarcoLombardo = createPlayer("Marco Lombardo", 7, "NORD");
+const MicheleVendrame = createPlayer("Michele Vendrame", 4, "NORD");
+const LorenzoSchinella = createPlayer("Lorenzo Schinella", 4, "NORD");
+const GioeleTudini = createPlayer("Gioele Tudini", 4, "NORD");
+const FilippoPasquon = createPlayer("Filippo Pasquon", 5, "NORD");
+const TommasoMartello = createPlayer("Tommaso Martello", 6, "NORD");
+const MarcoRizzi = createPlayer("Marco Rizzi", 4, "NORD");
+const DavidGaspardo = createPlayer("David Gaspardo", 9, "NORD");
+const AntonioGri = createPlayer("Antonio Gri", 4, "NORD");
+const RiccardoSchinella = createPlayer("Riccardo Schinella", 4, "NORD");
 
-    // Team SUD
-    const SimoneMartinelli = { ...player_type, team: "SUD", name: "Simone Martinelli", cost: 4 };
-    const MatteoSpagnolo = { ...player_type, team: "SUD", name: "Matteo Spagnolo", cost: 4 };
-    const DavideFaurlin = { ...player_type, team: "SUD", name: "Davide Faurlin", cost: 4 };
-    const GiovanniTonizzo = { ...player_type, team: "SUD", name: "Giovanni Tonizzo", cost: 5 };
-    const AlessandroSant = { ...player_type, team: "SUD", name: "Alessandro Sant", cost: 8 };
-    const MatteoBazzaro = { ...player_type, team: "SUD", name: "Matteo Bazzaro", cost: 4 };
-    const AlessandroSantin = { ...player_type, team: "SUD", name: "Alessandro Santin", cost: 4 };
-    const AlessandroGalassi = { ...player_type, team: "SUD", name: "Alessandro Galassi", cost: 5 };
-    const PietroSoramel = { ...player_type, team: "SUD", name: "Pietro Soramel", cost: 6 };
-    const FilippoAgnoluzzi = { ...player_type, team: "SUD", name: "Filippo Agnoluzzi", cost: 4 };
-    const EmanueleDaneluzzi = { ...player_type, team: "SUD", name: "Emanuele Daneluzzi", cost: 5 };
-    const LucaSoramel = { ...player_type, team: "SUD", name: "Luca Soramel", cost: 5 };
-    const PaoloZorzi = { ...player_type, team: "SUD", name: "Paolo Zorzi", cost: 4 };
-    const ChristianFedrizzi = { ...player_type, team: "SUD", name: "Christian Fedrizzi", cost: 4 };
-    const FilippoSappa = { ...player_type, team: "SUD", name: "Filippo Sappa", cost: 8 };
-    const GiovanniZanin = { ...player_type, team: "SUD", name: "Giovanni Zanin", cost: 9 };
-    const EnricoSant = { ...player_type, team: "SUD", name: "Enrico Sant", cost: 5 };
-    const StefanoPolano = { ...player_type, team: "SUD", name: "Stefano Polano", cost: 5 };
+// Creazione dei giocatori per il team SUD
+const SimoneMartinelli = createPlayer("Simone Martinelli", 4, "SUD");
+const MatteoSpagnolo = createPlayer("Matteo Spagnolo", 4, "SUD");
+const DavideFaurlin = createPlayer("Davide Faurlin", 4, "SUD");
+const GiovanniTonizzo = createPlayer("Giovanni Tonizzo", 5, "SUD");
+const AlessandroSant = createPlayer("Alessandro Sant", 8, "SUD");
+const MatteoBazzaro = createPlayer("Matteo Bazzaro", 4, "SUD");
+const AlessandroSantin = createPlayer("Alessandro Santin", 4, "SUD");
+const AlessandroGalassi = createPlayer("Alessandro Galassi", 5, "SUD");
+const PietroSoramel = createPlayer("Pietro Soramel", 6, "SUD");
+const FilippoAgnoluzzi = createPlayer("Filippo Agnoluzzi", 4, "SUD");
+const EmanueleDaneluzzi = createPlayer("Emanuele Daneluzzi", 5, "SUD");
+const LucaSoramel = createPlayer("Luca Soramel", 5, "SUD");
+const PaoloZorzi = createPlayer("Paolo Zorzi", 4, "SUD");
+const ChristianFedrizzi = createPlayer("Christian Fedrizzi", 4, "SUD");
+const FilippoSappa = createPlayer("Filippo Sappa", 8, "SUD");
+const GiovanniZanin = createPlayer("Giovanni Zanin", 9, "SUD");
+const EnricoSant = createPlayer("Enrico Sant", 5, "SUD");
+const StefanoPolano = createPlayer("Stefano Polano", 5, "SUD");
 
-    // Team EST
-    const MarcoPolo = { ...player_type, team: "EST", name: "Marco Polo", cost: 4 };
-    const MarcoSerrao = { ...player_type, team: "EST", name: "Marco Serrao", cost: 7 };
-    const WilliamIob = { ...player_type, team: "EST", name: "William Iob", cost: 7 };
-    const DavideBroggi = { ...player_type, team: "EST", name: "Davide Broggi", cost: 4 };
-    const AlexMicottis = { ...player_type, team: "EST", name: "Alex Micottis", cost: 4 };
-    const MassimilianoRossi = { ...player_type, team: "EST", name: "Massimiliano Rossi", cost: 4 };
-    const MassimoMasotti = { ...player_type, team: "EST", name: "Massimo Masotti", cost: 4 };
-    const EugenioDeTina = { ...player_type, team: "EST", name: "Eugenio De Tina", cost: 5 };
-    const LucaAnedda = { ...player_type, team: "EST", name: "Luca Anedda", cost: 4 };
-    const DenisVanin = { ...player_type, team: "EST", name: "Denis Vanin", cost: 4 };
-    const ThomasBaracetti = { ...player_type, team: "EST", name: "Thomas Baracetti", cost: 4 };
-    const LucaGemo = { ...player_type, team: "EST", name: "Luca Gemo", cost: 4 };
-    const DiegoNata = { ...player_type, team: "EST", name: "Diego Nata", cost: 9 };
-    const MattiaRoiatti = { ...player_type, team: "EST", name: "Mattia Roiatti", cost: 4 };
-    const EdoardoPicogna = { ...player_type, team: "EST", name: "Edoardo Picogna", cost: 4 };
-    const MauroPerina = { ...player_type, team: "EST", name: "Mauro Perina", cost: 4 };
-    const LorenzoMoro = { ...player_type, team: "EST", name: "Lorenzo Moro", cost: 5 };
-    const GionaTell = { ...player_type, team: "EST", name: "Giona Tell", cost: 5 };
-    const IacopoPivetta = { ...player_type, team: "EST", name: "Iacopo Pivetta", cost: 6 };
-    const MattiaMasotti = { ...player_type, team: "EST", name: "Mattia Masotti", cost: 6 };
+// Creazione dei giocatori per il team EST
+const MarcoPolo = createPlayer("Marco Polo", 4, "EST");
+const MarcoSerrao = createPlayer("Marco Serrao", 7, "EST");
+const WilliamIob = createPlayer("William Iob", 7, "EST");
+const DavideBroggi = createPlayer("Davide Broggi", 4, "EST");
+const AlexMicottis = createPlayer("Alex Micottis", 4, "EST");
+const MassimilianoRossi = createPlayer("Massimiliano Rossi", 4, "EST");
+const MassimoMasotti = createPlayer("Massimo Masotti", 4, "EST");
+const EugenioDeTina = createPlayer("Eugenio De Tina", 5, "EST");
+const LucaAnedda = createPlayer("Luca Anedda", 4, "EST");
+const DenisVanin = createPlayer("Denis Vanin", 4, "EST");
+const ThomasBaracetti = createPlayer("Thomas Baracetti", 4, "EST");
+const LucaGemo = createPlayer("Luca Gemo", 4, "EST");
+const DiegoNata = createPlayer("Diego Nata", 9, "EST");
+const MattiaRoiatti = createPlayer("Mattia Roiatti", 4, "EST");
+const EdoardoPicogna = createPlayer("Edoardo Picogna", 4, "EST");
+const MauroPerina = createPlayer("Mauro Perina", 4, "EST");
+const LorenzoMoro = createPlayer("Lorenzo Moro", 5, "EST");
+const GionaTell = createPlayer("Giona Tell", 5, "EST");
+const IacopoPivetta = createPlayer("Iacopo Pivetta", 6, "EST");
+const MattiaMasotti = createPlayer("Mattia Masotti", 6, "EST");
+
+
+    // //definizione players
+    // // Team WEST
+    // const MassimilianoMoretti = { ...player_type, team: "WEST", name: "Massimiliano Moretti", cost: 11 };
+    // const AndreaMoretti = { ...player_type, team: "WEST", name: "Andrea Moretti", cost: 4 };
+    // const LarryTrevisan = { ...player_type, team: "WEST", name: "Larry Trevisan", cost: 6 };
+    // const AlessandroCostantini = { ...player_type, team: "WEST", name: "Alessandro Costantini", cost: 7 };
+    // const MatteoMargarit = { ...player_type, team: "WEST", name: "Matteo Margarit", cost: 7 };
+    // const MauroCuridori = { ...player_type, team: "WEST", name: "Mauro Curidori", cost: 5 };
+    // const ChristianZanet = { ...player_type, team: "WEST", name: "Christian Zanet", cost: 6 };
+    // const GiacomoPiacentini = { ...player_type, team: "WEST", name: "Giacomo Piacentini", cost: 5 };
+    // const GiovanniDalFarra = { ...player_type, team: "WEST", name: "Giovanni dal Farra", cost: 4 };
+    // const MiracleObichukwu = { ...player_type, team: "WEST", name: "Miracle Obichukwu", cost: 4 };
+    // const LucaDellaLonga = { ...player_type, team: "WEST", name: "Luca della Longa", cost: 4 };
+    // const AlessandroRojatti = { ...player_type, team: "WEST", name: "Alessandro Rojatti", cost: 4 };
+    // const MicheleGorasso = { ...player_type, team: "WEST", name: "Michele Gorasso", cost: 5 };
+    // const GiacomoFerigo = { ...player_type, team: "WEST", name: "Giacomo Ferigo", cost: 4 };
+    // const UmbertoNobile = { ...player_type, team: "WEST", name: "Umberto Nobile", cost: 7 };
+    // const DevinChiarcos = { ...player_type, team: "WEST", name: "Devin Chiarcos", cost: 4 };
+    // const ValentinoCigainero = { ...player_type, team: "WEST", name: "Valentino Cigainero", cost: 5 };
+    // const MicheleDeAnna = { ...player_type, team: "WEST", name: "Michele de Anna", cost: 6 };
+    // const DavideParon = { ...player_type, team: "WEST", name: "Davide Paron", cost: 4 };
+    // const AlessioFurlan = { ...player_type, team: "WEST", name: "Alessio Furlan", cost: 4 };
+    // const MichaelMargarit = { ...player_type, team: "WEST", name: "Michael Margarit", cost: 4 };
+    // const SebastianoTonizzo = { ...player_type, team: "WEST", name: "Sebastiano Tonizzo", cost: 4 };
+
+    // // Team NORD
+    // const DanieleGanzit = { ...player_type, team: "NORD", name: "Daniele Ganzit", cost: 5 };
+    // const GiacomoSilvestri = { ...player_type, team: "NORD", name: "Giacomo Silvestri", cost: 5 };
+    // const VittorioGri = { ...player_type, team: "NORD", name: "Vittorio Gri", cost: 5 };
+    // const VittorioBasso = { ...player_type, team: "NORD", name: "Vittorio Basso", cost: 4 };
+    // const AlessandroRizzi = { ...player_type, team: "NORD", name: "Alessandro Rizzi", cost: 7 };
+    // const MassimoBaldassi = { ...player_type, team: "NORD", name: "Massimo Baldassi", cost: 4 };
+    // const GabrieleMiani = { ...player_type, team: "NORD", name: "Gabriele Miani", cost: 14 };
+    // const MarcoMarchetti = { ...player_type, team: "NORD", name: "Marco Marchetti", cost: 4 };
+    // const MarcoLombardo = { ...player_type, team: "NORD", name: "Marco Lombardo", cost: 7 };
+    // const MicheleVendrame = { ...player_type, team: "NORD", name: "Michele Vendrame", cost: 4 };
+    // const LorenzoSchinella = { ...player_type, team: "NORD", name: "Lorenzo Schinella", cost: 4 };
+    // const GioeleTudini = { ...player_type, team: "NORD", name: "Gioele Tudini", cost: 4 };
+    // const FilippoPasquon = { ...player_type, team: "NORD", name: "Filippo Pasquon", cost: 5 };
+    // const TommasoMartello = { ...player_type, team: "NORD", name: "Tommaso Martello", cost: 6 };
+    // const MarcoRizzi = { ...player_type, team: "NORD", name: "Marco Rizzi", cost: 4 };
+    // const DavidGaspardo = { ...player_type, team: "NORD", name: "David Gaspardo", cost: 9 };
+    // const AntonioGri = { ...player_type, team: "NORD", name: "Antonio Gri", cost: 4 };
+    // const RiccardoSchinella = { ...player_type, team: "NORD", name: "Riccardo Schinella", cost: 4 };
+
+    // // Team SUD
+    // const SimoneMartinelli = { ...player_type, team: "SUD", name: "Simone Martinelli", cost: 4 };
+    // const MatteoSpagnolo = { ...player_type, team: "SUD", name: "Matteo Spagnolo", cost: 4 };
+    // const DavideFaurlin = { ...player_type, team: "SUD", name: "Davide Faurlin", cost: 4 };
+    // const GiovanniTonizzo = { ...player_type, team: "SUD", name: "Giovanni Tonizzo", cost: 5 };
+    // const AlessandroSant = { ...player_type, team: "SUD", name: "Alessandro Sant", cost: 8 };
+    // const MatteoBazzaro = { ...player_type, team: "SUD", name: "Matteo Bazzaro", cost: 4 };
+    // const AlessandroSantin = { ...player_type, team: "SUD", name: "Alessandro Santin", cost: 4 };
+    // const AlessandroGalassi = { ...player_type, team: "SUD", name: "Alessandro Galassi", cost: 5 };
+    // const PietroSoramel = { ...player_type, team: "SUD", name: "Pietro Soramel", cost: 6 };
+    // const FilippoAgnoluzzi = { ...player_type, team: "SUD", name: "Filippo Agnoluzzi", cost: 4 };
+    // const EmanueleDaneluzzi = { ...player_type, team: "SUD", name: "Emanuele Daneluzzi", cost: 5 };
+    // const LucaSoramel = { ...player_type, team: "SUD", name: "Luca Soramel", cost: 5 };
+    // const PaoloZorzi = { ...player_type, team: "SUD", name: "Paolo Zorzi", cost: 4 };
+    // const ChristianFedrizzi = { ...player_type, team: "SUD", name: "Christian Fedrizzi", cost: 4 };
+    // const FilippoSappa = { ...player_type, team: "SUD", name: "Filippo Sappa", cost: 8 };
+    // const GiovanniZanin = { ...player_type, team: "SUD", name: "Giovanni Zanin", cost: 9 };
+    // const EnricoSant = { ...player_type, team: "SUD", name: "Enrico Sant", cost: 5 };
+    // const StefanoPolano = { ...player_type, team: "SUD", name: "Stefano Polano", cost: 5 };
+
+    // // Team EST
+    // const MarcoPolo = { ...player_type, team: "EST", name: "Marco Polo", cost: 4 };
+    // const MarcoSerrao = { ...player_type, team: "EST", name: "Marco Serrao", cost: 7 };
+    // const WilliamIob = { ...player_type, team: "EST", name: "William Iob", cost: 7 };
+    // const DavideBroggi = { ...player_type, team: "EST", name: "Davide Broggi", cost: 4 };
+    // const AlexMicottis = { ...player_type, team: "EST", name: "Alex Micottis", cost: 4 };
+    // const MassimilianoRossi = { ...player_type, team: "EST", name: "Massimiliano Rossi", cost: 4 };
+    // const MassimoMasotti = { ...player_type, team: "EST", name: "Massimo Masotti", cost: 4 };
+    // const EugenioDeTina = { ...player_type, team: "EST", name: "Eugenio De Tina", cost: 5 };
+    // const LucaAnedda = { ...player_type, team: "EST", name: "Luca Anedda", cost: 4 };
+    // const DenisVanin = { ...player_type, team: "EST", name: "Denis Vanin", cost: 4 };
+    // const ThomasBaracetti = { ...player_type, team: "EST", name: "Thomas Baracetti", cost: 4 };
+    // const LucaGemo = { ...player_type, team: "EST", name: "Luca Gemo", cost: 4 };
+    // const DiegoNata = { ...player_type, team: "EST", name: "Diego Nata", cost: 9 };
+    // const MattiaRoiatti = { ...player_type, team: "EST", name: "Mattia Roiatti", cost: 4 };
+    // const EdoardoPicogna = { ...player_type, team: "EST", name: "Edoardo Picogna", cost: 4 };
+    // const MauroPerina = { ...player_type, team: "EST", name: "Mauro Perina", cost: 4 };
+    // const LorenzoMoro = { ...player_type, team: "EST", name: "Lorenzo Moro", cost: 5 };
+    // const GionaTell = { ...player_type, team: "EST", name: "Giona Tell", cost: 5 };
+    // const IacopoPivetta = { ...player_type, team: "EST", name: "Iacopo Pivetta", cost: 6 };
+    // const MattiaMasotti = { ...player_type, team: "EST", name: "Mattia Masotti", cost: 6 };
 
 
 
@@ -998,7 +1093,7 @@ function calculateAvg(player) {
     console.log(GabrieleMiani.stats_semi);
     console.log(GabrieleMiani.stats_final);
     console.log(GabrieleMiani.stats_avg);
-    
+
 
     //FINALE punteggi medi
 SimoneMartinelli.final = -0.88
