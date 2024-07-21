@@ -353,7 +353,7 @@ function populateTable_avg(team, players) {
             )}</td>`;
             playerRow += `<td>${((player.stats_g1[14] + player.stats_g2[14] + player.stats_g3[14] + player.stats_semi[14] + player.stats_final[14]) / 5).toFixed(1)}</td>`;
             playerRow += `<td>${((player.stats_g1[18] + player.stats_g2[18] + player.stats_g3[18] + player.stats_semi[18] + player.stats_final[18]) / 5).toFixed(1)}</td>`;
-            playerRow += `<td><strong>${(player.tot / 5).toFixed(1)}</strong></td>`;
+            playerRow += `<td><strong>${((player.g1 + player.g2 + player.g3 + player.semi + player.final)/ 5).toFixed(1)}</strong></td>`;
             playerRow += '</tr>';
             tableBody.innerHTML += playerRow;
         }
