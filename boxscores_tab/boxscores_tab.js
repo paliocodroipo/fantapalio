@@ -365,8 +365,8 @@ function populateTable_avg(team, players) {
 
 
 // Funzione per popolare la tabella per un team specifico
-function populateTable_avg(team, players) {
-    const tableBody = document.getElementById(`tableBodyAvg${team}`);
+function populateTable_totals(team, players) {
+    const tableBody = document.getElementById(`tableBodyTotals${team}`);
 
     // Intestazione dei parametri da mostrare nella tabella
     const headers = [
