@@ -966,7 +966,7 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 
         // Calcola stats_avg
         for (let is = 0; is < player.stats_avg.length; is++) {
-            player.stats_avg[i] = (player.stats_g1[i] + player.stats_g2[i] + player.stats_g3[i] + player.stats_semi[i] + player.stats_final[i]) / 5;
+            player.stats_avg[is] = (player.stats_g1[is] + player.stats_g2[is] + player.stats_g3[is] + player.stats_semi[is] + player.stats_final[is]) / 5;
         }
 
     }
