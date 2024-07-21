@@ -582,7 +582,7 @@ const MattiaMasotti = createPlayer("Mattia Masotti", 6, "EST");
     //                               | | | | | | | | | | | | | | | | | | | 
     DanieleGanzit.stats_g3 =        [2,1,1,0,0,0,2,0,1,1,0,0,0,0,0,0,0,1,0]; // 20
     GiacomoSilvestri.stats_g3 =     [0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,1,1]; // 9
-    VittorioGri.stats_g3 =          [0,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,1,1]; // 11
+    VittorioGri.stats_g3 =          [0,0,0,0,2,0,0,3,0,0,0,3,0,1,0,0,0,1,1]; // 11
     VittorioBasso.stats_g3 =        [4,2,1,0,2,0,0,1,0,1,0,1,3,0,0,0,0,1,0]; // 8
     AlessandroRizzi.stats_g3 =      [3,0,2,1,3,0,0,4,0,4,2,1,0,0,0,0,0,1,0]; // 10
     MassimoBaldassi.stats_g3 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 
