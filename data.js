@@ -1282,6 +1282,7 @@ const ft148 = createFantateam(148, "Los Vikingos", NORD, [MarcoRizzi24, Alessand
 const ft149 = createFantateam(149, "Quelli di zona", EST, [AndreaMoretti24, AlessandroRizzi24, DiegoNata24, MassimilianoRossi24, LucaSoramel24]);
 const ft150 = createFantateam(150, "Furbicomevolpi", EST, [MarcoSerrao24, WilliamIob24, DenisVanin24, SimoneMartinelli24, AlessandroSant24]);
 const ft151 = createFantateam(151, "qwerty", EST, [GionaTell24, LorenzoMoro24, SimoneMartinelli24, MauroPerina24, EdoardoPicogna24]);
+const ft152 = createFantateam(152, "Optimum", WEST, [GabrieleMiani24, DevinChiarcos24, MassimilianoRossi24, MatteoSpagnolo24, VittorioBasso24]);
 
     // Definizione team
     // const ft1 = {
@@ -4172,7 +4173,7 @@ const ft151 = createFantateam(151, "qwerty", EST, [GionaTell24, LorenzoMoro24, S
         ft121, ft122, ft123, ft124, ft125, ft126, ft127, ft128, ft129, ft130, 
         ft131, ft132, ft133, ft134, ft135, ft136, ft137, ft138, ft139, ft140, 
         ft141, ft142, ft143, ft144, ft145, ft146, ft147, ft148, ft149, ft150, 
-        ft151
+        ft151, ft152
       ];
       
     
