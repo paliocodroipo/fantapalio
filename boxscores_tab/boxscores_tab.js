@@ -363,6 +363,76 @@ function populateTable_avg(team, players) {
     tableBody.innerHTML += headerRow;
 }
 
+
+// Funzione per popolare la tabella per un team specifico
+function populateTable_avg(team, players) {
+    const tableBody = document.getElementById(`tableBodyAvg${team}`);
+
+    // Intestazione dei parametri da mostrare nella tabella
+    const headers = [
+        "Giocatore", "PTS", "REB", "DREB", "OREB", "AST", "STL", "BLK", "TO", "2PM", "2PA", "2P%", 
+        "3PM", "3PA", "3P%", "FTM", "FTA", "FT%", "EXP","Meme","TOT"
+    ];
+
+    // Aggiungi la prima riga con gli header alla tabella
+    let headerRow = '<tr>';
+    headers.forEach(header => {
+        headerRow += `<th>${header}</th>`;
+    });
+    headerRow += '</tr>';
+    tableBody.innerHTML = headerRow;
+
+    // Funzione per calcolare la percentuale in modo sicuro
+    function calculatePercentage(numerator, denominator) {
+        if (denominator === 0) {
+            return "0%";
+        }
+        return ((numerator / denominator) * 100).toFixed(1) + "%";
+    }
+
+    // Popola le righe della tabella con i dati dei giocatori del team specificato, fa le medie (non riesco a usare array per medie mannaggia)
+    players.forEach(player => {
+        if (player.team === team) {
+            let playerRow = '<tr>';
+            playerRow += `<td>${player.name}</td>`;
+            playerRow += `<td>${((player.stats_g1[0] + player.stats_g2[0] + player.stats_g3[0] + player.stats_semi[0] + player.stats_final[0]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${((player.stats_g1[9] + player.stats_g2[9] + player.stats_g3[9] + player.stats_semi[9] + player.stats_final[9]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${((player.stats_g1[7] + player.stats_g2[7] + player.stats_g3[7] + player.stats_semi[7] + player.stats_final[7]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${((player.stats_g1[8] + player.stats_g2[8] + player.stats_g3[8] + player.stats_semi[8] + player.stats_final[8]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${((player.stats_g1[10] + player.stats_g2[10] + player.stats_g3[10] + player.stats_semi[10] + player.stats_final[10]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${((player.stats_g1[12] + player.stats_g2[12] + player.stats_g3[12] + player.stats_semi[12] + player.stats_final[12]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${((player.stats_g1[13] + player.stats_g2[13] + player.stats_g3[13] + player.stats_semi[13] + player.stats_final[13]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${((player.stats_g1[11] + player.stats_g2[11] + player.stats_g3[11] + player.stats_semi[11] + player.stats_final[11]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${((player.stats_g1[1] + player.stats_g2[1] + player.stats_g3[1] + player.stats_semi[1] + player.stats_final[1]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${(((player.stats_g1[1] + player.stats_g2[1] + player.stats_g3[1] + player.stats_semi[1] + player.stats_final[1]) ) + ((player.stats_g1[2] + player.stats_g2[2] + player.stats_g3[2] + player.stats_semi[2] + player.stats_final[2]) )).toFixed(1)}</td>`;
+            playerRow += `<td>${calculatePercentage(
+                (player.stats_g1[1] + player.stats_g2[1] + player.stats_g3[1] + player.stats_semi[1] + player.stats_final[1]) ,
+                ((player.stats_g1[1] + player.stats_g2[1] + player.stats_g3[1] + player.stats_semi[1] + player.stats_final[1]) ) + ((player.stats_g1[2] + player.stats_g2[2] + player.stats_g3[2] + player.stats_semi[2] + player.stats_final[2]) )
+            )}</td>`;
+            playerRow += `<td>${((player.stats_g1[3] + player.stats_g2[3] + player.stats_g3[3] + player.stats_semi[3] + player.stats_final[3]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${(((player.stats_g1[3] + player.stats_g2[3] + player.stats_g3[3] + player.stats_semi[3] + player.stats_final[3]) ) + ((player.stats_g1[4] + player.stats_g2[4] + player.stats_g3[4] + player.stats_semi[4] + player.stats_final[4]) )).toFixed(1)}</td>`;
+            playerRow += `<td>${calculatePercentage(
+                (player.stats_g1[3] + player.stats_g2[3] + player.stats_g3[3] + player.stats_semi[3] + player.stats_final[3]) ,
+                ((player.stats_g1[3] + player.stats_g2[3] + player.stats_g3[3] + player.stats_semi[3] + player.stats_final[3]) ) + ((player.stats_g1[4] + player.stats_g2[4] + player.stats_g3[4] + player.stats_semi[4] + player.stats_final[4]) )
+            )}</td>`;
+            playerRow += `<td>${((player.stats_g1[5] + player.stats_g2[5] + player.stats_g3[5] + player.stats_semi[5] + player.stats_final[5]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${(((player.stats_g1[5] + player.stats_g2[5] + player.stats_g3[5] + player.stats_semi[5] + player.stats_final[5]) ) + ((player.stats_g1[6] + player.stats_g2[6] + player.stats_g3[6] + player.stats_semi[6] + player.stats_final[6]) )).toFixed(1)}</td>`;
+            playerRow += `<td>${calculatePercentage(
+                (player.stats_g1[5] + player.stats_g2[5] + player.stats_g3[5] + player.stats_semi[5] + player.stats_final[5]) ,
+                ((player.stats_g1[5] + player.stats_g2[5] + player.stats_g3[5] + player.stats_semi[5] + player.stats_final[5]) ) + ((player.stats_g1[6] + player.stats_g2[6] + player.stats_g3[6] + player.stats_semi[6] + player.stats_final[6]) )
+            )}</td>`;
+            playerRow += `<td>${((player.stats_g1[14] + player.stats_g2[14] + player.stats_g3[14] + player.stats_semi[14] + player.stats_final[14]) ).toFixed(1)}</td>`;
+            playerRow += `<td>${((player.stats_g1[18] + player.stats_g2[18] + player.stats_g3[18] + player.stats_semi[18] + player.stats_final[18]) ).toFixed(1)}</td>`;
+            playerRow += `<td><strong>${((player.g1 + player.g2 + player.g3 + player.semi + player.final)).toFixed(1)}</strong></td>`;
+            playerRow += '</tr>';
+            tableBody.innerHTML += playerRow;
+        }
+        
+        
+    });
+    tableBody.innerHTML += headerRow;
+}
+
 // Chiamata alla funzione per popolare le tabelle per ciascun team
 populateTable_g1("NORD", players);
 // Popola le tabelle per EST, SUD e WEST allo stesso modo
@@ -392,5 +462,10 @@ populateTable_avg("WEST", players);
 populateTable_avg("NORD", players);
 populateTable_avg("EST", players);
 populateTable_avg("SUD", players);
+
+populateTable_totals("WEST", players);
+populateTable_totals("NORD", players);
+populateTable_totals("EST", players);
+populateTable_totals("SUD", players);
 
 
