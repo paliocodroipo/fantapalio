@@ -237,10 +237,10 @@ const MattiaMasotti = createPlayer("Mattia Masotti", 6, "EST");
 
 
     // Definizione Rioni
-    const NORD = { ...rione_type, name: "NORD", final_points: 0 };
+    const NORD = { ...rione_type, name: "NORD", final_points: 10 };
     const SUD  = { ...rione_type, name: "SUD", final_points: 0 };
-    const EST  = { ...rione_type, name: "EST", final_points: 0 };
-    const WEST = { ...rione_type, name: "WEST", final_points: 0 };
+    const EST  = { ...rione_type, name: "EST", final_points: 5 };
+    const WEST = { ...rione_type, name: "WEST", final_points: 20 };
     //questo commentone da non cancellare che serve per averli vuoti prima di riempirli
     // //                               | | | | | | | | | | | | | | | | | | | 
     // //     gx_stats =             [PTS, 2Px,3Px,FTx, OR, ASS,ST,EXP,TD,Meme]
