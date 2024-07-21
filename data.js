@@ -970,7 +970,7 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         }
 
     }
-    console.log("ciao");
+    console.log("Gabri");
     console.log(GabrieleMiani.stats_avg);
     
 
