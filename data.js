@@ -970,6 +970,9 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         }
 
     }
+    console.log("ciao");
+    console.log(GabrieleMiani.stats_avg);
+    
 
     //FINALE punteggi medi
 SimoneMartinelli.final = -0.88
