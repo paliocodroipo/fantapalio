@@ -16,6 +16,7 @@
         final: 0.0,
         stats_final: Array(19).fill(0),
         tot: 0.0,
+        stats_avg: Array(19).fill(0),
         cost: 0
     };
 //questo array sarà da riempire per ogni giocatore per ogni partita
@@ -962,6 +963,12 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         player.stats_final[15] = countGreaterThanNineFinal >= 2 ? 1 : 0;
         player.stats_final[16] = countGreaterThanNineFinal >= 3 ? 1 : 0;
         player.final = sumProduct(player.stats_final, pdkWeights);
+
+        // Calcola stats_avg
+        for (let i = 0; i < player.stats_avg.length; i++) {
+            player.stats_avg[i] = (player.stats_g1[i] + player.stats_g2[i] + player.stats_g3[i] + player.stats_semi[i] + player.stats_final[i]) / 5;
+        }
+
     }
 
     //FINALE punteggi medi
