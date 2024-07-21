@@ -19,6 +19,7 @@ function populateTable_g1(team, players) {
     }); //
     headerRow += '</tr>';
     tableBody.innerHTML = headerRow;
+    let iheader=0;
 
     // Funzione per calcolare la percentuale in modo sicuro
     function calculatePercentage(numerator, denominator) {
@@ -55,6 +56,10 @@ function populateTable_g1(team, players) {
             playerRow += `<td><strong>${player.g1}</strong></td>`;
             playerRow += '</tr>';
             tableBody.innerHTML += playerRow;
+            iheader++;
+            if(iheader==10){
+                tableBody.innerHTML += headerRow;
+            }
         }
     });
     tableBody.innerHTML += headerRow;
