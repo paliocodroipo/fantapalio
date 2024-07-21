@@ -294,6 +294,64 @@ function populateTable_final(team, players) {
     tableBody.innerHTML += headerRow;
 }
 
+// Funzione per popolare la tabella per un team specifico
+function populateTable_avg(team, players) {
+    const tableBody = document.getElementById(`tableBodyAvg${team}`);
+
+    // Intestazione dei parametri da mostrare nella tabella
+    const headers = [
+        "Giocatore", "PTS", "REB", "DREB", "OREB", "AST", "STL", "BLK", "TO", "2PM", "2PA", "2P%", 
+        "3PM", "3PA", "3P%", "FTM", "FTA", "FT%", "EXP","Meme","TOT"
+    ];
+
+    // Aggiungi la prima riga con gli header alla tabella
+    let headerRow = '<tr>';
+    headers.forEach(header => {
+        headerRow += `<th>${header}</th>`;
+    });
+    headerRow += '</tr>';
+    tableBody.innerHTML = headerRow;
+
+    // Funzione per calcolare la percentuale in modo sicuro
+    function calculatePercentage(numerator, denominator) {
+        if (denominator === 0) {
+            return "0%";
+        }
+        return ((numerator / denominator) * 100).toFixed(1) + "%";
+    }
+
+    // Popola le righe della tabella con i dati dei giocatori del team specificato
+    players.forEach(player => {
+        if (player.team === team) {
+            let playerRow = '<tr>';
+            playerRow += `<td>${player.name}</td>`;
+            playerRow += `<td>${player.stats_avg[0]}</td>`;
+            playerRow += `<td>${player.stats_avg[9]}</td>`;
+            playerRow += `<td>${player.stats_avg[7]}</td>`;
+            playerRow += `<td>${player.stats_avg[8]}</td>`;
+            playerRow += `<td>${player.stats_avg[10]}</td>`;
+            playerRow += `<td>${player.stats_avg[12]}</td>`;
+            playerRow += `<td>${player.stats_avg[13]}</td>`;
+            playerRow += `<td>${player.stats_avg[11]}</td>`;
+            playerRow += `<td>${player.stats_avg[1]}</td>`;
+            playerRow += `<td>${player.stats_avg[1] + player.stats_avg[2]}</td>`;
+            playerRow += `<td>${calculatePercentage(player.stats_avg[1], player.stats_avg[1] + player.stats_avg[2])}</td>`;
+            playerRow += `<td>${player.stats_avg[3]}</td>`;
+            playerRow += `<td>${player.stats_avg[3] + player.stats_avg[4]}</td>`;
+            playerRow += `<td>${calculatePercentage(player.stats_avg[3], player.stats_avg[3] + player.stats_avg[4])}</td>`;
+            playerRow += `<td>${player.stats_avg[5]}</td>`;
+            playerRow += `<td>${player.stats_avg[5] + player.stats_avg[6]}</td>`;
+            playerRow += `<td>${calculatePercentage(player.stats_avg[5], player.stats_avg[5] + player.stats_avg[6])}</td>`;
+            playerRow += `<td>${player.stats_avg[14]}</td>`;
+            playerRow += `<td>${player.stats_avg[18]}</td>`;            
+            playerRow += `<td><strong>${player.avg}</strong></td>`;
+            playerRow += '</tr>';
+            tableBody.innerHTML += playerRow;
+        }
+    });
+    tableBody.innerHTML += headerRow;
+}
+
 // Chiamata alla funzione per popolare le tabelle per ciascun team
 populateTable_g1("NORD", players);
 // Popola le tabelle per EST, SUD e WEST allo stesso modo
@@ -318,3 +376,10 @@ populateTable_semi("WEST", players);
 
 populateTable_final("NORD", players);
 populateTable_final("WEST", players);
+
+populateTable_avg("WEST", players);
+populateTable_avg("NORD", players);
+populateTable_avg("EST", players);
+populateTable_avg("SUD", players);
+
+
