@@ -1061,44 +1061,120 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 
 
     //FINALE punteggi medi
-SimoneMartinelli.final = -0.88
-MatteoSpagnolo.final = 6.38
-DavideFaurlin.final = 0.38
-GiovanniTonizzo.final = 0.50
-AlessandroSant.final = 3.94
-MatteoBazzaro.final = 0.56
-AlessandroSantin.final = 1.50
-AlessandroGalassi.final = 0.63
-PietroSoramel.final = 9.19
-FilippoAgnoluzzi.final = 1.38
-EmanueleDaneluzzi.final = 3.69
-LucaSoramel.final = 4.44
-PaoloZorzi.final = 2.13
-ChristianFedrizzi.final = 0.94
-FilippoSappa.final = 20.13
-GiovanniZanin.final = 6.31
-EnricoSant.final = 4.19
-StefanoPolano.final = 2.08
-MarcoPolo.final = 2.44
-MarcoSerrao.final = 13.88
-WilliamIob.final = 6.44
-DavideBroggi.final = 3.38
-AlexMicottis.final = 2.31
-MassimilianoRossi.final = 6.75
-MassimoMasotti.final = 1.19
-EugenioDeTina.final = 1.94
-LucaAnedda.final = 4.00
-DenisVanin.final = 3.63
-ThomasBaracetti.final = 1.75
-LucaGemo.final = 1.38
-DiegoNata.final = 22.00
-MattiaRoiatti.final = 4.13
-EdoardoPicogna.final = 0.75
-MauroPerina.final = 2.00
-LorenzoMoro.final = 2.44
-GionaTell.final = 1.50
-IacopoPivetta.final = 1.31
-MattiaMasotti.final = 8.75
+SimoneMartinelli.final = -0.88;
+SimoneMartinelli.final=SimoneMartinelli.final.toFixed(2);
+
+MatteoSpagnolo.final = 6.38;
+MatteoSpagnolo.final = MatteoSpagnolo.final.toFixed(2);
+
+DavideFaurlin.final = 0.38;
+DavideFaurlin.final = DavideFaurlin.final.toFixed(2);
+
+GiovanniTonizzo.final = 0.50;
+GiovanniTonizzo.final = GiovanniTonizzo.final.toFixed(2);
+
+AlessandroSant.final = 3.94;
+AlessandroSant.final = AlessandroSant.final.toFixed(2);
+
+MatteoBazzaro.final = 0.56;
+MatteoBazzaro.final = MatteoBazzaro.final.toFixed(2);
+
+AlessandroSantin.final = 1.50;
+AlessandroSantin.final = AlessandroSantin.final.toFixed(2);
+
+AlessandroGalassi.final = 0.63;
+AlessandroGalassi.final = AlessandroGalassi.final.toFixed(2);
+
+PietroSoramel.final = 9.19;
+PietroSoramel.final = PietroSoramel.final.toFixed(2);
+
+FilippoAgnoluzzi.final = 1.38;
+FilippoAgnoluzzi.final = FilippoAgnoluzzi.final.toFixed(2);
+
+EmanueleDaneluzzi.final = 3.69;
+EmanueleDaneluzzi.final = EmanueleDaneluzzi.final.toFixed(2);
+
+LucaSoramel.final = 4.44;
+LucaSoramel.final = LucaSoramel.final.toFixed(2);
+
+PaoloZorzi.final = 2.13;
+PaoloZorzi.final = PaoloZorzi.final.toFixed(2);
+
+ChristianFedrizzi.final = 0.94;
+ChristianFedrizzi.final = ChristianFedrizzi.final.toFixed(2);
+
+FilippoSappa.final = 20.13;
+FilippoSappa.final = FilippoSappa.final.toFixed(2);
+
+GiovanniZanin.final = 6.31;
+GiovanniZanin.final = GiovanniZanin.final.toFixed(2);
+
+EnricoSant.final = 4.19;
+EnricoSant.final = EnricoSant.final.toFixed(2);
+
+StefanoPolano.final = 2.08;
+StefanoPolano.final = StefanoPolano.final.toFixed(2);
+
+MarcoPolo.final = 2.44;
+MarcoPolo.final = MarcoPolo.final.toFixed(2);
+
+MarcoSerrao.final = 13.88;
+MarcoSerrao.final = MarcoSerrao.final.toFixed(2);
+
+WilliamIob.final = 6.44;
+WilliamIob.final = WilliamIob.final.toFixed(2);
+
+DavideBroggi.final = 3.38;
+DavideBroggi.final = DavideBroggi.final.toFixed(2);
+
+AlexMicottis.final = 2.31;
+AlexMicottis.final = AlexMicottis.final.toFixed(2);
+
+MassimilianoRossi.final = 6.75;
+MassimilianoRossi.final = MassimilianoRossi.final.toFixed(2);
+
+MassimoMasotti.final = 1.19;
+MassimoMasotti.final = MassimoMasotti.final.toFixed(2);
+
+EugenioDeTina.final = 1.94;
+EugenioDeTina.final = EugenioDeTina.final.toFixed(2);
+
+LucaAnedda.final = 4.00;
+LucaAnedda.final = LucaAnedda.final.toFixed(2);
+
+DenisVanin.final = 3.63;
+DenisVanin.final = DenisVanin.final.toFixed(2);
+
+ThomasBaracetti.final = 1.75;
+ThomasBaracetti.final = ThomasBaracetti.final.toFixed(2);
+
+LucaGemo.final = 1.38;
+LucaGemo.final = LucaGemo.final.toFixed(2);
+
+DiegoNata.final = 22.00;
+DiegoNata.final = DiegoNata.final.toFixed(2);
+
+MattiaRoiatti.final = 4.13;
+MattiaRoiatti.final = MattiaRoiatti.final.toFixed(2);
+
+EdoardoPicogna.final = 0.75;
+EdoardoPicogna.final = EdoardoPicogna.final.toFixed(2);
+
+MauroPerina.final = 2.00;
+MauroPerina.final = MauroPerina.final.toFixed(2);
+
+LorenzoMoro.final = 2.44;
+LorenzoMoro.final = LorenzoMoro.final.toFixed(2);
+
+GionaTell.final = 1.50;
+GionaTell.final = GionaTell.final.toFixed(2);
+
+IacopoPivetta.final = 1.31;
+IacopoPivetta.final = IacopoPivetta.final.toFixed(2);
+
+MattiaMasotti.final = 8.75;
+MattiaMasotti.final = MattiaMasotti.final.toFixed(2);
+
 
     // Ciclo for per calcolare player.tot per ogni giocatore
     for (let i = 0; i < players.length; i++) {
