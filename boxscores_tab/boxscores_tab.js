@@ -344,7 +344,7 @@ function populateTable_avg(team, players) {
             playerRow += `<td>${calculatePercentage(player.stats_avg[5], player.stats_avg[5] + player.stats_avg[6])}</td>`;
             playerRow += `<td>${player.stats_avg[14]}</td>`;
             playerRow += `<td>${player.stats_avg[18]}</td>`;            
-            playerRow += `<td><strong>${player.avg}</strong></td>`;
+            playerRow += `<td><strong>${player.tot/5}</strong></td>`;
             playerRow += '</tr>';
             tableBody.innerHTML += playerRow;
         }

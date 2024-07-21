@@ -965,7 +965,7 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         player.final = sumProduct(player.stats_final, pdkWeights);
 
         // Calcola stats_avg
-        for (let i = 0; i < player.stats_avg.length; i++) {
+        for (let is = 0; is < player.stats_avg.length; is++) {
             player.stats_avg[i] = (player.stats_g1[i] + player.stats_g2[i] + player.stats_g3[i] + player.stats_semi[i] + player.stats_final[i]) / 5;
         }
 
