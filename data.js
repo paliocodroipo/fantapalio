@@ -1061,7 +1061,7 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 
 
     //FINALE punteggi medi
-SimoneMartinelli.final = -0.88;
+SimoneMartinelli.final = Math.round(-0.88 * 100) / 100;
 MatteoSpagnolo.final = 6.38;
 DavideFaurlin.final = 0.38;
 GiovanniTonizzo.final = 0.50;
