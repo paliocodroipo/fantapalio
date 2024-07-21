@@ -973,6 +973,7 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     }
 
     GabrieleMiani.stats_avg[0] = (GabrieleMiani.stats_g1[0] + GabrieleMiani.stats_g2[0] + GabrieleMiani.stats_g3[0] + GabrieleMiani.stats_semi[0] + GabrieleMiani.stats_final[0]) / 5;
+    UmbertoNobile.stats_avg[0] = (GabrieleMiani.stats_g1[0] + GabrieleMiani.stats_g2[0] + GabrieleMiani.stats_g3[0] + GabrieleMiani.stats_semi[0] + GabrieleMiani.stats_final[0]) / 5;
 
     console.log("Gabri");
     console.log(GabrieleMiani.stats_g1);
@@ -981,6 +982,13 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     console.log(GabrieleMiani.stats_semi);
     console.log(GabrieleMiani.stats_final);
     console.log(GabrieleMiani.stats_avg);
+    console.log("Umbi");
+    console.log(UmbertoNobile.stats_g1);
+    console.log(UmbertoNobile.stats_g2);
+    console.log(UmbertoNobile.stats_g3);
+    console.log(UmbertoNobile.stats_semi);
+    console.log(UmbertoNobile.stats_final);
+    console.log(UmbertoNobile.stats_avg);
 
     //FINALE punteggi medi
 SimoneMartinelli.final = -0.88
