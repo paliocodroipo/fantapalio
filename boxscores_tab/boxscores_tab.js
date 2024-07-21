@@ -320,7 +320,7 @@ function populateTable_avg(team, players) {
         return ((numerator / denominator) * 100).toFixed(1) + "%";
     }
 
-    // Popola le righe della tabella con i dati dei giocatori del team specificato
+    // Popola le righe della tabella con i dati dei giocatori del team specificato, fa le medie (non riesco a usare array per medie mannaggia)
     players.forEach(player => {
         if (player.team === team) {
             let playerRow = '<tr>';
