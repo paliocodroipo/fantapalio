@@ -991,6 +991,14 @@ function calculateAvg(player) {
     console.log(UmbertoNobile.stats_semi);
     console.log(UmbertoNobile.stats_final);
     console.log(UmbertoNobile.stats_avg);
+    console.log("Gabri");
+    console.log(GabrieleMiani.stats_g1);
+    console.log(GabrieleMiani.stats_g2);
+    console.log(GabrieleMiani.stats_g3);
+    console.log(GabrieleMiani.stats_semi);
+    console.log(GabrieleMiani.stats_final);
+    console.log(GabrieleMiani.stats_avg);
+    
 
     //FINALE punteggi medi
 SimoneMartinelli.final = -0.88
