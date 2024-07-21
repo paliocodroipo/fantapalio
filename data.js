@@ -969,6 +969,8 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             player.stats_avg[is] = (player.stats_g1[is] + player.stats_g2[is] + player.stats_g3[is] + player.stats_semi[is] + player.stats_final[is]) / 5;
         }
 
+        player.stats_avg[0] = (player.stats_g1[0] + player.stats_g2[0] + player.stats_g3[0] + player.stats_semi[0] + player.stats_final[0]) / 5;
+
     }
     console.log("Gabri");
     console.log(GabrieleMiani.stats_g1);
