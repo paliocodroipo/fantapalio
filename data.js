@@ -742,45 +742,50 @@ GionaTell.td3 = -5
 IacopoPivetta.td3 = -5
 MattiaMasotti.td3 = 1
 
-//FINALE punteggi medi
-SimoneMartinelli.final = -0.88
-MatteoSpagnolo.final = 6.38
-DavideFaurlin.final = 0.38
-GiovanniTonizzo.final = 0.50
-AlessandroSant.final = 3.94
-MatteoBazzaro.final = 0.56
-AlessandroSantin.final = 1.50
-AlessandroGalassi.final = 0.63
-PietroSoramel.final = 9.19
-FilippoAgnoluzzi.final = 1.38
-EmanueleDaneluzzi.final = 3.69
-LucaSoramel.final = 4.44
-PaoloZorzi.final = 2.13
-ChristianFedrizzi.final = 0.94
-FilippoSappa.final = 20.13
-GiovanniZanin.final = 6.31
-EnricoSant.final = 4.19
-StefanoPolano.final = 2.08
-MarcoPolo.final = 2.44
-MarcoSerrao.final = 13.88
-WilliamIob.final = 6.44
-DavideBroggi.final = 3.38
-AlexMicottis.final = 2.31
-MassimilianoRossi.final = 6.75
-MassimoMasotti.final = 1.19
-EugenioDeTina.final = 1.94
-LucaAnedda.final = 4.00
-DenisVanin.final = 3.63
-ThomasBaracetti.final = 1.75
-LucaGemo.final = 1.38
-DiegoNata.final = 22.00
-MattiaRoiatti.final = 4.13
-EdoardoPicogna.final = 0.75
-MauroPerina.final = 2.00
-LorenzoMoro.final = 2.44
-GionaTell.final = 1.50
-IacopoPivetta.final = 1.31
-MattiaMasotti.final = 8.75
+
+
+//fatti da script:
+MassimilianoMoretti.stats_final = [12, 4, 5, 1, 6, 1, 4, 3, 3, 6, 3, 1, 2, 0, 0, 0, 0, 1, 1];
+AndreaMoretti.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+LarryTrevisan.stats_final = [23, 7, 5, 3, 1, 0, 0, 2, 1, 3, 1, 1, 2, 3, 0, 0, 0, 1, 0];
+AlessandroCostantini.stats_final = [3, 0, 5, 1, 4, 0, 0, 2, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1, 0];
+MatteoMargarit.stats_final = [12, 5, 3, 0, 0, 2, 0, 5, 3, 8, 0, 2, 0, 0, 0, 0, 0, 1, 0];
+MauroCuridori.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+ChristianZanet.stats_final = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0];
+GiacomoPiacentini.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1];
+GiovannidalFarra.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+MiracleObichukwu.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+LucadellaLonga.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+AlessandroRojatti.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+MicheleGorasso.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+GiacomoFerigo.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+UmbertoNobile.stats_final = [11, 4, 4, 0, 1, 3, 1, 6, 1, 7, 2, 0, 2, 0, 0, 0, 0, 1, 1];
+DevinChiarcos.stats_final = [4, 2, 2, 0, 1, 0, 0, 0, 4, 4, 1, 0, 1, 0, 0, 0, 0, 1, 0];
+ValentinoCigainero.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+MicheledeAnna.stats_final = [5, 2, 3, 0, 1, 1, 1, 1, 3, 4, 1, 2, 0, 1, 0, 0, 0, 1, 0];
+DavideParon.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+AlessioFurlan.stats_final = [2, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+MichaelMargarit.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+SebastianoTonizzo.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+DanieleGanzit.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+GiacomoSilvestri.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0];
+VittorioGri.stats_final = [2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0];
+VittorioBasso.stats_final = [5, 1, 1, 1, 2, 0, 0, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+AlessandroRizzi.stats_final = [8, 4, 4, 0, 3, 0, 1, 1, 0, 1, 3, 2, 0, 1, 0, 0, 0, 0, 0];
+MassimoBaldassi.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+GabrieleMiani.stats_final = [31, 5, 4, 4, 2, 9, 1, 9, 4, 13, 2, 1, 0, 0, 0, 1, 0, 0, 3];
+MarcoMarchetti.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+MarcoLombardo.stats_final = [10, 3, 5, 0, 0, 4, 1, 2, 2, 4, 0, 1, 0, 0, 0, 0, 0, 0, 5];
+MicheleVendrame.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+LorenzoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+GioeleTudini.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+FilippoPasquon.stats_final = [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+TommasoMartello.stats_final = [5, 0, 1, 1, 0, 2, 4, 1, 1, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0];
+MarcoRizzi.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+DavidGaspardo.stats_final = [8, 2, 6, 1, 5, 1, 0, 6, 0, 6, 1, 5, 0, 0, 0, 0, 0, 0, 0];
+AntonioGri.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
 
 
     //QUI SARANNO DA DARE TUTTI I PUNTEGGI DI TUTTI I GIOCATORI IN TUTTE LE GIORNATE
@@ -950,14 +955,54 @@ MattiaMasotti.final = 8.75
         player.stats_semi[16] = countGreaterThanNineSemi >= 3 ? 1 : 0;
         player.semi = sumProduct(player.stats_semi, pdkWeights);
     
-        // player.stats_final[0] = player.stats_final[1] * 2 + player.stats_final[3] * 3 + player.stats_final[5];
-        // player.stats_final[9] = player.stats_final[7] + player.stats_final[8];
-        // const valuesToCheckFinal = [player.stats_final[0], player.stats_final[9], player.stats_final[10], player.stats_final[12], player.stats_final[13]];
-        // const countGreaterThanNineFinal = valuesToCheckFinal.filter(value => value > 9).length;
-        // player.stats_final[15] = countGreaterThanNineFinal >= 2 ? 1 : 0;
-        // player.stats_final[16] = countGreaterThanNineFinal >= 3 ? 1 : 0;
-        // player.final = sumProduct(player.stats_final, pdkWeights);
+        player.stats_final[0] = player.stats_final[1] * 2 + player.stats_final[3] * 3 + player.stats_final[5];
+        player.stats_final[9] = player.stats_final[7] + player.stats_final[8];
+        const valuesToCheckFinal = [player.stats_final[0], player.stats_final[9], player.stats_final[10], player.stats_final[12], player.stats_final[13]];
+        const countGreaterThanNineFinal = valuesToCheckFinal.filter(value => value > 9).length;
+        player.stats_final[15] = countGreaterThanNineFinal >= 2 ? 1 : 0;
+        player.stats_final[16] = countGreaterThanNineFinal >= 3 ? 1 : 0;
+        player.final = sumProduct(player.stats_final, pdkWeights);
     }
+
+    //FINALE punteggi medi
+SimoneMartinelli.final = -0.88
+MatteoSpagnolo.final = 6.38
+DavideFaurlin.final = 0.38
+GiovanniTonizzo.final = 0.50
+AlessandroSant.final = 3.94
+MatteoBazzaro.final = 0.56
+AlessandroSantin.final = 1.50
+AlessandroGalassi.final = 0.63
+PietroSoramel.final = 9.19
+FilippoAgnoluzzi.final = 1.38
+EmanueleDaneluzzi.final = 3.69
+LucaSoramel.final = 4.44
+PaoloZorzi.final = 2.13
+ChristianFedrizzi.final = 0.94
+FilippoSappa.final = 20.13
+GiovanniZanin.final = 6.31
+EnricoSant.final = 4.19
+StefanoPolano.final = 2.08
+MarcoPolo.final = 2.44
+MarcoSerrao.final = 13.88
+WilliamIob.final = 6.44
+DavideBroggi.final = 3.38
+AlexMicottis.final = 2.31
+MassimilianoRossi.final = 6.75
+MassimoMasotti.final = 1.19
+EugenioDeTina.final = 1.94
+LucaAnedda.final = 4.00
+DenisVanin.final = 3.63
+ThomasBaracetti.final = 1.75
+LucaGemo.final = 1.38
+DiegoNata.final = 22.00
+MattiaRoiatti.final = 4.13
+EdoardoPicogna.final = 0.75
+MauroPerina.final = 2.00
+LorenzoMoro.final = 2.44
+GionaTell.final = 1.50
+IacopoPivetta.final = 1.31
+MattiaMasotti.final = 8.75
 
     // Ciclo for per calcolare player.tot per ogni giocatore
     for (let i = 0; i < players.length; i++) {

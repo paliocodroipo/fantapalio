@@ -317,6 +317,4 @@ populateTable_semi("SUD", players);
 populateTable_semi("WEST", players);
 
 populateTable_final("NORD", players);
-populateTable_final("EST", players);
-populateTable_final("SUD", players);
 populateTable_final("WEST", players);
