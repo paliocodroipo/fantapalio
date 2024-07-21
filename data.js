@@ -1103,7 +1103,7 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
     // Ciclo for per calcolare player.tot per ogni giocatore
     for (let i = 0; i < players.length; i++) {
         let player = players[i];
-        player.tot = player.g1 + player.g2 + player.g3 + player.semi + player.td3 + player.final;
+        player.tot = Math.round((player.g1 + player.g2 + player.g3 + player.semi + player.td3 + player.final)*100)/100;
     };
     //
 
