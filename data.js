@@ -56,10 +56,7 @@
 
     // Funzione per creare un nuovo giocatore
 function createPlayer(name, cost, team) {
-    const player = deepClone(player_type);
-    player.team = team;
-    player.name = name;
-    player.cost = cost;
+    const player = { ...player_type, team: team, name: name, cost: cost }
     return player;
 }
 
