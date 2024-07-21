@@ -502,13 +502,14 @@ footer {
 .registrationlink{
     text-decoration: underline;
 }
-.boxscore-table{
+
+.boxscore-tableNORD, .boxscore-tableWEST, .boxscore-tableEST, .boxscore-tableSUD{
     margin: auto;
     border-collapse: collapse;
     width: 100%;
 }
 
-.boxscore-table th, .boxscore-table td {
+.boxscore-tableNORD th, .boxscore-tableNORD td, .boxscore-tableWEST th, .boxscore-tableWEST td, .boxscore-tableEST th, .boxscore-tableEST td, .boxscore-tableSUD th, .boxscore-tableSUD td {
     border: 1px solid #ccc; /* Light grey border */
     padding: 8px; /* Padding inside table cells */
 }
@@ -516,6 +517,7 @@ footer {
 .boxscore-tableWEST th {
     background-color: var(--west-color1); /* Slightly different background for header */
     color: var(--west-color2);
+    
 }
 .boxscore-tableNORD th {
     background-color: var(--nord-color1); /* Slightly different background for header */
