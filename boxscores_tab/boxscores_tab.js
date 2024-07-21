@@ -83,6 +83,7 @@ function populateTable_g2(team, players) {
     });
     headerRow += '</tr>';
     tableBody.innerHTML = headerRow;
+    let iheader=0;
 
     // Funzione per calcolare la percentuale in modo sicuro
     function calculatePercentage(numerator, denominator) {
@@ -119,6 +120,10 @@ function populateTable_g2(team, players) {
             playerRow += `<td><strong>${player.g2}</strong></td>`;
             playerRow += '</tr>';
             tableBody.innerHTML += playerRow;
+            iheader++;
+            if(iheader==10){
+                tableBody.innerHTML += headerRow;
+            }
         }
     });
     tableBody.innerHTML += headerRow;
@@ -141,6 +146,7 @@ function populateTable_g3(team, players) {
     });
     headerRow += '</tr>';
     tableBody.innerHTML = headerRow;
+    let iheader=0;
 
     // Funzione per calcolare la percentuale in modo sicuro
     function calculatePercentage(numerator, denominator) {
@@ -177,6 +183,10 @@ function populateTable_g3(team, players) {
             playerRow += `<td><strong>${player.g3}</strong></td>`;
             playerRow += '</tr>';
             tableBody.innerHTML += playerRow;
+            iheader++;
+            if(iheader==10){
+                tableBody.innerHTML += headerRow;
+            }
         }
     });
     tableBody.innerHTML += headerRow;
@@ -199,6 +209,7 @@ function populateTable_semi(team, players) {
     });
     headerRow += '</tr>';
     tableBody.innerHTML = headerRow;
+    let iheader=0;
 
     // Funzione per calcolare la percentuale in modo sicuro
     function calculatePercentage(numerator, denominator) {
@@ -235,6 +246,10 @@ function populateTable_semi(team, players) {
             playerRow += `<td><strong>${player.semi}</strong></td>`;
             playerRow += '</tr>';
             tableBody.innerHTML += playerRow;
+            iheader++;
+            if(iheader==10){
+                tableBody.innerHTML += headerRow;
+            }
         }
     });
     tableBody.innerHTML += headerRow;
@@ -258,6 +273,7 @@ function populateTable_final(team, players) {
     });
     headerRow += '</tr>';
     tableBody.innerHTML = headerRow;
+    let iheader=0;
 
     // Funzione per calcolare la percentuale in modo sicuro
     function calculatePercentage(numerator, denominator) {
@@ -294,6 +310,10 @@ function populateTable_final(team, players) {
             playerRow += `<td><strong>${player.final}</strong></td>`;
             playerRow += '</tr>';
             tableBody.innerHTML += playerRow;
+            iheader++;
+            if(iheader==10){
+                tableBody.innerHTML += headerRow;
+            }
         }
     });
     tableBody.innerHTML += headerRow;
@@ -316,6 +336,7 @@ function populateTable_avg(team, players) {
     });
     headerRow += '</tr>';
     tableBody.innerHTML = headerRow;
+    let iheader=0;
 
     // Funzione per calcolare la percentuale in modo sicuro
     function calculatePercentage(numerator, denominator) {
@@ -397,6 +418,10 @@ function populateTable_avg(team, players) {
                 playerRow += '</tr>';
                 tableBody.innerHTML += playerRow;
             }
+            iheader++;
+            if(iheader==10){
+                tableBody.innerHTML += headerRow;
+            }
         }
         
         
@@ -422,6 +447,7 @@ function populateTable_totals(team, players) {
     });
     headerRow += '</tr>';
     tableBody.innerHTML = headerRow;
+    let iheader=0;
 
     // Funzione per calcolare la percentuale in modo sicuro
     function calculatePercentage(numerator, denominator) {
@@ -467,9 +493,11 @@ function populateTable_totals(team, players) {
             playerRow += `<td><strong>${((player.g1 + player.g2 + player.g3 + player.semi + player.final)).toFixed(0)}</strong></td>`;
             playerRow += '</tr>';
             tableBody.innerHTML += playerRow;
+            iheader++;
+            if(iheader==10){
+                tableBody.innerHTML += headerRow;
+            }
         }
-        
-        
     });
     tableBody.innerHTML += headerRow;
 }
