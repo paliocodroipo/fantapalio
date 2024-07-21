@@ -60,90 +60,90 @@ function createPlayer(name, cost, team) {
 }
 
 // Creazione dei giocatori per il team WEST
-const MassimilianoMoretti = createPlayer("Massimiliano Moretti", 11, "WEST");
-const AndreaMoretti = createPlayer("Andrea Moretti", 4, "WEST");
-const LarryTrevisan = createPlayer("Larry Trevisan", 6, "WEST");
-const AlessandroCostantini = createPlayer("Alessandro Costantini", 7, "WEST");
-const MatteoMargarit = createPlayer("Matteo Margarit", 7, "WEST");
-const MauroCuridori = createPlayer("Mauro Curidori", 5, "WEST");
-const ChristianZanet = createPlayer("Christian Zanet", 6, "WEST");
-const GiacomoPiacentini = createPlayer("Giacomo Piacentini", 5, "WEST");
-const GiovanniDalFarra = createPlayer("Giovanni dal Farra", 4, "WEST");
-const MiracleObichukwu = createPlayer("Miracle Obichukwu", 4, "WEST");
-const LucaDellaLonga = createPlayer("Luca della Longa", 4, "WEST");
-const AlessandroRojatti = createPlayer("Alessandro Rojatti", 4, "WEST");
-const MicheleGorasso = createPlayer("Michele Gorasso", 5, "WEST");
-const GiacomoFerigo = createPlayer("Giacomo Ferigo", 4, "WEST");
-const UmbertoNobile = createPlayer("Umberto Nobile", 7, "WEST");
-const DevinChiarcos = createPlayer("Devin Chiarcos", 4, "WEST");
-const ValentinoCigainero = createPlayer("Valentino Cigainero", 5, "WEST");
-const MicheleDeAnna = createPlayer("Michele de Anna", 6, "WEST");
-const DavideParon = createPlayer("Davide Paron", 4, "WEST");
-const AlessioFurlan = createPlayer("Alessio Furlan", 4, "WEST");
-const MichaelMargarit = createPlayer("Michael Margarit", 4, "WEST");
-const SebastianoTonizzo = createPlayer("Sebastiano Tonizzo", 4, "WEST");
+const MassimilianoMoretti24 = createPlayer("Massimiliano Moretti", 11, "WEST");
+const AndreaMoretti24 = createPlayer("Andrea Moretti", 4, "WEST");
+const LarryTrevisan24 = createPlayer("Larry Trevisan", 6, "WEST");
+const AlessandroCostantini24 = createPlayer("Alessandro Costantini", 7, "WEST");
+const MatteoMargarit24 = createPlayer("Matteo Margarit", 7, "WEST");
+const MauroCuridori24 = createPlayer("Mauro Curidori", 5, "WEST");
+const ChristianZanet24 = createPlayer("Christian Zanet", 6, "WEST");
+const GiacomoPiacentini24 = createPlayer("Giacomo Piacentini", 5, "WEST");
+const GiovanniDalFarra24 = createPlayer("Giovanni dal Farra", 4, "WEST");
+const MiracleObichukwu24 = createPlayer("Miracle Obichukwu", 4, "WEST");
+const LucaDellaLonga24 = createPlayer("Luca della Longa", 4, "WEST");
+const AlessandroRojatti24 = createPlayer("Alessandro Rojatti", 4, "WEST");
+const MicheleGorasso24 = createPlayer("Michele Gorasso", 5, "WEST");
+const GiacomoFerigo24 = createPlayer("Giacomo Ferigo", 4, "WEST");
+const UmbertoNobile24 = createPlayer("Umberto Nobile", 7, "WEST");
+const DevinChiarcos24 = createPlayer("Devin Chiarcos", 4, "WEST");
+const ValentinoCigainero24 = createPlayer("Valentino Cigainero", 5, "WEST");
+const MicheleDeAnna24 = createPlayer("Michele de Anna", 6, "WEST");
+const DavideParon24 = createPlayer("Davide Paron", 4, "WEST");
+const AlessioFurlan24 = createPlayer("Alessio Furlan", 4, "WEST");
+const MichaelMargarit24 = createPlayer("Michael Margarit", 4, "WEST");
+const SebastianoTonizzo24 = createPlayer("Sebastiano Tonizzo", 4, "WEST");
 
 // Creazione dei giocatori per il team NORD
-const DanieleGanzit = createPlayer("Daniele Ganzit", 5, "NORD");
-const GiacomoSilvestri = createPlayer("Giacomo Silvestri", 5, "NORD");
-const VittorioGri = createPlayer("Vittorio Gri", 5, "NORD");
-const VittorioBasso = createPlayer("Vittorio Basso", 4, "NORD");
-const AlessandroRizzi = createPlayer("Alessandro Rizzi", 7, "NORD");
-const MassimoBaldassi = createPlayer("Massimo Baldassi", 4, "NORD");
-const GabrieleMiani = createPlayer("Gabriele Miani", 14, "NORD");
-const MarcoMarchetti = createPlayer("Marco Marchetti", 4, "NORD");
-const MarcoLombardo = createPlayer("Marco Lombardo", 7, "NORD");
-const MicheleVendrame = createPlayer("Michele Vendrame", 4, "NORD");
-const LorenzoSchinella = createPlayer("Lorenzo Schinella", 4, "NORD");
-const GioeleTudini = createPlayer("Gioele Tudini", 4, "NORD");
-const FilippoPasquon = createPlayer("Filippo Pasquon", 5, "NORD");
-const TommasoMartello = createPlayer("Tommaso Martello", 6, "NORD");
-const MarcoRizzi = createPlayer("Marco Rizzi", 4, "NORD");
-const DavidGaspardo = createPlayer("David Gaspardo", 9, "NORD");
-const AntonioGri = createPlayer("Antonio Gri", 4, "NORD");
-const RiccardoSchinella = createPlayer("Riccardo Schinella", 4, "NORD");
+const DanieleGanzit24 = createPlayer("Daniele Ganzit", 5, "NORD");
+const GiacomoSilvestri24 = createPlayer("Giacomo Silvestri", 5, "NORD");
+const VittorioGri24 = createPlayer("Vittorio Gri", 5, "NORD");
+const VittorioBasso24 = createPlayer("Vittorio Basso", 4, "NORD");
+const AlessandroRizzi24 = createPlayer("Alessandro Rizzi", 7, "NORD");
+const MassimoBaldassi24 = createPlayer("Massimo Baldassi", 4, "NORD");
+const GabrieleMiani24 = createPlayer("Gabriele Miani", 14, "NORD");
+const MarcoMarchetti24 = createPlayer("Marco Marchetti", 4, "NORD");
+const MarcoLombardo24 = createPlayer("Marco Lombardo", 7, "NORD");
+const MicheleVendrame24 = createPlayer("Michele Vendrame", 4, "NORD");
+const LorenzoSchinella24 = createPlayer("Lorenzo Schinella", 4, "NORD");
+const GioeleTudini24 = createPlayer("Gioele Tudini", 4, "NORD");
+const FilippoPasquon24 = createPlayer("Filippo Pasquon", 5, "NORD");
+const TommasoMartello24 = createPlayer("Tommaso Martello", 6, "NORD");
+const MarcoRizzi24 = createPlayer("Marco Rizzi", 4, "NORD");
+const DavidGaspardo24 = createPlayer("David Gaspardo", 9, "NORD");
+const AntonioGri24 = createPlayer("Antonio Gri", 4, "NORD");
+const RiccardoSchinella24 = createPlayer("Riccardo Schinella", 4, "NORD");
 
 // Creazione dei giocatori per il team SUD
-const SimoneMartinelli = createPlayer("Simone Martinelli", 4, "SUD");
-const MatteoSpagnolo = createPlayer("Matteo Spagnolo", 4, "SUD");
-const DavideFaurlin = createPlayer("Davide Faurlin", 4, "SUD");
-const GiovanniTonizzo = createPlayer("Giovanni Tonizzo", 5, "SUD");
-const AlessandroSant = createPlayer("Alessandro Sant", 8, "SUD");
-const MatteoBazzaro = createPlayer("Matteo Bazzaro", 4, "SUD");
-const AlessandroSantin = createPlayer("Alessandro Santin", 4, "SUD");
-const AlessandroGalassi = createPlayer("Alessandro Galassi", 5, "SUD");
-const PietroSoramel = createPlayer("Pietro Soramel", 6, "SUD");
-const FilippoAgnoluzzi = createPlayer("Filippo Agnoluzzi", 4, "SUD");
-const EmanueleDaneluzzi = createPlayer("Emanuele Daneluzzi", 5, "SUD");
-const LucaSoramel = createPlayer("Luca Soramel", 5, "SUD");
-const PaoloZorzi = createPlayer("Paolo Zorzi", 4, "SUD");
-const ChristianFedrizzi = createPlayer("Christian Fedrizzi", 4, "SUD");
-const FilippoSappa = createPlayer("Filippo Sappa", 8, "SUD");
-const GiovanniZanin = createPlayer("Giovanni Zanin", 9, "SUD");
-const EnricoSant = createPlayer("Enrico Sant", 5, "SUD");
-const StefanoPolano = createPlayer("Stefano Polano", 5, "SUD");
+const SimoneMartinelli24 = createPlayer("Simone Martinelli", 4, "SUD");
+const MatteoSpagnolo24 = createPlayer("Matteo Spagnolo", 4, "SUD");
+const DavideFaurlin24 = createPlayer("Davide Faurlin", 4, "SUD");
+const GiovanniTonizzo24 = createPlayer("Giovanni Tonizzo", 5, "SUD");
+const AlessandroSant24 = createPlayer("Alessandro Sant", 8, "SUD");
+const MatteoBazzaro24 = createPlayer("Matteo Bazzaro", 4, "SUD");
+const AlessandroSantin24 = createPlayer("Alessandro Santin", 4, "SUD");
+const AlessandroGalassi24 = createPlayer("Alessandro Galassi", 5, "SUD");
+const PietroSoramel24 = createPlayer("Pietro Soramel", 6, "SUD");
+const FilippoAgnoluzzi24 = createPlayer("Filippo Agnoluzzi", 4, "SUD");
+const EmanueleDaneluzzi24 = createPlayer("Emanuele Daneluzzi", 5, "SUD");
+const LucaSoramel24 = createPlayer("Luca Soramel", 5, "SUD");
+const PaoloZorzi24 = createPlayer("Paolo Zorzi", 4, "SUD");
+const ChristianFedrizzi24 = createPlayer("Christian Fedrizzi", 4, "SUD");
+const FilippoSappa24 = createPlayer("Filippo Sappa", 8, "SUD");
+const GiovanniZanin24 = createPlayer("Giovanni Zanin", 9, "SUD");
+const EnricoSant24 = createPlayer("Enrico Sant", 5, "SUD");
+const StefanoPolano24 = createPlayer("Stefano Polano", 5, "SUD");
 
 // Creazione dei giocatori per il team EST
-const MarcoPolo = createPlayer("Marco Polo", 4, "EST");
-const MarcoSerrao = createPlayer("Marco Serrao", 7, "EST");
-const WilliamIob = createPlayer("William Iob", 7, "EST");
-const DavideBroggi = createPlayer("Davide Broggi", 4, "EST");
-const AlexMicottis = createPlayer("Alex Micottis", 4, "EST");
-const MassimilianoRossi = createPlayer("Massimiliano Rossi", 4, "EST");
-const MassimoMasotti = createPlayer("Massimo Masotti", 4, "EST");
-const EugenioDeTina = createPlayer("Eugenio De Tina", 5, "EST");
-const LucaAnedda = createPlayer("Luca Anedda", 4, "EST");
-const DenisVanin = createPlayer("Denis Vanin", 4, "EST");
-const ThomasBaracetti = createPlayer("Thomas Baracetti", 4, "EST");
-const LucaGemo = createPlayer("Luca Gemo", 4, "EST");
-const DiegoNata = createPlayer("Diego Nata", 9, "EST");
-const MattiaRoiatti = createPlayer("Mattia Roiatti", 4, "EST");
-const EdoardoPicogna = createPlayer("Edoardo Picogna", 4, "EST");
-const MauroPerina = createPlayer("Mauro Perina", 4, "EST");
-const LorenzoMoro = createPlayer("Lorenzo Moro", 5, "EST");
-const GionaTell = createPlayer("Giona Tell", 5, "EST");
-const IacopoPivetta = createPlayer("Iacopo Pivetta", 6, "EST");
-const MattiaMasotti = createPlayer("Mattia Masotti", 6, "EST");
+const MarcoPolo24 = createPlayer("Marco Polo", 4, "EST");
+const MarcoSerrao24 = createPlayer("Marco Serrao", 7, "EST");
+const WilliamIob24 = createPlayer("William Iob", 7, "EST");
+const DavideBroggi24 = createPlayer("Davide Broggi", 4, "EST");
+const AlexMicottis24 = createPlayer("Alex Micottis", 4, "EST");
+const MassimilianoRossi24 = createPlayer("Massimiliano Rossi", 4, "EST");
+const MassimoMasotti24 = createPlayer("Massimo Masotti", 4, "EST");
+const EugenioDeTina24 = createPlayer("Eugenio De Tina", 5, "EST");
+const LucaAnedda24 = createPlayer("Luca Anedda", 4, "EST");
+const DenisVanin24 = createPlayer("Denis Vanin", 4, "EST");
+const ThomasBaracetti24 = createPlayer("Thomas Baracetti", 4, "EST");
+const LucaGemo24 = createPlayer("Luca Gemo", 4, "EST");
+const DiegoNata24 = createPlayer("Diego Nata", 9, "EST");
+const MattiaRoiatti24 = createPlayer("Mattia Roiatti", 4, "EST");
+const EdoardoPicogna24 = createPlayer("Edoardo Picogna", 4, "EST");
+const MauroPerina24 = createPlayer("Mauro Perina", 4, "EST");
+const LorenzoMoro24 = createPlayer("Lorenzo Moro", 5, "EST");
+const GionaTell24 = createPlayer("Giona Tell", 5, "EST");
+const IacopoPivetta24 = createPlayer("Iacopo Pivetta", 6, "EST");
+const MattiaMasotti24 = createPlayer("Mattia Masotti", 6, "EST");
 
 
     // //definizione players
@@ -350,408 +350,408 @@ const MattiaMasotti = createPlayer("Mattia Masotti", 6, "EST");
     //     gx_stats =             [PTS, 2Px,3Px,FTx, OR, ASS,ST,EXP,TD,Meme]
     //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    MassimilianoMoretti.stats_g1=   [0,2,2,0,1,0,0,2,2,0,0,1,3,0,0,0,0,1,1]; //13
-    AndreaMoretti.stats_g1 =        [0,0,3,0,1,0,0,3,1,0,0,3,0,0,0,0,0,1,0]; //24
-    LarryTrevisan.stats_g1 =        [0,0,2,0,1,1,1,3,1,0,2,1,1,0,0,0,0,1,0]; // 23
-    AlessandroCostantini.stats_g1 = [0,3,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0,1,1]; // 4 
-    MatteoMargarit.stats_g1 =       [0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1]; // 22
-    MauroCuridori.stats_g1 =        [0,2,0,1,2,0,0,2,0,0,1,3,1,0,0,0,0,1,0]; // 2 
-    ChristianZanet.stats_g1 =       [0,0,0,0,1,0,0,0,0,0,1,2,0,0,0,0,0,1,0]; // 9
-    GiacomoPiacentini.stats_g1 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 20
-    GiovanniDalFarra.stats_g1 =     [0,1,1,0,1,0,2,1,0,0,0,1,1,0,0,0,0,1,0]; // 7
-    MiracleObichukwu.stats_g1 =     [0,1,2,0,0,2,0,0,2,0,0,1,0,0,0,0,0,1,0]; // 14
-    LucaDellaLonga.stats_g1 =       [0,0,1,0,0,2,0,1,0,0,1,3,0,0,0,0,0,1,0]; // 3
-    AlessandroRojatti.stats_g1 =    [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 12
-    MicheleGorasso.stats_g1 =       [0,2,2,0,1,2,1,1,1,0,1,0,1,0,0,0,0,1,0]; // 21
-    GiacomoFerigo.stats_g1 =        [0,0,0,1,1,0,0,2,0,0,1,1,1,0,0,0,0,1,0]; // 16
-    UmbertoNobile.stats_g1 =        [0,2,0,0,0,2,0,5,3,0,5,0,1,0,0,0,0,1,0]; // 15
-    DevinChiarcos.stats_g1 =        [0,2,2,4,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1]; // 18
-    ValentinoCigainero.stats_g1 =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
-    MicheleDeAnna.stats_g1 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
-    DavideParon.stats_g1 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 6
-    AlessioFurlan.stats_g1 =        [0,0,2,1,0,2,0,1,0,0,0,0,0,0,0,0,0,1,1]; // 10
-    MichaelMargarit.stats_g1 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
-    SebastianoTonizzo.stats_g1 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 5
+    MassimilianoMoretti24.stats_g1=   [0,2,2,0,1,0,0,2,2,0,0,1,3,0,0,0,0,1,1]; //13
+    AndreaMoretti24.stats_g1 =        [0,0,3,0,1,0,0,3,1,0,0,3,0,0,0,0,0,1,0]; //24
+    LarryTrevisan24.stats_g1 =        [0,0,2,0,1,1,1,3,1,0,2,1,1,0,0,0,0,1,0]; // 23
+    AlessandroCostantini24.stats_g1 = [0,3,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0,1,1]; // 4 
+    MatteoMargarit24.stats_g1 =       [0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1]; // 22
+    MauroCuridori24.stats_g1 =        [0,2,0,1,2,0,0,2,0,0,1,3,1,0,0,0,0,1,0]; // 2 
+    ChristianZanet24.stats_g1 =       [0,0,0,0,1,0,0,0,0,0,1,2,0,0,0,0,0,1,0]; // 9
+    GiacomoPiacentini24.stats_g1 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 20
+    GiovanniDalFarra24.stats_g1 =     [0,1,1,0,1,0,2,1,0,0,0,1,1,0,0,0,0,1,0]; // 7
+    MiracleObichukwu24.stats_g1 =     [0,1,2,0,0,2,0,0,2,0,0,1,0,0,0,0,0,1,0]; // 14
+    LucaDellaLonga24.stats_g1 =       [0,0,1,0,0,2,0,1,0,0,1,3,0,0,0,0,0,1,0]; // 3
+    AlessandroRojatti24.stats_g1 =    [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 12
+    MicheleGorasso24.stats_g1 =       [0,2,2,0,1,2,1,1,1,0,1,0,1,0,0,0,0,1,0]; // 21
+    GiacomoFerigo24.stats_g1 =        [0,0,0,1,1,0,0,2,0,0,1,1,1,0,0,0,0,1,0]; // 16
+    UmbertoNobile24.stats_g1 =        [0,2,0,0,0,2,0,5,3,0,5,0,1,0,0,0,0,1,0]; // 15
+    DevinChiarcos24.stats_g1 =        [0,2,2,4,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1]; // 18
+    ValentinoCigainero24.stats_g1 =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
+    MicheleDeAnna24.stats_g1 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
+    DavideParon24.stats_g1 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 6
+    AlessioFurlan24.stats_g1 =        [0,0,2,1,0,2,0,1,0,0,0,0,0,0,0,0,0,1,1]; // 10
+    MichaelMargarit24.stats_g1 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
+    SebastianoTonizzo24.stats_g1 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 5
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    DanieleGanzit.stats_g1 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
-    GiacomoSilvestri.stats_g1 =     [0,0,0,0,1,1,1,0,0,0,0,2,0,0,0,0,0,1,3]; // 9
-    VittorioGri.stats_g1 =          [0,1,5,0,0,0,0,1,0,0,0,2,1,0,0,0,0,1,3]; // 11
-    VittorioBasso.stats_g1 =        [0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,2]; // 8
-    AlessandroRizzi.stats_g1 =      [0,0,2,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,3]; // 10
-    MassimoBaldassi.stats_g1 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
-    GabrieleMiani.stats_g1 =        [0,6,3,3,3,3,0,3,7,0,2,1,1,0,0,0,0,1,3]; // 14
-    MarcoMarchetti.stats_g1 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
-    MarcoLombardo.stats_g1 =        [0,1,5,0,0,2,1,3,4,0,0,1,1,0,0,0,0,1,2]; // 15
-    MicheleVendrame.stats_g1 =      [0,2,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,1,2]; // 13
-    LorenzoSchinella.stats_g1 =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 3
-    GioeleTudini.stats_g1 =         [0,0,0,0,1,0,0,0,1,0,0,1,1,0,0,0,0,1,2]; // 7
-    FilippoPasquon.stats_g1 =       [0,1,0,0,3,0,2,1,1,0,1,0,3,0,0,0,0,1,2]; // 2
-    TommasoMartello.stats_g1 =      [0,3,2,0,1,2,5,0,0,0,0,2,2,0,0,0,0,1,2]; // 16
-    MarcoRizzi.stats_g1 =           [0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,2]; // 6
-    DavidGaspardo.stats_g1 =        [0,0,1,1,7,0,0,7,1,0,2,3,1,0,0,0,0,1,2]; // 19  //1 tripla sbagliata di troppo
-    AntonioGri.stats_g1 =           [0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 5
-    RiccardoSchinella.stats_g1 =    [0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 1
+    DanieleGanzit24.stats_g1 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
+    GiacomoSilvestri24.stats_g1 =     [0,0,0,0,1,1,1,0,0,0,0,2,0,0,0,0,0,1,3]; // 9
+    VittorioGri24.stats_g1 =          [0,1,5,0,0,0,0,1,0,0,0,2,1,0,0,0,0,1,3]; // 11
+    VittorioBasso24.stats_g1 =        [0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,2]; // 8
+    AlessandroRizzi24.stats_g1 =      [0,0,2,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,3]; // 10
+    MassimoBaldassi24.stats_g1 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
+    GabrieleMiani24.stats_g1 =        [0,6,3,3,3,3,0,3,7,0,2,1,1,0,0,0,0,1,3]; // 14
+    MarcoMarchetti24.stats_g1 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
+    MarcoLombardo24.stats_g1 =        [0,1,5,0,0,2,1,3,4,0,0,1,1,0,0,0,0,1,2]; // 15
+    MicheleVendrame24.stats_g1 =      [0,2,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,1,2]; // 13
+    LorenzoSchinella24.stats_g1 =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 3
+    GioeleTudini24.stats_g1 =         [0,0,0,0,1,0,0,0,1,0,0,1,1,0,0,0,0,1,2]; // 7
+    FilippoPasquon24.stats_g1 =       [0,1,0,0,3,0,2,1,1,0,1,0,3,0,0,0,0,1,2]; // 2
+    TommasoMartello24.stats_g1 =      [0,3,2,0,1,2,5,0,0,0,0,2,2,0,0,0,0,1,2]; // 16
+    MarcoRizzi24.stats_g1 =           [0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,2]; // 6
+    DavidGaspardo24.stats_g1 =        [0,0,1,1,7,0,0,7,1,0,2,3,1,0,0,0,0,1,2]; // 19  //1 tripla sbagliata di troppo
+    AntonioGri24.stats_g1 =           [0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 5
+    RiccardoSchinella24.stats_g1 =    [0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 1
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    SimoneMartinelli.stats_g1 =     [0,1,3,0,4,0,1,1,0,0,0,1,0,0,0,0,0,0,0]; // 22
-    MatteoSpagnolo.stats_g1 =       [0,0,0,0,2,0,0,2,2,0,0,0,2,1,0,0,0,0,0]; // 21
-    DavideFaurlin.stats_g1 =        [0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0]; // 18
-    GiovanniTonizzo.stats_g1 =      [0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0]; // 5
-    AlessandroSant.stats_g1 =       [0,0,3,0,4,4,2,0,0,0,1,1,1,1,0,0,0,0,0]; // 7
-    MatteoBazzaro.stats_g1 =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 1
-    AlessandroSantin.stats_g1 =     [0,0,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0]; // 10
-    AlessandroGalassi.stats_g1 =    [0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0]; // 19
-    PietroSoramel.stats_g1 =        [0,1,2,2,0,0,0,1,2,0,1,0,2,0,0,0,0,0,0]; // 16
-    FilippoAgnoluzzi.stats_g1 =     [0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 2
-    EmanueleDaneluzzi.stats_g1 =    [0,0,0,0,0,2,0,2,1,0,0,2,0,0,0,0,0,0,0]; // 6
-    LucaSoramel.stats_g1 =          [0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0]; // 12
-    PaoloZorzi.stats_g1 =           [0,0,1,1,0,0,0,0,1,0,0,2,1,1,0,0,0,0,0]; // 9
-    ChristianFedrizzi.stats_g1 =    [0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 3
-    FilippoSappa.stats_g1 =         [0,3,4,0,2,5,1,3,6,0,2,3,2,0,0,0,0,0,1]; // 15
-    GiovanniZanin.stats_g1 =        [0,1,6,0,3,3,4,6,4,0,2,4,0,0,0,0,0,0,1]; // 23
-    EnricoSant.stats_g1 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 4
-    StefanoPolano.stats_g1 =        [0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 17
+    SimoneMartinelli24.stats_g1 =     [0,1,3,0,4,0,1,1,0,0,0,1,0,0,0,0,0,0,0]; // 22
+    MatteoSpagnolo24.stats_g1 =       [0,0,0,0,2,0,0,2,2,0,0,0,2,1,0,0,0,0,0]; // 21
+    DavideFaurlin24.stats_g1 =        [0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0]; // 18
+    GiovanniTonizzo24.stats_g1 =      [0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0]; // 5
+    AlessandroSant24.stats_g1 =       [0,0,3,0,4,4,2,0,0,0,1,1,1,1,0,0,0,0,0]; // 7
+    MatteoBazzaro24.stats_g1 =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 1
+    AlessandroSantin24.stats_g1 =     [0,0,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0]; // 10
+    AlessandroGalassi24.stats_g1 =    [0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0]; // 19
+    PietroSoramel24.stats_g1 =        [0,1,2,2,0,0,0,1,2,0,1,0,2,0,0,0,0,0,0]; // 16
+    FilippoAgnoluzzi24.stats_g1 =     [0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 2
+    EmanueleDaneluzzi24.stats_g1 =    [0,0,0,0,0,2,0,2,1,0,0,2,0,0,0,0,0,0,0]; // 6
+    LucaSoramel24.stats_g1 =          [0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0]; // 12
+    PaoloZorzi24.stats_g1 =           [0,0,1,1,0,0,0,0,1,0,0,2,1,1,0,0,0,0,0]; // 9
+    ChristianFedrizzi24.stats_g1 =    [0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 3
+    FilippoSappa24.stats_g1 =         [0,3,4,0,2,5,1,3,6,0,2,3,2,0,0,0,0,0,1]; // 15
+    GiovanniZanin24.stats_g1 =        [0,1,6,0,3,3,4,6,4,0,2,4,0,0,0,0,0,0,1]; // 23
+    EnricoSant24.stats_g1 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 4
+    StefanoPolano24.stats_g1 =        [0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 17
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    MarcoPolo.stats_g1 =            [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 15
-    MarcoSerrao.stats_g1 =          [0,3,6,2,2,2,1,5,2,0,2,1,0,1,0,0,0,0,3]; // 8
-    WilliamIob.stats_g1 =           [0,4,2,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,4]; // 12
-    DavideBroggi.stats_g1 =         [0,0,2,0,0,2,0,1,0,0,0,1,2,0,0,0,0,0,3]; // 3
-    AlexMicottis.stats_g1 =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 21
-    MassimilianoRossi.stats_g1 =    [0,0,0,0,2,0,0,1,0,0,0,2,2,0,0,0,0,0,3]; // 22
-    MassimoMasotti.stats_g1 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 10
-    EugenioDeTina.stats_g1 =        [0,1,0,0,1,0,1,0,0,0,0,1,1,0,1,0,0,0,3]; // 9
-    LucaAnedda.stats_g1 =           [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4]; // 5
-    DenisVanin.stats_g1 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4]; // 17
-    ThomasBaracetti.stats_g1 =      [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,3]; // 2
-    LucaGemo.stats_g1 =             [0,0,0,0,0,0,0,1,0,0,1,3,0,0,0,0,0,0,3]; // 6
-    DiegoNata.stats_g1 =            [0,3,6,1,0,0,0,6,2,0,1,2,3,0,0,0,0,0,1]; // 19
-    MattiaRoiatti.stats_g1 =        [0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,4]; // 11
-    EdoardoPicogna.stats_g1 =       [0,0,0,0,2,1,1,0,0,0,0,2,1,0,0,0,0,0,4]; // 7
-    MauroPerina.stats_g1 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 18
-    LorenzoMoro.stats_g1 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8]; // 14
-    GionaTell.stats_g1 =            [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 4
-    IacopoPivetta.stats_g1 =        [0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,4]; // 20
-    MattiaMasotti.stats_g1 =        [0,3,5,0,4,2,3,2,4,0,0,2,1,1,0,0,0,0,3]; // 13
+    MarcoPolo24.stats_g1 =            [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 15
+    MarcoSerrao24.stats_g1 =          [0,3,6,2,2,2,1,5,2,0,2,1,0,1,0,0,0,0,3]; // 8
+    WilliamIob24.stats_g1 =           [0,4,2,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,4]; // 12
+    DavideBroggi24.stats_g1 =         [0,0,2,0,0,2,0,1,0,0,0,1,2,0,0,0,0,0,3]; // 3
+    AlexMicottis24.stats_g1 =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 21
+    MassimilianoRossi24.stats_g1 =    [0,0,0,0,2,0,0,1,0,0,0,2,2,0,0,0,0,0,3]; // 22
+    MassimoMasotti24.stats_g1 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 10
+    EugenioDeTina24.stats_g1 =        [0,1,0,0,1,0,1,0,0,0,0,1,1,0,1,0,0,0,3]; // 9
+    LucaAnedda24.stats_g1 =           [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4]; // 5
+    DenisVanin24.stats_g1 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4]; // 17
+    ThomasBaracetti24.stats_g1 =      [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,3]; // 2
+    LucaGemo24.stats_g1 =             [0,0,0,0,0,0,0,1,0,0,1,3,0,0,0,0,0,0,3]; // 6
+    DiegoNata24.stats_g1 =            [0,3,6,1,0,0,0,6,2,0,1,2,3,0,0,0,0,0,1]; // 19
+    MattiaRoiatti24.stats_g1 =        [0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,4]; // 11
+    EdoardoPicogna24.stats_g1 =       [0,0,0,0,2,1,1,0,0,0,0,2,1,0,0,0,0,0,4]; // 7
+    MauroPerina24.stats_g1 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 18
+    LorenzoMoro24.stats_g1 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8]; // 14
+    GionaTell24.stats_g1 =            [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 4
+    IacopoPivetta24.stats_g1 =        [0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,4]; // 20
+    MattiaMasotti24.stats_g1 =        [0,3,5,0,4,2,3,2,4,0,0,2,1,1,0,0,0,0,3]; // 13
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =             [PTS, 2Px,3Px,FTx, OR, ASS,ST,EXP,TD,Meme]
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =             [PTS, 2Px,3Px,FTx, OR, ASS,ST,EXP,TD,Meme]
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    MassimilianoMoretti.stats_g2=   [0,2,4,1,0,1,4,4,2,0,0,5,2,0,1,0,0,1,1]; //13
-    AndreaMoretti.stats_g2 =        [0,0,1,0,0,1,1,3,0,0,0,0,0,0,0,0,0,1,0]; //24
-    LarryTrevisan.stats_g2 =        [0,2,1,0,2,0,0,1,0,0,0,0,0,0,0,0,0,1,0]; // 23
-    AlessandroCostantini.stats_g2 = [0,1,0,2,0,4,0,1,1,0,2,0,0,1,0,0,0,1,1]; // 4 
-    MatteoMargarit.stats_g2 =       [0,2,1,0,1,0,0,6,2,0,1,1,0,0,0,0,0,1,0]; // 22
-    MauroCuridori.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 2 
-    ChristianZanet.stats_g2 =       [0,1,1,0,0,1,0,1,0,0,0,3,1,0,0,0,0,1,0]; // 9
-    GiacomoPiacentini.stats_g2 =    [0,0,1,0,2,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 20
-    GiovanniDalFarra.stats_g2 =     [0,0,2,0,2,1,1,0,0,0,0,0,0,0,0,0,0,1,0]; // 7 //manca 1 assist
-    MiracleObichukwu.stats_g2 =     [0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 14
-    LucaDellaLonga.stats_g2 =       [0,0,2,0,0,0,0,1,1,0,0,2,1,0,0,0,0,1,0]; // 3
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
-    AlessandroRojatti.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 12
-    MicheleGorasso.stats_g2 =       [0,0,2,0,0,0,0,2,0,0,0,2,1,0,0,0,0,1,0]; // 21
-    GiacomoFerigo.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 16
-    UmbertoNobile.stats_g2 =        [0,2,1,1,0,7,1,4,1,0,3,1,0,0,0,0,0,1,1]; // 15
-    DevinChiarcos.stats_g2 =        [0,0,0,0,1,0,0,4,0,0,0,1,0,0,0,0,0,1,0]; // 18
-    ValentinoCigainero.stats_g2 =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
-    MicheleDeAnna.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
-    DavideParon.stats_g2 =          [0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0]; // 6
-    AlessioFurlan.stats_g2 =        [0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0]; // 10
-    MichaelMargarit.stats_g2 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
-    SebastianoTonizzo.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 5
+    MassimilianoMoretti24.stats_g2=   [0,2,4,1,0,1,4,4,2,0,0,5,2,0,1,0,0,1,1]; //13
+    AndreaMoretti24.stats_g2 =        [0,0,1,0,0,1,1,3,0,0,0,0,0,0,0,0,0,1,0]; //24
+    LarryTrevisan24.stats_g2 =        [0,2,1,0,2,0,0,1,0,0,0,0,0,0,0,0,0,1,0]; // 23
+    AlessandroCostantini24.stats_g2 = [0,1,0,2,0,4,0,1,1,0,2,0,0,1,0,0,0,1,1]; // 4 
+    MatteoMargarit24.stats_g2 =       [0,2,1,0,1,0,0,6,2,0,1,1,0,0,0,0,0,1,0]; // 22
+    MauroCuridori24.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 2 
+    ChristianZanet24.stats_g2 =       [0,1,1,0,0,1,0,1,0,0,0,3,1,0,0,0,0,1,0]; // 9
+    GiacomoPiacentini24.stats_g2 =    [0,0,1,0,2,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 20
+    GiovanniDalFarra24.stats_g2 =     [0,0,2,0,2,1,1,0,0,0,0,0,0,0,0,0,0,1,0]; // 7 //manca 1 assist
+    MiracleObichukwu24.stats_g2 =     [0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 14
+    LucaDellaLonga24.stats_g2 =       [0,0,2,0,0,0,0,1,1,0,0,2,1,0,0,0,0,1,0]; // 3
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    AlessandroRojatti24.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 12
+    MicheleGorasso24.stats_g2 =       [0,0,2,0,0,0,0,2,0,0,0,2,1,0,0,0,0,1,0]; // 21
+    GiacomoFerigo24.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 16
+    UmbertoNobile24.stats_g2 =        [0,2,1,1,0,7,1,4,1,0,3,1,0,0,0,0,0,1,1]; // 15
+    DevinChiarcos24.stats_g2 =        [0,0,0,0,1,0,0,4,0,0,0,1,0,0,0,0,0,1,0]; // 18
+    ValentinoCigainero24.stats_g2 =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
+    MicheleDeAnna24.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
+    DavideParon24.stats_g2 =          [0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0]; // 6
+    AlessioFurlan24.stats_g2 =        [0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0]; // 10
+    MichaelMargarit24.stats_g2 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
+    SebastianoTonizzo24.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 5
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    DanieleGanzit.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 
-    GiacomoSilvestri.stats_g2 =     [0,2,2,1,1,3,1,1,0,0,0,0,2,0,0,0,0,0,0]; // 9
-    VittorioGri.stats_g2 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 11
-    VittorioBasso.stats_g2 =        [0,2,1,0,2,0,0,2,2,0,0,4,1,0,0,0,0,0,0]; // 8
-    AlessandroRizzi.stats_g2 =      [0,1,2,1,1,3,0,2,0,0,0,1,0,0,0,0,0,0,1]; // 10
-    MassimoBaldassi.stats_g2 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 
-    GabrieleMiani.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 14
-    MarcoMarchetti.stats_g2 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 
-    MarcoLombardo.stats_g2 =        [0,2,1,0,1,2,0,2,1,0,1,2,0,0,0,0,0,0,1]; // 15
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
-    MicheleVendrame.stats_g2 =      [0,0,0,0,0,0,0,3,0,0,0,1,2,0,0,0,0,0,5]; // 13
-    LorenzoSchinella.stats_g2 =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]; // 3
-    GioeleTudini.stats_g2 =         [0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0]; // 7
-    FilippoPasquon.stats_g2 =       [0,0,2,0,1,0,0,2,0,0,0,1,0,0,0,0,0,0,0]; // 2
-    TommasoMartello.stats_g2 =      [0,2,2,0,2,2,3,1,0,0,0,2,1,1,0,0,0,0,0]; // 16
-    MarcoRizzi.stats_g2 =           [0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1]; // 6
-    DavidGaspardo.stats_g2 =        [0,3,5,0,7,4,1,6,2,0,0,2,1,1,0,0,0,0,1]; // 19
-    AntonioGri.stats_g2 =           [0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0]; // 5
-    RiccardoSchinella.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 1
+    DanieleGanzit24.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 
+    GiacomoSilvestri24.stats_g2 =     [0,2,2,1,1,3,1,1,0,0,0,0,2,0,0,0,0,0,0]; // 9
+    VittorioGri24.stats_g2 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 11
+    VittorioBasso24.stats_g2 =        [0,2,1,0,2,0,0,2,2,0,0,4,1,0,0,0,0,0,0]; // 8
+    AlessandroRizzi24.stats_g2 =      [0,1,2,1,1,3,0,2,0,0,0,1,0,0,0,0,0,0,1]; // 10
+    MassimoBaldassi24.stats_g2 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 
+    GabrieleMiani24.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 14
+    MarcoMarchetti24.stats_g2 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 
+    MarcoLombardo24.stats_g2 =        [0,2,1,0,1,2,0,2,1,0,1,2,0,0,0,0,0,0,1]; // 15
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    MicheleVendrame24.stats_g2 =      [0,0,0,0,0,0,0,3,0,0,0,1,2,0,0,0,0,0,5]; // 13
+    LorenzoSchinella24.stats_g2 =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]; // 3
+    GioeleTudini24.stats_g2 =         [0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0]; // 7
+    FilippoPasquon24.stats_g2 =       [0,0,2,0,1,0,0,2,0,0,0,1,0,0,0,0,0,0,0]; // 2
+    TommasoMartello24.stats_g2 =      [0,2,2,0,2,2,3,1,0,0,0,2,1,1,0,0,0,0,0]; // 16
+    MarcoRizzi24.stats_g2 =           [0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1]; // 6
+    DavidGaspardo24.stats_g2 =        [0,3,5,0,7,4,1,6,2,0,0,2,1,1,0,0,0,0,1]; // 19
+    AntonioGri24.stats_g2 =           [0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0]; // 5
+    RiccardoSchinella24.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 1
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    SimoneMartinelli.stats_g2 =     [0,0,3,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0]; // 22 // ho messo vittoria anche asud 
-    MatteoSpagnolo.stats_g2 =       [0,3,3,1,2,0,0,2,0,0,0,2,0,1,0,0,0,1,0]; // 21 // ma hanno perso
-    DavideFaurlin.stats_g2 =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 18
-    GiovanniTonizzo.stats_g2 =      [0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 5
-    AlessandroSant.stats_g2 =       [0,1,4,0,7,6,4,1,0,0,0,1,6,0,0,0,0,1,0]; // 7
-    MatteoBazzaro.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 1
-    AlessandroSantin.stats_g2 =     [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 10
-    AlessandroGalassi.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 19
-    PietroSoramel.stats_g2 =        [0,1,3,2,3,0,0,1,0,0,2,1,1,0,0,0,0,1,1]; // 16
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
-    FilippoAgnoluzzi.stats_g2 =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 2
-    EmanueleDaneluzzi.stats_g2 =    [0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 6
-    LucaSoramel.stats_g2 =          [0,1,1,1,1,0,0,0,0,0,1,2,1,0,0,0,0,1,1]; // 12
-    PaoloZorzi.stats_g2 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 9
-    ChristianFedrizzi.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0]; // 3
-    FilippoSappa.stats_g2 =         [0,4,2,1,4,10,7,7,2,0,2,1,5,0,0,0,0,1,0]; // 15
-    GiovanniZanin.stats_g2 =        [0,2,3,0,1,0,2,8,1,0,3,1,1,0,0,0,0,1,1]; // 23
-    EnricoSant.stats_g2 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 4
-    StefanoPolano.stats_g2 =        [0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0]; // 17
+    SimoneMartinelli24.stats_g2 =     [0,0,3,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0]; // 22 // ho messo vittoria anche asud 
+    MatteoSpagnolo24.stats_g2 =       [0,3,3,1,2,0,0,2,0,0,0,2,0,1,0,0,0,1,0]; // 21 // ma hanno perso
+    DavideFaurlin24.stats_g2 =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 18
+    GiovanniTonizzo24.stats_g2 =      [0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 5
+    AlessandroSant24.stats_g2 =       [0,1,4,0,7,6,4,1,0,0,0,1,6,0,0,0,0,1,0]; // 7
+    MatteoBazzaro24.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 1
+    AlessandroSantin24.stats_g2 =     [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 10
+    AlessandroGalassi24.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 19
+    PietroSoramel24.stats_g2 =        [0,1,3,2,3,0,0,1,0,0,2,1,1,0,0,0,0,1,1]; // 16
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    FilippoAgnoluzzi24.stats_g2 =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 2
+    EmanueleDaneluzzi24.stats_g2 =    [0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 6
+    LucaSoramel24.stats_g2 =          [0,1,1,1,1,0,0,0,0,0,1,2,1,0,0,0,0,1,1]; // 12
+    PaoloZorzi24.stats_g2 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 9
+    ChristianFedrizzi24.stats_g2 =    [0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0]; // 3
+    FilippoSappa24.stats_g2 =         [0,4,2,1,4,10,7,7,2,0,2,1,5,0,0,0,0,1,0]; // 15
+    GiovanniZanin24.stats_g2 =        [0,2,3,0,1,0,2,8,1,0,3,1,1,0,0,0,0,1,1]; // 23
+    EnricoSant24.stats_g2 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 4
+    StefanoPolano24.stats_g2 =        [0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0]; // 17
     //                                 | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    MarcoPolo.stats_g2 =            [0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 15
-    MarcoSerrao.stats_g2 =          [0,0,3,4,0,5,0,3,0,0,2,4,1,0,0,0,0,1,0]; // 8
-    WilliamIob.stats_g2 =           [0,0,0,0,0,0,0,3,0,0,0,3,0,0,0,0,0,1,1]; // 12
-    DavideBroggi.stats_g2 =         [0,0,2,0,1,0,0,2,0,0,0,3,0,0,0,0,0,1,0]; // 3   //manca 5 di tiro da metà (forse)
-    AlexMicottis.stats_g2 =         [0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1]; // 21
-    MassimilianoRossi.stats_g2 =    [0,2,1,0,0,1,1,7,1,0,1,1,0,0,0,0,0,1,1]; // 22
-    MassimoMasotti.stats_g2 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 10
-    EugenioDeTina.stats_g2 =        [0,0,1,1,3,0,0,4,0,0,0,1,0,0,0,0,0,1,0]; // 9
-    LucaAnedda.stats_g2 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 5
-    DenisVanin.stats_g2 =           [0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 17
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
-    ThomasBaracetti.stats_g2 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 2
-    LucaGemo.stats_g2 =             [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 6
-    DiegoNata.stats_g2 =            [0,9,6,0,0,3,7,10,6,0,0,2,1,0,0,0,0,1,0]; // 19
-    MattiaRoiatti.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 11
-    EdoardoPicogna.stats_g2 =       [0,1,0,0,3,0,0,1,0,0,0,1,0,0,0,0,0,1,0]; // 7
-    MauroPerina.stats_g2 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 18
-    LorenzoMoro.stats_g2 =          [0,0,2,0,3,2,2,0,0,0,4,3,1,0,0,0,0,1,0]; // 14
-    GionaTell.stats_g2 =            [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 4
-    IacopoPivetta.stats_g2 =        [0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 20
-    MattiaMasotti.stats_g2 =        [0,3,3,0,2,0,2,3,2,0,0,1,0,0,0,0,0,1,0]; // 13
+    MarcoPolo24.stats_g2 =            [0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 15
+    MarcoSerrao24.stats_g2 =          [0,0,3,4,0,5,0,3,0,0,2,4,1,0,0,0,0,1,0]; // 8
+    WilliamIob24.stats_g2 =           [0,0,0,0,0,0,0,3,0,0,0,3,0,0,0,0,0,1,1]; // 12
+    DavideBroggi24.stats_g2 =         [0,0,2,0,1,0,0,2,0,0,0,3,0,0,0,0,0,1,0]; // 3   //manca 5 di tiro da metà (forse)
+    AlexMicottis24.stats_g2 =         [0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1]; // 21
+    MassimilianoRossi24.stats_g2 =    [0,2,1,0,0,1,1,7,1,0,1,1,0,0,0,0,0,1,1]; // 22
+    MassimoMasotti24.stats_g2 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 10
+    EugenioDeTina24.stats_g2 =        [0,0,1,1,3,0,0,4,0,0,0,1,0,0,0,0,0,1,0]; // 9
+    LucaAnedda24.stats_g2 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 5
+    DenisVanin24.stats_g2 =           [0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 17
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    ThomasBaracetti24.stats_g2 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 2
+    LucaGemo24.stats_g2 =             [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 6
+    DiegoNata24.stats_g2 =            [0,9,6,0,0,3,7,10,6,0,0,2,1,0,0,0,0,1,0]; // 19
+    MattiaRoiatti24.stats_g2 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 11
+    EdoardoPicogna24.stats_g2 =       [0,1,0,0,3,0,0,1,0,0,0,1,0,0,0,0,0,1,0]; // 7
+    MauroPerina24.stats_g2 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 18
+    LorenzoMoro24.stats_g2 =          [0,0,2,0,3,2,2,0,0,0,4,3,1,0,0,0,0,1,0]; // 14
+    GionaTell24.stats_g2 =            [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 4
+    IacopoPivetta24.stats_g2 =        [0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 20
+    MattiaMasotti24.stats_g2 =        [0,3,3,0,2,0,2,3,2,0,0,1,0,0,0,0,0,1,0]; // 13
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
     //questo commentone da non cancellare che serve per averli vuoti prima di riempirli
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =             [PTS, 2Px,3Px,FTx, OR, ASS,ST,EXP,TD,Meme]
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =             [PTS, 2Px,3Px,FTx, OR, ASS,ST,EXP,TD,Meme]
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    MassimilianoMoretti.stats_g3=   [0,4,0,0,0,0,6,1,1,0,2,2,4,0,0,0,0,1,2]; //13
-    AndreaMoretti.stats_g3 =        [0,0,1,1,0,0,0,2,1,0,0,3,1,0,0,0,0,1,1]; //24
-    LarryTrevisan.stats_g3 =        [0,3,0,0,1,3,0,3,0,0,0,0,1,0,0,0,0,1,0]; // 23
-    AlessandroCostantini.stats_g3 = [0,1,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,1,2]; // 4 
-    MatteoMargarit.stats_g3 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 22
-    MauroCuridori.stats_g3 =        [0,2,2,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0]; // 2 
-    ChristianZanet.stats_g3 =       [0,1,0,0,0,0,0,0,0,0,1,1,3,0,0,0,0,1,0]; // 9
-    GiacomoPiacentini.stats_g3 =    [0,0,0,0,0,0,0,1,1,2,1,1,0,0,0,0,0,1,-1]; // 20
-    GiovanniDalFarra.stats_g3 =     [0,2,0,0,3,0,0,0,0,0,1,2,2,0,0,0,0,1,0]; // 7
-    MiracleObichukwu.stats_g3 =     [0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0]; // 14
-    LucaDellaLonga.stats_g3 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 3
-    AlessandroRojatti.stats_g3 =    [0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0]; // 12
-    MicheleGorasso.stats_g3 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 21
-    GiacomoFerigo.stats_g3 =        [0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0]; // 16
-    UmbertoNobile.stats_g3 =        [0,3,1,0,2,0,0,4,3,7,2,1,0,0,0,0,0,1,1]; // 15
-    DevinChiarcos.stats_g3 =        [5,2,1,0,4,1,0,2,0,2,1,1,2,0,0,0,0,1,0]; // 18
-    ValentinoCigainero.stats_g3 =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
-    MicheleDeAnna.stats_g3 =        [9,2,2,0,0,5,2,5,1,6,1,1,0,0,0,0,0,1,1]; // 19
-    DavideParon.stats_g3 =          [0,0,1,0,1,0,0,0,2,2,0,0,0,0,0,0,0,1,0]; // 6
-    AlessioFurlan.stats_g3 =        [0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 10
-    MichaelMargarit.stats_g3 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
-    SebastianoTonizzo.stats_g3 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 5
+    MassimilianoMoretti24.stats_g3=   [0,4,0,0,0,0,6,1,1,0,2,2,4,0,0,0,0,1,2]; //13
+    AndreaMoretti24.stats_g3 =        [0,0,1,1,0,0,0,2,1,0,0,3,1,0,0,0,0,1,1]; //24
+    LarryTrevisan24.stats_g3 =        [0,3,0,0,1,3,0,3,0,0,0,0,1,0,0,0,0,1,0]; // 23
+    AlessandroCostantini24.stats_g3 = [0,1,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,1,2]; // 4 
+    MatteoMargarit24.stats_g3 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 22
+    MauroCuridori24.stats_g3 =        [0,2,2,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0]; // 2 
+    ChristianZanet24.stats_g3 =       [0,1,0,0,0,0,0,0,0,0,1,1,3,0,0,0,0,1,0]; // 9
+    GiacomoPiacentini24.stats_g3 =    [0,0,0,0,0,0,0,1,1,2,1,1,0,0,0,0,0,1,-1]; // 20
+    GiovanniDalFarra24.stats_g3 =     [0,2,0,0,3,0,0,0,0,0,1,2,2,0,0,0,0,1,0]; // 7
+    MiracleObichukwu24.stats_g3 =     [0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0]; // 14
+    LucaDellaLonga24.stats_g3 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 3
+    AlessandroRojatti24.stats_g3 =    [0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0]; // 12
+    MicheleGorasso24.stats_g3 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 21
+    GiacomoFerigo24.stats_g3 =        [0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0]; // 16
+    UmbertoNobile24.stats_g3 =        [0,3,1,0,2,0,0,4,3,7,2,1,0,0,0,0,0,1,1]; // 15
+    DevinChiarcos24.stats_g3 =        [5,2,1,0,4,1,0,2,0,2,1,1,2,0,0,0,0,1,0]; // 18
+    ValentinoCigainero24.stats_g3 =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
+    MicheleDeAnna24.stats_g3 =        [9,2,2,0,0,5,2,5,1,6,1,1,0,0,0,0,0,1,1]; // 19
+    DavideParon24.stats_g3 =          [0,0,1,0,1,0,0,0,2,2,0,0,0,0,0,0,0,1,0]; // 6
+    AlessioFurlan24.stats_g3 =        [0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0]; // 10
+    MichaelMargarit24.stats_g3 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; //
+    SebastianoTonizzo24.stats_g3 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 5
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    DanieleGanzit.stats_g3 =        [2,1,1,0,0,0,2,0,1,1,0,0,0,0,0,0,0,1,0]; // 20
-    GiacomoSilvestri.stats_g3 =     [0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,1,1]; // 9
-    VittorioGri.stats_g3 =          [0,0,0,0,2,0,0,3,0,0,0,3,0,1,0,0,0,1,1]; // 11
-    VittorioBasso.stats_g3 =        [4,2,1,0,2,0,0,1,0,1,0,1,3,0,0,0,0,1,0]; // 8
-    AlessandroRizzi.stats_g3 =      [3,0,2,1,3,0,0,4,0,4,2,1,0,0,0,0,0,1,0]; // 10
-    MassimoBaldassi.stats_g3 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 
-    GabrieleMiani.stats_g3 =        [0,6,2,0,3,3,0,6,3,0,2,1,2,0,0,0,0,1,0]; // 14
-    MarcoMarchetti.stats_g3 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 
-    MarcoLombardo.stats_g3 =        [6,3,1,0,0,0,0,3,0,3,4,3,0,0,0,0,0,1,1]; // 15
-    MicheleVendrame.stats_g3 =      [0,0,2,0,2,0,0,2,0,2,3,0,0,0,0,0,0,1,0]; // 13
-    LorenzoSchinella.stats_g3 =     [0,0,0,0,1,0,0,2,0,2,1,0,0,0,0,0,0,1,0]; // 3
-    GioeleTudini.stats_g3 =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 7
-    FilippoPasquon.stats_g3 =       [0,3,1,2,4,0,0,1,0,1,0,0,0,0,0,0,0,1,1]; // 2
-    TommasoMartello.stats_g3 =      [0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,1,0]; // 16
-    MarcoRizzi.stats_g3 =           [0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0]; // 6
-    DavidGaspardo.stats_g3 =        [0,0,0,2,5,0,0,6,1,0,3,2,0,0,0,0,0,1,1]; // 19
-    AntonioGri.stats_g3 =           [2,1,2,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0]; // 5
-    RiccardoSchinella.stats_g3 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 1
+    DanieleGanzit24.stats_g3 =        [2,1,1,0,0,0,2,0,1,1,0,0,0,0,0,0,0,1,0]; // 20
+    GiacomoSilvestri24.stats_g3 =     [0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,1,1]; // 9
+    VittorioGri24.stats_g3 =          [0,0,0,0,2,0,0,3,0,0,0,3,0,1,0,0,0,1,1]; // 11
+    VittorioBasso24.stats_g3 =        [4,2,1,0,2,0,0,1,0,1,0,1,3,0,0,0,0,1,0]; // 8
+    AlessandroRizzi24.stats_g3 =      [3,0,2,1,3,0,0,4,0,4,2,1,0,0,0,0,0,1,0]; // 10
+    MassimoBaldassi24.stats_g3 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 
+    GabrieleMiani24.stats_g3 =        [0,6,2,0,3,3,0,6,3,0,2,1,2,0,0,0,0,1,0]; // 14
+    MarcoMarchetti24.stats_g3 =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 
+    MarcoLombardo24.stats_g3 =        [6,3,1,0,0,0,0,3,0,3,4,3,0,0,0,0,0,1,1]; // 15
+    MicheleVendrame24.stats_g3 =      [0,0,2,0,2,0,0,2,0,2,3,0,0,0,0,0,0,1,0]; // 13
+    LorenzoSchinella24.stats_g3 =     [0,0,0,0,1,0,0,2,0,2,1,0,0,0,0,0,0,1,0]; // 3
+    GioeleTudini24.stats_g3 =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 7
+    FilippoPasquon24.stats_g3 =       [0,3,1,2,4,0,0,1,0,1,0,0,0,0,0,0,0,1,1]; // 2
+    TommasoMartello24.stats_g3 =      [0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,1,0]; // 16
+    MarcoRizzi24.stats_g3 =           [0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0]; // 6
+    DavidGaspardo24.stats_g3 =        [0,0,0,2,5,0,0,6,1,0,3,2,0,0,0,0,0,1,1]; // 19
+    AntonioGri24.stats_g3 =           [2,1,2,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0]; // 5
+    RiccardoSchinella24.stats_g3 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]; // 1
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    SimoneMartinelli.stats_g3 =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0]; // 22
-    MatteoSpagnolo.stats_g3 =       [0,1,2,1,1,0,0,4,0,4,0,0,0,0,0,0,0,-1,0]; // 21
-    DavideFaurlin.stats_g3 =        [2,1,2,0,0,0,0,2,1,3,0,0,0,0,0,0,0,-1,0]; // 18
-    GiovanniTonizzo.stats_g3 =      [0,0,0,0,2,0,0,1,0,1,1,1,0,0,0,0,0,-1,0]; // 5
-    AlessandroSant.stats_g3 =       [0,0,2,0,1,0,0,0,0,0,1,0,0,0,0,0,0,-1,1]; // 7
-    MatteoBazzaro.stats_g3 =        [0,0,2,0,0,0,0,2,0,2,0,1,1,0,0,0,0,-1,0]; // 1
-    AlessandroSantin.stats_g3 =     [5,0,2,1,2,2,0,3,1,4,0,0,0,0,0,0,0,-1,0]; // 10
-    AlessandroGalassi.stats_g3 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0]; // 19
-    PietroSoramel.stats_g3 =        [2,1,2,0,2,0,0,1,0,1,1,1,1,0,0,0,0,-1,0]; // 16
-    FilippoAgnoluzzi.stats_g3 =     [0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,0,0,-1,0]; // 2
-    EmanueleDaneluzzi.stats_g3 =    [2,1,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,-1,1]; // 6
-    LucaSoramel.stats_g3 =          [0,2,3,0,1,1,1,0,2,2,0,1,0,0,0,0,0,-1,1]; // 12
-    PaoloZorzi.stats_g3 =           [2,1,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,-1,0]; // 9
-    ChristianFedrizzi.stats_g3 =    [0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,-1,0]; // 3
-    FilippoSappa.stats_g3 =         [0,2,2,0,5,4,2,2,0,2,5,3,4,0,0,0,0,-1,2]; // 15
-    GiovanniZanin.stats_g3 =        [3,0,5,1,0,0,0,2,0,2,0,2,0,0,0,0,0,-1,1]; // 23
-    EnricoSant.stats_g3 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,3]; // 4
-    StefanoPolano.stats_g3 =        [2,1,0,0,0,0,0,2,1,3,0,0,0,0,0,0,0,-1,0]; // 17
+    SimoneMartinelli24.stats_g3 =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0]; // 22
+    MatteoSpagnolo24.stats_g3 =       [0,1,2,1,1,0,0,4,0,4,0,0,0,0,0,0,0,-1,0]; // 21
+    DavideFaurlin24.stats_g3 =        [2,1,2,0,0,0,0,2,1,3,0,0,0,0,0,0,0,-1,0]; // 18
+    GiovanniTonizzo24.stats_g3 =      [0,0,0,0,2,0,0,1,0,1,1,1,0,0,0,0,0,-1,0]; // 5
+    AlessandroSant24.stats_g3 =       [0,0,2,0,1,0,0,0,0,0,1,0,0,0,0,0,0,-1,1]; // 7
+    MatteoBazzaro24.stats_g3 =        [0,0,2,0,0,0,0,2,0,2,0,1,1,0,0,0,0,-1,0]; // 1
+    AlessandroSantin24.stats_g3 =     [5,0,2,1,2,2,0,3,1,4,0,0,0,0,0,0,0,-1,0]; // 10
+    AlessandroGalassi24.stats_g3 =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0]; // 19
+    PietroSoramel24.stats_g3 =        [2,1,2,0,2,0,0,1,0,1,1,1,1,0,0,0,0,-1,0]; // 16
+    FilippoAgnoluzzi24.stats_g3 =     [0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,0,0,-1,0]; // 2
+    EmanueleDaneluzzi24.stats_g3 =    [2,1,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,-1,1]; // 6
+    LucaSoramel24.stats_g3 =          [0,2,3,0,1,1,1,0,2,2,0,1,0,0,0,0,0,-1,1]; // 12
+    PaoloZorzi24.stats_g3 =           [2,1,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,-1,0]; // 9
+    ChristianFedrizzi24.stats_g3 =    [0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,-1,0]; // 3
+    FilippoSappa24.stats_g3 =         [0,2,2,0,5,4,2,2,0,2,5,3,4,0,0,0,0,-1,2]; // 15
+    GiovanniZanin24.stats_g3 =        [3,0,5,1,0,0,0,2,0,2,0,2,0,0,0,0,0,-1,1]; // 23
+    EnricoSant24.stats_g3 =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,3]; // 4
+    StefanoPolano24.stats_g3 =        [2,1,0,0,0,0,0,2,1,3,0,0,0,0,0,0,0,-1,0]; // 17
     //                                 | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    MarcoPolo.stats_g3 =            [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1]; // 15
-    MarcoSerrao.stats_g3 =          [4,1,1,0,5,2,2,1,0,1,0,3,1,0,0,0,0,0,1]; // 8
-    WilliamIob.stats_g3 =           [2,1,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0]; // 12
-    DavideBroggi.stats_g3 =         [4,1,0,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,5]; // 3
-    AlexMicottis.stats_g3 =         [0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 21
-    MassimilianoRossi.stats_g3 =    [0,0,3,0,0,0,0,2,0,2,0,1,0,0,0,0,0,0,0]; // 22
-    MassimoMasotti.stats_g3 =       [0,0,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,0,0]; // 10
-    EugenioDeTina.stats_g3 =        [0,0,1,1,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0]; // 9
-    LucaAnedda.stats_g3 =           [0,0,0,0,0,0,0,2,0,2,0,1,2,0,0,0,0,0,1]; // 5
-    DenisVanin.stats_g3 =           [2,1,1,0,0,0,0,1,1,2,0,0,1,0,0,0,0,0,0]; // 17
-    ThomasBaracetti.stats_g3 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 2
-    LucaGemo.stats_g3 =             [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0]; // 6
-    DiegoNata.stats_g3 =            [0,7,8,0,1,1,1,9,3,0,0,2,0,1,0,0,0,0,1]; // 19 vedaimo se calcola doppia doppia
-    MattiaRoiatti.stats_g3 =        [2,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 11
-    EdoardoPicogna.stats_g3 =       [0,0,0,0,2,0,2,1,0,1,0,1,0,0,0,0,0,0,0]; // 7
-    MauroPerina.stats_g3 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 18
-    LorenzoMoro.stats_g3 =          [0,0,2,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1]; // 14
-    GionaTell.stats_g3 =            [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 4
-    IacopoPivetta.stats_g3 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]; // 20
-    MattiaMasotti.stats_g3 =        [2,1,2,0,1,0,0,1,1,2,0,1,1,0,0,0,0,0,-1]; // 13
+    MarcoPolo24.stats_g3 =            [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1]; // 15
+    MarcoSerrao24.stats_g3 =          [4,1,1,0,5,2,2,1,0,1,0,3,1,0,0,0,0,0,1]; // 8
+    WilliamIob24.stats_g3 =           [2,1,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0]; // 12
+    DavideBroggi24.stats_g3 =         [4,1,0,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,5]; // 3
+    AlexMicottis24.stats_g3 =         [0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 21
+    MassimilianoRossi24.stats_g3 =    [0,0,3,0,0,0,0,2,0,2,0,1,0,0,0,0,0,0,0]; // 22
+    MassimoMasotti24.stats_g3 =       [0,0,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,0,0]; // 10
+    EugenioDeTina24.stats_g3 =        [0,0,1,1,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0]; // 9
+    LucaAnedda24.stats_g3 =           [0,0,0,0,0,0,0,2,0,2,0,1,2,0,0,0,0,0,1]; // 5
+    DenisVanin24.stats_g3 =           [2,1,1,0,0,0,0,1,1,2,0,0,1,0,0,0,0,0,0]; // 17
+    ThomasBaracetti24.stats_g3 =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 2
+    LucaGemo24.stats_g3 =             [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0]; // 6
+    DiegoNata24.stats_g3 =            [0,7,8,0,1,1,1,9,3,0,0,2,0,1,0,0,0,0,1]; // 19 vedaimo se calcola doppia doppia
+    MattiaRoiatti24.stats_g3 =        [2,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 11
+    EdoardoPicogna24.stats_g3 =       [0,0,0,0,2,0,2,1,0,1,0,1,0,0,0,0,0,0,0]; // 7
+    MauroPerina24.stats_g3 =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 18
+    LorenzoMoro24.stats_g3 =          [0,0,2,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1]; // 14
+    GionaTell24.stats_g3 =            [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; // 4
+    IacopoPivetta24.stats_g3 =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]; // 20
+    MattiaMasotti24.stats_g3 =        [2,1,2,0,1,0,0,1,1,2,0,1,1,0,0,0,0,0,-1]; // 13
     //                               | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
 
-    //     gx_stats =               [PTS, 2Px,3Px,FTx, OR, ASS,ST,EXP,TD,Meme]
-    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =               [PTS, 2Px,3Px,FTx, OR, ASS,ST,EXP,TD,Meme]
+    //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                                 | | | | | | | | | | | | | | | | | | | 
-    MassimilianoMoretti.stats_semi=   [0,3,2,1,6,1,3,6,1,0,1,4,4,0,0,0,0,1,1]; //13
-    AndreaMoretti.stats_semi =        [0,0,1,0,1,0,0,2,1,3,1,0,0,0,0,0,0,1,1]; //24
-    LarryTrevisan.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 23
-    AlessandroCostantini.stats_semi = [0,2,0,1,3,0,0,0,0,0,0,1,1,0,0,0,0,1,4]; // 4 
-    MatteoMargarit.stats_semi =       [0,3,2,0,0,0,2,8,3,0,1,2,0,1,0,0,0,1,2]; // 22
-    MauroCuridori.stats_semi =        [2,1,2,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1]; // 2 
-    ChristianZanet.stats_semi =       [2,1,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,1,1]; // 9
-    GiacomoPiacentini.stats_semi =    [0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1]; // 20
-    GiovanniDalFarra.stats_semi =     [0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1]; // 7
-    MiracleObichukwu.stats_semi =     [0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1]; // 14
-    LucaDellaLonga.stats_semi =       [0,0,0,0,1,0,0,1,0,1,0,1,1,0,0,0,0,1,1]; // 3
-    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
-    AlessandroRojatti.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 12
-    MicheleGorasso.stats_semi =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 21
-    GiacomoFerigo.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,1]; // 16
-    UmbertoNobile.stats_semi =        [0,3,3,0,2,3,0,6,1,0,1,0,0,0,0,0,0,1,2]; // 15
-    DevinChiarcos.stats_semi =        [0,0,1,1,1,0,0,3,0,3,1,0,1,1,0,0,0,1,1]; // 18
-    ValentinoCigainero.stats_semi =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4]; //
-    MicheleDeAnna.stats_semi =        [2,1,1,0,0,0,2,2,0,2,0,0,1,0,0,0,0,1,1]; //
-    DavideParon.stats_semi =          [0,0,1,0,1,0,0,1,0,1,0,2,0,0,0,0,0,1,1]; // 6
-    AlessioFurlan.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 10
-    MichaelMargarit.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; //
-    SebastianoTonizzo.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 5
+    MassimilianoMoretti24.stats_semi=   [0,3,2,1,6,1,3,6,1,0,1,4,4,0,0,0,0,1,1]; //13
+    AndreaMoretti24.stats_semi =        [0,0,1,0,1,0,0,2,1,3,1,0,0,0,0,0,0,1,1]; //24
+    LarryTrevisan24.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 23
+    AlessandroCostantini24.stats_semi = [0,2,0,1,3,0,0,0,0,0,0,1,1,0,0,0,0,1,4]; // 4 
+    MatteoMargarit24.stats_semi =       [0,3,2,0,0,0,2,8,3,0,1,2,0,1,0,0,0,1,2]; // 22
+    MauroCuridori24.stats_semi =        [2,1,2,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1]; // 2 
+    ChristianZanet24.stats_semi =       [2,1,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,1,1]; // 9
+    GiacomoPiacentini24.stats_semi =    [0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1]; // 20
+    GiovanniDalFarra24.stats_semi =     [0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1]; // 7
+    MiracleObichukwu24.stats_semi =     [0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1]; // 14
+    LucaDellaLonga24.stats_semi =       [0,0,0,0,1,0,0,1,0,1,0,1,1,0,0,0,0,1,1]; // 3
+    //     gx24_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    AlessandroRojatti24.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 12
+    MicheleGorasso24.stats_semi =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 21
+    GiacomoFerigo24.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,1]; // 16
+    UmbertoNobile24.stats_semi =        [0,3,3,0,2,3,0,6,1,0,1,0,0,0,0,0,0,1,2]; // 15
+    DevinChiarcos24.stats_semi =        [0,0,1,1,1,0,0,3,0,3,1,0,1,1,0,0,0,1,1]; // 18
+    ValentinoCigainero24.stats_semi =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4]; //
+    MicheleDeAnna24.stats_semi =        [2,1,1,0,0,0,2,2,0,2,0,0,1,0,0,0,0,1,1]; //
+    DavideParon24.stats_semi =          [0,0,1,0,1,0,0,1,0,1,0,2,0,0,0,0,0,1,1]; // 6
+    AlessioFurlan24.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 10
+    MichaelMargarit24.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; //
+    SebastianoTonizzo24.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1]; // 5
     //                                 | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                                 | | | | | | | | | | | | | | | | | | | 
-    DanieleGanzit.stats_semi =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3]; // 
-    GiacomoSilvestri.stats_semi =     [0,0,1,0,1,0,0,1,0,1,0,2,0,0,0,0,0,1,3]; // 9
-    VittorioGri.stats_semi =          [0,0,2,0,1,0,0,2,0,2,1,0,0,2,0,0,0,1,3]; // 11
-    VittorioBasso.stats_semi =        [0,4,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,3]; // 8
-    AlessandroRizzi.stats_semi =      [0,3,2,0,1,0,0,2,1,3,1,0,2,0,0,0,0,1,3]; // 10
-    MassimoBaldassi.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
-    GabrieleMiani.stats_semi =        [0,4,0,0,4,3,0,10,0,0,4,2,0,0,0,1,0,1,3]; // 14
-    MarcoMarchetti.stats_semi =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
-    MarcoLombardo.stats_semi =        [0,2,2,0,0,1,3,1,2,3,1,0,1,0,0,0,0,1,4]; // 15
-    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
-    MicheleVendrame.stats_semi =      [0,0,5,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,2]; // 13
-    LorenzoSchinella.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 3
-    GioeleTudini.stats_semi =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 7
-    FilippoPasquon.stats_semi =       [0,0,1,0,0,0,0,1,1,2,2,0,2,0,0,0,0,1,2]; // 2
-    TommasoMartello.stats_semi =      [0,0,0,0,1,3,1,0,0,0,0,2,1,0,0,0,0,1,2]; // 16
-    MarcoRizzi.stats_semi =           [0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,2]; // 6
-    DavidGaspardo.stats_semi =        [0,2,0,3,5,3,1,5,0,5,1,1,0,0,0,0,0,1,2]; // 19
-    AntonioGri.stats_semi =           [0,1,0,0,2,1,1,0,0,0,0,1,0,0,0,0,0,1,2]; // 5
-    RiccardoSchinella.stats_semi =    [0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,3]; // 1
+    DanieleGanzit24.stats_semi =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3]; // 
+    GiacomoSilvestri24.stats_semi =     [0,0,1,0,1,0,0,1,0,1,0,2,0,0,0,0,0,1,3]; // 9
+    VittorioGri24.stats_semi =          [0,0,2,0,1,0,0,2,0,2,1,0,0,2,0,0,0,1,3]; // 11
+    VittorioBasso24.stats_semi =        [0,4,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,3]; // 8
+    AlessandroRizzi24.stats_semi =      [0,3,2,0,1,0,0,2,1,3,1,0,2,0,0,0,0,1,3]; // 10
+    MassimoBaldassi24.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
+    GabrieleMiani24.stats_semi =        [0,4,0,0,4,3,0,10,0,0,4,2,0,0,0,1,0,1,3]; // 14
+    MarcoMarchetti24.stats_semi =       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 
+    MarcoLombardo24.stats_semi =        [0,2,2,0,0,1,3,1,2,3,1,0,1,0,0,0,0,1,4]; // 15
+    //     gx24_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    MicheleVendrame24.stats_semi =      [0,0,5,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,2]; // 13
+    LorenzoSchinella24.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 3
+    GioeleTudini24.stats_semi =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2]; // 7
+    FilippoPasquon24.stats_semi =       [0,0,1,0,0,0,0,1,1,2,2,0,2,0,0,0,0,1,2]; // 2
+    TommasoMartello24.stats_semi =      [0,0,0,0,1,3,1,0,0,0,0,2,1,0,0,0,0,1,2]; // 16
+    MarcoRizzi24.stats_semi =           [0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,2]; // 6
+    DavidGaspardo24.stats_semi =        [0,2,0,3,5,3,1,5,0,5,1,1,0,0,0,0,0,1,2]; // 19
+    AntonioGri24.stats_semi =           [0,1,0,0,2,1,1,0,0,0,0,1,0,0,0,0,0,1,2]; // 5
+    RiccardoSchinella24.stats_semi =    [0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,3]; // 1
     //                                 | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                                 | | | | | | | | | | | | | | | | | | | 
-    SimoneMartinelli.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 22
-    MatteoSpagnolo.stats_semi =       [0,1,2,0,2,0,0,2,0,2,0,1,1,0,0,0,0,0,2]; // 21
-    DavideFaurlin.stats_semi =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 18
-    GiovanniTonizzo.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2]; // 5
-    AlessandroSant.stats_semi =       [0,1,3,1,5,0,0,3,0,3,0,0,2,0,0,0,0,0,2]; // 7
-    MatteoBazzaro.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 1
-    AlessandroSantin.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 10
-    AlessandroGalassi.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 19
-    PietroSoramel.stats_semi =        [0,4,4,1,6,1,3,2,1,3,1,1,2,0,0,0,0,0,-1]; // 16
-    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
-    FilippoAgnoluzzi.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 2
-    EmanueleDaneluzzi.stats_semi =    [0,1,1,0,0,0,0,1,2,3,1,1,1,0,0,0,0,0,2]; // 6
-    LucaSoramel.stats_semi =          [0,0,4,1,0,0,2,1,2,3,2,2,1,0,0,0,0,0,3]; // 12
-    PaoloZorzi.stats_semi =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 9
-    ChristianFedrizzi.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 3
-    FilippoSappa.stats_semi =         [0,2,2,0,1,2,4,2,0,2,2,0,1,0,0,0,0,0,3]; // 15
-    GiovanniZanin.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 23
-    EnricoSant.stats_semi =           [0,0,1,2,2,0,0,4,0,4,1,3,1,0,0,0,0,0,5]; // 4
-    StefanoPolano.stats_semi =        [0,0,2,0,0,0,0,2,0,2,0,1,0,0,0,0,0,0,2]; // 17
+    SimoneMartinelli24.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 22
+    MatteoSpagnolo24.stats_semi =       [0,1,2,0,2,0,0,2,0,2,0,1,1,0,0,0,0,0,2]; // 21
+    DavideFaurlin24.stats_semi =        [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 18
+    GiovanniTonizzo24.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2]; // 5
+    AlessandroSant24.stats_semi =       [0,1,3,1,5,0,0,3,0,3,0,0,2,0,0,0,0,0,2]; // 7
+    MatteoBazzaro24.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 1
+    AlessandroSantin24.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 10
+    AlessandroGalassi24.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 19
+    PietroSoramel24.stats_semi =        [0,4,4,1,6,1,3,2,1,3,1,1,2,0,0,0,0,0,-1]; // 16
+    //     gx24_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    FilippoAgnoluzzi24.stats_semi =     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 2
+    EmanueleDaneluzzi24.stats_semi =    [0,1,1,0,0,0,0,1,2,3,1,1,1,0,0,0,0,0,2]; // 6
+    LucaSoramel24.stats_semi =          [0,0,4,1,0,0,2,1,2,3,2,2,1,0,0,0,0,0,3]; // 12
+    PaoloZorzi24.stats_semi =           [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 9
+    ChristianFedrizzi24.stats_semi =    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 3
+    FilippoSappa24.stats_semi =         [0,2,2,0,1,2,4,2,0,2,2,0,1,0,0,0,0,0,3]; // 15
+    GiovanniZanin24.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 23
+    EnricoSant24.stats_semi =           [0,0,1,2,2,0,0,4,0,4,1,3,1,0,0,0,0,0,5]; // 4
+    StefanoPolano24.stats_semi =        [0,0,2,0,0,0,0,2,0,2,0,1,0,0,0,0,0,0,2]; // 17
     //                                   | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                                  | | | | | | | | | | | | | | | | | | | 
-    MarcoPolo.stats_semi =            [0,0,0,0,0,0,0,2,0,2,1,0,0,0,0,0,0,0,2]; // 15
-    MarcoSerrao.stats_semi =          [0,1,5,2,4,4,3,5,0,5,0,0,0,0,0,0,0,0,2]; // 8
-    WilliamIob.stats_semi =           [1,0,2,0,0,1,1,4,0,4,0,1,1,0,0,0,0,0,2]; // 12
-    DavideBroggi.stats_semi =         [0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 3
-    AlexMicottis.stats_semi =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 21
-    MassimilianoRossi.stats_semi =    [0,3,0,0,1,0,0,5,0,0,0,3,0,0,0,0,0,0,2]; // 22
-    MassimoMasotti.stats_semi =       [0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 10
-    EugenioDeTina.stats_semi =        [0,0,0,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,2]; // 9
-    LucaAnedda.stats_semi =           [0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,3]; // 5
-    DenisVanin.stats_semi =           [0,0,2,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,2]; // 17
-    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
-    ThomasBaracetti.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 2
-    LucaGemo.stats_semi =             [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 6
-    DiegoNata.stats_semi =            [0,0,6,0,1,0,0,4,5,0,1,2,0,0,0,0,0,0,6]; // 19
-    MattiaRoiatti.stats_semi =        [3,0,0,1,1,0,0,2,0,2,0,0,0,0,0,0,0,0,3]; // 11
-    EdoardoPicogna.stats_semi =       [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 7
-    MauroPerina.stats_semi =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 18
-    LorenzoMoro.stats_semi =          [0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2]; // 14
-    GionaTell.stats_semi =            [0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2]; // 4
-    IacopoPivetta.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 20
-    MattiaMasotti.stats_semi =        [0,3,2,1,1,1,4,2,1,3,1,4,3,1,0,0,0,0,2]; // 13
+    MarcoPolo24.stats_semi =            [0,0,0,0,0,0,0,2,0,2,1,0,0,0,0,0,0,0,2]; // 15
+    MarcoSerrao24.stats_semi =          [0,1,5,2,4,4,3,5,0,5,0,0,0,0,0,0,0,0,2]; // 8
+    WilliamIob24.stats_semi =           [1,0,2,0,0,1,1,4,0,4,0,1,1,0,0,0,0,0,2]; // 12
+    DavideBroggi24.stats_semi =         [0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 3
+    AlexMicottis24.stats_semi =         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 21
+    MassimilianoRossi24.stats_semi =    [0,3,0,0,1,0,0,5,0,0,0,3,0,0,0,0,0,0,2]; // 22
+    MassimoMasotti24.stats_semi =       [0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,3]; // 10
+    EugenioDeTina24.stats_semi =        [0,0,0,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,2]; // 9
+    LucaAnedda24.stats_semi =           [0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,3]; // 5
+    DenisVanin24.stats_semi =           [0,0,2,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,2]; // 17
+    //     gx24_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    ThomasBaracetti24.stats_semi =      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 2
+    LucaGemo24.stats_semi =             [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 6
+    DiegoNata24.stats_semi =            [0,0,6,0,1,0,0,4,5,0,1,2,0,0,0,0,0,0,6]; // 19
+    MattiaRoiatti24.stats_semi =        [3,0,0,1,1,0,0,2,0,2,0,0,0,0,0,0,0,0,3]; // 11
+    EdoardoPicogna24.stats_semi =       [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 7
+    MauroPerina24.stats_semi =          [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 18
+    LorenzoMoro24.stats_semi =          [0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2]; // 14
+    GionaTell24.stats_semi =            [0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2]; // 4
+    IacopoPivetta24.stats_semi =        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2]; // 20
+    MattiaMasotti24.stats_semi =        [0,3,2,1,1,1,4,2,1,3,1,4,3,1,0,0,0,0,2]; // 13
     //                                 | | | | | | | | | | | | | | | | | | | 
-    //     gx_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
-    //     gx_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
+    //     gx24_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
+    //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
 
 
 
@@ -837,46 +837,46 @@ MattiaMasotti.td3 = 1
 
 
 //fatti da script:
-MassimilianoMoretti.stats_final = [12, 4, 5, 1, 6, 1, 4, 3, 3, 6, 3, 1, 2, 0, 0, 0, 0, 1, 1];
-AndreaMoretti.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-LarryTrevisan.stats_final = [23, 7, 5, 3, 1, 0, 0, 2, 1, 3, 1, 1, 2, 3, 0, 0, 0, 1, 0];
-AlessandroCostantini.stats_final = [3, 0, 5, 1, 4, 0, 0, 2, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1, 0];
-MatteoMargarit.stats_final = [12, 5, 3, 0, 0, 2, 0, 5, 3, 8, 0, 2, 0, 0, 0, 0, 0, 1, 0];
-MauroCuridori.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-ChristianZanet.stats_final = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0];
-GiacomoPiacentini.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1];
-GiovanniDalFarra.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-MiracleObichukwu.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-LucaDellaLonga.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-AlessandroRojatti.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-MicheleGorasso.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-GiacomoFerigo.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-UmbertoNobile.stats_final = [11, 4, 4, 0, 1, 3, 1, 6, 1, 7, 2, 0, 2, 0, 0, 0, 0, 1, -3];
-DevinChiarcos.stats_final = [4, 2, 2, 0, 1, 0, 0, 0, 4, 4, 1, 0, 1, 0, 0, 0, 0, 1, 0];
-ValentinoCigainero.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-MicheleDeAnna.stats_final = [5, 2, 3, 0, 1, 1, 1, 1, 3, 4, 1, 2, 0, 1, 0, 0, 0, 1, 0];
-DavideParon.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-AlessioFurlan.stats_final = [2, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-MichaelMargarit.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-SebastianoTonizzo.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
-DanieleGanzit.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-GiacomoSilvestri.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0];
-VittorioGri.stats_final = [2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0];
-VittorioBasso.stats_final = [5, 1, 1, 1, 2, 0, 0, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-AlessandroRizzi.stats_final = [8, 4, 4, 0, 3, 0, 1, 1, 0, 1, 3, 2, 0, 1, 0, 0, 0, 0, 0];
-MassimoBaldassi.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-GabrieleMiani.stats_final = [31, 5, 4, 4, 2, 9, 1, 9, 4, 13, 2, 1, 0, 0, 0, 1, 0, 0, 0];
-MarcoMarchetti.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-MarcoLombardo.stats_final = [10, 3, 5, 0, 0, 4, 1, 2, 2, 4, 0, 1, 0, 0, 0, 0, 0, 0, 5];
-MicheleVendrame.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-LorenzoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-GioeleTudini.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-FilippoPasquon.stats_final = [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-TommasoMartello.stats_final = [5, 0, 1, 1, 0, 2, 4, 1, 1, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0];
-MarcoRizzi.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-DavidGaspardo.stats_final = [8, 2, 6, 1, 5, 1, 0, 6, 0, 6, 1, 5, 0, 0, 0, 0, 0, 0, 0];
-AntonioGri.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+MassimilianoMoretti24.stats_final = [12, 4, 5, 1, 6, 1, 4, 3, 3, 6, 3, 1, 2, 0, 0, 0, 0, 1, 1];
+AndreaMoretti24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+LarryTrevisan24.stats_final = [23, 7, 5, 3, 1, 0, 0, 2, 1, 3, 1, 1, 2, 3, 0, 0, 0, 1, 0];
+AlessandroCostantini24.stats_final = [3, 0, 5, 1, 4, 0, 0, 2, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1, 0];
+MatteoMargarit24.stats_final = [12, 5, 3, 0, 0, 2, 0, 5, 3, 8, 0, 2, 0, 0, 0, 0, 0, 1, 0];
+MauroCuridori24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+ChristianZanet24.stats_final = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0];
+GiacomoPiacentini24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1];
+GiovanniDalFarra24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+MiracleObichukwu24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+LucaDellaLonga24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+AlessandroRojatti24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+MicheleGorasso24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+GiacomoFerigo24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+UmbertoNobile24.stats_final = [11, 4, 4, 0, 1, 3, 1, 6, 1, 7, 2, 0, 2, 0, 0, 0, 0, 1, -3];
+DevinChiarcos24.stats_final = [4, 2, 2, 0, 1, 0, 0, 0, 4, 4, 1, 0, 1, 0, 0, 0, 0, 1, 0];
+ValentinoCigainero24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+MicheleDeAnna24.stats_final = [5, 2, 3, 0, 1, 1, 1, 1, 3, 4, 1, 2, 0, 1, 0, 0, 0, 1, 0];
+DavideParon24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+AlessioFurlan24.stats_final = [2, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+MichaelMargarit24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+SebastianoTonizzo24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
+DanieleGanzit24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+GiacomoSilvestri24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0];
+VittorioGri24.stats_final = [2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0];
+VittorioBasso24.stats_final = [5, 1, 1, 1, 2, 0, 0, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+AlessandroRizzi24.stats_final = [8, 4, 4, 0, 3, 0, 1, 1, 0, 1, 3, 2, 0, 1, 0, 0, 0, 0, 0];
+MassimoBaldassi24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+GabrieleMiani24.stats_final = [31, 5, 4, 4, 2, 9, 1, 9, 4, 13, 2, 1, 0, 0, 0, 1, 0, 0, 0];
+MarcoMarchetti24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+MarcoLombardo24.stats_final = [10, 3, 5, 0, 0, 4, 1, 2, 2, 4, 0, 1, 0, 0, 0, 0, 0, 0, 5];
+MicheleVendrame24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+LorenzoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+GioeleTudini24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+FilippoPasquon24.stats_final = [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+TommasoMartello24.stats_final = [5, 0, 1, 1, 0, 2, 4, 1, 1, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0];
+MarcoRizzi24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+DavidGaspardo24.stats_final = [8, 2, 6, 1, 5, 1, 0, 6, 0, 6, 1, 5, 0, 0, 0, 0, 0, 0, 0];
+AntonioGri24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 
 
@@ -972,22 +972,22 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
  
 
 
-    const players = [MassimilianoMoretti, AndreaMoretti, LarryTrevisan, AlessandroCostantini, MatteoMargarit, 
-        MauroCuridori, ChristianZanet, GiacomoPiacentini, GiovanniDalFarra, MiracleObichukwu, LucaDellaLonga, 
-        AlessandroRojatti, MicheleGorasso, GiacomoFerigo, UmbertoNobile, DevinChiarcos, ValentinoCigainero, 
-        MicheleDeAnna, DavideParon, AlessioFurlan, MichaelMargarit, SebastianoTonizzo, 
+    const players = [MassimilianoMoretti24, AndreaMoretti24, LarryTrevisan24, AlessandroCostantini24, MatteoMargarit24, 
+        MauroCuridori24, ChristianZanet24, GiacomoPiacentini24, GiovanniDalFarra24, MiracleObichukwu24, LucaDellaLonga24, 
+        AlessandroRojatti24, MicheleGorasso24, GiacomoFerigo24, UmbertoNobile24, DevinChiarcos24, ValentinoCigainero24, 
+        MicheleDeAnna24, DavideParon24, AlessioFurlan24, MichaelMargarit24, SebastianoTonizzo24, 
 
-        DanieleGanzit, GiacomoSilvestri, VittorioGri, VittorioBasso, AlessandroRizzi, MassimoBaldassi, 
-        GabrieleMiani, MarcoMarchetti, MarcoLombardo, MicheleVendrame, LorenzoSchinella, GioeleTudini, 
-        FilippoPasquon, TommasoMartello, MarcoRizzi, DavidGaspardo, AntonioGri, RiccardoSchinella,
+        DanieleGanzit24, GiacomoSilvestri24, VittorioGri24, VittorioBasso24, AlessandroRizzi24, MassimoBaldassi24, 
+        GabrieleMiani24, MarcoMarchetti24, MarcoLombardo24, MicheleVendrame24, LorenzoSchinella24, GioeleTudini24, 
+        FilippoPasquon24, TommasoMartello24, MarcoRizzi24, DavidGaspardo24, AntonioGri24, RiccardoSchinella24,
 
-        SimoneMartinelli, MatteoSpagnolo, DavideFaurlin, GiovanniTonizzo, AlessandroSant, MatteoBazzaro, 
-        AlessandroSantin, AlessandroGalassi, PietroSoramel, FilippoAgnoluzzi, EmanueleDaneluzzi, LucaSoramel, 
-        PaoloZorzi, ChristianFedrizzi, FilippoSappa, GiovanniZanin, EnricoSant, StefanoPolano,
+        SimoneMartinelli24, MatteoSpagnolo24, DavideFaurlin24, GiovanniTonizzo24, AlessandroSant24, MatteoBazzaro24, 
+        AlessandroSantin24, AlessandroGalassi24, PietroSoramel24, FilippoAgnoluzzi24, EmanueleDaneluzzi24, LucaSoramel24, 
+        PaoloZorzi24, ChristianFedrizzi24, FilippoSappa24, GiovanniZanin24, EnricoSant24, StefanoPolano24,
 
-        MarcoPolo, MarcoSerrao, WilliamIob, DavideBroggi, AlexMicottis, MassimilianoRossi, MassimoMasotti, 
-        EugenioDeTina, LucaAnedda, DenisVanin, ThomasBaracetti, LucaGemo, DiegoNata, MattiaRoiatti, 
-        EdoardoPicogna, MauroPerina, LorenzoMoro, GionaTell, IacopoPivetta, MattiaMasotti ];
+        MarcoPolo24, MarcoSerrao24, WilliamIob24, DavideBroggi24, AlexMicottis24, MassimilianoRossi24, MassimoMasotti24, 
+        EugenioDeTina24, LucaAnedda24, DenisVanin24, ThomasBaracetti24, LucaGemo24, DiegoNata24, MattiaRoiatti24, 
+        EdoardoPicogna24, MauroPerina24, LorenzoMoro24, GionaTell24, IacopoPivetta24, MattiaMasotti24 ];
 
 
         // Funzione per calcolare il prodotto scalare
@@ -1061,44 +1061,44 @@ RiccardoSchinella.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 
 
     //FINALE punteggi medi
-SimoneMartinelli.final = Math.round(-0.88 * 100) / 100;
-MatteoSpagnolo.final = Math.round(6.38 * 100) / 100;
-DavideFaurlin.final = Math.round(0.38 * 100) / 100;
-GiovanniTonizzo.final = Math.round(0.50 * 100) / 100;
-AlessandroSant.final = Math.round(3.94 * 100) / 100;
-MatteoBazzaro.final = Math.round(0.56 * 100) / 100;
-AlessandroSantin.final = Math.round(1.50 * 100) / 100;
-AlessandroGalassi.final = Math.round(0.63 * 100) / 100;
-PietroSoramel.final = Math.round(9.19 * 100) / 100;
-FilippoAgnoluzzi.final = Math.round(1.38 * 100) / 100;
-EmanueleDaneluzzi.final = Math.round(3.69 * 100) / 100;
-LucaSoramel.final = Math.round(4.44 * 100) / 100;
-PaoloZorzi.final = Math.round(2.13 * 100) / 100;
-ChristianFedrizzi.final = Math.round(0.94 * 100) / 100;
-FilippoSappa.final = Math.round(20.13 * 100) / 100;
-GiovanniZanin.final = Math.round(6.31 * 100) / 100;
-EnricoSant.final = Math.round(4.19 * 100) / 100;
-StefanoPolano.final = Math.round(2.08 * 100) / 100;
-MarcoPolo.final = Math.round(2.44 * 100) / 100;
-MarcoSerrao.final = Math.round(13.88 * 100) / 100;
-WilliamIob.final = Math.round(6.44 * 100) / 100;
-DavideBroggi.final = Math.round(3.38 * 100) / 100;
-AlexMicottis.final = Math.round(2.31 * 100) / 100;
-MassimilianoRossi.final = Math.round(6.75 * 100) / 100;
-MassimoMasotti.final = Math.round(1.19 * 100) / 100;
-EugenioDeTina.final = Math.round(1.94 * 100) / 100;
-LucaAnedda.final = Math.round(4.00 * 100) / 100;
-DenisVanin.final = Math.round(3.63 * 100) / 100;
-ThomasBaracetti.final = Math.round(1.75 * 100) / 100;
-LucaGemo.final = Math.round(1.38 * 100) / 100;
-DiegoNata.final = Math.round(22.00 * 100) / 100;
-MattiaRoiatti.final = Math.round(4.13 * 100) / 100;
-EdoardoPicogna.final = Math.round(0.75 * 100) / 100;
-MauroPerina.final = Math.round(2.00 * 100) / 100;
-LorenzoMoro.final = Math.round(2.44 * 100) / 100;
-GionaTell.final = Math.round(1.50 * 100) / 100;
-IacopoPivetta.final = Math.round(1.31 * 100) / 100;
-MattiaMasotti.final = Math.round(8.75 * 100) / 100;
+SimoneMartinelli24.final = Math.round(-0.88 * 100) / 100;
+MatteoSpagnolo24.final = Math.round(6.38 * 100) / 100;
+DavideFaurlin24.final = Math.round(0.38 * 100) / 100;
+GiovanniTonizzo24.final = Math.round(0.50 * 100) / 100;
+AlessandroSant24.final = Math.round(3.94 * 100) / 100;
+MatteoBazzaro24.final = Math.round(0.56 * 100) / 100;
+AlessandroSantin24.final = Math.round(1.50 * 100) / 100;
+AlessandroGalassi24.final = Math.round(0.63 * 100) / 100;
+PietroSoramel24.final = Math.round(9.19 * 100) / 100;
+FilippoAgnoluzzi24.final = Math.round(1.38 * 100) / 100;
+EmanueleDaneluzzi24.final = Math.round(3.69 * 100) / 100;
+LucaSoramel24.final = Math.round(4.44 * 100) / 100;
+PaoloZorzi24.final = Math.round(2.13 * 100) / 100;
+ChristianFedrizzi24.final = Math.round(0.94 * 100) / 100;
+FilippoSappa24.final = Math.round(20.13 * 100) / 100;
+GiovanniZanin24.final = Math.round(6.31 * 100) / 100;
+EnricoSant24.final = Math.round(4.19 * 100) / 100;
+StefanoPolano24.final = Math.round(2.08 * 100) / 100;
+MarcoPolo24.final = Math.round(2.44 * 100) / 100;
+MarcoSerrao24.final = Math.round(13.88 * 100) / 100;
+WilliamIob24.final = Math.round(6.44 * 100) / 100;
+DavideBroggi24.final = Math.round(3.38 * 100) / 100;
+AlexMicottis24.final = Math.round(2.31 * 100) / 100;
+MassimilianoRossi24.final = Math.round(6.75 * 100) / 100;
+MassimoMasotti24.final = Math.round(1.19 * 100) / 100;
+EugenioDeTina24.final = Math.round(1.94 * 100) / 100;
+LucaAnedda24.final = Math.round(4.00 * 100) / 100;
+DenisVanin24.final = Math.round(3.63 * 100) / 100;
+ThomasBaracetti24.final = Math.round(1.75 * 100) / 100;
+LucaGemo24.final = Math.round(1.38 * 100) / 100;
+DiegoNata24.final = Math.round(22.00 * 100) / 100;
+MattiaRoiatti24.final = Math.round(4.13 * 100) / 100;
+EdoardoPicogna24.final = Math.round(0.75 * 100) / 100;
+MauroPerina24.final = Math.round(2.00 * 100) / 100;
+LorenzoMoro24.final = Math.round(2.44 * 100) / 100;
+GionaTell24.final = Math.round(1.50 * 100) / 100;
+IacopoPivetta24.final = Math.round(1.31 * 100) / 100;
+MattiaMasotti24.final = Math.round(8.75 * 100) / 100;
 
     // Ciclo for per calcolare player.tot per ogni giocatore
     for (let i = 0; i < players.length; i++) {
@@ -1113,11 +1113,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 1,
         name: "Burritos Picantes",
         rione: { ...EST },
-        p1: { ...EdoardoPicogna },
-        p2: { ...WilliamIob },
-        p3: { ...FilippoSappa },
-        p4: { ...UmbertoNobile },
-        p5: { ...MatteoSpagnolo },
+        p1: { ...EdoardoPicogna24 },
+        p2: { ...WilliamIob24 },
+        p3: { ...FilippoSappa24 },
+        p4: { ...UmbertoNobile24 },
+        p5: { ...MatteoSpagnolo24 },
     };
     ft1.total_cost = ft1.p1.cost + ft1.p2.cost + ft1.p3.cost + ft1.p4.cost + ft1.p5.cost;
     ft1.tot_g1 = ft1.p1.g1 + ft1.p2.g1 + ft1.p3.g1 + ft1.p4.g1 + ft1.p5.g1;
@@ -1132,11 +1132,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 2,
         name: "Nord",
         rione: { ...NORD },
-        p1: { ...AlessandroRizzi },
-        p2: { ...DevinChiarcos },
-        p3: { ...UmbertoNobile },
-        p4: { ...GiacomoFerigo },
-        p5: { ...AlessandroSant },
+        p1: { ...AlessandroRizzi24 },
+        p2: { ...DevinChiarcos24 },
+        p3: { ...UmbertoNobile24 },
+        p4: { ...GiacomoFerigo24 },
+        p5: { ...AlessandroSant24 },
     };
     ft2.total_cost = ft2.p1.cost + ft2.p2.cost + ft2.p3.cost + ft2.p4.cost + ft2.p5.cost;
     ft2.tot_g1 = ft2.p1.g1 + ft2.p2.g1 + ft2.p3.g1 + ft2.p4.g1 + ft2.p5.g1;
@@ -1151,11 +1151,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 3,
         name: "Festainvigna",
         rione: { ...WEST },
-        p1: { ...FilippoAgnoluzzi },
-        p2: { ...UmbertoNobile },
-        p3: { ...MatteoSpagnolo },
-        p4: { ...MassimilianoMoretti },
-        p5: { ...PaoloZorzi },
+        p1: { ...FilippoAgnoluzzi24 },
+        p2: { ...UmbertoNobile24 },
+        p3: { ...MatteoSpagnolo24 },
+        p4: { ...MassimilianoMoretti24 },
+        p5: { ...PaoloZorzi24 },
     };
     ft3.total_cost = ft3.p1.cost + ft3.p2.cost + ft3.p3.cost + ft3.p4.cost + ft3.p5.cost;
     ft3.tot_g1 = ft3.p1.g1 + ft3.p2.g1 + ft3.p3.g1 + ft3.p4.g1 + ft3.p5.g1;
@@ -1170,11 +1170,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 4,
         name: "Pangri",
         rione: { ...EST },
-        p1: { ...MarcoRizzi },
-        p2: { ...AlessioFurlan },
-        p3: { ...UmbertoNobile },
-        p4: { ...MassimilianoMoretti },
-        p5: { ...MarcoPolo },
+        p1: { ...MarcoRizzi24 },
+        p2: { ...AlessioFurlan24 },
+        p3: { ...UmbertoNobile24 },
+        p4: { ...MassimilianoMoretti24 },
+        p5: { ...MarcoPolo24 },
     };
     ft4.total_cost = ft4.p1.cost + ft4.p2.cost + ft4.p3.cost + ft4.p4.cost + ft4.p5.cost;
     ft4.tot_g1 = ft4.p1.g1 + ft4.p2.g1 + ft4.p3.g1 + ft4.p4.g1 + ft4.p5.g1;
@@ -1189,11 +1189,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 5,
         name: "Zoo_Rehab",
         rione: { ...WEST },
-        p1: { ...DavidGaspardo },
-        p2: { ...UmbertoNobile },
-        p3: { ...DevinChiarcos },
-        p4: { ...GiacomoPiacentini },
-        p5: { ...FilippoPasquon },
+        p1: { ...DavidGaspardo24 },
+        p2: { ...UmbertoNobile24 },
+        p3: { ...DevinChiarcos24 },
+        p4: { ...GiacomoPiacentini24 },
+        p5: { ...FilippoPasquon24 },
     };
     ft5.total_cost = ft5.p1.cost + ft5.p2.cost + ft5.p3.cost + ft5.p4.cost + ft5.p5.cost;
     ft5.tot_g1 = ft5.p1.g1 + ft5.p2.g1 + ft5.p3.g1 + ft5.p4.g1 + ft5.p5.g1;
@@ -1208,11 +1208,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 6,
         name: "Nordes",
         rione: { ...NORD },
-        p1: { ...DiegoNata },
-        p2: { ...FilippoPasquon },
-        p3: { ...UmbertoNobile },
-        p4: { ...LucaAnedda },
-        p5: { ...DevinChiarcos },
+        p1: { ...DiegoNata24 },
+        p2: { ...FilippoPasquon24 },
+        p3: { ...UmbertoNobile24 },
+        p4: { ...LucaAnedda24 },
+        p5: { ...DevinChiarcos24 },
     };
     ft6.total_cost = ft6.p1.cost + ft6.p2.cost + ft6.p3.cost + ft6.p4.cost + ft6.p5.cost;
     ft6.tot_g1 = ft6.p1.g1 + ft6.p2.g1 + ft6.p3.g1 + ft6.p4.g1 + ft6.p5.g1;
@@ -1227,11 +1227,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 7,
         name: "Estateam",
         rione: { ...EST },
-        p1: { ...SimoneMartinelli },
-        p2: { ...UmbertoNobile },
-        p3: { ...MattiaMasotti },
-        p4: { ...FilippoSappa },
-        p5: { ...FilippoPasquon },
+        p1: { ...SimoneMartinelli24 },
+        p2: { ...UmbertoNobile24 },
+        p3: { ...MattiaMasotti24 },
+        p4: { ...FilippoSappa24 },
+        p5: { ...FilippoPasquon24 },
     };
     ft7.total_cost = ft7.p1.cost + ft7.p2.cost + ft7.p3.cost + ft7.p4.cost + ft7.p5.cost;
     ft7.tot_g1 = ft7.p1.g1 + ft7.p2.g1 + ft7.p3.g1 + ft7.p4.g1 + ft7.p5.g1;
@@ -1246,11 +1246,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 8,
         name: "stirati",
         rione: { ...NORD },
-        p1: { ...UmbertoNobile },
-        p2: { ...AlessandroSant },
-        p3: { ...FilippoPasquon },
-        p4: { ...MiracleObichukwu },
-        p5: { ...LarryTrevisan },
+        p1: { ...UmbertoNobile24 },
+        p2: { ...AlessandroSant24 },
+        p3: { ...FilippoPasquon24 },
+        p4: { ...MiracleObichukwu24 },
+        p5: { ...LarryTrevisan24 },
     };
     ft8.total_cost = ft8.p1.cost + ft8.p2.cost + ft8.p3.cost + ft8.p4.cost + ft8.p5.cost;
     ft8.tot_g1 = ft8.p1.g1 + ft8.p2.g1 + ft8.p3.g1 + ft8.p4.g1 + ft8.p5.g1;
@@ -1265,11 +1265,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 9,
         name: "emosbobna",
         rione: { ...NORD },
-        p1: { ...DevinChiarcos },
-        p2: { ...MarcoLombardo },
-        p3: { ...GiovanniZanin },
-        p4: { ...MattiaRoiatti },
-        p5: { ...PietroSoramel },
+        p1: { ...DevinChiarcos24 },
+        p2: { ...MarcoLombardo24 },
+        p3: { ...GiovanniZanin24 },
+        p4: { ...MattiaRoiatti24 },
+        p5: { ...PietroSoramel24 },
     };
     ft9.total_cost = ft9.p1.cost + ft9.p2.cost + ft9.p3.cost + ft9.p4.cost + ft9.p5.cost;
     ft9.tot_g1 = ft9.p1.g1 + ft9.p2.g1 + ft9.p3.g1 + ft9.p4.g1 + ft9.p5.g1;
@@ -1284,11 +1284,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 10,
         name: "Gabro's top team",
         rione: { ...WEST },
-        p1: { ...UmbertoNobile },
-        p2: { ...AlessandroCostantini },
-        p3: { ...MarcoSerrao },
-        p4: { ...MiracleObichukwu },
-        p5: { ...EnricoSant },
+        p1: { ...UmbertoNobile24 },
+        p2: { ...AlessandroCostantini24 },
+        p3: { ...MarcoSerrao24 },
+        p4: { ...MiracleObichukwu24 },
+        p5: { ...EnricoSant24 },
     };
     ft10.total_cost = ft10.p1.cost + ft10.p2.cost + ft10.p3.cost + ft10.p4.cost + ft10.p5.cost;
     ft10.tot_g1 = ft10.p1.g1 + ft10.p2.g1 + ft10.p3.g1 + ft10.p4.g1 + ft10.p5.g1;
@@ -1303,11 +1303,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 11,
         name: "oilapledecoval",
         rione: { ...NORD },
-        p1: { ...AlessandroSantin },
-        p2: { ...MarcoMarchetti },
-        p3: { ...DavidGaspardo },
-        p4: { ...UmbertoNobile },
-        p5: { ...PietroSoramel },
+        p1: { ...AlessandroSantin24 },
+        p2: { ...MarcoMarchetti24 },
+        p3: { ...DavidGaspardo24 },
+        p4: { ...UmbertoNobile24 },
+        p5: { ...PietroSoramel24 },
     };
     ft11.total_cost = ft11.p1.cost + ft11.p2.cost + ft11.p3.cost + ft11.p4.cost + ft11.p5.cost;
     ft11.tot_g1 = ft11.p1.g1 + ft11.p2.g1 + ft11.p3.g1 + ft11.p4.g1 + ft11.p5.g1;
@@ -1322,11 +1322,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 12,
         name: "Armata Rossa",
         rione: { ...NORD },
-        p1: { ...MarcoRizzi },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...UmbertoNobile },
-        p4: { ...MassimilianoRossi },
-        p5: { ...LucaAnedda },
+        p1: { ...MarcoRizzi24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...UmbertoNobile24 },
+        p4: { ...MassimilianoRossi24 },
+        p5: { ...LucaAnedda24 },
     };
     ft12.total_cost = ft12.p1.cost + ft12.p2.cost + ft12.p3.cost + ft12.p4.cost + ft12.p5.cost;
     ft12.tot_g1 = ft12.p1.g1 + ft12.p2.g1 + ft12.p3.g1 + ft12.p4.g1 + ft12.p5.g1;
@@ -1341,11 +1341,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 13,
         name: "La Betty",
         rione: { ...WEST },
-        p1: { ...EmanueleDaneluzzi },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...PietroSoramel },
-        p4: { ...EdoardoPicogna },
-        p5: { ...MiracleObichukwu },
+        p1: { ...EmanueleDaneluzzi24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...PietroSoramel24 },
+        p4: { ...EdoardoPicogna24 },
+        p5: { ...MiracleObichukwu24 },
     };
     ft13.total_cost = ft13.p1.cost + ft13.p2.cost + ft13.p3.cost + ft13.p4.cost + ft13.p5.cost;
     ft13.tot_g1 = ft13.p1.g1 + ft13.p2.g1 + ft13.p3.g1 + ft13.p4.g1 + ft13.p5.g1;
@@ -1360,11 +1360,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 14,
         name: "Estinti",
         rione: { ...WEST },
-        p1: { ...UmbertoNobile },
-        p2: { ...AlessandroCostantini },
-        p3: { ...AlessandroSant },
-        p4: { ...MauroPerina },
-        p5: { ...MarcoMarchetti },
+        p1: { ...UmbertoNobile24 },
+        p2: { ...AlessandroCostantini24 },
+        p3: { ...AlessandroSant24 },
+        p4: { ...MauroPerina24 },
+        p5: { ...MarcoMarchetti24 },
     };
     ft14.total_cost = ft14.p1.cost + ft14.p2.cost + ft14.p3.cost + ft14.p4.cost + ft14.p5.cost;
     ft14.tot_g1 = ft14.p1.g1 + ft14.p2.g1 + ft14.p3.g1 + ft14.p4.g1 + ft14.p5.g1;
@@ -1379,11 +1379,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 15,
         name: "C&C",
         rione: { ...SUD },
-        p1: { ...FilippoSappa },
-        p2: { ...LorenzoMoro },
-        p3: { ...PietroSoramel },
-        p4: { ...EnricoSant },
-        p5: { ...DanieleGanzit },
+        p1: { ...FilippoSappa24 },
+        p2: { ...LorenzoMoro24 },
+        p3: { ...PietroSoramel24 },
+        p4: { ...EnricoSant24 },
+        p5: { ...DanieleGanzit24 },
     };
     ft15.total_cost = ft15.p1.cost + ft15.p2.cost + ft15.p3.cost + ft15.p4.cost + ft15.p5.cost;
     ft15.tot_g1 = ft15.p1.g1 + ft15.p2.g1 + ft15.p3.g1 + ft15.p4.g1 + ft15.p5.g1;
@@ -1398,11 +1398,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 16,
         name: "🦀",
         rione: { ...WEST },
-        p1: { ...PietroSoramel },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...AlessioFurlan },
-        p4: { ...LucaSoramel },
-        p5: { ...MarcoRizzi },
+        p1: { ...PietroSoramel24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...AlessioFurlan24 },
+        p4: { ...LucaSoramel24 },
+        p5: { ...MarcoRizzi24 },
     };
     ft16.total_cost = ft16.p1.cost + ft16.p2.cost + ft16.p3.cost + ft16.p4.cost + ft16.p5.cost;
     ft16.tot_g1 = ft16.p1.g1 + ft16.p2.g1 + ft16.p3.g1 + ft16.p4.g1 + ft16.p5.g1;
@@ -1417,11 +1417,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 17,
         name: "Melinda",
         rione: { ...NORD },
-        p1: { ...PietroSoramel },
-        p2: { ...LucaSoramel },
-        p3: { ...MassimilianoMoretti },
-        p4: { ...AlessioFurlan },
-        p5: { ...AndreaMoretti },
+        p1: { ...PietroSoramel24 },
+        p2: { ...LucaSoramel24 },
+        p3: { ...MassimilianoMoretti24 },
+        p4: { ...AlessioFurlan24 },
+        p5: { ...AndreaMoretti24 },
     };
     ft17.total_cost = ft17.p1.cost + ft17.p2.cost + ft17.p3.cost + ft17.p4.cost + ft17.p5.cost;
     ft17.tot_g1 = ft17.p1.g1 + ft17.p2.g1 + ft17.p3.g1 + ft17.p4.g1 + ft17.p5.g1;
@@ -1436,11 +1436,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 18,
         name: "Winxclub",
         rione: { ...EST },
-        p1: { ...AlessioFurlan },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...LucaSoramel },
-        p4: { ...PietroSoramel },
-        p5: { ...LucaAnedda },
+        p1: { ...AlessioFurlan24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...LucaSoramel24 },
+        p4: { ...PietroSoramel24 },
+        p5: { ...LucaAnedda24 },
     };
     ft18.total_cost = ft18.p1.cost + ft18.p2.cost + ft18.p3.cost + ft18.p4.cost + ft18.p5.cost;
     ft18.tot_g1 = ft18.p1.g1 + ft18.p2.g1 + ft18.p3.g1 + ft18.p4.g1 + ft18.p5.g1;
@@ -1455,11 +1455,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 19,
         name: "tnerb",
         rione: { ...SUD },
-        p1: { ...MassimilianoMoretti },
-        p2: { ...GiovanniTonizzo },
-        p3: { ...PietroSoramel },
-        p4: { ...MarcoPolo },
-        p5: { ...MatteoSpagnolo },
+        p1: { ...MassimilianoMoretti24 },
+        p2: { ...GiovanniTonizzo24 },
+        p3: { ...PietroSoramel24 },
+        p4: { ...MarcoPolo24 },
+        p5: { ...MatteoSpagnolo24 },
     };
     ft19.total_cost = ft19.p1.cost + ft19.p2.cost + ft19.p3.cost + ft19.p4.cost + ft19.p5.cost;
     ft19.tot_g1 = ft19.p1.g1 + ft19.p2.g1 + ft19.p3.g1 + ft19.p4.g1 + ft19.p5.g1;
@@ -1474,11 +1474,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 20,
         name: "Prime time players",
         rione: { ...WEST },
-        p1: { ...LarryTrevisan },
-        p2: { ...MarcoSerrao },
-        p3: { ...UmbertoNobile },
-        p4: { ...FilippoPasquon },
-        p5: { ...LorenzoMoro },
+        p1: { ...LarryTrevisan24 },
+        p2: { ...MarcoSerrao24 },
+        p3: { ...UmbertoNobile24 },
+        p4: { ...FilippoPasquon24 },
+        p5: { ...LorenzoMoro24 },
     };
     ft20.total_cost = ft20.p1.cost + ft20.p2.cost + ft20.p3.cost + ft20.p4.cost + ft20.p5.cost;
     ft20.tot_g1 = ft20.p1.g1 + ft20.p2.g1 + ft20.p3.g1 + ft20.p4.g1 + ft20.p5.g1;
@@ -1493,11 +1493,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 21,
         name: "Golden Cod Cepe’s Warriors",
         rione: { ...SUD },
-        p1: { ...AntonioGri },
-        p2: { ...GiovanniZanin },
-        p3: { ...MiracleObichukwu },
-        p4: { ...FilippoSappa },
-        p5: { ...GiovanniTonizzo },
+        p1: { ...AntonioGri24 },
+        p2: { ...GiovanniZanin24 },
+        p3: { ...MiracleObichukwu24 },
+        p4: { ...FilippoSappa24 },
+        p5: { ...GiovanniTonizzo24 },
     };
     ft21.total_cost = ft21.p1.cost + ft21.p2.cost + ft21.p3.cost + ft21.p4.cost + ft21.p5.cost;
     ft21.tot_g1 = ft21.p1.g1 + ft21.p2.g1 + ft21.p3.g1 + ft21.p4.g1 + ft21.p5.g1;
@@ -1512,11 +1512,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 22,
         name: "sustovich",
         rione: { ...WEST },
-        p1: { ...MiracleObichukwu },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...LucaSoramel },
-        p4: { ...AndreaMoretti },
-        p5: { ...PietroSoramel },
+        p1: { ...MiracleObichukwu24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...LucaSoramel24 },
+        p4: { ...AndreaMoretti24 },
+        p5: { ...PietroSoramel24 },
     };
     ft22.total_cost = ft22.p1.cost + ft22.p2.cost + ft22.p3.cost + ft22.p4.cost + ft22.p5.cost;
     ft22.tot_g1 = ft22.p1.g1 + ft22.p2.g1 + ft22.p3.g1 + ft22.p4.g1 + ft22.p5.g1;
@@ -1531,11 +1531,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 23,
         name: "Groviscrazia",
         rione: { ...WEST },
-        p1: { ...PietroSoramel },
-        p2: { ...LucaSoramel },
-        p3: { ...MiracleObichukwu },
-        p4: { ...MicheleVendrame },
-        p5: { ...MassimilianoMoretti },
+        p1: { ...PietroSoramel24 },
+        p2: { ...LucaSoramel24 },
+        p3: { ...MiracleObichukwu24 },
+        p4: { ...MicheleVendrame24 },
+        p5: { ...MassimilianoMoretti24 },
     };
     ft23.total_cost = ft23.p1.cost + ft23.p2.cost + ft23.p3.cost + ft23.p4.cost + ft23.p5.cost;
     ft23.tot_g1 = ft23.p1.g1 + ft23.p2.g1 + ft23.p3.g1 + ft23.p4.g1 + ft23.p5.g1;
@@ -1550,11 +1550,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 24,
         name: "DEVIN",
         rione: { ...WEST },
-        p1: { ...MassimilianoMoretti },
-        p2: { ...GiacomoPiacentini },
-        p3: { ...DevinChiarcos },
-        p4: { ...VittorioBasso },
-        p5: { ...FilippoPasquon },
+        p1: { ...MassimilianoMoretti24 },
+        p2: { ...GiacomoPiacentini24 },
+        p3: { ...DevinChiarcos24 },
+        p4: { ...VittorioBasso24 },
+        p5: { ...FilippoPasquon24 },
     };
     ft24.total_cost = ft24.p1.cost + ft24.p2.cost + ft24.p3.cost + ft24.p4.cost + ft24.p5.cost;
     ft24.tot_g1 = ft24.p1.g1 + ft24.p2.g1 + ft24.p3.g1 + ft24.p4.g1 + ft24.p5.g1;
@@ -1569,11 +1569,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 25,
         name: "Mia",
         rione: { ...WEST },
-        p1: { ...DavideParon },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...DevinChiarcos },
-        p4: { ...MattiaMasotti },
-        p5: { ...FilippoPasquon },
+        p1: { ...DavideParon24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...DevinChiarcos24 },
+        p4: { ...MattiaMasotti24 },
+        p5: { ...FilippoPasquon24 },
     };
     ft25.total_cost = ft25.p1.cost + ft25.p2.cost + ft25.p3.cost + ft25.p4.cost + ft25.p5.cost;
     ft25.tot_g1 = ft25.p1.g1 + ft25.p2.g1 + ft25.p3.g1 + ft25.p4.g1 + ft25.p5.g1;
@@ -1588,11 +1588,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 26,
         name: "Goggo Bello",
         rione: { ...WEST },
-        p1: { ...AlessandroSant },
-        p2: { ...MiracleObichukwu },
-        p3: { ...UmbertoNobile },
-        p4: { ...TommasoMartello },
-        p5: { ...GionaTell },
+        p1: { ...AlessandroSant24 },
+        p2: { ...MiracleObichukwu24 },
+        p3: { ...UmbertoNobile24 },
+        p4: { ...TommasoMartello24 },
+        p5: { ...GionaTell24 },
     };
     ft26.total_cost = ft26.p1.cost + ft26.p2.cost + ft26.p3.cost + ft26.p4.cost + ft26.p5.cost;
     ft26.tot_g1 = ft26.p1.g1 + ft26.p2.g1 + ft26.p3.g1 + ft26.p4.g1 + ft26.p5.g1;
@@ -1607,11 +1607,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 27,
         name: "Rione Muscletto",
         rione: { ...NORD },
-        p1: { ...GioeleTudini },
-        p2: { ...FilippoSappa },
-        p3: { ...LarryTrevisan },
-        p4: { ...AlessandroSant },
-        p5: { ...AlessandroRojatti },
+        p1: { ...GioeleTudini24 },
+        p2: { ...FilippoSappa24 },
+        p3: { ...LarryTrevisan24 },
+        p4: { ...AlessandroSant24 },
+        p5: { ...AlessandroRojatti24 },
     };
     ft27.total_cost = ft27.p1.cost + ft27.p2.cost + ft27.p3.cost + ft27.p4.cost + ft27.p5.cost;
     ft27.tot_g1 = ft27.p1.g1 + ft27.p2.g1 + ft27.p3.g1 + ft27.p4.g1 + ft27.p5.g1;
@@ -1626,11 +1626,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 28,
         name: "Oklahoma city tinder",
         rione: { ...WEST },
-        p1: { ...DevinChiarcos },
-        p2: { ...MattiaRoiatti },
-        p3: { ...MattiaMasotti },
-        p4: { ...FilippoPasquon },
-        p5: { ...MassimilianoMoretti },
+        p1: { ...DevinChiarcos24 },
+        p2: { ...MattiaRoiatti24 },
+        p3: { ...MattiaMasotti24 },
+        p4: { ...FilippoPasquon24 },
+        p5: { ...MassimilianoMoretti24 },
     };
     ft28.total_cost = ft28.p1.cost + ft28.p2.cost + ft28.p3.cost + ft28.p4.cost + ft28.p5.cost;
     ft28.tot_g1 = ft28.p1.g1 + ft28.p2.g1 + ft28.p3.g1 + ft28.p4.g1 + ft28.p5.g1;
@@ -1645,11 +1645,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 29,
         name: "Mau",
         rione: { ...WEST },
-        p1: { ...EnricoSant },
-        p2: { ...MauroCuridori },
-        p3: { ...GiacomoSilvestri },
-        p4: { ...FilippoSappa },
-        p5: { ...AlessandroRizzi },
+        p1: { ...EnricoSant24 },
+        p2: { ...MauroCuridori24 },
+        p3: { ...GiacomoSilvestri24 },
+        p4: { ...FilippoSappa24 },
+        p5: { ...AlessandroRizzi24 },
     };
     ft29.total_cost = ft29.p1.cost + ft29.p2.cost + ft29.p3.cost + ft29.p4.cost + ft29.p5.cost;
     ft29.tot_g1 = ft29.p1.g1 + ft29.p2.g1 + ft29.p3.g1 + ft29.p4.g1 + ft29.p5.g1;
@@ -1664,11 +1664,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 30,
         name: "SuperOne",
         rione: { ...WEST },
-        p1: { ...AndreaMoretti },
-        p2: { ...MicheleDeAnna },
-        p3: { ...MassimilianoMoretti },
-        p4: { ...MiracleObichukwu },
-        p5: { ...MicheleGorasso },
+        p1: { ...AndreaMoretti24 },
+        p2: { ...MicheleDeAnna24 },
+        p3: { ...MassimilianoMoretti24 },
+        p4: { ...MiracleObichukwu24 },
+        p5: { ...MicheleGorasso24 },
     };
     ft30.total_cost = ft30.p1.cost + ft30.p2.cost + ft30.p3.cost + ft30.p4.cost + ft30.p5.cost;
     ft30.tot_g1 = ft30.p1.g1 + ft30.p2.g1 + ft30.p3.g1 + ft30.p4.g1 + ft30.p5.g1;
@@ -1683,11 +1683,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 31,
         name: "Liam",
         rione: { ...NORD },
-        p1: { ...MattiaMasotti },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...EnricoSant },
-        p4: { ...MassimoMasotti },
-        p5: { ...DevinChiarcos },
+        p1: { ...MattiaMasotti24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...EnricoSant24 },
+        p4: { ...MassimoMasotti24 },
+        p5: { ...DevinChiarcos24 },
     };
     ft31.total_cost = ft31.p1.cost + ft31.p2.cost + ft31.p3.cost + ft31.p4.cost + ft31.p5.cost;
     ft31.tot_g1 = ft31.p1.g1 + ft31.p2.g1 + ft31.p3.g1 + ft31.p4.g1 + ft31.p5.g1;
@@ -1702,11 +1702,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 32,
         name: "Flacko the sheriff",
         rione: { ...WEST },
-        p1: { ...MicheleVendrame },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...MattiaRoiatti },
-        p4: { ...PietroSoramel },
-        p5: { ...ValentinoCigainero },
+        p1: { ...MicheleVendrame24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...MattiaRoiatti24 },
+        p4: { ...PietroSoramel24 },
+        p5: { ...ValentinoCigainero24 },
     };
     ft32.total_cost = ft32.p1.cost + ft32.p2.cost + ft32.p3.cost + ft32.p4.cost + ft32.p5.cost;
     ft32.tot_g1 = ft32.p1.g1 + ft32.p2.g1 + ft32.p3.g1 + ft32.p4.g1 + ft32.p5.g1;
@@ -1721,11 +1721,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 33,
         name: "Ghetto boys",
         rione: { ...NORD },
-        p1: { ...MiracleObichukwu },
-        p2: { ...LarryTrevisan },
-        p3: { ...GiovanniTonizzo },
-        p4: { ...PietroSoramel },
-        p5: { ...DiegoNata },
+        p1: { ...MiracleObichukwu24 },
+        p2: { ...LarryTrevisan24 },
+        p3: { ...GiovanniTonizzo24 },
+        p4: { ...PietroSoramel24 },
+        p5: { ...DiegoNata24 },
     };
     ft33.total_cost = ft33.p1.cost + ft33.p2.cost + ft33.p3.cost + ft33.p4.cost + ft33.p5.cost;
     ft33.tot_g1 = ft33.p1.g1 + ft33.p2.g1 + ft33.p3.g1 + ft33.p4.g1 + ft33.p5.g1;
@@ -1740,11 +1740,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 34,
         name: "GIOGIZ",
         rione: { ...WEST },
-        p1: { ...GiacomoPiacentini },
-        p2: { ...GiacomoFerigo },
-        p3: { ...DevinChiarcos },
-        p4: { ...DavidGaspardo },
-        p5: { ...FilippoAgnoluzzi },
+        p1: { ...GiacomoPiacentini24 },
+        p2: { ...GiacomoFerigo24 },
+        p3: { ...DevinChiarcos24 },
+        p4: { ...DavidGaspardo24 },
+        p5: { ...FilippoAgnoluzzi24 },
     };
     ft34.total_cost = ft34.p1.cost + ft34.p2.cost + ft34.p3.cost + ft34.p4.cost + ft34.p5.cost;
     ft34.tot_g1 = ft34.p1.g1 + ft34.p2.g1 + ft34.p3.g1 + ft34.p4.g1 + ft34.p5.g1;
@@ -1759,11 +1759,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 35,
         name: "After CapOstile",
         rione: { ...WEST },
-        p1: { ...SebastianoTonizzo },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...LarryTrevisan },
-        p4: { ...MiracleObichukwu },
-        p5: { ...VittorioGri },
+        p1: { ...SebastianoTonizzo24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...LarryTrevisan24 },
+        p4: { ...MiracleObichukwu24 },
+        p5: { ...VittorioGri24 },
     };
     ft35.total_cost = ft35.p1.cost + ft35.p2.cost + ft35.p3.cost + ft35.p4.cost + ft35.p5.cost;
     ft35.tot_g1 = ft35.p1.g1 + ft35.p2.g1 + ft35.p3.g1 + ft35.p4.g1 + ft35.p5.g1;
@@ -1778,11 +1778,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 36,
         name: "Ringhio",
         rione: { ...WEST },
-        p1: { ...LucaSoramel },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...LarryTrevisan },
-        p4: { ...AlessandroRojatti },
-        p5: { ...GiacomoFerigo },
+        p1: { ...LucaSoramel24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...LarryTrevisan24 },
+        p4: { ...AlessandroRojatti24 },
+        p5: { ...GiacomoFerigo24 },
     };
     ft36.total_cost = ft36.p1.cost + ft36.p2.cost + ft36.p3.cost + ft36.p4.cost + ft36.p5.cost;
     ft36.tot_g1 = ft36.p1.g1 + ft36.p2.g1 + ft36.p3.g1 + ft36.p4.g1 + ft36.p5.g1;
@@ -1797,11 +1797,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 37,
         name: "Matte",
         rione: { ...WEST },
-        p1: { ...GiacomoSilvestri },
-        p2: { ...MarcoSerrao },
-        p3: { ...LucaGemo },
-        p4: { ...FilippoSappa },
-        p5: { ...LarryTrevisan },
+        p1: { ...GiacomoSilvestri24 },
+        p2: { ...MarcoSerrao24 },
+        p3: { ...LucaGemo24 },
+        p4: { ...FilippoSappa24 },
+        p5: { ...LarryTrevisan24 },
     };
     ft37.total_cost = ft37.p1.cost + ft37.p2.cost + ft37.p3.cost + ft37.p4.cost + ft37.p5.cost;
     ft37.tot_g1 = ft37.p1.g1 + ft37.p2.g1 + ft37.p3.g1 + ft37.p4.g1 + ft37.p5.g1;
@@ -1816,11 +1816,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 38,
         name: "Unavoltaerofortealchiosco!",
         rione: { ...WEST },
-        p1: { ...UmbertoNobile },
-        p2: { ...MarcoSerrao },
-        p3: { ...AlessandroRizzi },
-        p4: { ...GiacomoPiacentini },
-        p5: { ...MassimilianoRossi },
+        p1: { ...UmbertoNobile24 },
+        p2: { ...MarcoSerrao24 },
+        p3: { ...AlessandroRizzi24 },
+        p4: { ...GiacomoPiacentini24 },
+        p5: { ...MassimilianoRossi24 },
     };
     ft38.total_cost = ft38.p1.cost + ft38.p2.cost + ft38.p3.cost + ft38.p4.cost + ft38.p5.cost;
     ft38.tot_g1 = ft38.p1.g1 + ft38.p2.g1 + ft38.p3.g1 + ft38.p4.g1 + ft38.p5.g1;
@@ -1835,11 +1835,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 39,
         name: "Samu Masotti",
         rione: { ...EST },
-        p1: { ...DevinChiarcos },
-        p2: { ...AlessandroCostantini },
-        p3: { ...VittorioBasso },
-        p4: { ...FilippoPasquon },
-        p5: { ...DavideBroggi },
+        p1: { ...DevinChiarcos24 },
+        p2: { ...AlessandroCostantini24 },
+        p3: { ...VittorioBasso24 },
+        p4: { ...FilippoPasquon24 },
+        p5: { ...DavideBroggi24 },
     };
     ft39.total_cost = ft39.p1.cost + ft39.p2.cost + ft39.p3.cost + ft39.p4.cost + ft39.p5.cost;
     ft39.tot_g1 = ft39.p1.g1 + ft39.p2.g1 + ft39.p3.g1 + ft39.p4.g1 + ft39.p5.g1;
@@ -1854,11 +1854,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 40,
         name: "Machico",
         rione: { ...NORD },
-        p1: { ...AndreaMoretti },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...GiovanniTonizzo },
-        p4: { ...LucaAnedda },
-        p5: { ...PietroSoramel },
+        p1: { ...AndreaMoretti24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...GiovanniTonizzo24 },
+        p4: { ...LucaAnedda24 },
+        p5: { ...PietroSoramel24 },
     };
     ft40.total_cost = ft40.p1.cost + ft40.p2.cost + ft40.p3.cost + ft40.p4.cost + ft40.p5.cost;
     ft40.tot_g1 = ft40.p1.g1 + ft40.p2.g1 + ft40.p3.g1 + ft40.p4.g1 + ft40.p5.g1;
@@ -1873,11 +1873,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 41,
         name: "Alto Moro",
         rione: { ...SUD },
-        p1: { ...ChristianZanet },
-        p2: { ...MicheleDeAnna },
-        p3: { ...UmbertoNobile },
-        p4: { ...FilippoPasquon },
-        p5: { ...MattiaMasotti },
+        p1: { ...ChristianZanet24 },
+        p2: { ...MicheleDeAnna24 },
+        p3: { ...UmbertoNobile24 },
+        p4: { ...FilippoPasquon24 },
+        p5: { ...MattiaMasotti24 },
     };
     ft41.total_cost = ft41.p1.cost + ft41.p2.cost + ft41.p3.cost + ft41.p4.cost + ft41.p5.cost;
     ft41.tot_g1 = ft41.p1.g1 + ft41.p2.g1 + ft41.p3.g1 + ft41.p4.g1 + ft41.p5.g1;
@@ -1892,11 +1892,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 42,
         name: "Fittofatto BC",
         rione: { ...NORD },
-        p1: { ...FilippoPasquon },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...PietroSoramel },
-        p4: { ...MattiaRoiatti },
-        p5: { ...LucaAnedda },
+        p1: { ...FilippoPasquon24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...PietroSoramel24 },
+        p4: { ...MattiaRoiatti24 },
+        p5: { ...LucaAnedda24 },
     };
     ft42.total_cost = ft42.p1.cost + ft42.p2.cost + ft42.p3.cost + ft42.p4.cost + ft42.p5.cost;
     ft42.tot_g1 = ft42.p1.g1 + ft42.p2.g1 + ft42.p3.g1 + ft42.p4.g1 + ft42.p5.g1;
@@ -1911,11 +1911,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 43,
         name: "Caspinixx",
         rione: { ...SUD },
-        p1: { ...MarcoRizzi },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...AndreaMoretti },
-        p4: { ...LucaSoramel },
-        p5: { ...PietroSoramel },
+        p1: { ...MarcoRizzi24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...AndreaMoretti24 },
+        p4: { ...LucaSoramel24 },
+        p5: { ...PietroSoramel24 },
     };
     ft43.total_cost = ft43.p1.cost + ft43.p2.cost + ft43.p3.cost + ft43.p4.cost + ft43.p5.cost;
     ft43.tot_g1 = ft43.p1.g1 + ft43.p2.g1 + ft43.p3.g1 + ft43.p4.g1 + ft43.p5.g1;
@@ -1930,11 +1930,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 44,
         name: "Enea",
         rione: { ...NORD },
-        p1: { ...GabrieleMiani },
-        p2: { ...GiacomoFerigo },
-        p3: { ...DevinChiarcos },
-        p4: { ...VittorioBasso },
-        p5: { ...AntonioGri },
+        p1: { ...GabrieleMiani24 },
+        p2: { ...GiacomoFerigo24 },
+        p3: { ...DevinChiarcos24 },
+        p4: { ...VittorioBasso24 },
+        p5: { ...AntonioGri24 },
     };
     ft44.total_cost = ft44.p1.cost + ft44.p2.cost + ft44.p3.cost + ft44.p4.cost + ft44.p5.cost;
     ft44.tot_g1 = ft44.p1.g1 + ft44.p2.g1 + ft44.p3.g1 + ft44.p4.g1 + ft44.p5.g1;
@@ -1949,11 +1949,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 45,
         name: "TheFinalCut95",
         rione: { ...WEST },
-        p1: { ...AlessandroSant },
-        p2: { ...LucaSoramel },
-        p3: { ...DanieleGanzit },
-        p4: { ...UmbertoNobile },
-        p5: { ...EnricoSant },
+        p1: { ...AlessandroSant24 },
+        p2: { ...LucaSoramel24 },
+        p3: { ...DanieleGanzit24 },
+        p4: { ...UmbertoNobile24 },
+        p5: { ...EnricoSant24 },
     };
     ft45.total_cost = ft45.p1.cost + ft45.p2.cost + ft45.p3.cost + ft45.p4.cost + ft45.p5.cost;
     ft45.tot_g1 = ft45.p1.g1 + ft45.p2.g1 + ft45.p3.g1 + ft45.p4.g1 + ft45.p5.g1;
@@ -1968,11 +1968,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 46,
         name: "SEBA CENGA",
         rione: { ...WEST },
-        p1: { ...LucaDellaLonga },
-        p2: { ...DiegoNata },
-        p3: { ...AndreaMoretti },
-        p4: { ...UmbertoNobile },
-        p5: { ...DavideFaurlin },
+        p1: { ...LucaDellaLonga24 },
+        p2: { ...DiegoNata24 },
+        p3: { ...AndreaMoretti24 },
+        p4: { ...UmbertoNobile24 },
+        p5: { ...DavideFaurlin24 },
     };
     ft46.total_cost = ft46.p1.cost + ft46.p2.cost + ft46.p3.cost + ft46.p4.cost + ft46.p5.cost;
     ft46.tot_g1 = ft46.p1.g1 + ft46.p2.g1 + ft46.p3.g1 + ft46.p4.g1 + ft46.p5.g1;
@@ -1987,11 +1987,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 47,
         name: "Carichi",
         rione: { ...NORD },
-        p1: { ...MiracleObichukwu },
-        p2: { ...AlessandroCostantini },
-        p3: { ...MatteoMargarit },
-        p4: { ...GiacomoPiacentini },
-        p5: { ...ChristianZanet },
+        p1: { ...MiracleObichukwu24 },
+        p2: { ...AlessandroCostantini24 },
+        p3: { ...MatteoMargarit24 },
+        p4: { ...GiacomoPiacentini24 },
+        p5: { ...ChristianZanet24 },
     };
     ft47.total_cost = ft47.p1.cost + ft47.p2.cost + ft47.p3.cost + ft47.p4.cost + ft47.p5.cost;
     ft47.tot_g1 = ft47.p1.g1 + ft47.p2.g1 + ft47.p3.g1 + ft47.p4.g1 + ft47.p5.g1;
@@ -2006,11 +2006,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 48,
         name: "TheFinalCut95!",
         rione: { ...WEST },
-        p1: { ...AlessandroSant },
-        p2: { ...LucaSoramel },
-        p3: { ...DanieleGanzit },
-        p4: { ...UmbertoNobile },
-        p5: { ...EnricoSant },
+        p1: { ...AlessandroSant24 },
+        p2: { ...LucaSoramel24 },
+        p3: { ...DanieleGanzit24 },
+        p4: { ...UmbertoNobile24 },
+        p5: { ...EnricoSant24 },
     };
     ft48.total_cost = ft48.p1.cost + ft48.p2.cost + ft48.p3.cost + ft48.p4.cost + ft48.p5.cost;
     ft48.tot_g1 = ft48.p1.g1 + ft48.p2.g1 + ft48.p3.g1 + ft48.p4.g1 + ft48.p5.g1;
@@ -2025,11 +2025,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 49,
         name: "I Penny's Five",
         rione: { ...SUD },
-        p1: { ...MassimilianoRossi },
-        p2: { ...AlessandroRizzi },
-        p3: { ...TommasoMartello },
-        p4: { ...UmbertoNobile },
-        p5: { ...GiovanniTonizzo },
+        p1: { ...MassimilianoRossi24 },
+        p2: { ...AlessandroRizzi24 },
+        p3: { ...TommasoMartello24 },
+        p4: { ...UmbertoNobile24 },
+        p5: { ...GiovanniTonizzo24 },
     };
     ft49.total_cost = ft49.p1.cost + ft49.p2.cost + ft49.p3.cost + ft49.p4.cost + ft49.p5.cost;
     ft49.tot_g1 = ft49.p1.g1 + ft49.p2.g1 + ft49.p3.g1 + ft49.p4.g1 + ft49.p5.g1;
@@ -2044,11 +2044,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 50,
         name: "Bmax",
         rione: { ...EST },
-        p1: { ...EnricoSant },
-        p2: { ...MattiaMasotti },
-        p3: { ...UmbertoNobile },
-        p4: { ...FilippoPasquon },
-        p5: { ...MarcoLombardo },
+        p1: { ...EnricoSant24 },
+        p2: { ...MattiaMasotti24 },
+        p3: { ...UmbertoNobile24 },
+        p4: { ...FilippoPasquon24 },
+        p5: { ...MarcoLombardo24 },
     };
     ft50.total_cost = ft50.p1.cost + ft50.p2.cost + ft50.p3.cost + ft50.p4.cost + ft50.p5.cost;
     ft50.tot_g1 = ft50.p1.g1 + ft50.p2.g1 + ft50.p3.g1 + ft50.p4.g1 + ft50.p5.g1;
@@ -2063,11 +2063,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 51,
         name: "Gli Sbronzatissimi",
         rione: { ...NORD },
-        p1: { ...GiovanniTonizzo },
-        p2: { ...UmbertoNobile },
-        p3: { ...AlessandroRizzi },
-        p4: { ...MarcoLombardo },
-        p5: { ...MattiaRoiatti },
+        p1: { ...GiovanniTonizzo24 },
+        p2: { ...UmbertoNobile24 },
+        p3: { ...AlessandroRizzi24 },
+        p4: { ...MarcoLombardo24 },
+        p5: { ...MattiaRoiatti24 },
     };
     ft51.total_cost = ft51.p1.cost + ft51.p2.cost + ft51.p3.cost + ft51.p4.cost + ft51.p5.cost;
     ft51.tot_g1 = ft51.p1.g1 + ft51.p2.g1 + ft51.p3.g1 + ft51.p4.g1 + ft51.p5.g1;
@@ -2082,11 +2082,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 52,
         name: "I belli",
         rione: { ...NORD },
-        p1: { ...LucaAnedda },
-        p2: { ...AlessandroRizzi },
-        p3: { ...PietroSoramel },
-        p4: { ...GiovanniTonizzo },
-        p5: { ...AlessandroCostantini },
+        p1: { ...LucaAnedda24 },
+        p2: { ...AlessandroRizzi24 },
+        p3: { ...PietroSoramel24 },
+        p4: { ...GiovanniTonizzo24 },
+        p5: { ...AlessandroCostantini24 },
     };
     ft52.total_cost = ft52.p1.cost + ft52.p2.cost + ft52.p3.cost + ft52.p4.cost + ft52.p5.cost;
     ft52.tot_g1 = ft52.p1.g1 + ft52.p2.g1 + ft52.p3.g1 + ft52.p4.g1 + ft52.p5.g1;
@@ -2101,11 +2101,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 53,
         name: "Golden shower",
         rione: { ...WEST },
-        p1: { ...MattiaMasotti },
-        p2: { ...AlessandroRizzi },
-        p3: { ...MatteoMargarit },
-        p4: { ...PietroSoramel },
-        p5: { ...MattiaRoiatti },
+        p1: { ...MattiaMasotti24 },
+        p2: { ...AlessandroRizzi24 },
+        p3: { ...MatteoMargarit24 },
+        p4: { ...PietroSoramel24 },
+        p5: { ...MattiaRoiatti24 },
     };
     ft53.total_cost = ft53.p1.cost + ft53.p2.cost + ft53.p3.cost + ft53.p4.cost + ft53.p5.cost;
     ft53.tot_g1 = ft53.p1.g1 + ft53.p2.g1 + ft53.p3.g1 + ft53.p4.g1 + ft53.p5.g1;
@@ -2120,11 +2120,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 54,
         name: "DOZERS CONFEDERATI",
         rione: { ...SUD },
-        p1: { ...AlessandroSant },
-        p2: { ...AlessioFurlan },
-        p3: { ...AlessandroRizzi },
-        p4: { ...PietroSoramel },
-        p5: { ...LucaSoramel },
+        p1: { ...AlessandroSant24 },
+        p2: { ...AlessioFurlan24 },
+        p3: { ...AlessandroRizzi24 },
+        p4: { ...PietroSoramel24 },
+        p5: { ...LucaSoramel24 },
     };
     ft54.total_cost = ft54.p1.cost + ft54.p2.cost + ft54.p3.cost + ft54.p4.cost + ft54.p5.cost;
     ft54.tot_g1 = ft54.p1.g1 + ft54.p2.g1 + ft54.p3.g1 + ft54.p4.g1 + ft54.p5.g1;
@@ -2139,11 +2139,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 55,
         name: "Appalla",
         rione: { ...WEST },
-        p1: { ...VittorioBasso },
-        p2: { ...LucaDellaLonga },
-        p3: { ...AlessandroSant },
-        p4: { ...FilippoSappa },
-        p5: { ...MattiaMasotti },
+        p1: { ...VittorioBasso24 },
+        p2: { ...LucaDellaLonga24 },
+        p3: { ...AlessandroSant24 },
+        p4: { ...FilippoSappa24 },
+        p5: { ...MattiaMasotti24 },
     };
     ft55.total_cost = ft55.p1.cost + ft55.p2.cost + ft55.p3.cost + ft55.p4.cost + ft55.p5.cost;
     ft55.tot_g1 = ft55.p1.g1 + ft55.p2.g1 + ft55.p3.g1 + ft55.p4.g1 + ft55.p5.g1;
@@ -2158,11 +2158,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 56,
         name: "I pupetti",
         rione: { ...EST },
-        p1: { ...LucaSoramel },
-        p2: { ...AlessandroRizzi },
-        p3: { ...AlessandroCostantini },
-        p4: { ...VittorioGri },
-        p5: { ...PietroSoramel },
+        p1: { ...LucaSoramel24 },
+        p2: { ...AlessandroRizzi24 },
+        p3: { ...AlessandroCostantini24 },
+        p4: { ...VittorioGri24 },
+        p5: { ...PietroSoramel24 },
     };
     ft56.total_cost = ft56.p1.cost + ft56.p2.cost + ft56.p3.cost + ft56.p4.cost + ft56.p5.cost;
     ft56.tot_g1 = ft56.p1.g1 + ft56.p2.g1 + ft56.p3.g1 + ft56.p4.g1 + ft56.p5.g1;
@@ -2177,11 +2177,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 57,
         name: "The best",
         rione: { ...WEST },
-        p1: { ...GiacomoFerigo },
-        p2: { ...VittorioBasso },
-        p3: { ...GiovanniDalFarra },
-        p4: { ...TommasoMartello },
-        p5: { ...MassimilianoMoretti },
+        p1: { ...GiacomoFerigo24 },
+        p2: { ...VittorioBasso24 },
+        p3: { ...GiovanniDalFarra24 },
+        p4: { ...TommasoMartello24 },
+        p5: { ...MassimilianoMoretti24 },
     };
     ft57.total_cost = ft57.p1.cost + ft57.p2.cost + ft57.p3.cost + ft57.p4.cost + ft57.p5.cost;
     ft57.tot_g1 = ft57.p1.g1 + ft57.p2.g1 + ft57.p3.g1 + ft57.p4.g1 + ft57.p5.g1;
@@ -2196,11 +2196,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 58,
         name: "Betta Zul",
         rione: { ...EST },
-        p1: { ...MattiaMasotti },
-        p2: { ...LucaDellaLonga },
-        p3: { ...MarcoSerrao },
-        p4: { ...FilippoSappa },
-        p5: { ...EnricoSant },
+        p1: { ...MattiaMasotti24 },
+        p2: { ...LucaDellaLonga24 },
+        p3: { ...MarcoSerrao24 },
+        p4: { ...FilippoSappa24 },
+        p5: { ...EnricoSant24 },
     };
     ft58.total_cost = ft58.p1.cost + ft58.p2.cost + ft58.p3.cost + ft58.p4.cost + ft58.p5.cost;
     ft58.tot_g1 = ft58.p1.g1 + ft58.p2.g1 + ft58.p3.g1 + ft58.p4.g1 + ft58.p5.g1;
@@ -2215,11 +2215,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 59,
         name: "Fil🥷",
         rione: { ...EST },
-        p1: { ...ThomasBaracetti },
-        p2: { ...ValentinoCigainero },
-        p3: { ...MassimilianoMoretti },
-        p4: { ...LarryTrevisan },
-        p5: { ...AlexMicottis },
+        p1: { ...ThomasBaracetti24 },
+        p2: { ...ValentinoCigainero24 },
+        p3: { ...MassimilianoMoretti24 },
+        p4: { ...LarryTrevisan24 },
+        p5: { ...AlexMicottis24 },
     };
     ft59.total_cost = ft59.p1.cost + ft59.p2.cost + ft59.p3.cost + ft59.p4.cost + ft59.p5.cost;
     ft59.tot_g1 = ft59.p1.g1 + ft59.p2.g1 + ft59.p3.g1 + ft59.p4.g1 + ft59.p5.g1;
@@ -2234,11 +2234,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 60,
         name: "i Bolliti",
         rione: { ...SUD },
-        p1: { ...LarryTrevisan },
-        p2: { ...AlessandroCostantini },
-        p3: { ...DavidGaspardo },
-        p4: { ...MatteoSpagnolo },
-        p5: { ...AlessandroSantin },
+        p1: { ...LarryTrevisan24 },
+        p2: { ...AlessandroCostantini24 },
+        p3: { ...DavidGaspardo24 },
+        p4: { ...MatteoSpagnolo24 },
+        p5: { ...AlessandroSantin24 },
     };
     ft60.total_cost = ft60.p1.cost + ft60.p2.cost + ft60.p3.cost + ft60.p4.cost + ft60.p5.cost;
     ft60.tot_g1 = ft60.p1.g1 + ft60.p2.g1 + ft60.p3.g1 + ft60.p4.g1 + ft60.p5.g1;
@@ -2253,11 +2253,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 61,
         name: "CT",
         rione: { ...NORD },
-        p1: { ...PietroSoramel },
-        p2: { ...GiovanniZanin },
-        p3: { ...TommasoMartello },
-        p4: { ...EnricoSant },
-        p5: { ...AntonioGri },
+        p1: { ...PietroSoramel24 },
+        p2: { ...GiovanniZanin24 },
+        p3: { ...TommasoMartello24 },
+        p4: { ...EnricoSant24 },
+        p5: { ...AntonioGri24 },
     };
     ft61.total_cost = ft61.p1.cost + ft61.p2.cost + ft61.p3.cost + ft61.p4.cost + ft61.p5.cost;
     ft61.tot_g1 = ft61.p1.g1 + ft61.p2.g1 + ft61.p3.g1 + ft61.p4.g1 + ft61.p5.g1;
@@ -2272,11 +2272,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 62,
         name: "I miracoli",
         rione: { ...WEST },
-        p1: { ...AlessandroSant },
-        p2: { ...AlessandroRizzi },
-        p3: { ...GiacomoPiacentini },
-        p4: { ...MattiaMasotti },
-        p5: { ...DevinChiarcos },
+        p1: { ...AlessandroSant24 },
+        p2: { ...AlessandroRizzi24 },
+        p3: { ...GiacomoPiacentini24 },
+        p4: { ...MattiaMasotti24 },
+        p5: { ...DevinChiarcos24 },
     };
     ft62.total_cost = ft62.p1.cost + ft62.p2.cost + ft62.p3.cost + ft62.p4.cost + ft62.p5.cost;
     ft62.tot_g1 = ft62.p1.g1 + ft62.p2.g1 + ft62.p3.g1 + ft62.p4.g1 + ft62.p5.g1;
@@ -2291,11 +2291,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 63,
         name: "Dr Tanzimat",
         rione: { ...SUD },
-        p1: { ...GiovanniZanin },
-        p2: { ...LucaSoramel },
-        p3: { ...PietroSoramel },
-        p4: { ...GiovanniTonizzo },
-        p5: { ...VittorioGri },
+        p1: { ...GiovanniZanin24 },
+        p2: { ...LucaSoramel24 },
+        p3: { ...PietroSoramel24 },
+        p4: { ...GiovanniTonizzo24 },
+        p5: { ...VittorioGri24 },
     };
     ft63.total_cost = ft63.p1.cost + ft63.p2.cost + ft63.p3.cost + ft63.p4.cost + ft63.p5.cost;
     ft63.tot_g1 = ft63.p1.g1 + ft63.p2.g1 + ft63.p3.g1 + ft63.p4.g1 + ft63.p5.g1;
@@ -2310,11 +2310,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 64,
         name: "Vichingo72",
         rione: { ...NORD },
-        p1: { ...LucaAnedda },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...AlessandroCostantini },
-        p4: { ...MauroPerina },
-        p5: { ...MattiaRoiatti },
+        p1: { ...LucaAnedda24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...AlessandroCostantini24 },
+        p4: { ...MauroPerina24 },
+        p5: { ...MattiaRoiatti24 },
     };
     ft64.total_cost = ft64.p1.cost + ft64.p2.cost + ft64.p3.cost + ft64.p4.cost + ft64.p5.cost;
     ft64.tot_g1 = ft64.p1.g1 + ft64.p2.g1 + ft64.p3.g1 + ft64.p4.g1 + ft64.p5.g1;
@@ -2329,11 +2329,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 65,
         name: "ivan",
         rione: { ...NORD },
-        p1: { ...FilippoPasquon },
-        p2: { ...MiracleObichukwu },
-        p3: { ...AlessandroGalassi },
-        p4: { ...PietroSoramel },
-        p5: { ...AlessandroRizzi },
+        p1: { ...FilippoPasquon24 },
+        p2: { ...MiracleObichukwu24 },
+        p3: { ...AlessandroGalassi24 },
+        p4: { ...PietroSoramel24 },
+        p5: { ...AlessandroRizzi24 },
     };
     ft65.total_cost = ft65.p1.cost + ft65.p2.cost + ft65.p3.cost + ft65.p4.cost + ft65.p5.cost;
     ft65.tot_g1 = ft65.p1.g1 + ft65.p2.g1 + ft65.p3.g1 + ft65.p4.g1 + ft65.p5.g1;
@@ -2348,11 +2348,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 66,
         name: "Dusty Bottoms",
         rione: { ...WEST },
-        p1: { ...GiacomoPiacentini },
-        p2: { ...AlessandroCostantini },
-        p3: { ...LarryTrevisan },
-        p4: { ...MicheleDeAnna },
-        p5: { ...ChristianZanet },
+        p1: { ...GiacomoPiacentini24 },
+        p2: { ...AlessandroCostantini24 },
+        p3: { ...LarryTrevisan24 },
+        p4: { ...MicheleDeAnna24 },
+        p5: { ...ChristianZanet24 },
     };
     ft66.total_cost = ft66.p1.cost + ft66.p2.cost + ft66.p3.cost + ft66.p4.cost + ft66.p5.cost;
     ft66.tot_g1 = ft66.p1.g1 + ft66.p2.g1 + ft66.p3.g1 + ft66.p4.g1 + ft66.p5.g1;
@@ -2367,11 +2367,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 67,
         name: "Spagnolo sposami",
         rione: { ...SUD },
-        p1: { ...SebastianoTonizzo },
-        p2: { ...MatteoSpagnolo },
-        p3: { ...MatteoMargarit },
-        p4: { ...DavideParon },
-        p5: { ...MichaelMargarit },
+        p1: { ...SebastianoTonizzo24 },
+        p2: { ...MatteoSpagnolo24 },
+        p3: { ...MatteoMargarit24 },
+        p4: { ...DavideParon24 },
+        p5: { ...MichaelMargarit24 },
     };
     ft67.total_cost = ft67.p1.cost + ft67.p2.cost + ft67.p3.cost + ft67.p4.cost + ft67.p5.cost;
     ft67.tot_g1 = ft67.p1.g1 + ft67.p2.g1 + ft67.p3.g1 + ft67.p4.g1 + ft67.p5.g1;
@@ -2386,11 +2386,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 68,
         name: "Franta Palio",
         rione: { ...NORD },
-        p1: { ...FilippoSappa },
-        p2: { ...AlessandroRojatti },
-        p3: { ...AlessandroRizzi },
-        p4: { ...TommasoMartello },
-        p5: { ...GiovanniTonizzo },
+        p1: { ...FilippoSappa24 },
+        p2: { ...AlessandroRojatti24 },
+        p3: { ...AlessandroRizzi24 },
+        p4: { ...TommasoMartello24 },
+        p5: { ...GiovanniTonizzo24 },
     };
     ft68.total_cost = ft68.p1.cost + ft68.p2.cost + ft68.p3.cost + ft68.p4.cost + ft68.p5.cost;
     ft68.tot_g1 = ft68.p1.g1 + ft68.p2.g1 + ft68.p3.g1 + ft68.p4.g1 + ft68.p5.g1;
@@ -2405,11 +2405,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 69,
         name: "Nani del sud",
         rione: { ...SUD },
-        p1: { ...FilippoAgnoluzzi },
-        p2: { ...FilippoSappa },
-        p3: { ...LucaAnedda },
-        p4: { ...GiacomoSilvestri },
-        p5: { ...DavidGaspardo },
+        p1: { ...FilippoAgnoluzzi24 },
+        p2: { ...FilippoSappa24 },
+        p3: { ...LucaAnedda24 },
+        p4: { ...GiacomoSilvestri24 },
+        p5: { ...DavidGaspardo24 },
     };
     ft69.total_cost = ft69.p1.cost + ft69.p2.cost + ft69.p3.cost + ft69.p4.cost + ft69.p5.cost;
     ft69.tot_g1 = ft69.p1.g1 + ft69.p2.g1 + ft69.p3.g1 + ft69.p4.g1 + ft69.p5.g1;
@@ -2424,11 +2424,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 70,
         name: "Penelope's Team",
         rione: { ...SUD },
-        p1: { ...GiovanniTonizzo },
-        p2: { ...AlessandroSant },
-        p3: { ...MarcoPolo },
-        p4: { ...LucaSoramel },
-        p5: { ...FilippoSappa },
+        p1: { ...GiovanniTonizzo24 },
+        p2: { ...AlessandroSant24 },
+        p3: { ...MarcoPolo24 },
+        p4: { ...LucaSoramel24 },
+        p5: { ...FilippoSappa24 },
     };
     ft70.total_cost = ft70.p1.cost + ft70.p2.cost + ft70.p3.cost + ft70.p4.cost + ft70.p5.cost;
     ft70.tot_g1 = ft70.p1.g1 + ft70.p2.g1 + ft70.p3.g1 + ft70.p4.g1 + ft70.p5.g1;
@@ -2443,11 +2443,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 71,
         name: "Codroipen F.C.",
         rione: { ...WEST },
-        p1: { ...DavideParon },
-        p2: { ...DevinChiarcos },
-        p3: { ...GabrieleMiani },
-        p4: { ...EdoardoPicogna },
-        p5: { ...VittorioBasso },
+        p1: { ...DavideParon24 },
+        p2: { ...DevinChiarcos24 },
+        p3: { ...GabrieleMiani24 },
+        p4: { ...EdoardoPicogna24 },
+        p5: { ...VittorioBasso24 },
     };
     ft71.total_cost = ft71.p1.cost + ft71.p2.cost + ft71.p3.cost + ft71.p4.cost + ft71.p5.cost;
     ft71.tot_g1 = ft71.p1.g1 + ft71.p2.g1 + ft71.p3.g1 + ft71.p4.g1 + ft71.p5.g1;
@@ -2462,11 +2462,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 72,
         name: "west solos",
         rione: { ...WEST },
-        p1: { ...MassimoMasotti },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...GiacomoPiacentini },
-        p4: { ...MiracleObichukwu },
-        p5: { ...EnricoSant },
+        p1: { ...MassimoMasotti24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...GiacomoPiacentini24 },
+        p4: { ...MiracleObichukwu24 },
+        p5: { ...EnricoSant24 },
     };
     ft72.total_cost = ft72.p1.cost + ft72.p2.cost + ft72.p3.cost + ft72.p4.cost + ft72.p5.cost;
     ft72.tot_g1 = ft72.p1.g1 + ft72.p2.g1 + ft72.p3.g1 + ft72.p4.g1 + ft72.p5.g1;
@@ -2481,11 +2481,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 73,
         name: "Sud",
         rione: { ...SUD },
-        p1: { ...GiacomoPiacentini },
-        p2: { ...DevinChiarcos },
-        p3: { ...VittorioBasso },
-        p4: { ...EdoardoPicogna },
-        p5: { ...DavidGaspardo },
+        p1: { ...GiacomoPiacentini24 },
+        p2: { ...DevinChiarcos24 },
+        p3: { ...VittorioBasso24 },
+        p4: { ...EdoardoPicogna24 },
+        p5: { ...DavidGaspardo24 },
     };
     ft73.total_cost = ft73.p1.cost + ft73.p2.cost + ft73.p3.cost + ft73.p4.cost + ft73.p5.cost;
     ft73.tot_g1 = ft73.p1.g1 + ft73.p2.g1 + ft73.p3.g1 + ft73.p4.g1 + ft73.p5.g1;
@@ -2500,11 +2500,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 74,
         name: "NORDmania",
         rione: { ...NORD },
-        p1: { ...GioeleTudini },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...FilippoPasquon },
-        p4: { ...MatteoSpagnolo },
-        p5: { ...MattiaMasotti },
+        p1: { ...GioeleTudini24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...FilippoPasquon24 },
+        p4: { ...MatteoSpagnolo24 },
+        p5: { ...MattiaMasotti24 },
     };
     ft74.total_cost = ft74.p1.cost + ft74.p2.cost + ft74.p3.cost + ft74.p4.cost + ft74.p5.cost;
     ft74.tot_g1 = ft74.p1.g1 + ft74.p2.g1 + ft74.p3.g1 + ft74.p4.g1 + ft74.p5.g1;
@@ -2519,11 +2519,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 75,
         name: "Ta qifsha pidhin",
         rione: { ...EST },
-        p1: { ...GionaTell },
-        p2: { ...AlessandroSantin },
-        p3: { ...MassimilianoMoretti },
-        p4: { ...MassimoBaldassi },
-        p5: { ...LarryTrevisan },
+        p1: { ...GionaTell24 },
+        p2: { ...AlessandroSantin24 },
+        p3: { ...MassimilianoMoretti24 },
+        p4: { ...MassimoBaldassi24 },
+        p5: { ...LarryTrevisan24 },
     };
     ft75.total_cost = ft75.p1.cost + ft75.p2.cost + ft75.p3.cost + ft75.p4.cost + ft75.p5.cost;
     ft75.tot_g1 = ft75.p1.g1 + ft75.p2.g1 + ft75.p3.g1 + ft75.p4.g1 + ft75.p5.g1;
@@ -2538,11 +2538,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 76,
         name: "Le bimbe di maso",
         rione: { ...EST },
-        p1: { ...MassimilianoMoretti },
-        p2: { ...MiracleObichukwu },
-        p3: { ...DenisVanin },
-        p4: { ...MassimoMasotti },
-        p5: { ...MattiaMasotti },
+        p1: { ...MassimilianoMoretti24 },
+        p2: { ...MiracleObichukwu24 },
+        p3: { ...DenisVanin24 },
+        p4: { ...MassimoMasotti24 },
+        p5: { ...MattiaMasotti24 },
     };
     ft76.total_cost = ft76.p1.cost + ft76.p2.cost + ft76.p3.cost + ft76.p4.cost + ft76.p5.cost;
     ft76.tot_g1 = ft76.p1.g1 + ft76.p2.g1 + ft76.p3.g1 + ft76.p4.g1 + ft76.p5.g1;
@@ -2557,11 +2557,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 77,
         name: "DajeRoma",
         rione: { ...NORD },
-        p1: { ...TommasoMartello },
-        p2: { ...MiracleObichukwu },
-        p3: { ...DanieleGanzit },
-        p4: { ...MassimilianoMoretti },
-        p5: { ...LucaAnedda },
+        p1: { ...TommasoMartello24 },
+        p2: { ...MiracleObichukwu24 },
+        p3: { ...DanieleGanzit24 },
+        p4: { ...MassimilianoMoretti24 },
+        p5: { ...LucaAnedda24 },
     };
     ft77.total_cost = ft77.p1.cost + ft77.p2.cost + ft77.p3.cost + ft77.p4.cost + ft77.p5.cost;
     ft77.tot_g1 = ft77.p1.g1 + ft77.p2.g1 + ft77.p3.g1 + ft77.p4.g1 + ft77.p5.g1;
@@ -2576,11 +2576,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 78,
         name: "👸🏼",
         rione: { ...NORD },
-        p1: { ...MattiaRoiatti },
-        p2: { ...MauroCuridori },
-        p3: { ...DanieleGanzit },
-        p4: { ...DiegoNata },
-        p5: { ...MatteoMargarit },
+        p1: { ...MattiaRoiatti24 },
+        p2: { ...MauroCuridori24 },
+        p3: { ...DanieleGanzit24 },
+        p4: { ...DiegoNata24 },
+        p5: { ...MatteoMargarit24 },
     };
     ft78.total_cost = ft78.p1.cost + ft78.p2.cost + ft78.p3.cost + ft78.p4.cost + ft78.p5.cost;
     ft78.tot_g1 = ft78.p1.g1 + ft78.p2.g1 + ft78.p3.g1 + ft78.p4.g1 + ft78.p5.g1;
@@ -2595,11 +2595,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 79,
         name: "Team17",
         rione: { ...WEST },
-        p1: { ...DanieleGanzit },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...MattiaMasotti },
-        p4: { ...PaoloZorzi },
-        p5: { ...MassimilianoRossi },
+        p1: { ...DanieleGanzit24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...MattiaMasotti24 },
+        p4: { ...PaoloZorzi24 },
+        p5: { ...MassimilianoRossi24 },
     };
     ft79.total_cost = ft79.p1.cost + ft79.p2.cost + ft79.p3.cost + ft79.p4.cost + ft79.p5.cost;
     ft79.tot_g1 = ft79.p1.g1 + ft79.p2.g1 + ft79.p3.g1 + ft79.p4.g1 + ft79.p5.g1;
@@ -2614,11 +2614,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 80,
         name: "Trrr.... Non va!",
         rione: { ...SUD },
-        p1: { ...GiovanniTonizzo },
-        p2: { ...AlessandroSantin },
-        p3: { ...AlessandroSant },
-        p4: { ...DevinChiarcos },
-        p5: { ...DiegoNata },
+        p1: { ...GiovanniTonizzo24 },
+        p2: { ...AlessandroSantin24 },
+        p3: { ...AlessandroSant24 },
+        p4: { ...DevinChiarcos24 },
+        p5: { ...DiegoNata24 },
     };
     ft80.total_cost = ft80.p1.cost + ft80.p2.cost + ft80.p3.cost + ft80.p4.cost + ft80.p5.cost;
     ft80.tot_g1 = ft80.p1.g1 + ft80.p2.g1 + ft80.p3.g1 + ft80.p4.g1 + ft80.p5.g1;
@@ -2633,11 +2633,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 81,
         name: "La Foca per una Codroipo Libera",
         rione: { ...NORD },
-        p1: { ...IacopoPivetta },
-        p2: { ...LarryTrevisan },
-        p3: { ...MiracleObichukwu },
-        p4: { ...ValentinoCigainero },
-        p5: { ...MarcoPolo },
+        p1: { ...IacopoPivetta24 },
+        p2: { ...LarryTrevisan24 },
+        p3: { ...MiracleObichukwu24 },
+        p4: { ...ValentinoCigainero24 },
+        p5: { ...MarcoPolo24 },
     };
     ft81.total_cost = ft81.p1.cost + ft81.p2.cost + ft81.p3.cost + ft81.p4.cost + ft81.p5.cost;
     ft81.tot_g1 = ft81.p1.g1 + ft81.p2.g1 + ft81.p3.g1 + ft81.p4.g1 + ft81.p5.g1;
@@ -2652,11 +2652,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 82,
         name: "Non capisco di pallacanestro",
         rione: { ...NORD },
-        p1: { ...MatteoMargarit },
-        p2: { ...FilippoPasquon },
-        p3: { ...LucaGemo },
-        p4: { ...StefanoPolano },
-        p5: { ...GiovanniZanin },
+        p1: { ...MatteoMargarit24 },
+        p2: { ...FilippoPasquon24 },
+        p3: { ...LucaGemo24 },
+        p4: { ...StefanoPolano24 },
+        p5: { ...GiovanniZanin24 },
     };
     ft82.total_cost = ft82.p1.cost + ft82.p2.cost + ft82.p3.cost + ft82.p4.cost + ft82.p5.cost;
     ft82.tot_g1 = ft82.p1.g1 + ft82.p2.g1 + ft82.p3.g1 + ft82.p4.g1 + ft82.p5.g1;
@@ -2671,11 +2671,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 83,
         name: "TEAM LG",
         rione: { ...NORD },
-        p1: { ...LucaGemo },
-        p2: { ...GiovanniZanin },
-        p3: { ...MatteoMargarit },
-        p4: { ...StefanoPolano },
-        p5: { ...EnricoSant },
+        p1: { ...LucaGemo24 },
+        p2: { ...GiovanniZanin24 },
+        p3: { ...MatteoMargarit24 },
+        p4: { ...StefanoPolano24 },
+        p5: { ...EnricoSant24 },
     };
     ft83.total_cost = ft83.p1.cost + ft83.p2.cost + ft83.p3.cost + ft83.p4.cost + ft83.p5.cost;
     ft83.tot_g1 = ft83.p1.g1 + ft83.p2.g1 + ft83.p3.g1 + ft83.p4.g1 + ft83.p5.g1;
@@ -2690,11 +2690,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 84,
         name: "NonCapiscoNienteDiBasket",
         rione: { ...SUD },
-        p1: { ...StefanoPolano },
-        p2: { ...GiovanniZanin },
-        p3: { ...MatteoMargarit },
-        p4: { ...MassimilianoRossi },
-        p5: { ...DanieleGanzit },
+        p1: { ...StefanoPolano24 },
+        p2: { ...GiovanniZanin24 },
+        p3: { ...MatteoMargarit24 },
+        p4: { ...MassimilianoRossi24 },
+        p5: { ...DanieleGanzit24 },
     };
     ft84.total_cost = ft84.p1.cost + ft84.p2.cost + ft84.p3.cost + ft84.p4.cost + ft84.p5.cost;
     ft84.tot_g1 = ft84.p1.g1 + ft84.p2.g1 + ft84.p3.g1 + ft84.p4.g1 + ft84.p5.g1;
@@ -2709,11 +2709,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 85,
         name: "Nipponici",
         rione: { ...EST },
-        p1: { ...AndreaMoretti },
-        p2: { ...MattiaRoiatti },
-        p3: { ...DiegoNata },
-        p4: { ...AlessandroRizzi },
-        p5: { ...PietroSoramel },
+        p1: { ...AndreaMoretti24 },
+        p2: { ...MattiaRoiatti24 },
+        p3: { ...DiegoNata24 },
+        p4: { ...AlessandroRizzi24 },
+        p5: { ...PietroSoramel24 },
     };
     ft85.total_cost = ft85.p1.cost + ft85.p2.cost + ft85.p3.cost + ft85.p4.cost + ft85.p5.cost;
     ft85.tot_g1 = ft85.p1.g1 + ft85.p2.g1 + ft85.p3.g1 + ft85.p4.g1 + ft85.p5.g1;
@@ -2728,11 +2728,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 86,
         name: "Massive Crash",
         rione: { ...EST },
-        p1: { ...LucaSoramel },
-        p2: { ...AlessandroSant },
-        p3: { ...PietroSoramel },
-        p4: { ...AlessandroRizzi },
-        p5: { ...AndreaMoretti },
+        p1: { ...LucaSoramel24 },
+        p2: { ...AlessandroSant24 },
+        p3: { ...PietroSoramel24 },
+        p4: { ...AlessandroRizzi24 },
+        p5: { ...AndreaMoretti24 },
     };
     ft86.total_cost = ft86.p1.cost + ft86.p2.cost + ft86.p3.cost + ft86.p4.cost + ft86.p5.cost;
     ft86.tot_g1 = ft86.p1.g1 + ft86.p2.g1 + ft86.p3.g1 + ft86.p4.g1 + ft86.p5.g1;
@@ -2747,11 +2747,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 87,
         name: "gigiovena",
         rione: { ...NORD },
-        p1: { ...GiovanniTonizzo },
-        p2: { ...PietroSoramel },
-        p3: { ...AlessandroRizzi },
-        p4: { ...MarcoSerrao },
-        p5: { ...VittorioGri },
+        p1: { ...GiovanniTonizzo24 },
+        p2: { ...PietroSoramel24 },
+        p3: { ...AlessandroRizzi24 },
+        p4: { ...MarcoSerrao24 },
+        p5: { ...VittorioGri24 },
     };
     ft87.total_cost = ft87.p1.cost + ft87.p2.cost + ft87.p3.cost + ft87.p4.cost + ft87.p5.cost;
     ft87.tot_g1 = ft87.p1.g1 + ft87.p2.g1 + ft87.p3.g1 + ft87.p4.g1 + ft87.p5.g1;
@@ -2766,11 +2766,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 88,
         name: "pausa giacomone",
         rione: { ...SUD },
-        p1: { ...ChristianFedrizzi },
-        p2: { ...VittorioGri },
-        p3: { ...MatteoSpagnolo },
-        p4: { ...PaoloZorzi },
-        p5: { ...DavidGaspardo },
+        p1: { ...ChristianFedrizzi24 },
+        p2: { ...VittorioGri24 },
+        p3: { ...MatteoSpagnolo24 },
+        p4: { ...PaoloZorzi24 },
+        p5: { ...DavidGaspardo24 },
     };
     ft88.total_cost = ft88.p1.cost + ft88.p2.cost + ft88.p3.cost + ft88.p4.cost + ft88.p5.cost;
     ft88.tot_g1 = ft88.p1.g1 + ft88.p2.g1 + ft88.p3.g1 + ft88.p4.g1 + ft88.p5.g1;
@@ -2785,11 +2785,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 89,
         name: "Michael Scott's Tots",
         rione: { ...NORD },
-        p1: { ...DavidGaspardo },
-        p2: { ...MiracleObichukwu },
-        p3: { ...AlessioFurlan },
-        p4: { ...DiegoNata },
-        p5: { ...MarcoPolo },
+        p1: { ...DavidGaspardo24 },
+        p2: { ...MiracleObichukwu24 },
+        p3: { ...AlessioFurlan24 },
+        p4: { ...DiegoNata24 },
+        p5: { ...MarcoPolo24 },
     };
     ft89.total_cost = ft89.p1.cost + ft89.p2.cost + ft89.p3.cost + ft89.p4.cost + ft89.p5.cost;
     ft89.tot_g1 = ft89.p1.g1 + ft89.p2.g1 + ft89.p3.g1 + ft89.p4.g1 + ft89.p5.g1;
@@ -2804,11 +2804,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 90,
         name: "ee4",
         rione: { ...SUD },
-        p1: { ...ValentinoCigainero },
-        p2: { ...MauroCuridori },
-        p3: { ...MicheleDeAnna },
-        p4: { ...MattiaMasotti },
-        p5: { ...TommasoMartello },
+        p1: { ...ValentinoCigainero24 },
+        p2: { ...MauroCuridori24 },
+        p3: { ...MicheleDeAnna24 },
+        p4: { ...MattiaMasotti24 },
+        p5: { ...TommasoMartello24 },
     };
     ft90.total_cost = ft90.p1.cost + ft90.p2.cost + ft90.p3.cost + ft90.p4.cost + ft90.p5.cost;
     ft90.tot_g1 = ft90.p1.g1 + ft90.p2.g1 + ft90.p3.g1 + ft90.p4.g1 + ft90.p5.g1;
@@ -2823,11 +2823,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 91,
         name: "Utopia (:",
         rione: { ...WEST },
-        p1: { ...AndreaMoretti },
-        p2: { ...AlessandroRojatti },
-        p3: { ...MarcoRizzi },
-        p4: { ...MassimilianoMoretti },
-        p5: { ...AlessandroRizzi },
+        p1: { ...AndreaMoretti24 },
+        p2: { ...AlessandroRojatti24 },
+        p3: { ...MarcoRizzi24 },
+        p4: { ...MassimilianoMoretti24 },
+        p5: { ...AlessandroRizzi24 },
     };
     ft91.total_cost = ft91.p1.cost + ft91.p2.cost + ft91.p3.cost + ft91.p4.cost + ft91.p5.cost;
     ft91.tot_g1 = ft91.p1.g1 + ft91.p2.g1 + ft91.p3.g1 + ft91.p4.g1 + ft91.p5.g1;
@@ -2842,11 +2842,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 92,
         name: "AirBall",
         rione: { ...EST },
-        p1: { ...AlessandroRojatti },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...AlessandroRizzi },
-        p4: { ...AntonioGri },
-        p5: { ...LucaAnedda },
+        p1: { ...AlessandroRojatti24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...AlessandroRizzi24 },
+        p4: { ...AntonioGri24 },
+        p5: { ...LucaAnedda24 },
     };
     ft92.total_cost = ft92.p1.cost + ft92.p2.cost + ft92.p3.cost + ft92.p4.cost + ft92.p5.cost;
     ft92.tot_g1 = ft92.p1.g1 + ft92.p2.g1 + ft92.p3.g1 + ft92.p4.g1 + ft92.p5.g1;
@@ -2861,11 +2861,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 93,
         name: "Panade",
         rione: { ...NORD },
-        p1: { ...AntonioGri },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...AlessandroRizzi },
-        p4: { ...AlessandroRojatti },
-        p5: { ...AndreaMoretti },
+        p1: { ...AntonioGri24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...AlessandroRizzi24 },
+        p4: { ...AlessandroRojatti24 },
+        p5: { ...AndreaMoretti24 },
     };
     ft93.total_cost = ft93.p1.cost + ft93.p2.cost + ft93.p3.cost + ft93.p4.cost + ft93.p5.cost;
     ft93.tot_g1 = ft93.p1.g1 + ft93.p2.g1 + ft93.p3.g1 + ft93.p4.g1 + ft93.p5.g1;
@@ -2880,11 +2880,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 94,
         name: "DD",
         rione: { ...WEST },
-        p1: { ...MassimoMasotti },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...AlessandroRizzi },
-        p4: { ...AntonioGri },
-        p5: { ...MatteoBazzaro },
+        p1: { ...MassimoMasotti24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...AlessandroRizzi24 },
+        p4: { ...AntonioGri24 },
+        p5: { ...MatteoBazzaro24 },
     };
     ft94.total_cost = ft94.p1.cost + ft94.p2.cost + ft94.p3.cost + ft94.p4.cost + ft94.p5.cost;
     ft94.tot_g1 = ft94.p1.g1 + ft94.p2.g1 + ft94.p3.g1 + ft94.p4.g1 + ft94.p5.g1;
@@ -2899,11 +2899,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 95,
         name: "West4ever",
         rione: { ...WEST },
-        p1: { ...LucaSoramel },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...AndreaMoretti },
-        p4: { ...EnricoSant },
-        p5: { ...StefanoPolano },
+        p1: { ...LucaSoramel24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...AndreaMoretti24 },
+        p4: { ...EnricoSant24 },
+        p5: { ...StefanoPolano24 },
     };
     ft95.total_cost = ft95.p1.cost + ft95.p2.cost + ft95.p3.cost + ft95.p4.cost + ft95.p5.cost;
     ft95.tot_g1 = ft95.p1.g1 + ft95.p2.g1 + ft95.p3.g1 + ft95.p4.g1 + ft95.p5.g1;
@@ -2918,11 +2918,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 96,
         name: "Uoff",
         rione: { ...SUD },
-        p1: { ...MassimilianoMoretti },
-        p2: { ...MarcoRizzi },
-        p3: { ...LucaAnedda },
-        p4: { ...MattiaRoiatti },
-        p5: { ...AlessandroRizzi },
+        p1: { ...MassimilianoMoretti24 },
+        p2: { ...MarcoRizzi24 },
+        p3: { ...LucaAnedda24 },
+        p4: { ...MattiaRoiatti24 },
+        p5: { ...AlessandroRizzi24 },
     };
     ft96.total_cost = ft96.p1.cost + ft96.p2.cost + ft96.p3.cost + ft96.p4.cost + ft96.p5.cost;
     ft96.tot_g1 = ft96.p1.g1 + ft96.p2.g1 + ft96.p3.g1 + ft96.p4.g1 + ft96.p5.g1;
@@ -2937,11 +2937,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 97,
         name: "SimoVinny",
         rione: { ...SUD },
-        p1: { ...ValentinoCigainero },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...DavideFaurlin },
-        p4: { ...MattiaMasotti },
-        p5: { ...MarcoRizzi },
+        p1: { ...ValentinoCigainero24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...DavideFaurlin24 },
+        p4: { ...MattiaMasotti24 },
+        p5: { ...MarcoRizzi24 },
     };
     ft97.total_cost = ft97.p1.cost + ft97.p2.cost + ft97.p3.cost + ft97.p4.cost + ft97.p5.cost;
     ft97.tot_g1 = ft97.p1.g1 + ft97.p2.g1 + ft97.p3.g1 + ft97.p4.g1 + ft97.p5.g1;
@@ -2956,11 +2956,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 98,
         name: "Verità per GR",
         rione: { ...NORD },
-        p1: { ...MattiaRoiatti },
-        p2: { ...LucaAnedda },
-        p3: { ...MassimilianoMoretti },
-        p4: { ...MarcoRizzi },
-        p5: { ...FilippoPasquon },
+        p1: { ...MattiaRoiatti24 },
+        p2: { ...LucaAnedda24 },
+        p3: { ...MassimilianoMoretti24 },
+        p4: { ...MarcoRizzi24 },
+        p5: { ...FilippoPasquon24 },
     };
     ft98.total_cost = ft98.p1.cost + ft98.p2.cost + ft98.p3.cost + ft98.p4.cost + ft98.p5.cost;
     ft98.tot_g1 = ft98.p1.g1 + ft98.p2.g1 + ft98.p3.g1 + ft98.p4.g1 + ft98.p5.g1;
@@ -2975,11 +2975,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 99,
         name: "Maestro Shifu",
         rione: { ...NORD },
-        p1: { ...MattiaRoiatti },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...AlessandroRizzi },
-        p4: { ...MarcoRizzi },
-        p5: { ...AndreaMoretti },
+        p1: { ...MattiaRoiatti24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...AlessandroRizzi24 },
+        p4: { ...MarcoRizzi24 },
+        p5: { ...AndreaMoretti24 },
     };
     ft99.total_cost = ft99.p1.cost + ft99.p2.cost + ft99.p3.cost + ft99.p4.cost + ft99.p5.cost;
     ft99.tot_g1 = ft99.p1.g1 + ft99.p2.g1 + ft99.p3.g1 + ft99.p4.g1 + ft99.p5.g1;
@@ -2994,11 +2994,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 100,
         name: "A tutta birra",
         rione: { ...NORD },
-        p1: { ...MarcoRizzi },
-        p2: { ...LucaSoramel },
-        p3: { ...EugenioDeTina },
-        p4: { ...MassimilianoMoretti },
-        p5: { ...EnricoSant },
+        p1: { ...MarcoRizzi24 },
+        p2: { ...LucaSoramel24 },
+        p3: { ...EugenioDeTina24 },
+        p4: { ...MassimilianoMoretti24 },
+        p5: { ...EnricoSant24 },
     };
     ft100.total_cost = ft100.p1.cost + ft100.p2.cost + ft100.p3.cost + ft100.p4.cost + ft100.p5.cost;
     ft100.tot_g1 = ft100.p1.g1 + ft100.p2.g1 + ft100.p3.g1 + ft100.p4.g1 + ft100.p5.g1;
@@ -3013,11 +3013,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 101,
         name: "Bitchass",
         rione: { ...WEST },
-        p1: { ...MarcoRizzi },
-        p2: { ...MassimilianoMoretti },
-        p3: { ...LucaAnedda },
-        p4: { ...LucaSoramel },
-        p5: { ...MattiaRoiatti },
+        p1: { ...MarcoRizzi24 },
+        p2: { ...MassimilianoMoretti24 },
+        p3: { ...LucaAnedda24 },
+        p4: { ...LucaSoramel24 },
+        p5: { ...MattiaRoiatti24 },
     };
     ft101.total_cost = ft101.p1.cost + ft101.p2.cost + ft101.p3.cost + ft101.p4.cost + ft101.p5.cost;
     ft101.tot_g1 = ft101.p1.g1 + ft101.p2.g1 + ft101.p3.g1 + ft101.p4.g1 + ft101.p5.g1;
@@ -3032,11 +3032,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 102,
         name: "Azzzzz",
         rione: { ...EST },
-        p1: { ...GiovanniTonizzo },
-        p2: { ...ChristianZanet },
-        p3: { ...MicheleDeAnna },
-        p4: { ...MattiaRoiatti },
-        p5: { ...AlessandroCostantini },
+        p1: { ...GiovanniTonizzo24 },
+        p2: { ...ChristianZanet24 },
+        p3: { ...MicheleDeAnna24 },
+        p4: { ...MattiaRoiatti24 },
+        p5: { ...AlessandroCostantini24 },
     };
     ft102.total_cost = ft102.p1.cost + ft102.p2.cost + ft102.p3.cost + ft102.p4.cost + ft102.p5.cost;
     ft102.tot_g1 = ft102.p1.g1 + ft102.p2.g1 + ft102.p3.g1 + ft102.p4.g1 + ft102.p5.g1;
@@ -3051,11 +3051,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 103,
         name: "Super chicche",
         rione: { ...WEST },
-        p1: { ...LucaSoramel },
-        p2: { ...GiovanniTonizzo },
-        p3: { ...MarcoRizzi },
-        p4: { ...MassimilianoMoretti },
-        p5: { ...VittorioGri },
+        p1: { ...LucaSoramel24 },
+        p2: { ...GiovanniTonizzo24 },
+        p3: { ...MarcoRizzi24 },
+        p4: { ...MassimilianoMoretti24 },
+        p5: { ...VittorioGri24 },
     };
     ft103.total_cost = ft103.p1.cost + ft103.p2.cost + ft103.p3.cost + ft103.p4.cost + ft103.p5.cost;
     ft103.tot_g1 = ft103.p1.g1 + ft103.p2.g1 + ft103.p3.g1 + ft103.p4.g1 + ft103.p5.g1;
@@ -3070,11 +3070,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 104,
         name: "il Fanto Padre",
         rione: { ...NORD },
-        p1: { ...LucaDellaLonga },
-        p2: { ...GiovanniZanin },
-        p3: { ...GiovanniTonizzo },
-        p4: { ...GiacomoPiacentini },
-        p5: { ...MarcoLombardo },
+        p1: { ...LucaDellaLonga24 },
+        p2: { ...GiovanniZanin24 },
+        p3: { ...GiovanniTonizzo24 },
+        p4: { ...GiacomoPiacentini24 },
+        p5: { ...MarcoLombardo24 },
     };
     ft104.total_cost = ft104.p1.cost + ft104.p2.cost + ft104.p3.cost + ft104.p4.cost + ft104.p5.cost;
     ft104.tot_g1 = ft104.p1.g1 + ft104.p2.g1 + ft104.p3.g1 + ft104.p4.g1 + ft104.p5.g1;
@@ -3089,11 +3089,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 105,
         name: "dunk",
         rione: { ...WEST },
-        p1: { ...LucaSoramel },
-        p2: { ...PaoloZorzi },
-        p3: { ...ChristianFedrizzi },
-        p4: { ...EmanueleDaneluzzi },
-        p5: { ...FilippoAgnoluzzi },
+        p1: { ...LucaSoramel24 },
+        p2: { ...PaoloZorzi24 },
+        p3: { ...ChristianFedrizzi24 },
+        p4: { ...EmanueleDaneluzzi24 },
+        p5: { ...FilippoAgnoluzzi24 },
     };
     ft105.total_cost = ft105.p1.cost + ft105.p2.cost + ft105.p3.cost + ft105.p4.cost + ft105.p5.cost;
     ft105.tot_g1 = ft105.p1.g1 + ft105.p2.g1 + ft105.p3.g1 + ft105.p4.g1 + ft105.p5.g1;
@@ -3108,11 +3108,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 106,
         name: "Vitellonseeee",
         rione: { ...SUD },
-        p1: { ...AlessandroSantin },
-        p2: { ...MattiaMasotti },
-        p3: { ...AlessandroSant },
-        p4: { ...GiacomoPiacentini },
-        p5: { ...AlessandroCostantini },
+        p1: { ...AlessandroSantin24 },
+        p2: { ...MattiaMasotti24 },
+        p3: { ...AlessandroSant24 },
+        p4: { ...GiacomoPiacentini24 },
+        p5: { ...AlessandroCostantini24 },
     };
     ft106.total_cost = ft106.p1.cost + ft106.p2.cost + ft106.p3.cost + ft106.p4.cost + ft106.p5.cost;
     ft106.tot_g1 = ft106.p1.g1 + ft106.p2.g1 + ft106.p3.g1 + ft106.p4.g1 + ft106.p5.g1;
@@ -3127,11 +3127,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 107,
         name: "Visca",
         rione: { ...NORD },
-        p1: { ...GiacomoSilvestri },
-        p2: { ...LarryTrevisan },
-        p3: { ...ChristianZanet },
-        p4: { ...MicheleDeAnna },
-        p5: { ...AlessandroRizzi },
+        p1: { ...GiacomoSilvestri24 },
+        p2: { ...LarryTrevisan24 },
+        p3: { ...ChristianZanet24 },
+        p4: { ...MicheleDeAnna24 },
+        p5: { ...AlessandroRizzi24 },
     };
     ft107.total_cost = ft107.p1.cost + ft107.p2.cost + ft107.p3.cost + ft107.p4.cost + ft107.p5.cost;
     ft107.tot_g1 = ft107.p1.g1 + ft107.p2.g1 + ft107.p3.g1 + ft107.p4.g1 + ft107.p5.g1;
@@ -3146,11 +3146,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 108,
         name: "Ailantus",
         rione: { ...WEST },
-        p1: { ...MarcoRizzi },
-        p2: { ...MatteoMargarit },
-        p3: { ...ChristianZanet },
-        p4: { ...AlessandroRizzi },
-        p5: { ...MicheleDeAnna },
+        p1: { ...MarcoRizzi24 },
+        p2: { ...MatteoMargarit24 },
+        p3: { ...ChristianZanet24 },
+        p4: { ...AlessandroRizzi24 },
+        p5: { ...MicheleDeAnna24 },
     };
     ft108.total_cost = ft108.p1.cost + ft108.p2.cost + ft108.p3.cost + ft108.p4.cost + ft108.p5.cost;
     ft108.tot_g1 = ft108.p1.g1 + ft108.p2.g1 + ft108.p3.g1 + ft108.p4.g1 + ft108.p5.g1;
@@ -3165,11 +3165,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 109,
         name: "Giangi",
         rione: { ...WEST },
-        p1: { ...ChristianFedrizzi },
-        p2: { ...GiacomoFerigo },
-        p3: { ...MicheleVendrame },
-        p4: { ...LorenzoSchinella },
-        p5: { ...DavideBroggi },
+        p1: { ...ChristianFedrizzi24 },
+        p2: { ...GiacomoFerigo24 },
+        p3: { ...MicheleVendrame24 },
+        p4: { ...LorenzoSchinella24 },
+        p5: { ...DavideBroggi24 },
     };
     ft109.total_cost = ft109.p1.cost + ft109.p2.cost + ft109.p3.cost + ft109.p4.cost + ft109.p5.cost;
     ft109.tot_g1 = ft109.p1.g1 + ft109.p2.g1 + ft109.p3.g1 + ft109.p4.g1 + ft109.p5.g1;
@@ -3184,11 +3184,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 110,
         name: "PSYCHO P",
         rione: { ...NORD },
-        p1: { ...MarcoLombardo },
-        p2: { ...MarcoSerrao },
-        p3: { ...FilippoPasquon },
-        p4: { ...AlessandroCostantini },
-        p5: { ...VittorioBasso },
+        p1: { ...MarcoLombardo24 },
+        p2: { ...MarcoSerrao24 },
+        p3: { ...FilippoPasquon24 },
+        p4: { ...AlessandroCostantini24 },
+        p5: { ...VittorioBasso24 },
     };
     ft110.total_cost = ft110.p1.cost + ft110.p2.cost + ft110.p3.cost + ft110.p4.cost + ft110.p5.cost;
     ft110.tot_g1 = ft110.p1.g1 + ft110.p2.g1 + ft110.p3.g1 + ft110.p4.g1 + ft110.p5.g1;
@@ -3203,11 +3203,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 111,
         name: "fantadario",
         rione: { ...WEST },
-        p1: { ...LarryTrevisan },
-        p2: { ...FilippoPasquon },
-        p3: { ...AlessandroSant },
-        p4: { ...AlessandroGalassi },
-        p5: { ...MattiaMasotti },
+        p1: { ...LarryTrevisan24 },
+        p2: { ...FilippoPasquon24 },
+        p3: { ...AlessandroSant24 },
+        p4: { ...AlessandroGalassi24 },
+        p5: { ...MattiaMasotti24 },
     };
     ft111.total_cost = ft111.p1.cost + ft111.p2.cost + ft111.p3.cost + ft111.p4.cost + ft111.p5.cost;
     ft111.tot_g1 = ft111.p1.g1 + ft111.p2.g1 + ft111.p3.g1 + ft111.p4.g1 + ft111.p5.g1;
@@ -3222,11 +3222,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 112,
         name: "Leggende",
         rione: { ...NORD },
-        p1: { ...LarryTrevisan },
-        p2: { ...DanieleGanzit },
-        p3: { ...MarcoPolo },
-        p4: { ...MarcoSerrao },
-        p5: { ...AlessandroSant },
+        p1: { ...LarryTrevisan24 },
+        p2: { ...DanieleGanzit24 },
+        p3: { ...MarcoPolo24 },
+        p4: { ...MarcoSerrao24 },
+        p5: { ...AlessandroSant24 },
     };
     ft112.total_cost = ft112.p1.cost + ft112.p2.cost + ft112.p3.cost + ft112.p4.cost + ft112.p5.cost;
     ft112.tot_g1 = ft112.p1.g1 + ft112.p2.g1 + ft112.p3.g1 + ft112.p4.g1 + ft112.p5.g1;
@@ -3241,11 +3241,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 113,
         name: "Paperelle gay",
         rione: { ...EST },
-        p1: { ...EnricoSant },
-        p2: { ...WilliamIob },
-        p3: { ...AlessandroCostantini },
-        p4: { ...MarcoSerrao },
-        p5: { ...DenisVanin },
+        p1: { ...EnricoSant24 },
+        p2: { ...WilliamIob24 },
+        p3: { ...AlessandroCostantini24 },
+        p4: { ...MarcoSerrao24 },
+        p5: { ...DenisVanin24 },
     };
     ft113.total_cost = ft113.p1.cost + ft113.p2.cost + ft113.p3.cost + ft113.p4.cost + ft113.p5.cost;
     ft113.tot_g1 = ft113.p1.g1 + ft113.p2.g1 + ft113.p3.g1 + ft113.p4.g1 + ft113.p5.g1;
@@ -3260,11 +3260,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 114,
         name: "CIPPI",
         rione: { ...NORD },
-        p1: { ...AlessandroCostantini },
-        p2: { ...VittorioGri },
-        p3: { ...LucaSoramel },
-        p4: { ...GionaTell },
-        p5: { ...AlessandroSant },
+        p1: { ...AlessandroCostantini24 },
+        p2: { ...VittorioGri24 },
+        p3: { ...LucaSoramel24 },
+        p4: { ...GionaTell24 },
+        p5: { ...AlessandroSant24 },
     };
     ft114.total_cost = ft114.p1.cost + ft114.p2.cost + ft114.p3.cost + ft114.p4.cost + ft114.p5.cost;
     ft114.tot_g1 = ft114.p1.g1 + ft114.p2.g1 + ft114.p3.g1 + ft114.p4.g1 + ft114.p5.g1;
@@ -3279,11 +3279,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 115,
         name: "Samu & Ema",
         rione: { ...EST },
-        p1: { ...AlessandroCostantini },
-        p2: { ...EnricoSant },
-        p3: { ...MattiaMasotti },
-        p4: { ...FilippoPasquon },
-        p5: { ...AlessandroRizzi },
+        p1: { ...AlessandroCostantini24 },
+        p2: { ...EnricoSant24 },
+        p3: { ...MattiaMasotti24 },
+        p4: { ...FilippoPasquon24 },
+        p5: { ...AlessandroRizzi24 },
     };
     ft115.total_cost = ft115.p1.cost + ft115.p2.cost + ft115.p3.cost + ft115.p4.cost + ft115.p5.cost;
     ft115.tot_g1 = ft115.p1.g1 + ft115.p2.g1 + ft115.p3.g1 + ft115.p4.g1 + ft115.p5.g1;
@@ -3298,11 +3298,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 116,
         name: "Robur Nazionale",
         rione: { ...WEST },
-        p1: { ...AlessandroRizzi },
-        p2: { ...MattiaMasotti },
-        p3: { ...MarcoSerrao },
-        p4: { ...MicheleDeAnna },
-        p5: { ...MiracleObichukwu },
+        p1: { ...AlessandroRizzi24 },
+        p2: { ...MattiaMasotti24 },
+        p3: { ...MarcoSerrao24 },
+        p4: { ...MicheleDeAnna24 },
+        p5: { ...MiracleObichukwu24 },
     };
     ft116.total_cost = ft116.p1.cost + ft116.p2.cost + ft116.p3.cost + ft116.p4.cost + ft116.p5.cost;
     ft116.tot_g1 = ft116.p1.g1 + ft116.p2.g1 + ft116.p3.g1 + ft116.p4.g1 + ft116.p5.g1;
@@ -3317,11 +3317,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 117,
         name: "Giacomone",
         rione: { ...SUD },
-        p1: { ...MatteoSpagnolo },
-        p2: { ...ChristianZanet },
-        p3: { ...VittorioGri },
-        p4: { ...AlessandroSant },
-        p5: { ...WilliamIob },
+        p1: { ...MatteoSpagnolo24 },
+        p2: { ...ChristianZanet24 },
+        p3: { ...VittorioGri24 },
+        p4: { ...AlessandroSant24 },
+        p5: { ...WilliamIob24 },
     };
     ft117.total_cost = ft117.p1.cost + ft117.p2.cost + ft117.p3.cost + ft117.p4.cost + ft117.p5.cost;
     ft117.tot_g1 = ft117.p1.g1 + ft117.p2.g1 + ft117.p3.g1 + ft117.p4.g1 + ft117.p5.g1;
@@ -3336,11 +3336,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 118,
         name: "Team Canaja",
         rione: { ...NORD },
-        p1: { ...MarcoLombardo },
-        p2: { ...DiegoNata },
-        p3: { ...DanieleGanzit },
-        p4: { ...EnricoSant },
-        p5: { ...AlessioFurlan },
+        p1: { ...MarcoLombardo24 },
+        p2: { ...DiegoNata24 },
+        p3: { ...DanieleGanzit24 },
+        p4: { ...EnricoSant24 },
+        p5: { ...AlessioFurlan24 },
     };
     ft118.total_cost = ft118.p1.cost + ft118.p2.cost + ft118.p3.cost + ft118.p4.cost + ft118.p5.cost;
     ft118.tot_g1 = ft118.p1.g1 + ft118.p2.g1 + ft118.p3.g1 + ft118.p4.g1 + ft118.p5.g1;
@@ -3355,11 +3355,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 119,
         name: "Trrrr non va",
         rione: { ...SUD },
-        p1: { ...DiegoNata },
-        p2: { ...AndreaMoretti },
-        p3: { ...AlessioFurlan },
-        p4: { ...MarcoRizzi },
-        p5: { ...DavidGaspardo },
+        p1: { ...DiegoNata24 },
+        p2: { ...AndreaMoretti24 },
+        p3: { ...AlessioFurlan24 },
+        p4: { ...MarcoRizzi24 },
+        p5: { ...DavidGaspardo24 },
     };
     ft119.total_cost = ft119.p1.cost + ft119.p2.cost + ft119.p3.cost + ft119.p4.cost + ft119.p5.cost;
     ft119.tot_g1 = ft119.p1.g1 + ft119.p2.g1 + ft119.p3.g1 + ft119.p4.g1 + ft119.p5.g1;
@@ -3374,11 +3374,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 120,
         name: "Samu veni",
         rione: { ...SUD },
-        p1: { ...MiracleObichukwu },
-        p2: { ...AlessandroRizzi },
-        p3: { ...DavidGaspardo },
-        p4: { ...GioeleTudini },
-        p5: { ...MicheleDeAnna },
+        p1: { ...MiracleObichukwu24 },
+        p2: { ...AlessandroRizzi24 },
+        p3: { ...DavidGaspardo24 },
+        p4: { ...GioeleTudini24 },
+        p5: { ...MicheleDeAnna24 },
     };
     ft120.total_cost = ft120.p1.cost + ft120.p2.cost + ft120.p3.cost + ft120.p4.cost + ft120.p5.cost;
     ft120.tot_g1 = ft120.p1.g1 + ft120.p2.g1 + ft120.p3.g1 + ft120.p4.g1 + ft120.p5.g1;
@@ -3393,11 +3393,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 121,
         name: "Miangeles",
         rione: { ...NORD },
-        p1: { ...EdoardoPicogna },
-        p2: { ...FilippoPasquon },
-        p3: { ...RiccardoSchinella },
-        p4: { ...AlessandroSant },
-        p5: { ...GiovanniZanin },
+        p1: { ...EdoardoPicogna24 },
+        p2: { ...FilippoPasquon24 },
+        p3: { ...RiccardoSchinella24 },
+        p4: { ...AlessandroSant24 },
+        p5: { ...GiovanniZanin24 },
     };
     ft121.total_cost = ft121.p1.cost + ft121.p2.cost + ft121.p3.cost + ft121.p4.cost + ft121.p5.cost;
     ft121.tot_g1 = ft121.p1.g1 + ft121.p2.g1 + ft121.p3.g1 + ft121.p4.g1 + ft121.p5.g1;
@@ -3412,11 +3412,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 122,
         name: "Amico di Simone Cengarle",
         rione: { ...NORD },
-        p1: { ...VittorioBasso },
-        p2: { ...MarcoLombardo },
-        p3: { ...DavidGaspardo },
-        p4: { ...MatteoBazzaro },
-        p5: { ...LarryTrevisan },
+        p1: { ...VittorioBasso24 },
+        p2: { ...MarcoLombardo24 },
+        p3: { ...DavidGaspardo24 },
+        p4: { ...MatteoBazzaro24 },
+        p5: { ...LarryTrevisan24 },
     };
     ft122.total_cost = ft122.p1.cost + ft122.p2.cost + ft122.p3.cost + ft122.p4.cost + ft122.p5.cost;
     ft122.tot_g1 = ft122.p1.g1 + ft122.p2.g1 + ft122.p3.g1 + ft122.p4.g1 + ft122.p5.g1;
@@ -3431,11 +3431,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 123,
         name: "Gabrindri",
         rione: { ...EST },
-        p1: { ...LucaSoramel },
-        p2: { ...AlessioFurlan },
-        p3: { ...FilippoPasquon },
-        p4: { ...DiegoNata },
-        p5: { ...MattiaMasotti },
+        p1: { ...LucaSoramel24 },
+        p2: { ...AlessioFurlan24 },
+        p3: { ...FilippoPasquon24 },
+        p4: { ...DiegoNata24 },
+        p5: { ...MattiaMasotti24 },
     };
     ft123.total_cost = ft123.p1.cost + ft123.p2.cost + ft123.p3.cost + ft123.p4.cost + ft123.p5.cost;
     ft123.tot_g1 = ft123.p1.g1 + ft123.p2.g1 + ft123.p3.g1 + ft123.p4.g1 + ft123.p5.g1;
@@ -3450,11 +3450,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 124,
         name: "Olimpia Armadi",
         rione: { ...WEST },
-        p1: { ...MiracleObichukwu },
-        p2: { ...MarcoSerrao },
-        p3: { ...AlessandroSant },
-        p4: { ...MauroPerina },
-        p5: { ...AlessandroRizzi },
+        p1: { ...MiracleObichukwu24 },
+        p2: { ...MarcoSerrao24 },
+        p3: { ...AlessandroSant24 },
+        p4: { ...MauroPerina24 },
+        p5: { ...AlessandroRizzi24 },
     };
     ft124.total_cost = ft124.p1.cost + ft124.p2.cost + ft124.p3.cost + ft124.p4.cost + ft124.p5.cost;
     ft124.tot_g1 = ft124.p1.g1 + ft124.p2.g1 + ft124.p3.g1 + ft124.p4.g1 + ft124.p5.g1;
@@ -3469,11 +3469,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 125,
         name: "PAMPA MENTALITY",
         rione: { ...SUD },
-        p1: { ...FilippoPasquon },
-        p2: { ...MattiaMasotti },
-        p3: { ...ChristianZanet },
-        p4: { ...MiracleObichukwu },
-        p5: { ...DiegoNata },
+        p1: { ...FilippoPasquon24 },
+        p2: { ...MattiaMasotti24 },
+        p3: { ...ChristianZanet24 },
+        p4: { ...MiracleObichukwu24 },
+        p5: { ...DiegoNata24 },
     };
     ft125.total_cost = ft125.p1.cost + ft125.p2.cost + ft125.p3.cost + ft125.p4.cost + ft125.p5.cost;
     ft125.tot_g1 = ft125.p1.g1 + ft125.p2.g1 + ft125.p3.g1 + ft125.p4.g1 + ft125.p5.g1;
@@ -3488,11 +3488,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 126,
         name: "Axeliathepoliceofficer",
         rione: { ...EST },
-        p1: { ...MatteoBazzaro },
-        p2: { ...MiracleObichukwu },
-        p3: { ...MarcoRizzi },
-        p4: { ...MarcoPolo },
-        p5: { ...LucaAnedda },
+        p1: { ...MatteoBazzaro24 },
+        p2: { ...MiracleObichukwu24 },
+        p3: { ...MarcoRizzi24 },
+        p4: { ...MarcoPolo24 },
+        p5: { ...LucaAnedda24 },
     };
     ft126.total_cost = ft126.p1.cost + ft126.p2.cost + ft126.p3.cost + ft126.p4.cost + ft126.p5.cost;
     ft126.tot_g1 = ft126.p1.g1 + ft126.p2.g1 + ft126.p3.g1 + ft126.p4.g1 + ft126.p5.g1;
@@ -3507,11 +3507,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 127,
         name: "ISTANBULKEBAB GLOBETROTTERS",
         rione: { ...SUD },
-        p1: { ...ValentinoCigainero },
-        p2: { ...MicheleDeAnna },
-        p3: { ...MattiaRoiatti },
-        p4: { ...LucaAnedda },
-        p5: { ...GiacomoSilvestri },
+        p1: { ...ValentinoCigainero24 },
+        p2: { ...MicheleDeAnna24 },
+        p3: { ...MattiaRoiatti24 },
+        p4: { ...LucaAnedda24 },
+        p5: { ...GiacomoSilvestri24 },
     };
     ft127.total_cost = ft127.p1.cost + ft127.p2.cost + ft127.p3.cost + ft127.p4.cost + ft127.p5.cost;
     ft127.tot_g1 = ft127.p1.g1 + ft127.p2.g1 + ft127.p3.g1 + ft127.p4.g1 + ft127.p5.g1;
@@ -3526,11 +3526,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 128,
         name: "Wpalio",
         rione: { ...SUD },
-        p1: { ...StefanoPolano },
-        p2: { ...DavidGaspardo },
-        p3: { ...ThomasBaracetti },
-        p4: { ...AlessandroGalassi },
-        p5: { ...EmanueleDaneluzzi },
+        p1: { ...StefanoPolano24 },
+        p2: { ...DavidGaspardo24 },
+        p3: { ...ThomasBaracetti24 },
+        p4: { ...AlessandroGalassi24 },
+        p5: { ...EmanueleDaneluzzi24 },
     };
     ft128.total_cost = ft128.p1.cost + ft128.p2.cost + ft128.p3.cost + ft128.p4.cost + ft128.p5.cost;
     ft128.tot_g1 = ft128.p1.g1 + ft128.p2.g1 + ft128.p3.g1 + ft128.p4.g1 + ft128.p5.g1;
@@ -3545,11 +3545,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 129,
         name: "giulia",
         rione: { ...EST },
-        p1: { ...AlessandroRizzi },
-        p2: { ...MarcoRizzi },
-        p3: { ...LucaAnedda },
-        p4: { ...MattiaRoiatti },
-        p5: { ...EmanueleDaneluzzi },
+        p1: { ...AlessandroRizzi24 },
+        p2: { ...MarcoRizzi24 },
+        p3: { ...LucaAnedda24 },
+        p4: { ...MattiaRoiatti24 },
+        p5: { ...EmanueleDaneluzzi24 },
     };
     ft129.total_cost = ft129.p1.cost + ft129.p2.cost + ft129.p3.cost + ft129.p4.cost + ft129.p5.cost;
     ft129.tot_g1 = ft129.p1.g1 + ft129.p2.g1 + ft129.p3.g1 + ft129.p4.g1 + ft129.p5.g1;
@@ -3564,11 +3564,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 130,
         name: "giorgina",
         rione: { ...EST },
-        p1: { ...MarcoRizzi },
-        p2: { ...ValentinoCigainero },
-        p3: { ...MattiaRoiatti },
-        p4: { ...LucaAnedda },
-        p5: { ...GiacomoSilvestri },
+        p1: { ...MarcoRizzi24 },
+        p2: { ...ValentinoCigainero24 },
+        p3: { ...MattiaRoiatti24 },
+        p4: { ...LucaAnedda24 },
+        p5: { ...GiacomoSilvestri24 },
     };
     ft130.total_cost = ft130.p1.cost + ft130.p2.cost + ft130.p3.cost + ft130.p4.cost + ft130.p5.cost;
     ft130.tot_g1 = ft130.p1.g1 + ft130.p2.g1 + ft130.p3.g1 + ft130.p4.g1 + ft130.p5.g1;
@@ -3583,11 +3583,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 131,
         name: "CesoloilNordAP",
         rione: { ...NORD },
-        p1: { ...DiegoNata },
-        p2: { ...LucaAnedda },
-        p3: { ...FilippoPasquon },
-        p4: { ...AlessandroRizzi },
-        p5: { ...GiacomoPiacentini },
+        p1: { ...DiegoNata24 },
+        p2: { ...LucaAnedda24 },
+        p3: { ...FilippoPasquon24 },
+        p4: { ...AlessandroRizzi24 },
+        p5: { ...GiacomoPiacentini24 },
     };
     ft131.total_cost = ft131.p1.cost + ft131.p2.cost + ft131.p3.cost + ft131.p4.cost + ft131.p5.cost;
     ft131.tot_g1 = ft131.p1.g1 + ft131.p2.g1 + ft131.p3.g1 + ft131.p4.g1 + ft131.p5.g1;
@@ -3602,11 +3602,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 132,
         name: "Real Codroipen",
         rione: { ...WEST },
-        p1: { ...ThomasBaracetti },
-        p2: { ...GabrieleMiani },
-        p3: { ...SebastianoTonizzo },
-        p4: { ...MarcoMarchetti },
-        p5: { ...EdoardoPicogna },
+        p1: { ...ThomasBaracetti24 },
+        p2: { ...GabrieleMiani24 },
+        p3: { ...SebastianoTonizzo24 },
+        p4: { ...MarcoMarchetti24 },
+        p5: { ...EdoardoPicogna24 },
     };
     ft132.total_cost = ft132.p1.cost + ft132.p2.cost + ft132.p3.cost + ft132.p4.cost + ft132.p5.cost;
     ft132.tot_g1 = ft132.p1.g1 + ft132.p2.g1 + ft132.p3.g1 + ft132.p4.g1 + ft132.p5.g1;
@@ -3621,11 +3621,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 133,
         name: "Pix",
         rione: { ...WEST },
-        p1: { ...GiacomoPiacentini },
-        p2: { ...VittorioBasso },
-        p3: { ...MarcoSerrao },
-        p4: { ...TommasoMartello },
-        p5: { ...AlessandroRizzi },
+        p1: { ...GiacomoPiacentini24 },
+        p2: { ...VittorioBasso24 },
+        p3: { ...MarcoSerrao24 },
+        p4: { ...TommasoMartello24 },
+        p5: { ...AlessandroRizzi24 },
     };
     ft133.total_cost = ft133.p1.cost + ft133.p2.cost + ft133.p3.cost + ft133.p4.cost + ft133.p5.cost;
     ft133.tot_g1 = ft133.p1.g1 + ft133.p2.g1 + ft133.p3.g1 + ft133.p4.g1 + ft133.p5.g1;
@@ -3640,11 +3640,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 134,
         name: "FMB united",
         rione: { ...EST },
-        p1: { ...AlessandroRojatti },
-        p2: { ...GabrieleMiani },
-        p3: { ...MarcoRizzi },
-        p4: { ...MattiaRoiatti },
-        p5: { ...LucaAnedda },
+        p1: { ...AlessandroRojatti24 },
+        p2: { ...GabrieleMiani24 },
+        p3: { ...MarcoRizzi24 },
+        p4: { ...MattiaRoiatti24 },
+        p5: { ...LucaAnedda24 },
     };
     ft134.total_cost = ft134.p1.cost + ft134.p2.cost + ft134.p3.cost + ft134.p4.cost + ft134.p5.cost;
     ft134.tot_g1 = ft134.p1.g1 + ft134.p2.g1 + ft134.p3.g1 + ft134.p4.g1 + ft134.p5.g1;
@@ -3659,11 +3659,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 135,
         name: "Ghisangeles Clippers II",
         rione: { ...EST },
-        p1: { ...MattiaMasotti },
-        p2: { ...ChristianZanet },
-        p3: { ...FilippoPasquon },
-        p4: { ...DavidGaspardo },
-        p5: { ...MassimilianoRossi },
+        p1: { ...MattiaMasotti24 },
+        p2: { ...ChristianZanet24 },
+        p3: { ...FilippoPasquon24 },
+        p4: { ...DavidGaspardo24 },
+        p5: { ...MassimilianoRossi24 },
     };
     ft135.total_cost = ft135.p1.cost + ft135.p2.cost + ft135.p3.cost + ft135.p4.cost + ft135.p5.cost;
     ft135.tot_g1 = ft135.p1.g1 + ft135.p2.g1 + ft135.p3.g1 + ft135.p4.g1 + ft135.p5.g1;
@@ -3678,11 +3678,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 136,
         name: "asdfg",
         rione: { ...WEST },
-        p1: { ...MassimilianoRossi },
-        p2: { ...MassimoMasotti },
-        p3: { ...EugenioDeTina },
-        p4: { ...DenisVanin },
-        p5: { ...LucaAnedda },
+        p1: { ...MassimilianoRossi24 },
+        p2: { ...MassimoMasotti24 },
+        p3: { ...EugenioDeTina24 },
+        p4: { ...DenisVanin24 },
+        p5: { ...LucaAnedda24 },
     };
     ft136.total_cost = ft136.p1.cost + ft136.p2.cost + ft136.p3.cost + ft136.p4.cost + ft136.p5.cost;
     ft136.tot_g1 = ft136.p1.g1 + ft136.p2.g1 + ft136.p3.g1 + ft136.p4.g1 + ft136.p5.g1;
@@ -3697,11 +3697,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 137,
         name: "zioperone",
         rione: { ...NORD },
-        p1: { ...LorenzoMoro },
-        p2: { ...DavidGaspardo },
-        p3: { ...FilippoPasquon },
-        p4: { ...VittorioBasso },
-        p5: { ...WilliamIob },
+        p1: { ...LorenzoMoro24 },
+        p2: { ...DavidGaspardo24 },
+        p3: { ...FilippoPasquon24 },
+        p4: { ...VittorioBasso24 },
+        p5: { ...WilliamIob24 },
     };
     ft137.total_cost = ft137.p1.cost + ft137.p2.cost + ft137.p3.cost + ft137.p4.cost + ft137.p5.cost;
     ft137.tot_g1 = ft137.p1.g1 + ft137.p2.g1 + ft137.p3.g1 + ft137.p4.g1 + ft137.p5.g1;
@@ -3716,11 +3716,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 138,
         name: "Baskettone",
         rione: { ...NORD },
-        p1: { ...MattiaRoiatti },
-        p2: { ...GabrieleMiani },
-        p3: { ...MauroPerina },
-        p4: { ...MarcoMarchetti },
-        p5: { ...MassimoMasotti },
+        p1: { ...MattiaRoiatti24 },
+        p2: { ...GabrieleMiani24 },
+        p3: { ...MauroPerina24 },
+        p4: { ...MarcoMarchetti24 },
+        p5: { ...MassimoMasotti24 },
     };
     ft138.total_cost = ft138.p1.cost + ft138.p2.cost + ft138.p3.cost + ft138.p4.cost + ft138.p5.cost;
     ft138.tot_g1 = ft138.p1.g1 + ft138.p2.g1 + ft138.p3.g1 + ft138.p4.g1 + ft138.p5.g1;
@@ -3735,11 +3735,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 139,
         name: "Gate 2 Aeroporto Malpensa-Silvio Berlusconi Milano✈️",
         rione: { ...EST },
-        p1: { ...DavidGaspardo },
-        p2: { ...FilippoPasquon },
-        p3: { ...MarcoPolo },
-        p4: { ...MattiaMasotti },
-        p5: { ...LucaGemo },
+        p1: { ...DavidGaspardo24 },
+        p2: { ...FilippoPasquon24 },
+        p3: { ...MarcoPolo24 },
+        p4: { ...MattiaMasotti24 },
+        p5: { ...LucaGemo24 },
     };
     ft139.total_cost = ft139.p1.cost + ft139.p2.cost + ft139.p3.cost + ft139.p4.cost + ft139.p5.cost;
     ft139.tot_g1 = ft139.p1.g1 + ft139.p2.g1 + ft139.p3.g1 + ft139.p4.g1 + ft139.p5.g1;
@@ -3754,11 +3754,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 140,
         name: "Arrosto & tiro",
         rione: { ...EST },
-        p1: { ...IacopoPivetta },
-        p2: { ...WilliamIob },
-        p3: { ...DenisVanin },
-        p4: { ...DanieleGanzit },
-        p5: { ...MarcoSerrao },
+        p1: { ...IacopoPivetta24 },
+        p2: { ...WilliamIob24 },
+        p3: { ...DenisVanin24 },
+        p4: { ...DanieleGanzit24 },
+        p5: { ...MarcoSerrao24 },
     };
     ft140.total_cost = ft140.p1.cost + ft140.p2.cost + ft140.p3.cost + ft140.p4.cost + ft140.p5.cost;
     ft140.tot_g1 = ft140.p1.g1 + ft140.p2.g1 + ft140.p3.g1 + ft140.p4.g1 + ft140.p5.g1;
@@ -3773,11 +3773,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 141,
         name: "West riformulato",
         rione: { ...WEST },
-        p1: { ...VittorioGri },
-        p2: { ...ChristianZanet },
-        p3: { ...MauroPerina },
-        p4: { ...MattiaRoiatti },
-        p5: { ...AlessandroRizzi },
+        p1: { ...VittorioGri24 },
+        p2: { ...ChristianZanet24 },
+        p3: { ...MauroPerina24 },
+        p4: { ...MattiaRoiatti24 },
+        p5: { ...AlessandroRizzi24 },
     };
     ft141.total_cost = ft141.p1.cost + ft141.p2.cost + ft141.p3.cost + ft141.p4.cost + ft141.p5.cost;
     ft141.tot_g1 = ft141.p1.g1 + ft141.p2.g1 + ft141.p3.g1 + ft141.p4.g1 + ft141.p5.g1;
@@ -3792,11 +3792,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 142,
         name: "Ratflingbanana",
         rione: { ...SUD },
-        p1: { ...DavideBroggi },
-        p2: { ...MattiaMasotti },
-        p3: { ...GiacomoSilvestri },
-        p4: { ...ChristianZanet },
-        p5: { ...DavidGaspardo },
+        p1: { ...DavideBroggi24 },
+        p2: { ...MattiaMasotti24 },
+        p3: { ...GiacomoSilvestri24 },
+        p4: { ...ChristianZanet24 },
+        p5: { ...DavidGaspardo24 },
     };
     ft142.total_cost = ft142.p1.cost + ft142.p2.cost + ft142.p3.cost + ft142.p4.cost + ft142.p5.cost;
     ft142.tot_g1 = ft142.p1.g1 + ft142.p2.g1 + ft142.p3.g1 + ft142.p4.g1 + ft142.p5.g1;
@@ -3811,11 +3811,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 143,
         name: "Ducks",
         rione: { ...NORD },
-        p1: { ...MarcoRizzi },
-        p2: { ...MarcoLombardo },
-        p3: { ...DavidGaspardo },
-        p4: { ...FilippoPasquon },
-        p5: { ...LorenzoMoro },
+        p1: { ...MarcoRizzi24 },
+        p2: { ...MarcoLombardo24 },
+        p3: { ...DavidGaspardo24 },
+        p4: { ...FilippoPasquon24 },
+        p5: { ...LorenzoMoro24 },
     };
     ft143.total_cost = ft143.p1.cost + ft143.p2.cost + ft143.p3.cost + ft143.p4.cost + ft143.p5.cost;
     ft143.tot_g1 = ft143.p1.g1 + ft143.p2.g1 + ft143.p3.g1 + ft143.p4.g1 + ft143.p5.g1;
@@ -3830,11 +3830,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 144,
         name: "Trevi BC",
         rione: { ...SUD },
-        p1: { ...DavidGaspardo },
-        p2: { ...FilippoPasquon },
-        p3: { ...MarcoLombardo },
-        p4: { ...EnricoSant },
-        p5: { ...MarcoRizzi },
+        p1: { ...DavidGaspardo24 },
+        p2: { ...FilippoPasquon24 },
+        p3: { ...MarcoLombardo24 },
+        p4: { ...EnricoSant24 },
+        p5: { ...MarcoRizzi24 },
     };
     ft144.total_cost = ft144.p1.cost + ft144.p2.cost + ft144.p3.cost + ft144.p4.cost + ft144.p5.cost;
     ft144.tot_g1 = ft144.p1.g1 + ft144.p2.g1 + ft144.p3.g1 + ft144.p4.g1 + ft144.p5.g1;
@@ -3849,11 +3849,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 145,
         name: "FIRETEAM!",
         rione: { ...NORD },
-        p1: { ...VittorioGri },
-        p2: { ...MarcoLombardo },
-        p3: { ...MarcoSerrao },
-        p4: { ...AlessandroRizzi },
-        p5: { ...VittorioBasso },
+        p1: { ...VittorioGri24 },
+        p2: { ...MarcoLombardo24 },
+        p3: { ...MarcoSerrao24 },
+        p4: { ...AlessandroRizzi24 },
+        p5: { ...VittorioBasso24 },
     };
     ft145.total_cost = ft145.p1.cost + ft145.p2.cost + ft145.p3.cost + ft145.p4.cost + ft145.p5.cost;
     ft145.tot_g1 = ft145.p1.g1 + ft145.p2.g1 + ft145.p3.g1 + ft145.p4.g1 + ft145.p5.g1;
@@ -3868,11 +3868,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 146,
         name: "Orsa",
         rione: { ...NORD },
-        p1: { ...GabrieleMiani },
-        p2: { ...LucaAnedda },
-        p3: { ...AlessandroSantin },
-        p4: { ...LucaDellaLonga },
-        p5: { ...MarcoPolo },
+        p1: { ...GabrieleMiani24 },
+        p2: { ...LucaAnedda24 },
+        p3: { ...AlessandroSantin24 },
+        p4: { ...LucaDellaLonga24 },
+        p5: { ...MarcoPolo24 },
     };
     ft146.total_cost = ft146.p1.cost + ft146.p2.cost + ft146.p3.cost + ft146.p4.cost + ft146.p5.cost;
     ft146.tot_g1 = ft146.p1.g1 + ft146.p2.g1 + ft146.p3.g1 + ft146.p4.g1 + ft146.p5.g1;
@@ -3887,11 +3887,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 147,
         name: "Fantasia 0",
         rione: { ...NORD },
-        p1: { ...GioeleTudini },
-        p2: { ...GabrieleMiani },
-        p3: { ...MarcoMarchetti },
-        p4: { ...MicheleVendrame },
-        p5: { ...LorenzoSchinella },
+        p1: { ...GioeleTudini24 },
+        p2: { ...GabrieleMiani24 },
+        p3: { ...MarcoMarchetti24 },
+        p4: { ...MicheleVendrame24 },
+        p5: { ...LorenzoSchinella24 },
     };
     ft147.total_cost = ft147.p1.cost + ft147.p2.cost + ft147.p3.cost + ft147.p4.cost + ft147.p5.cost;
     ft147.tot_g1 = ft147.p1.g1 + ft147.p2.g1 + ft147.p3.g1 + ft147.p4.g1 + ft147.p5.g1;
@@ -3906,11 +3906,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 148,
         name: "Los Vikingos	-",
         rione: { ...NORD },
-        p1: { ...MarcoRizzi },
-        p2: { ...AlessandroRizzi },
-        p3: { ...DiegoNata },
-        p4: { ...LucaSoramel },
-        p5: { ...VittorioGri },
+        p1: { ...MarcoRizzi24 },
+        p2: { ...AlessandroRizzi24 },
+        p3: { ...DiegoNata24 },
+        p4: { ...LucaSoramel24 },
+        p5: { ...VittorioGri24 },
     };
     ft148.total_cost = ft148.p1.cost + ft148.p2.cost + ft148.p3.cost + ft148.p4.cost + ft148.p5.cost;
     ft148.tot_g1 = ft148.p1.g1 + ft148.p2.g1 + ft148.p3.g1 + ft148.p4.g1 + ft148.p5.g1;
@@ -3925,11 +3925,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 149,
         name: "Quelli di zona	-",
         rione: { ...EST },
-        p1: { ...AndreaMoretti },
-        p2: { ...AlessandroRizzi },
-        p3: { ...DiegoNata },
-        p4: { ...MassimilianoRossi },
-        p5: { ...LucaSoramel },
+        p1: { ...AndreaMoretti24 },
+        p2: { ...AlessandroRizzi24 },
+        p3: { ...DiegoNata24 },
+        p4: { ...MassimilianoRossi24 },
+        p5: { ...LucaSoramel24 },
     };
     ft149.total_cost = ft149.p1.cost + ft149.p2.cost + ft149.p3.cost + ft149.p4.cost + ft149.p5.cost;
     ft149.tot_g1 = ft149.p1.g1 + ft149.p2.g1 + ft149.p3.g1 + ft149.p4.g1 + ft149.p5.g1;
@@ -3944,11 +3944,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 150,
         name: "Furbicomevolpi	-",
         rione: { ...EST },
-        p1: { ...MarcoSerrao },
-        p2: { ...WilliamIob },
-        p3: { ...DenisVanin },
-        p4: { ...SimoneMartinelli },
-        p5: { ...AlessandroSant },
+        p1: { ...MarcoSerrao24 },
+        p2: { ...WilliamIob24 },
+        p3: { ...DenisVanin24 },
+        p4: { ...SimoneMartinelli24 },
+        p5: { ...AlessandroSant24 },
     };
     ft150.total_cost = ft150.p1.cost + ft150.p2.cost + ft150.p3.cost + ft150.p4.cost + ft150.p5.cost;
     ft150.tot_g1 = ft150.p1.g1 + ft150.p2.g1 + ft150.p3.g1 + ft150.p4.g1 + ft150.p5.g1;
@@ -3963,11 +3963,11 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
         team_index: 151,
         name: "qwerty	-",
         rione: { ...EST },
-        p1: { ...GionaTell },
-        p2: { ...LorenzoMoro },
-        p3: { ...SimoneMartinelli },
-        p4: { ...MauroPerina },
-        p5: { ...EdoardoPicogna },
+        p1: { ...GionaTell24 },
+        p2: { ...LorenzoMoro24 },
+        p3: { ...SimoneMartinelli24 },
+        p4: { ...MauroPerina24 },
+        p5: { ...EdoardoPicogna24 },
     };
     ft151.total_cost = ft151.p1.cost + ft151.p2.cost + ft151.p3.cost + ft151.p4.cost + ft151.p5.cost;
     ft151.tot_g1 = ft151.p1.g1 + ft151.p2.g1 + ft151.p3.g1 + ft151.p4.g1 + ft151.p5.g1;
@@ -3977,6 +3977,7 @@ MattiaMasotti.final = Math.round(8.75 * 100) / 100;
     ft151.tot_td3 = ft151.p1.td3 + ft151.p2.td3 + ft151.p3.td3 + ft151.p4.td3 + ft151.p5.td3;
     ft151.tot_final = ft151.p1.final + ft151.p2.final + ft151.p3.final + ft151.p4.final + ft151.p5.final;
     ft151.tot_team = ft151.p1.tot + ft151.p2.tot + ft151.p3.tot + ft151.p4.tot + ft151.p5.tot + ft151.rione.final_points;
+    
     
     
     const fantateams = [
