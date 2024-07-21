@@ -521,3 +521,7 @@ footer {
     width: 100%;
     overflow-x: auto;
 }
+
+#tableBodyFinalNORD{
+    border: 1px solid var(--nord-color1);
+}
