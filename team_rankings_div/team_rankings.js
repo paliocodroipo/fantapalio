@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="team-card-body">
                 <div class="punteggio-info"><strong>${team.tot_team}</strong></div>
                 ${playerInfoHTML}
-                <div>${team.rione.name}(${team.rione.final_points})</div>
+                <div>${team.rione.name} (${team.rione.final_points})</div>
             </div>
         `;
         teamCardsContainer.appendChild(card);
