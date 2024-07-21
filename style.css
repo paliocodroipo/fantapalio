@@ -518,26 +518,26 @@ footer {
 .boxscore-tableWEST th {
     background-color: var(--west-color1); /* Slightly different background for header */
     color: var(--west-color2);
-    border: 1px solid var(--west-color2); /* Light grey border */
+    border: 2px solid var(--west-color2); /* Light grey border */
 
     
 }
 .boxscore-tableNORD th {
     background-color: var(--nord-color1); /* Slightly different background for header */
     color: var(--nord-color2);
-    border: 1px solid var(--nord-color2); /* Light grey border */
+    border: 2px solid var(--nord-color2); /* Light grey border */
 
 }
 .boxscore-tableSUD th {
     background-color: var(--sud-color1); /* Slightly different background for header */
     color: var(--sud-color3);
-    border: 1px solid var(--sud-color2); /* Light grey border */
+    border: 2px solid var(--sud-color2); /* Light grey border */
 
 }
 .boxscore-tableEST th {
     background-color: var(--est-color1); /* Slightly different background for header */
     color: var(--est-color3);
-    border: 1px solid var(--est-color2); /* Light grey border */
+    border: 2px solid var(--est-color2); /* Light grey border */
 
 }
 
