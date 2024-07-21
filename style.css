@@ -531,7 +531,7 @@ footer {
 .boxscore-tableSUD th {
     background-color: var(--sud-color1); /* Slightly different background for header */
     color: var(--sud-color3);
-    border: 1px solid var(--SUD-color2); /* Light grey border */
+    border: 1px solid var(--sud-color2); /* Light grey border */
 
 }
 .boxscore-tableEST th {
