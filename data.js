@@ -13,7 +13,7 @@
         semi: 0.0,
         stats_semi: Array(19).fill(0),
         td3: 0.0,
-        stats_td3: Array(19).fill(0),
+        stats_td3: Array(13).fill(0),
         final: 0.0,
         stats_final: Array(19).fill(0),
         tot: 0.0,
@@ -754,86 +754,10 @@ const MattiaMasotti24 = createPlayer("Mattia Masotti", 6, "EST");
     //     gx24_stats =                PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
     //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
 
+    GabrieleMiani24.stats_td3 = [1,0,1,1,1,1,1,0,0,1,0,0,0]
 
 
-MassimilianoMoretti24.td3 = 3
-AndreaMoretti24.td3 = 5
-LarryTrevisan24.td3 = -5
-AlessandroCostantini24.td3 = 3
-MatteoMargarit24.td3 = -5
-MauroCuridori24.td3 = 5
-ChristianZanet24.td3 = 2
-GiacomoPiacentini24.td3 = 10
-GiovanniDalFarra24.td3 = -5
-MiracleObichukwu24.td3 = -5
-LucaDellaLonga24.td3 = -5
-AlessandroRojatti24.td3 = -5
-MicheleGorasso24.td3 = -5
-GiacomoFerigo24.td3 = -5
-UmbertoNobile24.td3 = 5
-DevinChiarcos24.td3 = 0
-ValentinoCigainero24.td3 = -5
-MicheleDeAnna24.td3 = -5
-DavideParon24.td3 = 0
-AlessioFurlan24.td3 = -5
-MichaelMargarit24.td3 = -5
-SebastianoTonizzo24.td3 = 5
-DanieleGanzit24.td3 = -5
-GiacomoSilvestri24.td3 = 2
-VittorioGri24.td3 = 3
-VittorioBasso24.td3 = 2
-AlessandroRizzi24.td3 = 15
-MassimoBaldassi24.td3 = -5
-GabrieleMiani24.td3 = 33
-MarcoMarchetti24.td3 = -5
-MarcoLombardo24.td3 = 7
-MicheleVendrame24.td3 = -5
-LorenzoSchinella24.td3 = -5
-GioeleTudini24.td3 = -5
-FilippoPasquon24.td3 = 7
-TommasoMartello24.td3 = -1
-MarcoRizzi24.td3 = 1
-DavidGaspardo24.td3 = -5
-AntonioGri24.td3 = -5
-RiccardoSchinella24.td3 = -1
-SimoneMartinelli24.td3 = -5
-MatteoSpagnolo24.td3 = -1
-DavideFaurlin24.td3 = -5
-GiovanniTonizzo24.td3 = 2
-AlessandroSant24.td3 = 11
-MatteoBazzaro24.td3 = 2
-AlessandroSantin24.td3 = 0
-AlessandroGalassi24.td3 = -5
-PietroSoramel24.td3 = -1
-FilippoAgnoluzzi24.td3 = -5
-EmanueleDaneluzzi24.td3 = -5
-LucaSoramel24.td3 = 2
-PaoloZorzi24.td3 = 1
-ChristianFedrizzi24.td3 = -1
-FilippoSappa24.td3 = -5
-GiovanniZanin24.td3 = -5
-EnricoSant24.td3 = 2
-StefanoPolano24.td3 = 0
-MarcoPolo24.td3 = -5
-MarcoSerrao24.td3 = 5
-WilliamIob24.td3 = 2
-DavideBroggi24.td3 = 1
-AlexMicottis24.td3 = 2
-MassimilianoRossi24.td3 = 2
-MassimoMasotti24.td3 = 0
-EugenioDeTina24.td3 = 2
-LucaAnedda24.td3 = 1
-DenisVanin24.td3 = -5
-ThomasBaracetti24.td3 = -5
-LucaGemo24.td3 = 3
-DiegoNata24.td3 = -5
-MattiaRoiatti24.td3 = 1
-EdoardoPicogna24.td3 = 1
-MauroPerina24.td3 = -5
-LorenzoMoro24.td3 = -1
-GionaTell24.td3 = -5
-IacopoPivetta24.td3 = -5
-MattiaMasotti24.td3 = 1
+
 
 
 
@@ -1001,6 +925,8 @@ RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
     //                   0    1   2   3    4   5   6    7   8    9     10  11  12  13  14   15  16  17   18
     // gx_stats =      [PTS, 2P, 2Px, 3P, 3Px, FT, FTx, DR, OR, Rtot, ASS, TO, ST, BL, EXP, DD, TD, Win, Meme]
     const pdkWeights = [1, 0, -0.75, 0.5, -0.75, 0, -0.5, 1, 1.25,  0, 1.5, -1, 1.5, 1.5, -3,  3,  6,   2,  1];
+
+    //                   0    1       2        3       4       5       6     7    8    9    10     11     12
     // td3_stats=    [part, nopart, passa1, passa2, passa3, passa4, finale, 3rd, 2nd, 1st, 0su10, ciab, altri meme]
     const td3Weights = [1,   -5,      1,       1,      2,      2,     3,      5,   10, 20,  -2,    1  ,    1     ];
     // Calcola g1 per ogni giocatore
@@ -1049,6 +975,8 @@ RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
         player.stats_semi[16] = countGreaterThanNineSemi >= 3 ? 1 : 0;
         player.semi = sumProduct(player.stats_semi, pdkWeights);
     
+        player.td3 = sumProduct(player.stats_td3, td3Weights);
+
         player.stats_final[0] = player.stats_final[1] * 2 + player.stats_final[3] * 3 + player.stats_final[5];
         player.stats_final[9] = player.stats_final[7] + player.stats_final[8];
         const valuesToCheckFinal = [player.stats_final[0], player.stats_final[9], player.stats_final[10], player.stats_final[12], player.stats_final[13]];
@@ -1059,7 +987,84 @@ RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
     }
 // Calcola le statistiche medie
+MassimilianoMoretti24.td3 = 3
+AndreaMoretti24.td3 = 5
+LarryTrevisan24.td3 = -5
+AlessandroCostantini24.td3 = 3
+MatteoMargarit24.td3 = -5
+MauroCuridori24.td3 = 5
+ChristianZanet24.td3 = 2
+GiacomoPiacentini24.td3 = 10
+GiovanniDalFarra24.td3 = -5
+MiracleObichukwu24.td3 = -5
+LucaDellaLonga24.td3 = -5
+AlessandroRojatti24.td3 = -5
+MicheleGorasso24.td3 = -5
+GiacomoFerigo24.td3 = -5
+UmbertoNobile24.td3 = 5
+DevinChiarcos24.td3 = 0
+ValentinoCigainero24.td3 = -5
+MicheleDeAnna24.td3 = -5
+DavideParon24.td3 = 0
+AlessioFurlan24.td3 = -5
+MichaelMargarit24.td3 = -5
+SebastianoTonizzo24.td3 = 5
+DanieleGanzit24.td3 = -5
+GiacomoSilvestri24.td3 = 2
+VittorioGri24.td3 = 3
+VittorioBasso24.td3 = 2
+AlessandroRizzi24.td3 = 15
+MassimoBaldassi24.td3 = -5
 
+MarcoMarchetti24.td3 = -5
+MarcoLombardo24.td3 = 7
+MicheleVendrame24.td3 = -5
+LorenzoSchinella24.td3 = -5
+GioeleTudini24.td3 = -5
+FilippoPasquon24.td3 = 7
+TommasoMartello24.td3 = -1
+MarcoRizzi24.td3 = 1
+DavidGaspardo24.td3 = -5
+AntonioGri24.td3 = -5
+RiccardoSchinella24.td3 = -1
+SimoneMartinelli24.td3 = -5
+MatteoSpagnolo24.td3 = -1
+DavideFaurlin24.td3 = -5
+GiovanniTonizzo24.td3 = 2
+AlessandroSant24.td3 = 11
+MatteoBazzaro24.td3 = 2
+AlessandroSantin24.td3 = 0
+AlessandroGalassi24.td3 = -5
+PietroSoramel24.td3 = -1
+FilippoAgnoluzzi24.td3 = -5
+EmanueleDaneluzzi24.td3 = -5
+LucaSoramel24.td3 = 2
+PaoloZorzi24.td3 = 1
+ChristianFedrizzi24.td3 = -1
+FilippoSappa24.td3 = -5
+GiovanniZanin24.td3 = -5
+EnricoSant24.td3 = 2
+StefanoPolano24.td3 = 0
+MarcoPolo24.td3 = -5
+MarcoSerrao24.td3 = 5
+WilliamIob24.td3 = 2
+DavideBroggi24.td3 = 1
+AlexMicottis24.td3 = 2
+MassimilianoRossi24.td3 = 2
+MassimoMasotti24.td3 = 0
+EugenioDeTina24.td3 = 2
+LucaAnedda24.td3 = 1
+DenisVanin24.td3 = -5
+ThomasBaracetti24.td3 = -5
+LucaGemo24.td3 = 3
+DiegoNata24.td3 = -5
+MattiaRoiatti24.td3 = 1
+EdoardoPicogna24.td3 = 1
+MauroPerina24.td3 = -5
+LorenzoMoro24.td3 = -1
+GionaTell24.td3 = -5
+IacopoPivetta24.td3 = -5
+MattiaMasotti24.td3 = 1
 
 
     //FINALE punteggi medi
