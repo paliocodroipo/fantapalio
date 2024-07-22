@@ -1,4 +1,4 @@
-import { players, pdkWeights } from '../data.js';
+import { players, pdkWeights, td3Weights } from '../data.js';
 
 document.addEventListener("DOMContentLoaded", function() {
     const select = document.getElementById("playerDetails");
@@ -70,12 +70,39 @@ document.addEventListener("DOMContentLoaded", function() {
             return card;
         };
 
+        // Funzione per creare una scheda partita specifica per "Tiro da 3"
+        const createGameCard_td3 = (game, score, stats) => {
+            const card = document.createElement('div');
+            card.classList.add('game-card', `cardclass${selectedPlayer.team}`);
+            let statsHtml = `
+                <h3>${game}</h3>
+                <p>Punteggio: <span class="totalpointsindex">${score}</span></p>
+            `;
+
+            if (stats[0] !== 0) statsHtml += `<p>Partecipazione: <strong>${stats[0] * td3Weights[0]}</strong></p>`;
+            if (stats[1] !== 0) statsHtml += `<p>Non partecipa: <strong>${stats[1] * td3Weights[1]}</strong></p>`;
+            if (stats[2] !== 0) statsHtml += `<p>Passa al 2° turno: <strong>${stats[2] * td3Weights[2]}</strong></p>`;
+            if (stats[3] !== 0) statsHtml += `<p>Passa al 3° turno: <strong>${stats[3] * td3Weights[3]}</strong></p>`;
+            if (stats[4] !== 0) statsHtml += `<p>Passa al 4° turno: <strong>${stats[4] * td3Weights[4]}</strong></p>`;
+            if (stats[5] !== 0) statsHtml += `<p>Arriva in semifinale: <strong>${stats[5] * td3Weights[5]}</strong></p>`;
+            if (stats[6] !== 0) statsHtml += `<p>Arriva in finale: <strong>${stats[6] * td3Weights[6]}</strong></p>`;
+            if (stats[7] !== 0) statsHtml += `<p>Terzo classificato: <strong>${stats[7] * td3Weights[7]}</strong></p>`;
+            if (stats[8] !== 0) statsHtml += `<p>Secondo classificato: <strong>${stats[8] * td3Weights[8]}</strong></p>`;
+            if (stats[9] !== 0) statsHtml += `<p>Primo classificato: <strong>${stats[9] * td3Weights[9]}</strong></p>`;
+            if (stats[10] !== 0) statsHtml += `<p>0 su 10 da 3: <strong>${stats[10] * td3Weights[10]}</strong></p>`;
+            if (stats[11] !== 0) statsHtml += `<p>Tira in ciabatte: <strong>${stats[11] * td3Weights[11]}</strong></p>`;
+            if (stats[12] !== 0) statsHtml += `<p>Altri punti meme: <strong>${stats[12] * td3Weights[12]}</strong></p>`;
+
+            card.innerHTML = statsHtml;
+            return card;
+        };
+
         // Aggiungi schede per ogni partita
         playerStatsContainer.appendChild(createGameCard('G1', selectedPlayer.g1, selectedPlayer.stats_g1));
         playerStatsContainer.appendChild(createGameCard('G2', selectedPlayer.g2, selectedPlayer.stats_g2));
         playerStatsContainer.appendChild(createGameCard('G3', selectedPlayer.g3, selectedPlayer.stats_g3));
         playerStatsContainer.appendChild(createGameCard('Semifinale', selectedPlayer.semi, selectedPlayer.stats_semi));
-        playerStatsContainer.appendChild(createGameCard('Tiro da 3', selectedPlayer.td3, selectedPlayer.stats_td3));
+        playerStatsContainer.appendChild(createGameCard_td3('Tiro da 3', selectedPlayer.td3, selectedPlayer.stats_td3));
         playerStatsContainer.appendChild(createGameCard('Finale', selectedPlayer.final, selectedPlayer.stats_final));
     });
 });
