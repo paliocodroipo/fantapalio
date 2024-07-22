@@ -35,24 +35,27 @@ document.addEventListener("DOMContentLoaded", function() {
         const createGameCard = (game, score, stats) => {
             const card = document.createElement('div');
             card.classList.add('game-card');
-            card.innerHTML = `
+            let statsHtml = `
                 <h3>${game}</h3>
-                <p>Punteggio: ${score}</p>
-                <p>Punti: ${stats[0] * pdkWeights[0]} (${stats[0]} PTS)</p>
-                <p>Rimbalzi difensivi: ${stats[7] * pdkWeights[7]} (${stats[7]} DR)</p>
-                <p>Rimbalzi offensivi: ${stats[8] * pdkWeights[8]} (${stats[8]} OR)</p>
-                <p>Assist: ${stats[10] * pdkWeights[10]} (${stats[10]} AST)</p>
-                <p>Palle recuperate: ${stats[12] * pdkWeights[12]} (${stats[12]} STL)</p>
-                <p>Palle perse: ${stats[11] * pdkWeights[11]} (${stats[11]} TO)</p>
-                <p>Triple segnate: ${stats[3] * pdkWeights[3]} (${stats[3]} 3PM)</p>
-                <p>Tiri sbagliati: ${(stats[2] * pdkWeights[2]) + (stats[4] * pdkWeights[4])} (${stats[2] + stats[4]} FG miss)</p>
-                <p>Tiri liberi sbagliati: ${stats[6] * pdkWeights[6]} (${stats[6]} FT miss)</p>
-                <p>Doppia doppia: ${stats[15] * pdkWeights[15]}</p>
-                <p>Tripla doppia: ${stats[16] * pdkWeights[16]}</p>
-                <p>Espulsione: ${stats[14] * pdkWeights[14]}</p>
-                <p>Vittoria: ${stats[17] * pdkWeights[17]}</p>
-                <p>Punti meme: ${stats[18] * pdkWeights[18]}</p>
+                <p>Punteggio: <span class="totalpointsindex">${score}</span></p>
             `;
+
+            if (stats[0] !== 0) statsHtml += `<p>Punti: ${stats[0] * pdkWeights[0]} (${stats[0]} PTS)</p>`;
+            if (stats[7] !== 0) statsHtml += `<p>Rimbalzi difensivi: ${stats[7] * pdkWeights[7]} (${stats[7]} DR)</p>`;
+            if (stats[8] !== 0) statsHtml += `<p>Rimbalzi offensivi: ${stats[8] * pdkWeights[8]} (${stats[8]} OR)</p>`;
+            if (stats[10] !== 0) statsHtml += `<p>Assist: ${stats[10] * pdkWeights[10]} (${stats[10]} AST)</p>`;
+            if (stats[12] !== 0) statsHtml += `<p>Palle recuperate: ${stats[12] * pdkWeights[12]} (${stats[12]} STL)</p>`;
+            if (stats[11] !== 0) statsHtml += `<p>Palle perse: ${stats[11] * pdkWeights[11]} (${stats[11]} TO)</p>`;
+            if (stats[3] !== 0) statsHtml += `<p>Triple segnate: ${stats[3] * pdkWeights[3]} (${stats[3]} 3PM)</p>`;
+            if (stats[2] !== 0 || stats[4] !== 0) statsHtml += `<p>Tiri sbagliati: ${(stats[2] * pdkWeights[2]) + (stats[4] * pdkWeights[4])} (${stats[2] + stats[4]} tiri)</p>`;
+            if (stats[6] !== 0) statsHtml += `<p>Tiri liberi sbagliati: ${stats[6] * pdkWeights[6]} (${stats[6]} liberi)</p>`;
+            if (stats[15] !== 0) statsHtml += `<p>Doppia doppia: ${stats[15] * pdkWeights[15]}</p>`;
+            if (stats[16] !== 0) statsHtml += `<p>Tripla doppia: ${stats[16] * pdkWeights[16]}</p>`;
+            if (stats[14] !== 0) statsHtml += `<p>Espulsione: ${stats[14] * pdkWeights[14]}</p>`;
+            if (stats[17] !== 0) statsHtml += `<p>Vittoria: ${stats[17] * pdkWeights[17]}</p>`;
+            if (stats[18] !== 0) statsHtml += `<p>Punti meme: ${stats[18] * pdkWeights[18]}</p>`;
+
+            card.innerHTML = statsHtml;
             return card;
         };
 
