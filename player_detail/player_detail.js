@@ -34,12 +34,12 @@ document.addEventListener("DOMContentLoaded", function() {
         // Funzione per creare una scheda partita
         const createGameCard = (game, score, stats) => {
             const card = document.createElement('div');
-            card.classList.add('game-card');
+            card.classList.add('game-card',`cardclass${selectedPlayer.team}`);
             let statsHtml = `
                 <h3>${game}</h3>
                 <p>Punteggio: <span class="totalpointsindex">${score}</span></p>
             `;
-
+//mette dentro solo stats non nulle
             if (stats[0] !== 0) statsHtml += `<p>Punti: ${stats[0] * pdkWeights[0]} (${stats[0]} PTS)</p>`;
             if (stats[7] !== 0) statsHtml += `<p>Rimbalzi difensivi: ${stats[7] * pdkWeights[7]} (${stats[7]} DR)</p>`;
             if (stats[8] !== 0) statsHtml += `<p>Rimbalzi offensivi: ${stats[8] * pdkWeights[8]} (${stats[8]} OR)</p>`;
