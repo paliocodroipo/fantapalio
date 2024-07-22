@@ -150,14 +150,14 @@ document.addEventListener("DOMContentLoaded", function() {
         const playerTotalHeader = document.createElement('h3');
         playerTotalHeader.innerHTML = `Totale: <span class="totalpointsindex">${selectedPlayer.tot}</span>`;
         playerStatsContainer.appendChild(playerTotalHeader);
-        
+
         // Funzione per creare una scheda partita
         const createGameCard = (game, score, stats) => {
             const card = document.createElement('div');
             card.classList.add('game-card', `cardclass${selectedPlayer.team}`);
             let statsHtml = `
                 <h3>${game}</h3>
-                <p>Punteggio: <span class="totalpointsindex">${score}</span></p>
+                <p>Totale: <span class="totalpointsindex">${score}</span></p>
             `;
 
             // Mette dentro solo stats non nulle
@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function() {
             card.classList.add('game-card', `cardclass${selectedPlayer.team}`);
             let statsHtml = `
                 <h3>${game}</h3>
-                <p>Punteggio: <span class="totalpointsindex">${score}</span></p>
+                <p>Totale: <span class="totalpointsindex">${score}</span></p>
             `;
 
             if (stats[0] !== 0) statsHtml += `<p>Partecipazione: <strong>${stats[0] * td3Weights[0]}</strong></p>`;
