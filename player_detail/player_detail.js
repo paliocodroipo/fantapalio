@@ -4,20 +4,30 @@ document.addEventListener("DOMContentLoaded", function() {
     const select = document.getElementById("playerDetails");
     const playerStatsContainer = document.getElementById("playerStatsContainer");
 
-    // Sorta in ordine alfabetico
-    players.sort((a, b) => {
-        return a.name.localeCompare(b.name);
+    // Raggruppa i giocatori per team e ordina all'interno di ogni gruppo
+    const teams = ["WEST", "NORD", "EST", "SUD"];
+    const groupedPlayers = teams.map(team => {
+        return {
+            team: team,
+            players: players.filter(player => player.team === team).sort((a, b) => a.name.localeCompare(b.name))
+        };
     });
 
     // Rimuovi eventuali opzioni esistenti
     select.innerHTML = '';
 
     // Aggiungi nuove opzioni
-    players.forEach((player, index) => {
-        const opt = document.createElement('option');
-        opt.value = index;
-        opt.textContent = player.name;
-        select.appendChild(opt);
+    groupedPlayers.forEach(group => {
+        // Aggiungi un gruppo di opzioni per ogni team
+        const optGroup = document.createElement('optgroup');
+        optGroup.label = group.team;
+        group.players.forEach((player, index) => {
+            const opt = document.createElement('option');
+            opt.value = players.indexOf(player); // Usa l'indice del giocatore nell'array originale
+            opt.textContent = player.name;
+            optGroup.appendChild(opt);
+        });
+        select.appendChild(optGroup);
     });
 
     // Aggiungi un event listener per l'evento change sulla tendina
@@ -34,12 +44,13 @@ document.addEventListener("DOMContentLoaded", function() {
         // Funzione per creare una scheda partita
         const createGameCard = (game, score, stats) => {
             const card = document.createElement('div');
-            card.classList.add('game-card',`cardclass${selectedPlayer.team}`);
+            card.classList.add('game-card', `cardclass${selectedPlayer.team}`);
             let statsHtml = `
                 <h3>${game}</h3>
                 <p>Punteggio: <span class="totalpointsindex">${score}</span></p>
             `;
-//mette dentro solo stats non nulle
+
+            // Mette dentro solo stats non nulle
             if (stats[0] !== 0) statsHtml += `<p>Punti: ${stats[0] * pdkWeights[0]} (${stats[0]} PTS)</p>`;
             if (stats[7] !== 0) statsHtml += `<p>Rimbalzi difensivi: ${stats[7] * pdkWeights[7]} (${stats[7]} DR)</p>`;
             if (stats[8] !== 0) statsHtml += `<p>Rimbalzi offensivi: ${stats[8] * pdkWeights[8]} (${stats[8]} OR)</p>`;
