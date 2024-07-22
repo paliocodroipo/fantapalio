@@ -147,12 +147,10 @@ document.addEventListener("DOMContentLoaded", function() {
         playerStatsContainer.appendChild(playerNameHeader);
         
         // Crea e aggiungi l'intestazione con il totale del giocatore
-        // const playerTotalHeader = document.createElement('h3');
-        // playerTotalHeader.textContent = `Totale: <span class="totalpointsindex">${selectedPlayer.tot}</span>`;
-        // playerStatsContainer.appendChild(playerTotalHeader);
-        const playerTotalHeader = document.createElement('div');
-            let statsHtmlHeader = `Totale: <span class="totalpointsindex">${selectedPlayer.tot}</span>`;
-        playerTotalHeader.innerHTML = statsHtmlHeader;
+        const playerTotalHeader = document.createElement('h3');
+        playerTotalHeader.innerHTML = `Totale: <span class="totalpointsindex">${selectedPlayer.tot}</span>`;
+        playerStatsContainer.appendChild(playerTotalHeader);
+        
         // Funzione per creare una scheda partita
         const createGameCard = (game, score, stats) => {
             const card = document.createElement('div');
