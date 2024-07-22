@@ -547,11 +547,9 @@ footer {
 }
 
 .game-card {
-    border: 1px solid #ccc;
     border-radius: 10px;
     padding: 15px;
     margin: 10px;
-    background-color: #f9f9f9;
 }
 
 .game-card h3 {
