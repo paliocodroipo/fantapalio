@@ -1001,8 +1001,8 @@ RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
     //                   0    1   2   3    4   5   6    7   8    9     10  11  12  13  14   15  16  17   18
     // gx_stats =      [PTS, 2P, 2Px, 3P, 3Px, FT, FTx, DR, OR, Rtot, ASS, TO, ST, BL, EXP, DD, TD, Win, Meme]
     const pdkWeights = [1, 0, -0.75, 0.5, -0.75, 0, -0.5, 1, 1.25,  0, 1.5, -1, 1.5, 1.5, -3,  3,  6,   2,  1];
-    // td3_stats=    [part, nopart, passa1, passa2, passa3, passa4, finale, 3rd, 2nd, 1st, 0su10, ciab]
-    const td3Weights = [1,   -5,      1,       1,      2,      2,     3,      5,   10, 20,  -2,    1  ];
+    // td3_stats=    [part, nopart, passa1, passa2, passa3, passa4, finale, 3rd, 2nd, 1st, 0su10, ciab, altri meme]
+    const td3Weights = [1,   -5,      1,       1,      2,      2,     3,      5,   10, 20,  -2,    1  ,    1     ];
     // Calcola g1 per ogni giocatore
     for (let player of players) {
         // Calcola PTS (player.stats_g1[0])
