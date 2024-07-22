@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Crea e aggiungi l'intestazione con il totale del giocatore
         const playerTotalHeader = document.createElement('h3');
-        playerTotalHeader.textContent = `Totale: ${selectedPlayer.tot}`;
+        playerTotalHeader.textContent = `Totale: <span class="totalpointsindex">${selectedPlayer.tot}</span>`;
         playerStatsContainer.appendChild(playerTotalHeader);
 
         // Funzione per creare una scheda partita
