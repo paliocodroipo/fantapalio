@@ -4219,7 +4219,7 @@ const ft153 = createFantateam(152, "Optimum", WEST, [UmbertoNobile24, DevinChiar
     
 
 
-        fantateams, players
+        fantateams, players, pdkWeights
     };
 
 

@@ -1,4 +1,4 @@
-import { players } from '../data.js';
+import { players, pdkWeights } from '../data.js';
 
 document.addEventListener("DOMContentLoaded", function() {
     const select = document.getElementById("playerDetails");
@@ -38,7 +38,20 @@ document.addEventListener("DOMContentLoaded", function() {
             card.innerHTML = `
                 <h3>${game}</h3>
                 <p>Punteggio: ${score}</p>
-                <p>Statistiche: ${stats.join(', ')}</p>
+                <p>Punti: ${stats[0] * pdkWeights[0]} (${stats[0]} PTS)</p>
+                <p>Rimbalzi difensivi: ${stats[7] * pdkWeights[7]} (${stats[7]} DR)</p>
+                <p>Rimbalzi offensivi: ${stats[8] * pdkWeights[8]} (${stats[8]} OR)</p>
+                <p>Assist: ${stats[10] * pdkWeights[10]} (${stats[10]} AST)</p>
+                <p>Palle recuperate: ${stats[12] * pdkWeights[12]} (${stats[12]} STL)</p>
+                <p>Palle perse: ${stats[11] * pdkWeights[11]} (${stats[11]} TO)</p>
+                <p>Triple segnate: ${stats[3] * pdkWeights[3]} (${stats[3]} 3PM)</p>
+                <p>Tiri sbagliati: ${(stats[2] * pdkWeights[2]) + (stats[4] * pdkWeights[4])} (${stats[2] + stats[4]} FG miss)</p>
+                <p>Tiri liberi sbagliati: ${stats[6] * pdkWeights[6]} (${stats[6]} FT miss)</p>
+                <p>Doppia doppia: ${stats[15] * pdkWeights[15]}</p>
+                <p>Tripla doppia: ${stats[16] * pdkWeights[16]}</p>
+                <p>Espulsione: ${stats[14] * pdkWeights[14]}</p>
+                <p>Vittoria: ${stats[17] * pdkWeights[17]}</p>
+                <p>Punti meme: ${stats[18] * pdkWeights[18]}</p>
             `;
             return card;
         };
