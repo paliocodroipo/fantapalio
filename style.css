@@ -2,7 +2,7 @@
     --main-color1:rgb(204, 92, 0);
     --main-color2:rgb(6, 1, 87);
 
-    --nord-color1:rgb(209, 0, 0);
+    --nord-color1:rgb(255, 0, 0);
     --nord-color2:rgb(0, 0, 0);
 
     --west-color1:rgb(0, 0, 0);
@@ -547,6 +547,7 @@ footer {
 }
 
 .game-card {
+    /*non mettere colore o colore bordo perchè prende quello del team*/
     border-radius: 10px;
     padding: 15px;
     margin: 10px;
