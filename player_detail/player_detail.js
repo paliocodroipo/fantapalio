@@ -21,6 +21,13 @@ document.addEventListener("DOMContentLoaded", function() {
         // Pulisci il contenitore delle schede
         playerStatsContainer.innerHTML = '';
 
+
+        // Crea e aggiungi l'intestazione con il nome del giocatore
+        const playerNameHeader = document.createElement('h3');
+        playerNameHeader.textContent = selectedPlayer.name;
+        playerStatsContainer.appendChild(playerNameHeader);
+
+        
         // Funzione per creare una scheda partita
         const createGameCard = (game, score, stats) => {
             const card = document.createElement('div');
