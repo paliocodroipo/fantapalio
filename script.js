@@ -43,8 +43,9 @@ document.addEventListener("DOMContentLoaded", function() {
             // Crea una nuova scheda
             const card = document.createElement('div');
             card.classList.add('team-card1', `cardclass${player.team}`);
+            // Usa encodeURIComponent per gestire caratteri speciali nel nome
             card.innerHTML = `
-                <h3>${player.name}</h3>
+                <h3><a href="./player_detail/player_detail.html?playerName=${encodeURIComponent(player.name)}">${player.name}</a></h3>
                 <p>Prezzo: ${player.cost}</p>
                 <p>G1: ${player.g1}</p>
                 <p>G2: ${player.g2}</p>
