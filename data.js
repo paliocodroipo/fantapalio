@@ -13,6 +13,7 @@
         semi: 0.0,
         stats_semi: Array(19).fill(0),
         td3: 0.0,
+        stats_td3: Array(19).fill(0),
         final: 0.0,
         stats_final: Array(19).fill(0),
         tot: 0.0,
