@@ -755,7 +755,7 @@ const MattiaMasotti24 = createPlayer("Mattia Masotti", 6, "EST");
     //     gx24_stats =                  |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
 
    
-
+//qui si potrebbe fare uno script che prende il copia da excel (FG800) e fa gli array, anche chatGPT lo fa da solo
     MassimilianoMoretti24.stats_td3 = [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
     AndreaMoretti24.stats_td3 = [1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0];
     LarryTrevisan24.stats_td3 = [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
