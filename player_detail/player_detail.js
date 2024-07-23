@@ -167,6 +167,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (stats[10] !== 0) statsHtml += `<p>Assist: <strong>${stats[10] * pdkWeights[10]}</strong> (${stats[10]} AST)</p>`;
             if (stats[12] !== 0) statsHtml += `<p>Palle recuperate: <strong>${stats[12] * pdkWeights[12]}</strong> (${stats[12]} STL)</p>`;
             if (stats[11] !== 0) statsHtml += `<p>Palle perse: <strong>${stats[11] * pdkWeights[11]}</strong> (${stats[11]} TO)</p>`;
+            if (stats[11] !== 0) statsHtml += `<p>Stoppate: <strong>${stats[13] * pdkWeights[13]}</strong> (${stats[13]} BLK)</p>`;
             if (stats[3] !== 0) statsHtml += `<p>Triple segnate: <strong>${stats[3] * pdkWeights[3]}</strong> (${stats[3]} 3PM)</p>`;
             if (stats[2] !== 0 || stats[4] !== 0) statsHtml += `<p>Tiri sbagliati: <strong>${(stats[2] * pdkWeights[2]) + (stats[4] * pdkWeights[4])}</strong> (${stats[2] + stats[4]} miss)</p>`;
             if (stats[6] !== 0) statsHtml += `<p>Tiri liberi sbagliati: <strong>${stats[6] * pdkWeights[6]}</strong> (${stats[6]} miss)</p>`;
