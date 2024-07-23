@@ -106,7 +106,7 @@ const RiccardoSchinella24 = createPlayer("Riccardo Schinella", 4, "NORD");
 
 // Creazione dei giocatori per il team SUD
 const SimoneMartinelli24 = createPlayer("Simone Martinelli", 4, "SUD");
-const MatteoSpagnolo24 = createPlayer("Matteo Spagnolo", 4, "SUD");
+const MatteoSpagnolo24 = createPlayer("Giacomo Spagnolo", 4, "SUD");
 const DavideFaurlin24 = createPlayer("Davide Faurlin", 4, "SUD");
 const GiovanniTonizzo24 = createPlayer("Giovanni Tonizzo", 5, "SUD");
 const AlessandroSant24 = createPlayer("Alessandro Sant", 8, "SUD");
