@@ -163,16 +163,16 @@ document.addEventListener("DOMContentLoaded", function() {
             `;
 
             // Mette dentro solo stats non nulle
-            if (stats[0] !== 0) statsHtml += `<p>Punti: <strong>${formatValue(stats[0] * pdkWeights[0])}</strong> (${formatValue(stats[0])} PTS)</p>`;
-            if (stats[7] !== 0) statsHtml += `<p>Rimbalzi difensivi: <strong>${formatValue(stats[7] * pdkWeights[7])}</strong> (${formatValue(stats[7])} DR)</p>`;
-            if (stats[8] !== 0) statsHtml += `<p>Rimbalzi offensivi: <strong>${formatValue(stats[8] * pdkWeights[8])}</strong> (${formatValue(stats[8])} OR)</p>`;
-            if (stats[10] !== 0) statsHtml += `<p>Assist: <strong>${formatValue(stats[10] * pdkWeights[10])}</strong> (${formatValue(stats[10])} AST)</p>`;
-            if (stats[12] !== 0) statsHtml += `<p>Palle recuperate: <strong>${formatValue(stats[12] * pdkWeights[12])}</strong> (${formatValue(stats[12])} STL)</p>`;
-            if (stats[11] !== 0) statsHtml += `<p>Palle perse: <strong>${formatValue(stats[11] * pdkWeights[11])}</strong> (${formatValue(stats[11])} TO)</p>`;
-            if (stats[13] !== 0) statsHtml += `<p>Stoppate: <strong>${formatValue(stats[13] * pdkWeights[13])}</strong> (${formatValue(stats[13])} BLK)</p>`;
-            if (stats[3] !== 0) statsHtml += `<p>Triple segnate: <strong>${formatValue(stats[3] * pdkWeights[3])}</strong> (${formatValue(stats[3])} 3PM)</p>`;
-            if (stats[2] !== 0 || stats[4] !== 0) statsHtml += `<p>Tiri sbagliati: <strong>${formatValue((stats[2] * pdkWeights[2]) + (stats[4] * pdkWeights[4]))}</strong> (${formatValue(stats[2] + stats[4])} miss)</p>`;
-            if (stats[6] !== 0) statsHtml += `<p>Tiri liberi sbagliati: <strong>${formatValue(stats[6] * pdkWeights[6])}</strong> (${formatValue(stats[6])} miss)</p>`;
+            if (stats[0] !== 0) statsHtml += `<p>Punti: <strong>${formatValue(stats[0] * pdkWeights[0])}</strong> (${stats[0]} PTS)</p>`;
+            if (stats[7] !== 0) statsHtml += `<p>Rimbalzi difensivi: <strong>${formatValue(stats[7] * pdkWeights[7])}</strong> (${stats[7]} DR)</p>`;
+            if (stats[8] !== 0) statsHtml += `<p>Rimbalzi offensivi: <strong>${formatValue(stats[8] * pdkWeights[8])}</strong> (${stats[8]} OR)</p>`;
+            if (stats[10] !== 0) statsHtml += `<p>Assist: <strong>${formatValue(stats[10] * pdkWeights[10])}</strong> (${stats[10]} AST)</p>`;
+            if (stats[12] !== 0) statsHtml += `<p>Palle recuperate: <strong>${formatValue(stats[12] * pdkWeights[12])}</strong> (${stats[12]} STL)</p>`;
+            if (stats[11] !== 0) statsHtml += `<p>Palle perse: <strong>${formatValue(stats[11] * pdkWeights[11])}</strong> (${stats[11]} TO)</p>`;
+            if (stats[13] !== 0) statsHtml += `<p>Stoppate: <strong>${formatValue(stats[13] * pdkWeights[13])}</strong> (${stats[13]} BLK)</p>`;
+            if (stats[3] !== 0) statsHtml += `<p>Triple segnate: <strong>${formatValue(stats[3] * pdkWeights[3])}</strong> (${stats[3]} 3PM)</p>`;
+            if (stats[2] !== 0 || stats[4] !== 0) statsHtml += `<p>Tiri sbagliati: <strong>${formatValue((stats[2] * pdkWeights[2]) + (stats[4] * pdkWeights[4]))}</strong> (${stats[2]+ stats[4]} miss)</p>`;
+            if (stats[6] !== 0) statsHtml += `<p>Tiri liberi sbagliati: <strong>${formatValue(stats[6] * pdkWeights[6])}</strong> (${stats[6]} miss)</p>`;
             if (stats[15] !== 0) statsHtml += `<p>Doppia doppia: <strong>${formatValue(stats[15] * pdkWeights[15])}</strong></p>`;
             if (stats[16] !== 0) statsHtml += `<p>Tripla doppia: <strong>${formatValue(stats[16] * pdkWeights[16])}</strong></p>`;
             if (stats[14] !== 0) statsHtml += `<p>Espulsione: <strong>${formatValue(stats[14] * pdkWeights[14])}</strong></p>`;
