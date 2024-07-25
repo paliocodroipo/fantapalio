@@ -250,7 +250,7 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: calc(100% - 40px); /* Full width with padding adjustment */
+    width: calc(100% - 20px); /* Full width with padding adjustment */
     max-width: 400px;
     box-sizing: border-box;
 }
