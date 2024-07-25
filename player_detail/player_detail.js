@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Crea e aggiungi l'intestazione con il nome del giocatore
         const playerNameHeader = document.createElement('h3');
-        playerNameHeader.innerHTML = `${selectedPlayer.name} #${selectedPlayer.number} ${selectedPlayer.team}`;
+        playerNameHeader.innerHTML = `${selectedPlayer.name}<br>#${selectedPlayer.number} ${selectedPlayer.team}`;
         playerStatsContainer.appendChild(playerNameHeader);
         
         // Crea e aggiungi l'intestazione con il totale del giocatore
