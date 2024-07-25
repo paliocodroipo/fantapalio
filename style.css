@@ -273,13 +273,13 @@ footer {
 
 @media (min-width: 600px) {
     .player-card {
-        width: calc(50% - 40px); /* Two cards per row on medium screens */
+        width: calc(50% - 30px); /* Two cards per row on medium screens */
     }
 }
 
 @media (min-width: 900px) {
     .player-card {
-        width: calc(33.333% - 40px); /* Three cards per row on large screens */
+        width: calc(33.333% - 30px); /* Three cards per row on large screens */
     }
 }
 
