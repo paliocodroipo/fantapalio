@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         card.classList.add('player-card',`cardclass${player.team}`);
         card.innerHTML = `
             <h3>${index + 1}. ${player.name}</h3>
+            <p>#${player.number}</p>
             <p>Prezzo: ${player.cost}</p>
             <p class="total">${player.tot.toFixed(2)}</p>
             <p>G1: ${player.g1}</p>
