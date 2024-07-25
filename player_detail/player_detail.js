@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Funzione per creare una scheda partita
         const createGameCard = (game, score, stats) => {
             const card = document.createElement('div');
-            card.classList.add('game-card', `cardclass${selectedPlayer.team}`);
+            card.classList.add('player-card', `cardclass${selectedPlayer.team}`);
             let statsHtml = `
                 <h3>${game}</h3>
                 <p>Totale: <span class="totalpointsindex">${score}</span></p>
@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Funzione per creare una scheda partita specifica per "Tiro da 3"
         const createGameCard_td3 = (game, score, stats) => {
             const card = document.createElement('div');
-            card.classList.add('game-card', `cardclass${selectedPlayer.team}`);
+            card.classList.add('player-card', `cardclass${selectedPlayer.team}`);
             let statsHtml = `
                 <h3>${game}</h3>
                 <p>Totale: <span class="totalpointsindex">${score}</span></p>
