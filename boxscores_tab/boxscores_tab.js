@@ -563,6 +563,7 @@ function populateTable_td3(team, players) {
             playerRow += `<td>${player.stats_td3[10]*td3Weights[11]}</td>`;
             //Altri meme
             playerRow += `<td>${player.stats_td3[10]*td3Weights[12]}</td>`;
+            tableBody.innerHTML += playerRow;
             iheader++;
             if(iheader==10){
                 tableBody.innerHTML += headerRow;
