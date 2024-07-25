@@ -315,7 +315,7 @@ const MattiaMasotti24 = createPlayer("Mattia Masotti", 6, "EST", 13);
     //     gx24_stats =              PTS,|2Px|3Px|FTx|OR,|ASS|ST,|EXP|TD,|Meme
     //     gx24_stats =                |2P,|3P,|FT,|DR,|Rt,|TO,|BL,|DD,|Win|
     //                               | | | | | | | | | | | | | | | | | | | 
-    SimoneMartinelli24.stats_g1 =     [0,1,3,0,4,0,1,1,0,0,0,1,0,0,0,0,0,0,0]; // 22
+    SimoneMartinelli24.stats_g1 =     [0,1,3,0,4,0,1,0,1,0,0,1,0,0,0,0,0,0,0]; // 22
     MatteoSpagnolo24.stats_g1 =       [0,0,0,0,2,0,0,2,2,0,0,0,2,1,0,0,0,0,0]; // 21
     DavideFaurlin24.stats_g1 =        [0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0]; // 18
     GiovanniTonizzo24.stats_g1 =      [0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0]; // 5
