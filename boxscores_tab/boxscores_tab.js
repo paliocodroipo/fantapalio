@@ -509,7 +509,7 @@ function populateTable_td3(team, players) {
 
     // Intestazione dei parametri da mostrare nella tabella
     const headers = [
-        "Giocatore", "Partecipazione", "2° turno", "3° turno", "4° turno", "5° turno", "Finale", "Posizionamento", "0 su 10 da 3", "Ciabatte", "Altri Meme"
+        "Giocatore", "Partecipazione", "2° turno", "3° turno", "4° turno", "5° turno", "Finale", "Posizionamento", "0 su 10 da 3", "Ciabatte", "Altri Meme","TOT"
     ];
 
     // Aggiungi la prima riga con gli header alla tabella
@@ -560,9 +560,11 @@ function populateTable_td3(team, players) {
             //0 su 10
             playerRow += `<td>${player.stats_td3[10]*td3Weights[10]}</td>`;
             //Ciabatte
-            playerRow += `<td>${player.stats_td3[10]*td3Weights[11]}</td>`;
+            playerRow += `<td>${player.stats_td3[11]*td3Weights[11]}</td>`;
             //Altri meme
-            playerRow += `<td>${player.stats_td3[10]*td3Weights[12]}</td>`;
+            playerRow += `<td>${player.stats_td3[12]*td3Weights[12]}</td>`;
+            //totale td3
+            playerRow += `<td>${player.td3}</td>`;
             tableBody.innerHTML += playerRow;
             iheader++;
             if(iheader==10){
