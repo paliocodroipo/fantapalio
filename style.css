@@ -571,7 +571,8 @@ footer {
 
 .avviso{
     width: 80%;
-    margin: 20px;
+    margin: auto;
     border: 2px solid var(--main-color2);
+    border-radius: 5px;
     color: var(--main-color2);
 }
