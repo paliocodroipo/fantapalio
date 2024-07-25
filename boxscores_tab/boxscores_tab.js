@@ -550,11 +550,11 @@ function populateTable_td3(team, players) {
                 playerRow += `<td>${player.stats_td3[9]*td3Weights[9]}</td>`; //zero qui
             }else{
                 if (player.stats_td3[7] == 1){
-                    playerRow += `<td>3°: ${player.stats_td3[7]*td3Weights[7]}</td>`;//+5
+                    playerRow += `<td>3° : ${player.stats_td3[7]*td3Weights[7]}</td>`;//+5
                 }else if (player.stats_td3[8] == 1){
-                    playerRow += `<td>2°: ${player.stats_td3[8]*td3Weights[8]}</td>`;//+10
+                    playerRow += `<td>2° : ${player.stats_td3[8]*td3Weights[8]}</td>`;//+10
                 }else{
-                    playerRow += `<td>1°: ${player.stats_td3[9]*td3Weights[9]}</td>`;//+20
+                    playerRow += `<td>1° : ${player.stats_td3[9]*td3Weights[9]}</td>`;//+20
                 }
             }
             //0 su 10
