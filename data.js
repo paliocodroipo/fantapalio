@@ -4,6 +4,7 @@
     const player_type = {
         name: "Nome Giocatore",
         team: "Nome Squadra",
+        number: 0,
         g1: 0.0,
         stats_g1: Array(19).fill(0),
         g2: 0.0,
@@ -55,96 +56,96 @@
     };
 
     // Funzione per creare un nuovo giocatore
-function createPlayer(name, cost, team) {
-    const player = { ...player_type, team: team, name: name, cost: cost }
+function createPlayer(name, cost, team, number) {
+    const player = { ...player_type, team: team, number:number, name: name, cost: cost }
     return player;
 }
 
 // Creazione dei giocatori per il team WEST
-const MassimilianoMoretti24 = createPlayer("Massimiliano Moretti", 11, "WEST");
-const AndreaMoretti24 = createPlayer("Andrea Moretti", 4, "WEST");
-const LarryTrevisan24 = createPlayer("Larry Trevisan", 6, "WEST");
-const AlessandroCostantini24 = createPlayer("Alessandro Costantini", 7, "WEST");
-const MatteoMargarit24 = createPlayer("Matteo Margarit", 7, "WEST");
-const MauroCuridori24 = createPlayer("Mauro Curidori", 5, "WEST");
-const ChristianZanet24 = createPlayer("Christian Zanet", 6, "WEST");
-const GiacomoPiacentini24 = createPlayer("Giacomo Piacentini", 5, "WEST");
-const GiovanniDalFarra24 = createPlayer("Giovanni dal Farra", 4, "WEST");
-const MiracleObichukwu24 = createPlayer("Miracle Obichukwu", 4, "WEST");
-const LucaDellaLonga24 = createPlayer("Luca della Longa", 4, "WEST");
-const AlessandroRojatti24 = createPlayer("Alessandro Rojatti", 4, "WEST");
-const MicheleGorasso24 = createPlayer("Michele Gorasso", 5, "WEST");
-const GiacomoFerigo24 = createPlayer("Giacomo Ferigo", 4, "WEST");
-const UmbertoNobile24 = createPlayer("Umberto Nobile", 7, "WEST");
-const DevinChiarcos24 = createPlayer("Devin Chiarcos", 4, "WEST");
-const ValentinoCigainero24 = createPlayer("Valentino Cigainero", 5, "WEST");
-const MicheleDeAnna24 = createPlayer("Michele de Anna", 6, "WEST");
-const DavideParon24 = createPlayer("Davide Paron", 4, "WEST");
-const AlessioFurlan24 = createPlayer("Alessio Furlan", 4, "WEST");
-const MichaelMargarit24 = createPlayer("Michael Margarit", 4, "WEST");
-const SebastianoTonizzo24 = createPlayer("Sebastiano Tonizzo", 4, "WEST");
+const MassimilianoMoretti24 = createPlayer("Massimiliano Moretti", 11, "WEST",0);
+const AndreaMoretti24 = createPlayer("Andrea Moretti", 4, "WEST",0);
+const LarryTrevisan24 = createPlayer("Larry Trevisan", 6, "WEST",0);
+const AlessandroCostantini24 = createPlayer("Alessandro Costantini", 7, "WEST",0);
+const MatteoMargarit24 = createPlayer("Matteo Margarit", 7, "WEST",0);
+const MauroCuridori24 = createPlayer("Mauro Curidori", 5, "WEST",0);
+const ChristianZanet24 = createPlayer("Christian Zanet", 6, "WEST",0);
+const GiacomoPiacentini24 = createPlayer("Giacomo Piacentini", 5, "WEST",0);
+const GiovanniDalFarra24 = createPlayer("Giovanni dal Farra", 4, "WEST",0);
+const MiracleObichukwu24 = createPlayer("Miracle Obichukwu", 4, "WEST",0);
+const LucaDellaLonga24 = createPlayer("Luca della Longa", 4, "WEST",0);
+const AlessandroRojatti24 = createPlayer("Alessandro Rojatti", 4, "WEST",0);
+const MicheleGorasso24 = createPlayer("Michele Gorasso", 5, "WEST",0);
+const GiacomoFerigo24 = createPlayer("Giacomo Ferigo", 4, "WEST",0);
+const UmbertoNobile24 = createPlayer("Umberto Nobile", 7, "WEST",0);
+const DevinChiarcos24 = createPlayer("Devin Chiarcos", 4, "WEST",0);
+const ValentinoCigainero24 = createPlayer("Valentino Cigainero", 5, "WEST",0);
+const MicheleDeAnna24 = createPlayer("Michele de Anna", 6, "WEST",0);
+const DavideParon24 = createPlayer("Davide Paron", 4, "WEST",0);
+const AlessioFurlan24 = createPlayer("Alessio Furlan", 4, "WEST",0);
+const MichaelMargarit24 = createPlayer("Michael Margarit", 4, "WEST",0);
+const SebastianoTonizzo24 = createPlayer("Sebastiano Tonizzo", 4, "WEST",0);
 
 // Creazione dei giocatori per il team NORD
-const DanieleGanzit24 = createPlayer("Daniele Ganzit", 5, "NORD");
-const GiacomoSilvestri24 = createPlayer("Giacomo Silvestri", 5, "NORD");
-const VittorioGri24 = createPlayer("Vittorio Gri", 5, "NORD");
-const VittorioBasso24 = createPlayer("Vittorio Basso", 4, "NORD");
-const AlessandroRizzi24 = createPlayer("Alessandro Rizzi", 7, "NORD");
-const MassimoBaldassi24 = createPlayer("Massimo Baldassi", 4, "NORD");
-const GabrieleMiani24 = createPlayer("Gabriele Miani", 14, "NORD");
-const MarcoMarchetti24 = createPlayer("Marco Marchetti", 4, "NORD");
-const MarcoLombardo24 = createPlayer("Marco Lombardo", 7, "NORD");
-const MicheleVendrame24 = createPlayer("Michele Vendrame", 4, "NORD");
-const LorenzoSchinella24 = createPlayer("Lorenzo Schinella", 4, "NORD");
-const GioeleTudini24 = createPlayer("Gioele Tudini", 4, "NORD");
-const FilippoPasquon24 = createPlayer("Filippo Pasquon", 5, "NORD");
-const TommasoMartello24 = createPlayer("Tommaso Martello", 6, "NORD");
-const MarcoRizzi24 = createPlayer("Marco Rizzi", 4, "NORD");
-const DavidGaspardo24 = createPlayer("David Gaspardo", 9, "NORD");
-const AntonioGri24 = createPlayer("Antonio Gri", 4, "NORD");
-const RiccardoSchinella24 = createPlayer("Riccardo Schinella", 4, "NORD");
+const DanieleGanzit24 = createPlayer("Daniele Ganzit", 5, "NORD",0);
+const GiacomoSilvestri24 = createPlayer("Giacomo Silvestri", 5, "NORD",0);
+const VittorioGri24 = createPlayer("Vittorio Gri", 5, "NORD",0);
+const VittorioBasso24 = createPlayer("Vittorio Basso", 4, "NORD",0);
+const AlessandroRizzi24 = createPlayer("Alessandro Rizzi", 7, "NORD",0);
+const MassimoBaldassi24 = createPlayer("Massimo Baldassi", 4, "NORD",0);
+const GabrieleMiani24 = createPlayer("Gabriele Miani", 14, "NORD",0);
+const MarcoMarchetti24 = createPlayer("Marco Marchetti", 4, "NORD",0);
+const MarcoLombardo24 = createPlayer("Marco Lombardo", 7, "NORD",0);
+const MicheleVendrame24 = createPlayer("Michele Vendrame", 4, "NORD",0);
+const LorenzoSchinella24 = createPlayer("Lorenzo Schinella", 4, "NORD",0);
+const GioeleTudini24 = createPlayer("Gioele Tudini", 4, "NORD",0);
+const FilippoPasquon24 = createPlayer("Filippo Pasquon", 5, "NORD",0);
+const TommasoMartello24 = createPlayer("Tommaso Martello", 6, "NORD",0);
+const MarcoRizzi24 = createPlayer("Marco Rizzi", 4, "NORD",0);
+const DavidGaspardo24 = createPlayer("David Gaspardo", 9, "NORD",0);
+const AntonioGri24 = createPlayer("Antonio Gri", 4, "NORD",0);
+const RiccardoSchinella24 = createPlayer("Riccardo Schinella", 4, "NORD",0);
 
 // Creazione dei giocatori per il team SUD
-const SimoneMartinelli24 = createPlayer("Simone Martinelli", 4, "SUD");
-const MatteoSpagnolo24 = createPlayer("Giacomo Spagnolo", 4, "SUD");
-const DavideFaurlin24 = createPlayer("Davide Faurlin", 4, "SUD");
-const GiovanniTonizzo24 = createPlayer("Giovanni Tonizzo", 5, "SUD");
-const AlessandroSant24 = createPlayer("Alessandro Sant", 8, "SUD");
-const MatteoBazzaro24 = createPlayer("Matteo Bazzaro", 4, "SUD");
-const AlessandroSantin24 = createPlayer("Alessandro Santin", 4, "SUD");
-const AlessandroGalassi24 = createPlayer("Alessandro Galassi", 5, "SUD");
-const PietroSoramel24 = createPlayer("Pietro Soramel", 6, "SUD");
-const FilippoAgnoluzzi24 = createPlayer("Filippo Agnoluzzi", 4, "SUD");
-const EmanueleDaneluzzi24 = createPlayer("Emanuele Daneluzzi", 5, "SUD");
-const LucaSoramel24 = createPlayer("Luca Soramel", 5, "SUD");
-const PaoloZorzi24 = createPlayer("Paolo Zorzi", 4, "SUD");
-const ChristianFedrizzi24 = createPlayer("Christian Fedrizzi", 4, "SUD");
-const FilippoSappa24 = createPlayer("Filippo Sappa", 8, "SUD");
-const GiovanniZanin24 = createPlayer("Giovanni Zanin", 9, "SUD");
-const EnricoSant24 = createPlayer("Enrico Sant", 5, "SUD");
-const StefanoPolano24 = createPlayer("Stefano Polano", 5, "SUD");
+const SimoneMartinelli24 = createPlayer("Simone Martinelli", 4, "SUD",0);
+const MatteoSpagnolo24 = createPlayer("Giacomo Spagnolo", 4, "SUD",0);
+const DavideFaurlin24 = createPlayer("Davide Faurlin", 4, "SUD",0);
+const GiovanniTonizzo24 = createPlayer("Giovanni Tonizzo", 5, "SUD",0);
+const AlessandroSant24 = createPlayer("Alessandro Sant", 8, "SUD",0);
+const MatteoBazzaro24 = createPlayer("Matteo Bazzaro", 4, "SUD",0);
+const AlessandroSantin24 = createPlayer("Alessandro Santin", 4, "SUD",0);
+const AlessandroGalassi24 = createPlayer("Alessandro Galassi", 5, "SUD",0);
+const PietroSoramel24 = createPlayer("Pietro Soramel", 6, "SUD",0);
+const FilippoAgnoluzzi24 = createPlayer("Filippo Agnoluzzi", 4, "SUD",0);
+const EmanueleDaneluzzi24 = createPlayer("Emanuele Daneluzzi", 5, "SUD",0);
+const LucaSoramel24 = createPlayer("Luca Soramel", 5, "SUD",0);
+const PaoloZorzi24 = createPlayer("Paolo Zorzi", 4, "SUD",0);
+const ChristianFedrizzi24 = createPlayer("Christian Fedrizzi", 4, "SUD",0);
+const FilippoSappa24 = createPlayer("Filippo Sappa", 8, "SUD",0);
+const GiovanniZanin24 = createPlayer("Giovanni Zanin", 9, "SUD",0);
+const EnricoSant24 = createPlayer("Enrico Sant", 5, "SUD",0);
+const StefanoPolano24 = createPlayer("Stefano Polano", 5, "SUD",0);
 
 // Creazione dei giocatori per il team EST
-const MarcoPolo24 = createPlayer("Marco Polo", 4, "EST");
-const MarcoSerrao24 = createPlayer("Marco Serrao", 7, "EST");
-const WilliamIob24 = createPlayer("William Iob", 7, "EST");
-const DavideBroggi24 = createPlayer("Davide Broggi", 4, "EST");
-const AlexMicottis24 = createPlayer("Alex Micottis", 4, "EST");
-const MassimilianoRossi24 = createPlayer("Massimiliano Rossi", 4, "EST");
-const MassimoMasotti24 = createPlayer("Massimo Masotti", 4, "EST");
-const EugenioDeTina24 = createPlayer("Eugenio De Tina", 5, "EST");
-const LucaAnedda24 = createPlayer("Luca Anedda", 4, "EST");
-const DenisVanin24 = createPlayer("Denis Vanin", 4, "EST");
-const ThomasBaracetti24 = createPlayer("Thomas Baracetti", 4, "EST");
-const LucaGemo24 = createPlayer("Luca Gemo", 4, "EST");
-const DiegoNata24 = createPlayer("Diego Nata", 9, "EST");
-const MattiaRoiatti24 = createPlayer("Mattia Roiatti", 4, "EST");
-const EdoardoPicogna24 = createPlayer("Edoardo Picogna", 4, "EST");
-const MauroPerina24 = createPlayer("Mauro Perina", 4, "EST");
-const LorenzoMoro24 = createPlayer("Lorenzo Moro", 5, "EST");
-const GionaTell24 = createPlayer("Giona Tell", 5, "EST");
-const IacopoPivetta24 = createPlayer("Iacopo Pivetta", 6, "EST");
-const MattiaMasotti24 = createPlayer("Mattia Masotti", 6, "EST");
+const MarcoPolo24 = createPlayer("Marco Polo", 4, "EST",0);
+const MarcoSerrao24 = createPlayer("Marco Serrao", 7, "EST",0);
+const WilliamIob24 = createPlayer("William Iob", 7, "EST",0);
+const DavideBroggi24 = createPlayer("Davide Broggi", 4, "EST",0);
+const AlexMicottis24 = createPlayer("Alex Micottis", 4, "EST",0);
+const MassimilianoRossi24 = createPlayer("Massimiliano Rossi", 4, "EST",0);
+const MassimoMasotti24 = createPlayer("Massimo Masotti", 4, "EST",0);
+const EugenioDeTina24 = createPlayer("Eugenio De Tina", 5, "EST",0);
+const LucaAnedda24 = createPlayer("Luca Anedda", 4, "EST",0);
+const DenisVanin24 = createPlayer("Denis Vanin", 4, "EST",0);
+const ThomasBaracetti24 = createPlayer("Thomas Baracetti", 4, "EST",0);
+const LucaGemo24 = createPlayer("Luca Gemo", 4, "EST",0);
+const DiegoNata24 = createPlayer("Diego Nata", 9, "EST",0);
+const MattiaRoiatti24 = createPlayer("Mattia Roiatti", 4, "EST",0);
+const EdoardoPicogna24 = createPlayer("Edoardo Picogna", 4, "EST",0);
+const MauroPerina24 = createPlayer("Mauro Perina", 4, "EST",0);
+const LorenzoMoro24 = createPlayer("Lorenzo Moro", 5, "EST",0);
+const GionaTell24 = createPlayer("Giona Tell", 5, "EST",0);
+const IacopoPivetta24 = createPlayer("Iacopo Pivetta", 6, "EST",0);
+const MattiaMasotti24 = createPlayer("Mattia Masotti", 6, "EST",0);
 
 
     // //definizione players
