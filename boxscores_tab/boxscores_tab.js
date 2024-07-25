@@ -502,6 +502,7 @@ function populateTable_totals(team, players) {
     // tableBody.innerHTML += headerRow;
 }
 
+players.sort((a, b) => b.g1 - a.g1);
 // Chiamata alla funzione per popolare le tabelle per ciascun team
 populateTable_g1("NORD", players);
 // Popola le tabelle per EST, SUD e WEST allo stesso modo
@@ -509,29 +510,35 @@ populateTable_g1("EST", players);
 populateTable_g1("SUD", players);
 populateTable_g1("WEST", players);
 
+players.sort((a, b) => b.g2 - a.g2);
 populateTable_g2("NORD", players);
 populateTable_g2("EST", players);
 populateTable_g2("SUD", players);
 populateTable_g2("WEST", players);
 
+players.sort((a, b) => b.g3 - a.g3);
 populateTable_g3("NORD", players);
 populateTable_g3("EST", players);
 populateTable_g3("SUD", players);
 populateTable_g3("WEST", players);
 
+players.sort((a, b) => b.semi - a.semi);
 populateTable_semi("NORD", players);
 populateTable_semi("EST", players);
 populateTable_semi("SUD", players);
 populateTable_semi("WEST", players);
 
+players.sort((a, b) => b.final - a.final);
 populateTable_final("NORD", players);
 populateTable_final("WEST", players);
 
+players.sort((a, b) => b.tot - a.tot);
 populateTable_avg("WEST", players);
 populateTable_avg("NORD", players);
 populateTable_avg("EST", players);
 populateTable_avg("SUD", players);
 
+players.sort((a, b) => b.tot - a.tot);
 populateTable_totals("WEST", players);
 populateTable_totals("NORD", players);
 populateTable_totals("EST", players);
