@@ -1,5 +1,5 @@
 // Importa player_type e players dal modulo data.js
-import { player_type, players } from '../data.js';
+import { player_type, players, td3Weights } from '../data.js';
 console.log("inizio boxscore js"); // inizio
 
 // Funzione per popolare la tabella per un team specifico
@@ -502,6 +502,76 @@ function populateTable_totals(team, players) {
     // tableBody.innerHTML += headerRow;
 }
 
+
+// Funzione per popolare la tabella per un team specifico
+function populateTable_td3(team, players) {
+    const tableBody = document.getElementById(`tableBodytd3${team}`);
+
+    // Intestazione dei parametri da mostrare nella tabella
+    const headers = [
+        "Giocatore", "Partecipazione", "2° turno", "3° turno", "4° turno", "5° turno", "Finale", "Posizionamento", "0 su 10 da 3", "Ciabatte", "Altri Meme"
+    ];
+
+    // Aggiungi la prima riga con gli header alla tabella
+    let headerRow = '<tr>';
+    headers.forEach(header => {
+        headerRow += `<th>${header}</th>`;
+    });
+    headerRow += '</tr>';
+    tableBody.innerHTML = headerRow;
+    let iheader=0;
+
+
+    // Popola le righe della tabella con i dati dei giocatori del team specificato, fa le medie (non riesco a usare array per medie mannaggia)
+    players.forEach(player => {
+        if (player.team === team) {
+            let playerRow = '<tr>';
+            //giocatore
+            playerRow += `<td>${player.name}</td>`;
+            //partecipazione
+            if(player.stats_td3[0] == 1){
+                playerRow += `<td>${player.stats_td3[0]*td3Weights[0]}</td>`;
+            }else{
+                playerRow += `<td>${player.stats_td3[1]*td3Weights[1]}</td>`;
+            }
+            
+            //secondo turno
+            playerRow += `<td>${player.stats_td3[2]*td3Weights[2]}</td>`;
+            //terzo turno
+            playerRow += `<td>${player.stats_td3[3]*td3Weights[3]}</td>`;
+            //quarto turno
+            playerRow += `<td>${player.stats_td3[4]*td3Weights[4]}</td>`;
+            //quinto turno
+            playerRow += `<td>${player.stats_td3[5]*td3Weights[5]}</td>`;
+            //finale 
+            playerRow += `<td>${player.stats_td3[6]*td3Weights[6]}</td>`;
+            //posizionamento
+            if(player.stats_td3[7] == 0 && player.stats_td3[8] == 0 && player.stats_td3[9] == 0){ //non nei primi 3
+                playerRow += `<td>${player.stats_td3[9]*td3Weights[9]}</td>`; //zero qui
+            }else{
+                if (player.stats_td3[7] == 1){
+                    playerRow += `<td>${player.stats_td3[7]*td3Weights[7]}</td>`;//+5
+                }else if (player.stats_td3[8] == 1){
+                    playerRow += `<td>${player.stats_td3[8]*td3Weights[8]}</td>`;//+10
+                }else{
+                    playerRow += `<td>${player.stats_td3[9]*td3Weights[9]}</td>`;//+20
+                }
+            }
+            //0 su 10
+            playerRow += `<td>${player.stats_td3[10]*td3Weights[10]}</td>`;
+            //Ciabatte
+            playerRow += `<td>${player.stats_td3[10]*td3Weights[11]}</td>`;
+            //Altri meme
+            playerRow += `<td>${player.stats_td3[10]*td3Weights[12]}</td>`;
+            iheader++;
+            if(iheader==10){
+                tableBody.innerHTML += headerRow;
+            }
+        }
+    });
+    // tableBody.innerHTML += headerRow;
+}
+
 players.sort((a, b) => b.g1 - a.g1);
 // Chiamata alla funzione per popolare le tabelle per ciascun team
 populateTable_g1("NORD", players);
@@ -545,5 +615,13 @@ populateTable_totals("WEST", players);
 populateTable_totals("NORD", players);
 populateTable_totals("EST", players);
 populateTable_totals("SUD", players);
+
+players.sort((a, b) => b.td3 - a.td3);
+
+//players.sort((a, b) => b.tot - a.tot);
+populateTable_td3("WEST", players);
+populateTable_td3("NORD", players);
+populateTable_td3("EST", players);
+populateTable_td3("SUD", players);
 
 
