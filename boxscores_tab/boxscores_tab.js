@@ -509,7 +509,7 @@ function populateTable_td3(team, players) {
 
     // Intestazione dei parametri da mostrare nella tabella
     const headers = [
-        "Giocatore", "Partecipazione", "2° turno", "3° turno", "4° turno", "5° turno", "Finale", "Posizionamento", "0 su 10 da 3", "Ciabatte", "Altri Meme","TOT"
+        "Giocatore", "Partecipazione", "2° turno", "3° turno", "4° turno", "5° turno", "Finale", "Posizionamento", "0/10 tiri", "Ciabatte", "Altri Meme","TOT"
     ];
 
     // Aggiungi la prima riga con gli header alla tabella
