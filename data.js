@@ -945,17 +945,17 @@ MattiaMasotti24.final = Math.round(8.75 * 100) / 100;
         player.tot = Math.round((player.g1 + player.g2 + player.g3 + player.semi + player.td3 + player.final)*100)/100;
     };
     //
-    function createFantateam(teamIndex, teamName, rione, players24) {
+    function createFantateam(teamIndex, teamName, rione, teamplayers) {
         const fantateam = {
             ...fantateam_type,
             team_index: teamIndex,
             name: teamName,
             rione: { ...rione },
-            p1: { ...players24[0] },
-            p2: { ...players24[1] },
-            p3: { ...players24[2] },
-            p4: { ...players24[3] },
-            p5: { ...players24[4] },
+            p1: { ...teamplayers[0] },
+            p2: { ...teamplayers[1] },
+            p3: { ...teamplayers[2] },
+            p4: { ...teamplayers[3] },
+            p5: { ...teamplayers[4] },
         };
         
         fantateam.total_cost = fantateam.p1.cost + fantateam.p2.cost + fantateam.p3.cost + fantateam.p4.cost + fantateam.p5.cost;
