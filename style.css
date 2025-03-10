@@ -442,16 +442,16 @@ footer {
 }
 
 .cardclasssoftWEST{
-    border: 4px solid var(--west-color1);
+    border: 6px solid var(--west-color1);
 }
 .cardclasssoftNORD{
-    border: 4px solid var(--nord-color1);
+    border: 6px solid var(--nord-color1);
 }
 .cardclasssoftSUD{
-    border: 4px solid var(--sud-color2);
+    border: 6px solid var(--sud-color2);
 }
 .cardclasssoftEST{
-    border: 4px solid var(--est-color1);
+    border: 6px solid var(--est-color1);
 }
 
 
