@@ -1,4 +1,6 @@
-
+// questo prima fa un po di robe per generare la tendina coi player elencati per rione
+// poi genera le cards una per ogni partita con le stats non nulle (calcolando ogni contributo di stats)
+// se si cambiano array di stats è da cambiare anche questo codice
 
 
 import { players, pdkWeights, td3Weights } from '../data.js';
