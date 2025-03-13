@@ -2,6 +2,16 @@
 import { player_type, players, td3Weights } from '../data.js';
 console.log("inizio boxscore js"); // inizio
 
+
+
+
+// qui c'è una funzione per ogni giornata, uguale eccetto i dati stats che usa il suffisso diverso
+// quella del td3 è un po diversa ma ci sta
+
+
+
+
+
 // Funzione per popolare la tabella per un team specifico
 function populateTable_g1(team, players) {
     const tableBody = document.getElementById(`tableBodyG1${team}`);

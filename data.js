@@ -1,4 +1,23 @@
-    // data.js
+// data.js
+// contiene:
+// - definizione player_type, rione_type, fantateam_type
+// - funzione createPlayer
+// - creazione tutti i player 2024
+// - creazione rioni
+// - inserimento stats per tutti i player (g1, g2, g3, semi, td3, finale)
+// - creazione array players24
+// - funzione sumproduct
+// - calcolo punteggi per tutte le giornate
+// - inserimento punteggio medio anzichè finale per EST e SUD (fatto a mano, da automatizzare)
+// - funzione createFantateam
+// - inserimento tutti i fantateam (scritto con python) *per fare questo sarà da fare uno script che prende i risultati del form
+// - creazione array fantateams
+// - esportazione dati (players, fantateams, rioni)
+
+
+
+
+
 
     // Definizione del tipo player_type
     const player_type = {
@@ -897,9 +916,8 @@ RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
     }
 
 
-// Calcola le statistiche medie
 
-    //FINALE punteggi medi calcolati con excel e messi dentro a mano
+    //FINALE punteggi medi calcolati con excel e messi dentro a mano PER SUD E ESt
 SimoneMartinelli24.final = Math.round(-0.88 * 100) / 100;
 MatteoSpagnolo24.final = Math.round(6.38 * 100) / 100;
 DavideFaurlin24.final = Math.round(0.38 * 100) / 100;
