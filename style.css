@@ -2,7 +2,8 @@
     /*--main-color1:rgb(204, 92, 0);
     --main-color2:rgb(6, 1, 87);*/
     --main-color1:rgb(78, 78, 78);
-    --main-color2:rgb(200, 200, 160);
+    /*--main-color2:rgb(200, 200, 160);*/
+    --main-color2:black;
 
     --nord-color1:rgb(255, 0, 0);
     --nord-color2:rgb(0, 0, 0);
@@ -53,8 +54,8 @@ a button {
     font-size: 18px;
     border-radius: 8px;
     background-color: var(--main-color1);
-    /*color: white;*/
-    color: var(--main-color2);
+    color: white;
+    /*color: var(--main-color2);*/
     border: none;
     cursor: pointer;
 }
