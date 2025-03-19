@@ -54,7 +54,7 @@ a button {
     font-size: 18px;
     border-radius: 8px;
     background-color: var(--main-color1);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     color: white;
     /*color: var(--main-color2);*/
     border: none;
@@ -68,7 +68,7 @@ a button:hover {
 .dropdown {
     display: block;
     width: 200px;
-    margin: 10px auto;
+    margin: 10px auto;  
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
