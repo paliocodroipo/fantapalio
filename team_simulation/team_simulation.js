@@ -73,7 +73,7 @@ function renderTeam() {
                 teamContainer.parentNode.insertBefore(newValidMessage, teamContainer);
 
                 const newSignupLink = document.createElement('a');
-                newSignupLink.href = "https://surveyheart.com/form/6693eb0ae930bd1754994530";
+                newSignupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSfLAo7zMMB_5IvCDB_wVziMdtDbGA4tLScFbTwug7D_TvIoTw/viewform?usp=dialog";
                 newSignupLink.target = "_blank";
                 newSignupLink.textContent = "ricordateli bene, poi iscrivi la squadra";
                 newSignupLink.id = 'signupLink';
