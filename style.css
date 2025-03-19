@@ -1,6 +1,8 @@
 :root {
-    --main-color1:rgb(204, 92, 0);
-    --main-color2:rgb(6, 1, 87);
+    /*--main-color1:rgb(204, 92, 0);
+    --main-color2:rgb(6, 1, 87);*/
+    --main-color1:rgb(78, 78, 78);
+    --main-color2:rgb(200, 200, 160);
 
     --nord-color1:rgb(255, 0, 0);
     --nord-color2:rgb(0, 0, 0);
