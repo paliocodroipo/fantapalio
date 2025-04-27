@@ -583,3 +583,18 @@ footer {
     color: var(--main-color2);
     padding-bottom:20px;
 }
+
+
+/* Only for the registration page to fix column width */
+.fixed-column-table {
+    table-layout: fixed;
+}
+
+/* Control width of columns inside fixed layout */
+.fixed-column-table th:first-child, .fixed-column-table td:first-child {
+    width: 70%; /* Name */
+}
+
+.fixed-column-table th:last-child, .fixed-column-table td:last-child {
+    width: 30%; /* Cost */
+}

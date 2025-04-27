@@ -23,7 +23,9 @@ function createTable(teamName, playerList) {
     playerList.sort((a, b) => b.cost - a.cost);
 
     const table = document.createElement('table');
-    table.className = `boxscore-table${teamName}`;
+    
+    table.className = `boxscore-table${teamName} fixed-column-table`;
+
 
     const thead = document.createElement('thead');
     const headRow = document.createElement('tr');
