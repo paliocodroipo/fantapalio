@@ -112,33 +112,66 @@ function updateCreditsCounter() {
     creditsCounter.textContent = `Hai ancora: ${maxCredits - totalCost}$`;
 }
 
-// Funzione per popolare la lista dei giocatori disponibili
+// // Funzione per popolare la lista dei giocatori disponibili, ORDINATI SOLO PER PREZZO E NON TEAM
+// function populatePlayersList() {
+//     const playersContainer = document.getElementById('playersContainer');
+//     playersContainer.innerHTML = '';
+
+//     // Sort players by cost descending before displaying
+//     players
+//     .slice() // Make a shallow copy, so you don't modify original "players"
+//     .sort((a, b) => b.cost - a.cost) // Sort descending by cost
+//     .forEach((player) => {
+//         const playerCard = document.createElement('div');
+//         playerCard.classList.add('player-card1', `cardclass${player.team}`);
+//         playerCard.innerHTML = `
+//             <p>${player.name}</p>
+//             <p>${player.team} &emsp; $${player.cost}</p>
+//         `;
+//         playerCard.addEventListener('click', () => addPlayer(player));
+//         playersContainer.appendChild(playerCard);
+//     });
+
+
+//     // Aggiungi l'elemento per i crediti rimanenti
+//     const creditsCounter = document.createElement('p');
+//     creditsCounter.id = 'creditsCounter';
+//     creditsCounter.textContent = `Hai ancora: ${maxCredits}$`;
+//     playersContainer.parentNode.insertBefore(creditsCounter, playersContainer.nextSibling);
+// }
+
+// Funzione per popolare la lista dei giocatori disponibili, ORDINATI SOLO PER TEAM E POI PREZZO
 function populatePlayersList() {
     const playersContainer = document.getElementById('playersContainer');
     playersContainer.innerHTML = '';
 
-    // Sort players by cost descending before displaying
-    players
-    .slice() // Make a shallow copy, so you don't modify original "players"
-    .sort((a, b) => b.cost - a.cost) // Sort descending by cost
-    .forEach((player) => {
-        const playerCard = document.createElement('div');
-        playerCard.classList.add('player-card1', `cardclass${player.team}`);
-        playerCard.innerHTML = `
-            <p>${player.name}</p>
-            <p>${player.team} &emsp; $${player.cost}</p>
-        `;
-        playerCard.addEventListener('click', () => addPlayer(player));
-        playersContainer.appendChild(playerCard);
+    // Group players by team
+    const teams = ['NORD', 'WEST', 'EST', 'SUD']; // Adjust if you have other team names
+    teams.forEach((teamName) => {
+        // Filter players belonging to the current team
+        const playersOfTeam = players
+            .filter(player => player.team === teamName)
+            .sort((a, b) => b.cost - a.cost); // Sort descending by cost inside the team
+
+        // Now display players of this team
+        playersOfTeam.forEach((player) => {
+            const playerCard = document.createElement('div');
+            playerCard.classList.add('player-card1', `cardclass${player.team}`);
+            playerCard.innerHTML = `
+                <p>${player.name}</p>
+                <p>${player.team} &emsp; $${player.cost}</p>
+            `;
+            playerCard.addEventListener('click', () => addPlayer(player));
+            playersContainer.appendChild(playerCard);
+        });
     });
 
-
-    // Aggiungi l'elemento per i crediti rimanenti
     const creditsCounter = document.createElement('p');
     creditsCounter.id = 'creditsCounter';
     creditsCounter.textContent = `Hai ancora: ${maxCredits}$`;
     playersContainer.parentNode.insertBefore(creditsCounter, playersContainer.nextSibling);
 }
+
 
 // Inizializza la pagina
 window.onload = () => {
