@@ -917,7 +917,7 @@ RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 
 
-    //FINALE punteggi medi calcolati con excel e messi dentro a mano PER SUD E ESt
+    //FINALE punteggi medi calcolati con excel e messi dentro a mano PER SUD E ESt (non hanno giocato in finale24)
 SimoneMartinelli24.final = Math.round(-0.88 * 100) / 100;
 MatteoSpagnolo24.final = Math.round(6.38 * 100) / 100;
 DavideFaurlin24.final = Math.round(0.38 * 100) / 100;
