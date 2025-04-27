@@ -117,17 +117,21 @@ function populatePlayersList() {
     const playersContainer = document.getElementById('playersContainer');
     playersContainer.innerHTML = '';
 
-    players.forEach((player) => {
+    // Sort players by cost descending before displaying
+    players
+    .slice() // Make a shallow copy, so you don't modify original "players"
+    .sort((a, b) => b.cost - a.cost) // Sort descending by cost
+    .forEach((player) => {
         const playerCard = document.createElement('div');
         playerCard.classList.add('player-card1', `cardclass${player.team}`);
         playerCard.innerHTML = `
             <p>${player.name}</p>
             <p>${player.team} &emsp; $${player.cost}</p>
         `;
-        // Aggiungi un evento per aggiungere il giocatore cliccando sulla card
         playerCard.addEventListener('click', () => addPlayer(player));
         playersContainer.appendChild(playerCard);
     });
+
 
     // Aggiungi l'elemento per i crediti rimanenti
     const creditsCounter = document.createElement('p');
