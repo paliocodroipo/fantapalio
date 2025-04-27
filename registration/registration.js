@@ -18,6 +18,10 @@ players.forEach(player => {
 
 // Helper to create a table for one team
 function createTable(teamName, playerList) {
+
+    // Sort players by cost descending
+    playerList.sort((a, b) => b.cost - a.cost);
+
     const table = document.createElement('table');
     table.className = `boxscore-table${teamName}`;
 
