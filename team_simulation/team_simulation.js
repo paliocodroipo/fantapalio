@@ -66,19 +66,46 @@ function renderTeam() {
             if (!validMessage) {
                 const newValidMessage = document.createElement('p');
                 newValidMessage.textContent = 'VALIDO';
+                newValidMessage.classList.add('highlighted-text');
                 newValidMessage.classList.add('valid-message');
-                newValidMessage.style.color = 'green';
+                // newValidMessage.style.color = 'green';
                 newValidMessage.style.fontWeight = 'bold';
                 newValidMessage.id = 'validMessage';
                 teamContainer.parentNode.insertBefore(newValidMessage, teamContainer);
 
-                const newSignupLink = document.createElement('a');
-                newSignupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSfLAo7zMMB_5IvCDB_wVziMdtDbGA4tLScFbTwug7D_TvIoTw/viewform?usp=dialog";
-                newSignupLink.target = "_blank";
-                newSignupLink.textContent = "ricordateli bene, poi iscrivi la squadra";
-                newSignupLink.id = 'signupLink';
-                newSignupLink.classList.add('registrationlink');  // Aggiunge la classe registrationlink
-                newValidMessage.parentNode.insertBefore(newSignupLink, newValidMessage.nextSibling);
+                // // commented to separate link and "ricordateli bene, poi"
+                // const newSignupLink = document.createElement('a');
+                // newSignupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSfLAo7zMMB_5IvCDB_wVziMdtDbGA4tLScFbTwug7D_TvIoTw/viewform?usp=dialog";
+                // newSignupLink.target = "_blank";
+                // newSignupLink.textContent = "ricordateli bene, poi iscrivi la squadra";
+                // newSignupLink.id = 'signupLink';
+                // newSignupLink.classList.add('highlighted-text');
+                // newSignupLink.classList.add('registrationlink');  // Aggiunge la classe registrationlink
+                
+                // newValidMessage.parentNode.insertBefore(newSignupLink, newValidMessage.nextSibling);
+
+
+                 // Create container for the message
+                const messageContainerLink = document.createElement('p');
+                messageContainerLink.classList.add('highlighted-text');
+
+                // Add plain text
+                const plainTextB4link = document.createTextNode('Non hai ancora registrato la squadra. Ricordati i giocatori selezionati e ');
+
+                // Create the link
+                const signupLink = document.createElement('a');
+                signupLink.classList.add('registrationlink');
+                signupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSfLAo7zMMB_5IvCDB_wVziMdtDbGA4tLScFbTwug7D_TvIoTw/viewform?usp=dialog";
+                signupLink.target = "_blank";
+                signupLink.textContent = 'compila il modulo di iscrizione';
+                signupLink.id = 'signupLink';
+
+                // Append text and link to the container
+                messageContainerLink.appendChild(plainTextB4link);
+                messageContainerLink.appendChild(signupLink);
+
+                // Insert the container after the valid message
+                newValidMessage.parentNode.insertBefore(messageContainerLink, newValidMessage.nextSibling);
             }
         } else {
             if (validMessage) {
@@ -168,6 +195,7 @@ function populatePlayersList() {
 
     const creditsCounter = document.createElement('p');
     creditsCounter.id = 'creditsCounter';
+    creditsCounter.classList.add('highlighted-text')
     creditsCounter.textContent = `Hai ancora: ${maxCredits}$`;
     playersContainer.parentNode.insertBefore(creditsCounter, playersContainer.nextSibling);
 }

@@ -1,11 +1,15 @@
 :root {
-    /*--main-color1:rgb(204, 92, 0);
-    --main-color2:rgb(6, 1, 87);*/
+    /* arancione */
+    /* --main-color1:rgb(204, 92, 0);  */
+    /* --main-color2:rgb(6, 1, 87); */
+
+    /* grigio scuro */
     --main-color1:rgb(78, 78, 78);
+
     /*--main-color2:rgb(200, 200, 160);*/
     --main-color2:black;
 
-    --nord-color1:rgb(255, 0, 0);
+    --nord-color1:rgb(255, 50, 50);
     --nord-color2:rgb(0, 0, 0);
 
     --west-color1:rgb(0, 0, 0);
@@ -25,8 +29,41 @@ body {
     font-family: 'Poppins', sans-serif;   
     margin: 0;
     padding: 0;
+    
+ /*   color: white; LEAVE COMMENtED, ONLY REFERENCE
+ /*   background-image: url('sopravert.jpg'); /* Replace with your image file path */
+ /*   background-size: cover; /* Ensures it covers the whole page */
+ /*   background-repeat: no-repeat; /* Prevents repeating */
+ /*   background-attachment: fixed; /* Keeps it fixed when scrolling */
+ /*   background-position: center center; /* Center the image */
+ /*   /* Optional: Set a fallback background color */
+ /*   background-color: #f0f0f0;
+ */
+
+ /* COMMENT AND UNCOMMENT THIS to toggle background image and text color white: */
+    color: white;
+    background-image: url('foto_drone_buio.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center center; 
     background-color: #f0f0f0;
+ 
 }
+/* .cengapic{ */
+    /* background-image: url('foto_drone_buio.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center center; 
+    background-color: #f0f0f0; */
+/* 
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url('foto_drone_buio.jpg') center center / cover no-repeat;
+    z-index: -1;
+} */
 
 header {
     background-color: var(--main-color1);
@@ -190,6 +227,7 @@ footer {
 /* Scheda */
 .team-card {
     background-color: #f9f9f9;
+    color: black;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
@@ -501,13 +539,16 @@ footer {
     /*border: 2px solid black;*/
 }
 
-.validmessage{
+/* .validmessage{
     font-size: 4em;
-}
+    color:white;
+    background-color: green;
+} */
 
-.registrationlink{
+/* .registrationlink{
     text-decoration: underline;
-}
+    color: cyan;
+} */
 
 .boxscore-tableNORD, .boxscore-tableWEST, .boxscore-tableEST, .boxscore-tableSUD{
     margin: auto;
@@ -578,11 +619,18 @@ footer {
 .avviso{
     width: 80%;
     margin: auto;
+    margin-top: 10px;
     border: 2px solid var(--main-color2);
     border-radius: 5px;
     color: var(--main-color2);
     padding-bottom:20px;
+    background-color: #f0f0f0; /* sfondo per non fare trasparente*/
 }
+td { /* tutto serve per sfondo immagine*/
+    background-color: white;/* sfondo per non fare trasparente*/
+    color: black;
+}
+
 
 
 /* Only for the registration page to fix column width */
@@ -597,4 +645,24 @@ footer {
 
 .fixed-column-table th:last-child, .fixed-column-table td:last-child {
     width: 30%; /* Cost */
+}
+
+.highlighted-text {
+  color: white;
+  background-color: black;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+}
+
+.totalteamcard{
+    color: black;
+}
+
+.valid-message{
+    color:white;
+    background-color: green;
+}
+.registrationlink{
+    text-decoration: underline;
+    color: cyan;
 }
