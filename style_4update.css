@@ -381,7 +381,7 @@ footer {
 }
 .totalpointsindex{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 .gamescore{
     width: 60%;
@@ -612,6 +612,9 @@ footer {
     margin-top: 0;
 }
 
+.totalpointsindex {
+    font-weight: bold;
+}
 
 .avviso{
     width: 80%;
