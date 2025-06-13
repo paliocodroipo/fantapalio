@@ -4,8 +4,8 @@ import shutil
 #                  DA CAMBIARE QUESTE 2
 
 # Constants for old and new timestamps
-OLD_TIMESTAMP = "250602_2200"  # replace with the old timestamp
-NEW_TIMESTAMP = "250603_0009"  # replace with the new timestamp
+OLD_TIMESTAMP = "250613_2349"  # replace with the old timestamp
+NEW_TIMESTAMP = "250613_2357"  # replace with the new timestamp
 #################################################################################
 
 # List of files to update (add any .html, .js, etc. you need)
@@ -20,6 +20,9 @@ target_files = [
     "team_rankings_div/team_rankings.html",
     "team_simulation/team_simulation.html",
     "registration/registration.html",
+    "coppachiosco/coppachiosco.html",
+    "updates_page/updates_page.html",
+    "meme_p_rankings/meme_p_rankings.html",
 
     "script.js",
     "boxscores/boxscores.js",
@@ -29,6 +32,8 @@ target_files = [
     "team_rankings_div/team_rankings.js",
     "team_simulation/team_simulation.js",
     "registration/registration.js",
+    "coppachiosco/coppachiosco.js",
+    "meme_p_rankings/meme_p_rankings.js",
 ]
 
 # Replace the old timestamp with the new one in each target file
@@ -53,7 +58,7 @@ if os.path.exists(old_data_file):
         response = input(f"{new_data_file} already exists. Overwrite? (y/n): ")
         if response.lower() == 'y':
             shutil.copy(old_data_file, new_data_file)
-            print(f"Overwritten {new_data_file}.")
+            print(f"Overwritten {new_data_file} using {old_data_file}.")
         else:
             print(f"Skipped overwriting {new_data_file}.")
     else:
