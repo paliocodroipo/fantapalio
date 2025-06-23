@@ -726,7 +726,7 @@ td { /* tutto serve per sfondo immagine*/
     padding: 15px 30px;
     font-size: 18px;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     color: white;
     /* color: var(--main-color3); */
     border: none;
