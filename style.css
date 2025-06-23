@@ -719,3 +719,6 @@ td { /* tutto serve per sfondo immagine*/
     border: none;
     cursor: pointer;
 }
+.instagram-button{
+    background-color: rgb(221,42,123);
+}
