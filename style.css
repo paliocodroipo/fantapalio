@@ -97,9 +97,9 @@ header {
         text-decoration: underline;
     }
 
-    .top-right-link:hover {
+    /* .top-right-link:hover {
         color: var(--main-color2);
-    }
+    } */
 
 
 main {
@@ -119,7 +119,7 @@ a button {
     font-size: 18px;
     border-radius: 8px;
     background-color: var(--main-color1);
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     color: white;
     /* color: var(--main-color3); */
     border: none;

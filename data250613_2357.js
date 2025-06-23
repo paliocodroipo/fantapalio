@@ -939,7 +939,7 @@ MattiaMasotti24.stats_td3 = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 
 //fatti da script pulisci_class_esistente.py che finisce in init_fantateam_js:
-MassimilianoMoretti24.stats_final = [12, 4, 5, 1, 6, 1, 4, 3, 3, 6, 3, 1, 2, 0, 0, 0, 0, 1, 1];
+MassimilianoMoretti24.stats_final = [12, 4, 5, 1, 6, 1, 4, 3, 3, 6, 3, 1, 2, 0, 0, 0, 0, 1, 6];
 AndreaMoretti24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0];
 LarryTrevisan24.stats_final = [23, 7, 5, 3, 1, 0, 0, 2, 1, 3, 1, 1, 2, 3, 0, 0, 0, 1, 0];
 AlessandroCostantini24.stats_final = [3, 0, 5, 1, 4, 0, 0, 2, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1, 0];
