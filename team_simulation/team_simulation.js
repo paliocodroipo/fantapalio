@@ -1,5 +1,6 @@
 // Importa l'array di giocatori dal modulo esterno
-import { players } from '../data250623_2335.js';
+import { players25 } from '../data250625_2207.js';
+const players=players25; // messo questo, da updeateare ogni anno ma sticazzi
 
 // Variabili globali per tenere traccia dei giocatori selezionati e dei crediti totali
 let selectedPlayers = [];

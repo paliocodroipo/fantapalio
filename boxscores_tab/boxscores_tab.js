@@ -1,5 +1,5 @@
 // Importa player_type e players dal modulo data.js
-import { player_type, players, td3Weights, players24 } from '../data250623_2335.js';
+import { player_type, players, td3Weights, players24, players25 } from '../data250625_2207.js';
 console.log("inizio boxscore js"); // inizio
 
 
@@ -557,8 +557,8 @@ function populateTable_td3(team, players) {
 
     // Intestazione dei parametri da mostrare nella tabella
     const headers = [
-        "Giocatore", "Partecipazione", "2° turno", "3° turno", "4° turno", "5° turno", "Finale", "Posizionamento", "0/10 tiri", "Ciabatte", "Altri Meme","TOT"
-    ];
+        "Giocatore", "Partecipazione", "1° turno", "2° turno", "3° turno", "4° turno", "Semifinale", "Finale", "0/10 tiri", "Ciabatte", "Altri Meme","TOT"
+    ]; //                                                                                           "Posizionamento"
 
     // Aggiungi la prima riga con gli header alla tabella
     let headerRow = '<tr>';
@@ -649,15 +649,15 @@ populateTable_g1("WEST", players);
 // populateTable_semi("SUD", players);
 // populateTable_semi("WEST", players);
 
-// players.sort((a, b) => b.td3 - a.td3);
+players.sort((a, b) => b.td3 - a.td3);
 
-// //players.sort((a, b) => b.tot - a.tot);
-// populateTable_td3("WEST", players);
-// populateTable_td3("NORD", players);
-// populateTable_td3("EST", players);
-// populateTable_td3("SUD", players);
+//players.sort((a, b) => b.tot - a.tot);
+populateTable_td3("WEST", players);
+populateTable_td3("NORD", players);
+populateTable_td3("EST", players);
+populateTable_td3("SUD", players);
 
-//ATTENZIONE: AGGIUNTO 24 DOPO "players" nelle prossime righe (indentate)
+//ATTENZIONE: AGGIUNTO 24 DOPO "players" nelle prossime righe (indentate) PER LASCIARE INFO DEL 2024 ANCHE A INIZIO PALIO 2025
         players24.sort((a, b) => b.final - a.final); 
         populateTable_final("NORD", players24);
         populateTable_final("WEST", players24);
