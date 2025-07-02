@@ -1,5 +1,5 @@
 // Importa l'array di giocatori dal modulo esterno
-import { players25 } from '../data250629_1905.js';
+import { players25 } from '../data250702_0854.js';
 const players=players25; // messo questo, da updeateare ogni anno ma sticazzi
 
 // Variabili globali per tenere traccia dei giocatori selezionati e dei crediti totali
@@ -76,7 +76,7 @@ function renderTeam() {
 
                 // // commented to separate link and "ricordateli bene, poi"
                 // const newSignupLink = document.createElement('a');
-                // newSignupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSeaoPoLHcBNLQOQ6COt7A96HQNuXoVDyabHvqGatlXtEHBnOg/viewform?usp=dialog";
+                // newSignupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSe4ToqMLof15p-CZQlmB4QbkBucHzkcrlioZyYbulH1Z-WxjQ/viewform?usp=dialog";
                 // newSignupLink.target = "_blank";
                 // newSignupLink.textContent = "ricordateli bene, poi iscrivi la squadra";
                 // newSignupLink.id = 'signupLink';
@@ -96,7 +96,7 @@ function renderTeam() {
                 // Create the link
                 const signupLink = document.createElement('a');
                 signupLink.classList.add('registrationlink');
-                signupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSeaoPoLHcBNLQOQ6COt7A96HQNuXoVDyabHvqGatlXtEHBnOg/viewform?usp=dialog";
+                signupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSe4ToqMLof15p-CZQlmB4QbkBucHzkcrlioZyYbulH1Z-WxjQ/viewform?usp=dialog";
                 signupLink.target = "_blank";
                 signupLink.textContent = 'compila il modulo di iscrizione';
                 signupLink.id = 'signupLink';
@@ -121,9 +121,9 @@ function renderTeam() {
             const playerCard = document.createElement('div');
             playerCard.classList.add('player-card1', `cardclass${player.team}`);
             playerCard.innerHTML = `
-                <p>${player.name}</p>
+                <p><b>${player.name}</b></p>
                
-                <p>${player.team} &emsp; $${player.cost}</p>
+                <p><b>${player.team}</b> &emsp; <b>$${player.cost}</b></p>
             `;
             // Aggiungi un evento per rimuovere il giocatore cliccando sulla card
             playerCard.addEventListener('click', () => removePlayer(index));
@@ -186,8 +186,8 @@ function populatePlayersList() {
             const playerCard = document.createElement('div');
             playerCard.classList.add('player-card1', `cardclass${player.team}`);
             playerCard.innerHTML = `
-                <p>${player.name}</p>
-                <p>${player.team} &emsp; $${player.cost}</p>
+                <p><b>${player.name}</b></p>
+                <p><b>${player.team}</b> &emsp; <b>$${player.cost}</b></p>
             `;
             playerCard.addEventListener('click', () => addPlayer(player));
             playersContainer.appendChild(playerCard);
@@ -285,7 +285,7 @@ window.onload = () => {
 //                 teamContainer.parentNode.insertBefore(newValidMessage, teamContainer);
 
 //                 const newSignupLink = document.createElement('a');
-//                 newSignupLink.href = "https://surveyheart.com/form/6693eb0ae930bd1754994530";
+//                 newSignupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSe4ToqMLof15p-CZQlmB4QbkBucHzkcrlioZyYbulH1Z-WxjQ/viewform?usp=dialog";
 //                 newSignupLink.target = "_blank";
 //                 newSignupLink.textContent = "iscrivi la squadra";
 //                 newSignupLink.id = 'signupLink';

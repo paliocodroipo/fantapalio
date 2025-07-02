@@ -1,5 +1,5 @@
 // Importa player_type e players dal modulo data.js
-import { player_type, players, td3Weights, players24, players25 } from '../data250629_1905.js';
+import { player_type, players, td3Weights, players24, players25 } from '../data250702_0854.js';
 console.log("inizio boxscore js"); // inizio
 
 
@@ -623,13 +623,28 @@ function populateTable_td3(team, players) {
     // tableBody.innerHTML += headerRow;
 }
 
-// players.sort((a, b) => b.g1 - a.g1);
-// // Chiamata alla funzione per popolare le tabelle per ciascun team
-// populateTable_g1("NORD", players);
-// // Popola le tabelle per EST, SUD e WEST allo stesso modo
-// populateTable_g1("EST", players);
-// populateTable_g1("SUD", players);
-// populateTable_g1("WEST", players);
+
+
+
+// 2024 stats:
+// usa players24
+players24.sort((a, b) => (b.tot-b.td3) - (a.tot-a.td3)); // sort without td3 stats
+        populateTable_avg("WEST", players24);
+        populateTable_avg("NORD", players24);
+        populateTable_avg("EST", players24);
+        populateTable_avg("SUD", players24);
+
+
+
+
+
+players.sort((a, b) => b.g1 - a.g1);
+// Chiamata alla funzione per popolare le tabelle per ciascun team
+populateTable_g1("NORD", players);
+// Popola le tabelle per EST, SUD e WEST allo stesso modo
+populateTable_g1("EST", players);
+populateTable_g1("SUD", players);
+populateTable_g1("WEST", players);
 
 // players.sort((a, b) => b.g2 - a.g2);
 // populateTable_g2("NORD", players);
@@ -649,30 +664,17 @@ function populateTable_td3(team, players) {
 // populateTable_semi("SUD", players);
 // populateTable_semi("WEST", players);
 
-
-
-// //players.sort((a, b) => b.tot - a.tot); //inutile questa penso
 // players.sort((a, b) => b.td3 - a.td3);
 // populateTable_td3("WEST", players);
 // populateTable_td3("NORD", players);
 // populateTable_td3("EST", players);
 // populateTable_td3("SUD", players);
 
-//ATTENZIONE: AGGIUNTO 24 DOPO "players" nelle prossime righe (indentate) PER LASCIARE INFO DEL 2024 ANCHE A INIZIO PALIO 2025
-        // players24.sort((a, b) => b.final - a.final); 
-        // populateTable_final("NORD", players24);
-        // populateTable_final("WEST", players24);
-
-        players24.sort((a, b) => (b.tot-b.td3) - (a.tot-a.td3));
-        populateTable_avg("WEST", players24);
-        populateTable_avg("NORD", players24);
-        populateTable_avg("EST", players24);
-        populateTable_avg("SUD", players24);
-
-
 // players.sort((a, b) => b.final - a.final); 
 // populateTable_final("NORD", players);
 // populateTable_final("WEST", players);
+
+
 
 // players.sort((a, b) => (b.tot-b.td3) - (a.tot-a.td3));
 // populateTable_avg("WEST", players);
@@ -681,7 +683,6 @@ function populateTable_td3(team, players) {
 // populateTable_avg("SUD", players);
 
 // players.sort((a, b) => (b.tot-b.td3) - (a.tot-a.td3));
-// //players.sort((a, b) => b.tot - a.tot);
 // populateTable_totals("WEST", players);
 // populateTable_totals("NORD", players);
 // populateTable_totals("EST", players);
