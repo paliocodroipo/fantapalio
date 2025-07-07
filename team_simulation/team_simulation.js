@@ -1,5 +1,5 @@
 // Importa l'array di giocatori dal modulo esterno
-import { players25 } from '../data250707_0851.js';
+import { players25 } from '../data250707_0909.js';
 const players=players25; // messo questo, da updeateare ogni anno ma sticazzi
 
 // Variabili globali per tenere traccia dei giocatori selezionati e dei crediti totali
@@ -53,6 +53,7 @@ function renderTeam() {
 
     const validMessage = document.getElementById('validMessage');
     const signupLink = document.getElementById('signupLink');
+    const textb4link = document.getElementById('textb4link');
 
     if (selectedPlayers.length === 0) {
         teamContainer.innerHTML = '<p><em>Team vuoto</em></p>';
@@ -61,6 +62,9 @@ function renderTeam() {
         }
         if (signupLink) {
             signupLink.remove();
+        }
+        if (textb4link) {
+            textb4link.remove();
         }
     } else {
         if (selectedPlayers.length === 5) {
@@ -92,7 +96,10 @@ function renderTeam() {
 
                 // Add plain text
                 // const plainTextB4link = document.createTextNode('Non hai ancora registrato la squadra. <span class="orange_text">Ricordati</span> i giocatori selezionati e ');
-                messageContainerLink.innerHTML = 'Non hai ancora registrato la squadra. <span class="orange_text">Ricordati</span> i giocatori selezionati e ';
+                const textb4link = document.createElement('span');
+                textb4link.id = 'textb4link';
+                textb4link.innerHTML = 'Non hai ancora registrato la squadra. <span class="orange_text">Ricordati</span> i giocatori selezionati e ';
+                // messageContainerLink.innerHTML = 'Non hai ancora registrato la squadra. <span class="orange_text">Ricordati</span> i giocatori selezionati e ';
                 // Create the link
                 const signupLink = document.createElement('a');
                 signupLink.classList.add('registrationlink');
@@ -103,6 +110,7 @@ function renderTeam() {
 
                 // Append text and link to the container
                 // messageContainerLink.appendChild(plainTextB4link);
+                messageContainerLink.appendChild(textb4link);
                 messageContainerLink.appendChild(signupLink);
 
                 // Insert the container after the valid message
@@ -114,6 +122,9 @@ function renderTeam() {
             }
             if (signupLink) {
                 signupLink.remove();
+            }
+            if (textb4link) {
+                textb4link.remove();
             }
         }
 
