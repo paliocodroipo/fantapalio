@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <title>Classifica giocatori</title>
+    <title>Classifica giocatori semplice</title>
     <link rel="icon" href="../fantapalio_icon.png">
     <link rel="stylesheet" href="../style.css?v=250708_0011">
 </head>
@@ -15,7 +15,7 @@
     <div class="background"></div>
     <div class="content">
     <header>
-        <h1>Giocatori</h1>
+        <h1>Classifica Giocatori</h1>
     </header>
     <main>
         <div class="button-container">
@@ -23,13 +23,24 @@
             <a href="../player_detail/player_detail.html"><button class="rectangle-button">Dettaglio giocatori</button></a>
             <a href="../meme_p_rankings/meme_p_rankings.html"><button class="rectangle-button">Classifica mematori</button></a>
         </div>
-        <p>CLASSIFICA GIOCATORI</p>
+        <div class="dropdown-container">
+            <label for="sortSelect">Ordina per:</label>
+            <select id="sortSelect">
+                <option value="totale">Totale</option>
+                <option value="g1">G1</option>
+                <option value="g2">G2</option>
+                <option value="g3">G3</option>
+                <option value="semifinale">Semifinale</option>
+                <option value="td3">TD3</option>
+                <option value="finale">Finale</option>
+            </select>
+        </div>
         <div id="playerCardsContainer" class="player-cards-container">
-            <!-- Le schede verranno aggiunte dinamicamente con JavaScript -->
+            <!-- Schede giocatori generate con JS -->
         </div>
     </main>
 
-    <script type="module" src="player_rankings.js?v=250708_0011"></script>
+    <script type="module" src="p_rankings_by_game.js?v=250708_0011"></script>
     </div>
 </body>
 </html>
