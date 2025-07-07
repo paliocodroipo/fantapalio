@@ -196,6 +196,14 @@ const IacopoPivetta24 = createPlayer("Iacopo Pivetta", 6, "EST", 20);
 const MattiaMasotti24 = createPlayer("Mattia Masotti", 6, "EST", 13);
 
 
+
+
+
+
+
+
+
+
 //CREAZIONE GIOCATORI 2025
 const DavidGaspardo25 = createPlayer("David Gaspardo", 10, "NORD", 0);
 const AlessandroRizzi25 = createPlayer("Alessandro Rizzi", 8, "NORD", 0);
@@ -228,9 +236,9 @@ const MatteoBazzaro25 = createPlayer("Matteo Bazzaro", 4, "SUD", 0);
 const AlessandroSantin25 = createPlayer("Alessandro Santin", 5, "SUD", 0);
 const AlessandroGalassi25 = createPlayer("Alessandro Galassi", 4, "SUD", 0);
 const PaoloZorzi25 = createPlayer("Paolo Zorzi", 4, "SUD", 0);
-const CristianFedrizzi25 = createPlayer("Cristian Fedrizzi", 4, "SUD", 0);
+const CristianFedrizzi25 = createPlayer("Cristian Fedrizzi", 5, "SUD", 0);
 const GabrieleAzzarone25 = createPlayer("Gabriele Azzarone", 4, "SUD", 0);
-const FilippoAgnoluzzi25 = createPlayer("Filippo Agnoluzzi",4,"SUD",0);
+const FilippoAgnoluzzi25 = createPlayer("Filippo Agnoluzzi",5,"SUD",0);
 const GabrieleIndri25 = createPlayer("Gabriele Indri", 10, "EST", 0);
 const MarcoSerrao25 = createPlayer("Marco Serrao", 9, "EST", 0);
 const WilliamIob25 = createPlayer("William Iob", 7, "EST", 0);
