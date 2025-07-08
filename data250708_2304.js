@@ -144,17 +144,17 @@ const GabrieleMiani24 = createPlayer("Gabriele Miani", 14, "NORD", 14);
 const MarcoMarchetti24 = createPlayer("Marco Marchetti", 4, "NORD", 0);
 const MarcoLombardo24 = createPlayer("Marco Lombardo", 7, "NORD", 15);
 const MicheleVendrame24 = createPlayer("Michele Vendrame", 4, "NORD", 13);
-const LorenzoSchinella24 = createPlayer("Lorenzo Schinella", 4, "NORD", 3);
+const LorenzoSchinella24 = createPlayer("Lorenzo S.", 4, "NORD", 3);
 const GioeleTudini24 = createPlayer("Gioele Tudini", 4, "NORD", 7);
 const FilippoPasquon24 = createPlayer("Filippo Pasquon", 5, "NORD", 2);
 const TommasoMartello24 = createPlayer("Tommaso Martello", 6, "NORD", 16);
 const MarcoRizzi24 = createPlayer("Marco Rizzi", 4, "NORD", 6);
 const DavidGaspardo24 = createPlayer("David Gaspardo", 9, "NORD", 19);
 const AntonioGri24 = createPlayer("Antonio Gri", 4, "NORD", 5);
-const RiccardoSchinella24 = createPlayer("Riccardo Schinella", 4, "NORD", 1);
+const RiccardoSchinella24 = createPlayer("Riccardo S.", 4, "NORD", 1);
 
 // Creazione dei giocatori per il team SUD
-const SimoneMartinelli24 = createPlayer("Simone Martinelli", 4, "SUD", 22);
+const SimoneMartinelli24 = createPlayer("Simone M.", 4, "SUD", 22);
 const GiacomoSpagnolo24 = createPlayer("Giacomo Spagnolo", 4, "SUD", 21);
 const DavideFaurlin24 = createPlayer("Davide Faurlin", 4, "SUD", 18);
 const GiovanniTonizzo24 = createPlayer("Giovanni Tonizzo", 5, "SUD", 5);
