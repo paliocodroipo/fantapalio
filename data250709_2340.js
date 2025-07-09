@@ -2222,11 +2222,71 @@ const ft2024_ft151 = createFantateam(151, "qwerty", EST, [GionaTell24, LorenzoMo
 
 // const fantateams25 = [ft1, ft5, ft6, ft8, ft9, ft10, ft11, ft12];
 
-const ft1 = createFantateam(1, "ProvaUff1", NORD, [DavidGaspardo25, MarcoLombardo25, AlessioFurlan25, AlessandroGalassi25, SebastianoTonizzo25]);
-const ft2 = createFantateam(2, "Prov2uff", SUD, [FilippoAgnoluzzi25, GabrieleAzzarone25, PaoloZorzi25, MatteoBazzaro25, AlessandroSantin25]);
-const ft3 = createFantateam(3, "Competitiva dai", WEST, [GabrieleMiani25, AlessioFurlan25, MarcoRizzi25, AlessandroSantin25, MattiaRoiatti25]);
+// const ft1 = createFantateam(1, "ProvaUff1", NORD, [DavidGaspardo25, MarcoLombardo25, AlessioFurlan25, AlessandroGalassi25, SebastianoTonizzo25]);
+// const ft2 = createFantateam(2, "Prov2uff", SUD, [FilippoAgnoluzzi25, GabrieleAzzarone25, PaoloZorzi25, MatteoBazzaro25, AlessandroSantin25]);
+// const ft3 = createFantateam(3, "Competitiva dai", WEST, [GabrieleMiani25, AlessioFurlan25, MarcoRizzi25, AlessandroSantin25, MattiaRoiatti25]);
+// const ft4 = createFantateam(4, "Prova 1", NORD, [AlessandroRizzi25, LeonardoTirelli25, GiacomoPiacentini25, WilliamIob25, ChristianFedrizzi25]);
+// const ft5 = createFantateam(5, "Prova4uff", SUD, [NicolaCollavini25, GiovanniZanin25, MicheleDeAnna25, MattiaMasotti25, GabrieleAzzarone25]);
+const ft6 = createFantateam(6, "Wutang ", SUD, [VittorioBasso25, AlessioFurlan25, EdoardoPicogna25, UmbertoNobile25, PietroSoramel25]);
+// squadra 2 volte // const ft7 = createFantateam(7, "Paperelle Gay ", EST, [WilliamIob25, AlessandroCostantini25, GiacomoSilvestri25, EdoardoPicogna25, FilippoPasquon25]);
+const ft8 = createFantateam(8, "Las Ratas ", NORD, [MarcoRizzi25, MattiaAnedda25, AlessandroSant25, GabrieleIndri25, MattiaRoiatti25]);
+const ft9 = createFantateam(9, "Paperelle Gay ", EST, [WilliamIob25, AlessandroCostantini25, GiacomoSilvestri25, FilippoPasquon25, EdoardoPicogna25]);
+const ft10 = createFantateam(10, "michele de anna LPE", SUD, [GiacomoSilvestri25, MicheleDeAnna25, ValentinoCigainero25, MattiaRoiatti25, GabrieleAzzarone25]);
+const ft11 = createFantateam(11, "The CUMmunists", SUD, [LarryTrevisan25, AlessandroSant25, MarcoRizzi25, EnricoSant25, AlessioFurlan25]);
+const ft12 = createFantateam(12, "Maso", EST, [VittorioBasso25, AlessandroCostantini25, MattiaMasotti25, EdoardoPicogna25, AlessandroSantin25]);
+const ft13 = createFantateam(13, "Brigitte Bordeaux ", NORD, [DavidGaspardo25, UmbertoNobile25, AlessioFurlan25, MichaelMargarit25, MattiaRoiatti25]);
+const ft14 = createFantateam(14, "CBA DR3", EST, [EnricoBravin25, ValentinoCigainero25, WilliamIob25, EdoardoPicogna25, EmanueleDaneluzzi25]);
+const ft15 = createFantateam(15, "Famiglia Diesel", NORD, [EnricoBravin25, MarcoRizzi25, MattiaAnedda25, EmanueleStorace25, GabrieleAzzarone25]);
+const ft16 = createFantateam(16, "I sacchi della lidl", WEST, [FilippoPasquon25, GabrieleAzzarone25, EdoardoPicogna25, MarcoSerrao25, PietroSoramel25]);
+const ft17 = createFantateam(17, "Est..abirra dov’è?!", EST, [WilliamIob25, MarcoSerrao25, GiacomoSilvestri25, EdoardoPicogna25, MauroPerina25]);
+const ft18 = createFantateam(18, "Super Chicche ", WEST, [GabrieleMiani25, VittorioGri25, MatteoGrillo25, MiracleObichukwu25, GabrieleAzzarone25]);
+const ft19 = createFantateam(19, "Sburrobirra", WEST, [AlessandroRizzi25, MarcoRizzi25, MattiaAnedda25, MicheleDeAnna25, MattiaRoiatti25]);
+const ft20 = createFantateam(20, "Limonando", NORD, [AlessandroRizzi25, AlessandroCostantini25, EdoardoPicogna25, WilliamIob25, DavideFaurlin25]);
+const ft21 = createFantateam(21, "Glassati", EST, [GiacomoSilvestri25, EmanueleDaneluzzi25, MassimilianoRossi25, MarcoSerrao25, AndreaMoretti25]);
+const ft22 = createFantateam(22, "giorginaaaa", EST, [EdoardoPicogna25, UmbertoNobile25, EnricoBravin25, EmanueleDaneluzzi25, PietroSoramel25]);
+const ft23 = createFantateam(23, "Fucina dei Molini LTD", SUD, [MassimilianoMoretti25, MiracleObichukwu25, AlessandroRizzi25, MatteoGrillo25, AlessandroGalassi25]);
+const ft24 = createFantateam(24, "Bomboclat", NORD, [FilippoPasquon25, UmbertoNobile25, MiracleObichukwu25, PietroSoramel25, EdoardoPicogna25]);
+const ft25 = createFantateam(25, "Granchi aviatori", WEST, [AlessioFurlan25, GabrieleIndri25, DavideBroggi25, MattiaRoiatti25, AlessandroSant25]);
+const ft26 = createFantateam(26, "(•) (•)", EST, [MarcoSerrao25, MicheleDeAnna25, MattiaAnedda25, EdoardoPicogna25, EmanueleDaneluzzi25]);
+const ft27 = createFantateam(27, "Pandamonio", WEST, [UmbertoNobile25, PietroSoramel25, AlessandroCostantini25, NicolaCollavini25, MattiaRoiatti25]);
+const ft28 = createFantateam(28, "West-Capone", WEST, [AlessandroSant25, ChristianZanet25, GiovanniDalFarra25, MattiaMasotti25, GiacomoPiacentini25]);
+const ft29 = createFantateam(29, "Vul bighe no cjavei", NORD, [FilippoPasquon25, MicheleDeAnna25, WilliamIob25, EdoardoPicogna25, EmanueleDaneluzzi25]);
+const ft30 = createFantateam(30, "Oklahoma city tinder", WEST, [FilippoPasquon25, EnricoBravin25, UmbertoNobile25, MattiaMasotti25, MattiaRoiatti25]);
+const ft31 = createFantateam(31, "Veri Occidentali", WEST, [VittorioBasso25, ValentinoCigainero25, WilliamIob25, DavideBroggi25, AlessandroSant25]);
+const ft32 = createFantateam(32, "BOMBOLA HILLS", EST, [VittorioBasso25, GiacomoSilvestri25, AlessioFurlan25, GabrieleIndri25, LucaSoramel25]);
+const ft33 = createFantateam(33, "Pangri il chillato", EST, [MarcoRizzi25, MattiaAnedda25, PietroSoramel25, GiovanniTonizzo25, UmbertoNobile25]);
+const ft34 = createFantateam(34, "Team Birrogeno", SUD, [UmbertoNobile25, DavidGaspardo25, MattiaRoiatti25, LucaGemo25, MattiaAnedda25]);
+const ft35 = createFantateam(35, "BAIRA", WEST, [UmbertoNobile25, VittorioBasso25, MattiaMasotti25, GiacomoFerigo25, MiracleObichukwu25]);
+const ft36 = createFantateam(36, "Gabro's Team", WEST, [MarcoRizzi25, UmbertoNobile25, MarcoSerrao25, MatteoBazzaro25, PaoloZorzi25]);
+const ft37 = createFantateam(37, "Palpeggio, Arresto e Tiro", WEST, [AlessandroRizzi25, ChristianZanet25, MattiaMasotti25, MattiaRoiatti25, PietroSoramel25]);
+const ft38 = createFantateam(38, "ilpiaceglialtri", WEST, [AlessandroRizzi25, GiacomoPiacentini25, VittorioBasso25, MattiaMasotti25, GiovanniTonizzo25]);
+const ft39 = createFantateam(39, "Rionedelbananoahahcapnonesiste FC", WEST, [GabrieleMiani25, MarcoRizzi25, MattiaRoiatti25, ValentinoCigainero25, LucaGemo25]);
+const ft40 = createFantateam(40, "I Pulcini", SUD, [GiacomoSpagnolo25, GabrieleAzzarone25, VittorioGri25, LarryTrevisan25, MattiaMasotti25]);
+const ft41 = createFantateam(41, "Palio in tuta", NORD, [UmbertoNobile25, MarcoRizzi25, MattiaMasotti25, PietroSoramel25, MattiaRoiatti25]);
+const ft42 = createFantateam(42, "Udinese", NORD, [UmbertoNobile25, MarcoSerrao25, GiacomoFerigo25, GabrieleAzzarone25, EnricoBravin25]);
+const ft43 = createFantateam(43, "33033", WEST, [VittorioBasso25, LarryTrevisan25, MicheleGorasso25, MassimoMasotti25, MattiaRoiatti25]);
+const ft44 = createFantateam(44, "BOMBOCLAT", NORD, [UmbertoNobile25, MarcoSerrao25, EnricoBravin25, MattiaRoiatti25, GiovanniDalFarra25]);
+const ft45 = createFantateam(45, "Girasole", NORD, [FilippoPasquon25, UmbertoNobile25, EnricoBravin25, AlessandroCostantini25, AlexMicottis25]);
+const ft46 = createFantateam(46, "FantaBoys", SUD, [UmbertoNobile25, MarcoSerrao25, LucaDellaLonga25, AlessandroGalassi25, MarcoRizzi25]);
+const ft47 = createFantateam(47, "Gli scugnizzi ciclisti", WEST, [FilippoPasquon25, UmbertoNobile25, GiovanniTonizzo25, AlessioFurlan25, ChristianZanet25]);
+const ft48 = createFantateam(48, "Biscotto di Codroipo", SUD, [GabrieleAzzarone25, FilippoSappa25, ValentinoCigainero25, EdoardoPicogna25, VittorioBasso25]);
+const ft49 = createFantateam(49, "bEST of kiosko", EST, [UmbertoNobile25, FilippoPasquon25, EdoardoPicogna25, GiacomoPiacentini25, ValentinoCigainero25]);
+const ft50 = createFantateam(50, "Pampa Mentality", SUD, [FilippoPasquon25, EmanueleDaneluzzi25, DavideBroggi25, ChristianZanet25, UmbertoNobile25]);
+const ft51 = createFantateam(51, "Cleo", EST, [SamuelMasotti25, MassimilianoMoretti25, EnricoBravin25, EdoardoPicogna25, PietroSoramel25]);
+// >30 // const ft52 = createFantateam(52, "SamusFC", SUD, [LarryTrevisan25, DavidGaspardo25, GabrieleMiani25, MarcoRizzi25, EdoardoPicogna25]);
+const ft53 = createFantateam(53, "Massimi's fans", WEST, [VittorioBasso25, MarcoRizzi25, MassimilianoMoretti25, AndreaMoretti25, MiracleObichukwu25]);
+const ft54 = createFantateam(54, "Max Verstappen ", NORD, [AlessandroRizzi25, MarcoRizzi25, MattiaMasotti25, LarryTrevisan25, GiovanniDalFarra25]);
+const ft55 = createFantateam(55, "FASIOOOLLL ", EST, [AlessandroSant25, MattiaMasotti25, AndreaMoretti25, MarcoRizzi25, PietroSoramel25]);
+const ft56 = createFantateam(56, "Vino_Di_L.A.?", NORD, [VittorioGri25, AlessandroCostantini25, GiovanniDalFarra25, FilippoSappa25, MattiaRoiatti25]);
+const ft57 = createFantateam(57, "LovPaola", SUD, [DanieleGanzit25, MassimilianoMoretti25, PietroSoramel25, MattiaRoiatti25, MattiaAnedda25]);
+const ft58 = createFantateam(58, "Renault clio 1.200 320cv turbodisel", SUD, [EmanueleDaneluzzi25, EdoardoPicogna25, AlessandroCostantini25, EnricoBravin25, UmbertoNobile25]);
+const ft59 = createFantateam(59, "Dream team", NORD, [MicheleDeAnna25, NicolaCollavini25, VittorioBasso25, GiacomoPiacentini25, MicheleVendrame25]);
+const ft60 = createFantateam(60, "Black diamond", SUD, [UmbertoNobile25, VittorioBasso25, EdoardoPicogna25, ValentinoCigainero25, EmanueleDaneluzzi25]);
+const ft61 = createFantateam(61, "Atomico", NORD, [MicheleDeAnna25, AlessandroCostantini25, GiovanniDalFarra25, AlessandroRizzi25, GiacomoPiacentini25]);
 
-const fantateams25 = [ft1, ft2, ft3];
+const fantateams25 = [ft6, ft8, ft9, ft10, ft11, ft12, ft13, ft14, ft15, ft16, ft17, ft18, ft19, ft20, ft21, ft22, ft23,
+     ft24, ft25, ft26, ft27, ft28, ft29, ft30, ft31, ft32, ft33, ft34, ft35, ft36, ft37, ft38, ft39, ft40, ft41, ft42, ft43, ft44, ft45, ft46, ft47, ft48,
+     ft49, ft50, ft51, ft53, ft54, ft55, ft56, ft57, ft58, ft59, ft60, ft61];
 
 
 const fantateams24 = [

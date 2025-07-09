@@ -2284,7 +2284,7 @@ const ft59 = createFantateam(59, "Dream team", NORD, [MicheleDeAnna25, NicolaCol
 const ft60 = createFantateam(60, "Black diamond", SUD, [UmbertoNobile25, VittorioBasso25, EdoardoPicogna25, ValentinoCigainero25, EmanueleDaneluzzi25]);
 const ft61 = createFantateam(61, "Atomico", NORD, [MicheleDeAnna25, AlessandroCostantini25, GiovanniDalFarra25, AlessandroRizzi25, GiacomoPiacentini25]);
 
-const fantateams25 = [ft1, ft2, ft3, ft4, ft5, ft6, ft7, ft8, ft9, ft10, ft11, ft12, ft13, ft14, ft15, ft16, ft17, ft18, ft19, ft20, ft21, ft22, ft23,
+const fantateams25 = [ft6, ft8, ft9, ft10, ft11, ft12, ft13, ft14, ft15, ft16, ft17, ft18, ft19, ft20, ft21, ft22, ft23,
      ft24, ft25, ft26, ft27, ft28, ft29, ft30, ft31, ft32, ft33, ft34, ft35, ft36, ft37, ft38, ft39, ft40, ft41, ft42, ft43, ft44, ft45, ft46, ft47, ft48,
      ft49, ft50, ft51, ft53, ft54, ft55, ft56, ft57, ft58, ft59, ft60, ft61];
 
