@@ -692,6 +692,7 @@ footer {
     padding: 15px;
     margin: 10px;
     max-width: 600px;
+    min-width: 300px;
 }
 
 .game-card h3 {
@@ -748,6 +749,7 @@ td { /* tutto serve per sfondo immagine*/
 
 .totalteamcard{
     color: black;
+    border: 6px solid var(--main-color3);
 }
 
 .valid-message{
