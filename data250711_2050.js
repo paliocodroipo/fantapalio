@@ -1213,7 +1213,7 @@ RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 ////       gx_stats =                           | 2P  | 3P  | FT  | DR  | Rt  | TO  | BL  | DD  | Win |
 ////                                            |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
 
-// // stats_g1
+// // // stats_g1
 // GabrieleMiani25.stats_g1                =      [0, 0, 3, 4, 0, 4, 4, 0, 1, 0, 0, 3, 4, 0, 4, 0, 0, 2, 1]; //
 // DavidGaspardo25.stats_g1                =      [0, 1, 3, 4, 1, 2, 4, 2, 1, 0, 1, 3, 4, 1, 2, 0, 0, 2, 5]; //
 // AlessandroRizzi25.stats_g1              =      [0, 0, 3, 1, 3, 1, 2, 4, 3, 0, 0, 3, 1, 3, 1, 0, 0, 2, 3]; //
@@ -1644,7 +1644,7 @@ RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 // CristianFedrizzi25.stats_final          =      [0, 2, 0, 1, 1, 0, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
 // GabrieleAzzarone25.stats_final          =      [0, 3, 4, 1, 4, 4, 1, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
 // FilippoAgnoluzzi25.stats_final          =      [0, 2, 1, 2, 3, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
-// // GabrieleIndri25.stats_final             =      [0, 3, 0, 3, 2, 1, 3, 4, 4, 0, 0, 3, 4, 0, 4, 0, 0, 0, 0]; //]; //
+// // GabrieleIndri25.stats_final             =      [0, 3, 0, 3, 2, 1, 3, 4, 4, 0, 0, 3, 4, 0, 4, 0, 0, 0, 0]; //
 // // EnricoSant25.stats_final                =      [0, 0, 2, 1, 3, 1, 4, 1, 4, 0, 1, 0, 2, 0, 3, 0, 0, 0, 0]; //
 // // EugenioDeTina25.stats_final             =      [0, 1, 1, 3, 2, 4, 2, 1, 1, 0, 3, 0, 3, 0, 1, 0, 0, 0, 0]; //
 // // EdoardoPicogna25.stats_final            =      [0, 4, 2, 4, 1, 1, 4, 3, 4, 0, 4, 2, 4, 1, 3, 0, 0, 0, 0]; //
@@ -1685,7 +1685,9 @@ RiccardoSchinella24.stats_final = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 // // SebastianoTonizzo25.stats_final         =      [0, 2, 2, 0, 3, 2, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; //
 // // MattiaLanna25.stats_final               =      [0, 1, 4, 1, 4, 2, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; //
 // // EmanueleCorleone25.stats_final          =      [0, 2, 2, 4, 3, 0, 4, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29]; //
-// EmanueleCorleone25.stats_final          =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29]; //
+// EmanueleCorleone25.stats_final          =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29]; // solo punti meme
+// MassimilianoMoretti25.stats_final          =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5]; //
+// UmbertoNobile25.stats_final          =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3]; //
 
 
 
@@ -1935,22 +1937,79 @@ const players25 = [
    
     }
 
-    // // DA SCOMMENTARE DOPO LA FINALE
+    // what day is it : variabile che tiene conto di che stats sono state messe dentro (in automatico) e quindi sa che giorno è per il sito
+    // viene usato in: boxscore tab (popolazione tabelle)FATTO, player detail (elementi)FATTO, team detail (stampa)FATTO, player rankings (stampa)FATTO, meme rankings (stampa)FATTO
+     let what_day_is_it = 0;
+    // 0: fino a domenica (no stats)
+    // 1: lunedì (stats domenica)
+    //
+    // 2: mercoledì (stats lunedì)
+    // 3: giovedì (stats mercoledì)
+    // 4: venerdì (stats giovedì)
+    // 5: sabato (stats venerdì)
+    // 6: domenica (stats sabato)
+    
+    
+    let final_is_in_flag = 0;
 
-    // // funzione da chiamare su tutti i player per calcolare solo per 2 squadre il punteggio in finale come punteggio medio
-    // function compute_average_finals(player, team_compute_avg_1, team_compute_avg_2){
-    //     if (player.team == team_compute_avg_1 || player.team == team_compute_avg_2){
-    //         player.final= Math.round((player.g1 + player.g2 + player.g3 + player.semi)*100/4)/100;
-    //         player.final = player.final + player.stats_final[18]*pdkWeights[18]; // aggiunge eventuali punti meme in final
+    // funzione da chiamare su tutti i player per calcolare solo per 2 squadre il punteggio in finale come punteggio medio
+    function compute_average_finals(player, team_compute_avg_1, team_compute_avg_2){
+        if (player.team == team_compute_avg_1 || player.team == team_compute_avg_2){
+            player.final= Math.round((player.g1 + player.g2 + player.g3 + player.semi)*100/4)/100;
+            console.log(player.name, player.final, player.stats_final[18]);
+            player.final = player.final + player.stats_final[18]*pdkWeights[18]; // aggiunge eventuali punti meme in final
             
-    //         // console.log(player.name, player.final);
-    //     }
-    // }
-    // for (let player of players25) {
-    //     compute_average_finals(player,"SUD","EST");
-        
-    //     // console.log(player.name, player.final);
-    // }
+            console.log(player.name, player.final, player.stats_final[18]);
+        }
+    }
+    for (let player of players25) { // guarda tutti i Rtot della finale, se qualcuno li ha non nulli allora la finale risulta giocata
+        if (what_day_is_it < 1 && player.stats_g1[9] != 0) {
+            what_day_is_it = 1;
+            console.log(what_day_is_it);
+        }
+        if (what_day_is_it < 2 && player.stats_g2[9] != 0) {
+            what_day_is_it = 2;
+            console.log(what_day_is_it);
+        }
+        if (what_day_is_it < 3 && player.stats_g3[9] != 0) {
+            what_day_is_it = 3;
+            console.log(what_day_is_it);
+        }
+        if (what_day_is_it < 4 && player.stats_semi[9] != 0) {
+            what_day_is_it = 4;
+            console.log(what_day_is_it);
+        }
+        if (what_day_is_it < 5 && player.stats_td3[9] != 0) {
+            what_day_is_it = 5;
+            console.log(what_day_is_it);
+        }
+        if (what_day_is_it < 6 && player.stats_final[9] != 0) {
+            what_day_is_it = 6;
+            console.log(what_day_is_it);
+        }
+        if (player.stats_final[9] != 0) {
+            if (final_is_in_flag == 0){
+                console.log("Trovato rimbalzi, finale giocata");
+                console.log(player.name, player.stats_final[9]);
+            }
+            final_is_in_flag = 1;
+            what_day_is_it = 6;
+        }
+    }
+    console.log("what day it is? ", what_day_is_it);
+
+
+    const team_not_in_final_1="WEST";
+    const team_not_in_final_2="EST";
+
+    for (let player of players25) {
+        if (final_is_in_flag){ // se la finale è giocata, calcola i punteggi medi per le squadre non in finale
+            compute_average_finals(player,team_not_in_final_1,team_not_in_final_2);
+        }else{
+            console.log("Controllato tutti, finale non giocata");
+        }
+        // console.log(player.name, player.final);
+    }
 
 
     // FINALE PUNTEGGI MEDI CALCOLO AUTOMATICO
@@ -2307,11 +2366,29 @@ const ft82 = createFantateam(82, "PALLA A SPICCHI", NORD, [MarcoLombardo25, Umbe
 const ft83 = createFantateam(83, "Cestino infiammato", WEST, [UmbertoNobile25, VittorioBasso25, EdoardoPicogna25, GiacomoPiacentini25, AlessandroSantin25]);
 const ft84 = createFantateam(84, "Passariano Pistons", EST, [GabrieleIndri25, LarryTrevisan25, MiracleObichukwu25, MarcoRizzi25, GiovanniDalFarra25]);
 const ft85 = createFantateam(85, "Atletico ma non troppo", EST, [UmbertoNobile25, GiacomoSilvestri25, AlessandroCostantini25, EdoardoPicogna25, MattiaAnedda25]);
+const ft86 = createFantateam(86, "annapepe", SUD, [UmbertoNobile25, MarcoSerrao25, LucaGemo25, AlessandroGalassi25, GiacomoFerigo25]);
+const ft87 = createFantateam(87, "Trallallero", EST, [VittorioBasso25, EnricoBravin25, UmbertoNobile25, AlexMicottis25, MattiaMasotti25]);
+const ft88 = createFantateam(88, "Slam drunk ", WEST, [FilippoPasquon25, UmbertoNobile25, EmanueleCorleone25, MassimilianoRossi25, AlessandroSantin25]);
+const ft89 = createFantateam(89, "La mia squadra", WEST, [VittorioBasso25, MassimilianoMoretti25, SebastianoTonizzo25, FilippoAgnoluzzi25, ThomasBaracetti25]);
+const ft90 = createFantateam(90, "THESTARS", WEST, [UmbertoNobile25, FilippoPasquon25, MattiaMasotti25, AlessandroGalassi25, GiovanniDalFarra25]);
+const ft91 = createFantateam(91, "baxbanny ", WEST, [GiacomoFerigo25, UmbertoNobile25, VittorioBasso25, FilippoAgnoluzzi25, FilippoPasquon25]);
+const ft92 = createFantateam(92, "IChicchirichì ", EST, [UmbertoNobile25, AlessandroSant25, GiacomoSilvestri25, MattiaAnedda25, MattiaRoiatti25]);
+const ft93 = createFantateam(93, "Annaffiatoi", WEST, [UmbertoNobile25, GiacomoPiacentini25, GiacomoSilvestri25, AlessandroGalassi25, MattiaMasotti25]);
+const ft94 = createFantateam(94, "PITON STOPPA TUTTI", WEST, [AlessandroRizzi25, LarryTrevisan25, GiacomoPiacentini25, LucaSoramel25, EdoardoPicogna25]);
+const ft95 = createFantateam(95, "Pesi Massimi ", SUD, [PietroSoramel25, MattiaMasotti25, MattiaRoiatti25, GiacomoPiacentini25, LarryTrevisan25]);
+const ft96 = createFantateam(96, "Sai che odio il Sud", NORD, [MicheleVendrame25, EnricoBravin25, UmbertoNobile25, MattiaMasotti25, EdoardoPicogna25]);
+const ft97 = createFantateam(97, "susto", WEST, [EdoardoPicogna25, LarryTrevisan25, MarcoRizzi25, AndreaMoretti25, GiovanniTonizzo25]);
+const ft98 = createFantateam(98, "Straight Outta Codroipo", NORD, [DavidGaspardo25, AlessandroRizzi25, AlessioFurlan25, EdoardoPicogna25, GiovanniTonizzo25]);
+const ft99 = createFantateam(99, "I ragazzi di San Patrignano", SUD, [AlessandroRizzi25, AlessandroCostantini25, MassimilianoRossi25, GiovanniTonizzo25, LucaSoramel25]);
+const ft100 = createFantateam(100, "Le caprette", WEST, [MassimilianoMoretti25, MattiaAnedda25, GiovanniTonizzo25, AndreaMoretti25, LucaSoramel25]);
+const ft101 = createFantateam(101, "BettaZul", EST, [AlessandroRizzi25, AlessandroCostantini25, ChristianZanet25, AlexMicottis25, PietroSoramel25]);
+const ft102 = createFantateam(102, "201l", EST, [SamuelMasotti25, NicolaCollavini25, FrancescoSchiavone25, MattiaLanna25, EmanueleCorleone25]);
 
-const fantateams25 = [ft6, ft8, ft9, ft10, ft11, ft12, ft13, ft14, ft15, ft16, ft17, ft18, ft19, ft20, ft21, ft22, ft23, ft24, ft25,
-     ft26, ft27, ft29, ft30, ft31, ft32, ft33, ft34, ft35, ft36, ft37, ft38, ft39, ft40, ft41, ft42, ft43, ft44, ft45,
-     ft46, ft47, ft48, ft49, ft50, ft51, ft53, ft54, ft55, ft56, ft57, ft58, ft59, ft60, ft61, ft62, ft63, ft64, ft65,
-     ft66, ft67, ft68, ft70, ft71, ft72, ft73, ft74, ft75, ft76, ft77, ft78, ft79, ft80, ft82, ft83, ft84, ft85
+
+const fantateams25 = [ft6, ft8, ft9, ft10, ft11, ft12, ft13, ft14, ft15, ft16, ft17, ft18, ft19, ft20, ft21, ft22, ft23, ft24, ft25, ft26, ft27, ft29, ft30, 
+     ft31, ft32, ft33, ft34, ft35, ft36, ft37, ft38, ft39, ft40, ft41, ft42, ft43, ft44, ft45, ft46, ft47, ft48, ft49, ft50, ft51, ft53, ft54, ft55, ft56, ft57, ft58, ft59, ft60, 
+     ft61, ft62, ft63, ft64, ft65, ft66, ft67, ft68, ft70, ft71, ft72, ft73, ft74, ft75, ft76, ft77, ft78, ft79, ft80, ft82, ft83, ft84, ft85, ft86, ft87, ft88, ft89, ft90, 
+     ft91, ft92, ft93, ft94, ft95, ft96, ft97, ft98, ft99, ft100, ft100, ft101, ft102
     
     ];
 
@@ -2365,7 +2442,8 @@ const fantateams24 = [
 
         NORD, SUD, EST, WEST,
 
-        fantateams, players, players24, players25, pdkWeights,td3Weights,rioni25
+        fantateams, players, players24, players25, pdkWeights,td3Weights,rioni25,
+        what_day_is_it, team_not_in_final_1, team_not_in_final_2
     };
 
 
