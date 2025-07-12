@@ -1951,8 +1951,12 @@ const players25 = [
     
     
     let final_is_in_flag = 0;
-    const team_not_in_final_1="NOT_YET_KNOWN";
-    const team_not_in_final_2="NOT_YET_KNOWN";
+    let team_not_in_final_1="NOT_YET_KNOWN";
+    let team_not_in_final_2="NOT_YET_KNOWN";
+    let final_flag_EST = 0;
+    let final_flag_SUD = 0;
+    let final_flag_NORD = 0;
+    let final_flag_WEST = 0;
 
     // funzione da chiamare su tutti i player per calcolare solo per 2 squadre il punteggio in finale come punteggio medio
     function compute_average_finals(player, team_compute_avg_1, team_compute_avg_2){
@@ -2022,14 +2026,22 @@ const players25 = [
             team_not_in_final_1 == "WEST";
         }
     }
+    console.log("Not in final: ", team_not_in_final_1, team_not_in_final_2);
+    console.log("EST final flag: ", final_flag_EST);
+    console.log("SUD final flag: ", final_flag_SUD);
+    console.log("NORD final flag: ", final_flag_NORD);
+    console.log("WEST final flag: ", final_flag_WEST);
     if (team_not_in_final_2 == "NOT_YET_KNOWN"){
         if (final_flag_EST == 0 && team_not_in_final_1 != "EST"){
             team_not_in_final_2 = "EST";
-        }else if(final_flag_SUD == 0 && team_not_in_final_1 != "SUD"){
+        }
+        if(final_flag_SUD == 0 && team_not_in_final_1 != "SUD"){
             team_not_in_final_2 == "SUD";
-        }else if(final_flag_NORD == 0 && team_not_in_final_1 != "NORD"){
+        }
+        if(final_flag_NORD == 0 && team_not_in_final_1 != "NORD"){
             team_not_in_final_2 == "NORD";
-        }else if(final_flag_WEST == 0 && team_not_in_final_1 != "WEST"){
+        }
+        if(final_flag_WEST == 0 && team_not_in_final_1 != "WEST"){
             team_not_in_final_2 == "WEST";
         }
     }

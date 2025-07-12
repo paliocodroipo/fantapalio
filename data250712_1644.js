@@ -1953,6 +1953,10 @@ const players25 = [
     let final_is_in_flag = 0;
     const team_not_in_final_1="NOT_YET_KNOWN";
     const team_not_in_final_2="NOT_YET_KNOWN";
+    let final_flag_EST = 0;
+    let final_flag_SUD = 0;
+    let final_flag_NORD = 0;
+    let final_flag_WEST = 0;
 
     // funzione da chiamare su tutti i player per calcolare solo per 2 squadre il punteggio in finale come punteggio medio
     function compute_average_finals(player, team_compute_avg_1, team_compute_avg_2){
