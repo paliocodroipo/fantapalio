@@ -1,4 +1,4 @@
-import { players } from '../data250712_1838.js';
+import { players } from '../data250712_1843.js';
 console.log("inizio registration.js");
 
 // Group players by their team
