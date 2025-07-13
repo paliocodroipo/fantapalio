@@ -2468,13 +2468,19 @@ const ft136 = createFantateam(136, "le baddies", WEST, [GabrieleIndri25, Emanuel
 const ft137 = createFantateam(137, "Duca squad", EST, [LarryTrevisan25, AndreaMoretti25, EdoardoPicogna25, EmanueleDaneluzzi25, MarcoLombardo25]);
 const ft138 = createFantateam(138, "i fruts del super one ", EST, [EnricoBravin25, MiracleObichukwu25, AlessandroCostantini25, AlessandroSant25, MattiaMasotti25]);
 const ft139 = createFantateam(139, "Prostatas", NORD, [UmbertoNobile25, EdoardoPicogna25, FilippoPasquon25, GiovanniDalFarra25, PietroSoramel25]);
+const ft140 = createFantateam(140, "PipeFrancis", NORD, [MarcoLombardo25, GiacomoPiacentini25, PietroSoramel25, AlessandroSantin25, MattiaMasotti25]);
+const ft141 = createFantateam(141, "Palio sleepers", SUD, [GiovanniZanin25, GiacomoSpagnolo25, CristianFedrizzi25, LorenzoMoro25, EnricoSant25]);
+const ft142 = createFantateam(142, "Too old for this shit", NORD, [LarryTrevisan25, MatteoGrillo25, FilippoSappa25, MarcoRizzi25, LeonardoTirelli25]);
+const ft143 = createFantateam(143, "TantoPerFare", NORD, [UmbertoNobile25, VittorioBasso25, GiacomoPiacentini25, EdoardoPicogna25, AlessandroSantin25]);
+const ft144 = createFantateam(144, "Legrottaglie ", NORD, [UmbertoNobile25, AlessandroCostantini25, LucaGemo25, MattiaRoiatti25, FilippoPasquon25]);
+const ft145 = createFantateam(145, "IL LATO GIUSTO DI VIALE DUODO", NORD, [MarcoComisso25, GabrieleMiani25, AntonioGri25, LeonardoTirelli25, DavideParon25]);
+const ft146 = createFantateam(146, "Vamo raga", SUD, [MarcoLombardo25, VittorioBasso25, MattiaRoiatti25, PietroSoramel25, AlessandroCostantini25]);
 
 const fantateams25 = [ft6, ft8, ft9, ft10, ft11, ft12, ft13, ft14, ft15, ft16, ft17, ft18, ft19, ft20, ft21, ft22, ft23, ft24, ft25, ft26, ft27, ft29, ft30, 
      ft31, ft32, ft33, ft34, ft35, ft36, ft37, ft38, ft39, ft40, ft41, ft42, ft43, ft44, ft45, ft46, ft47, ft48, ft49, ft50, ft51, ft53, ft54, ft55, ft56, ft57, ft58, ft59, ft60, 
      ft61, ft62, ft63, ft64, ft65, ft66, ft67, ft68, ft70, ft71, ft72, ft73, ft74, ft75, ft76, ft77, ft78, ft79, ft80, ft82, ft83, ft84, ft85, ft86, ft87, ft88, ft89, ft90, 
-     ft91, ft92, ft93, ft94, ft95, ft96, ft97, ft98, ft99, ft100, ft101, ft102, ft103, ft105, ft106, ft107, ft108, ft110, ft111, ft112, ft113, ft114, ft115, ft116, ft117, ft118, ft119, ft120,
-     ft121, ft122, ft123, ft124, ft125, ft127, ft128, ft129, ft130, ft131, ft132, ft133, ft134, ft135, ft136, ft137, ft138, ft139
-    
+     ft91, ft92, ft93, ft94, ft95, ft96, ft97, ft98, ft99, ft100, ft101, ft102, ft103, ft105, ft106, ft107, ft108, ft110, ft111, ft112, ft113, ft114, ft115, ft116, ft117, ft118, ft119, ft120, 
+     ft121, ft122, ft123, ft124, ft125, ft127, ft128, ft129, ft130, ft131, ft132, ft133, ft134, ft135, ft136, ft137, ft138, ft139, ft140, ft141, ft142, ft143, ft144, ft145, ft146
     ];
 
 

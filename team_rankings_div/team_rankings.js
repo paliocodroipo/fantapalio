@@ -2,7 +2,7 @@ import {
     fantateam_type,
     NORD, SUD, EST, WEST,
     fantateams
-} from '../data250713_0152.js';
+} from '../data250713_1839.js';
 
 document.addEventListener('DOMContentLoaded', function() {
     const teamCardsContainer = document.getElementById('teamCardsContainer');
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         players.sort((a, b) => b.tot - a.tot);
 
         const card = document.createElement('div');
-        card.classList.add('team-card', `cardclasssoft${team.rione.name}`);
+        card.classList.add(team-card, `cardclasssoft${team.rione.name}`);
 
         const playerInfoHTML = `
             <div class="player-info"> ${players[0].name} (<span class="team_ranking_pdk">${players[0].tot}</span>)</div>
