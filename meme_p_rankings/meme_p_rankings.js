@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let cardHtml = ``
         if(index == 0){
             cardHtml = `
-                <h3><span class="big_emoji">👑</span><br>${player.name}</h3>
+                <h3><span class="big_emoji">🤡</span><br>${player.name}</h3>
             `;
         }else{
             cardHtml = `
