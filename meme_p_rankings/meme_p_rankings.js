@@ -26,12 +26,13 @@ document.addEventListener('DOMContentLoaded', function() {
         //     <p>Finale: ${player.stats_final[18]*pdkWeights[18]}</p>
         //     <p class="total">Punti meme: ${player.meme_tot}</p>
         // `;
+        let cardHtml = ``
         if(index == 0){
-            let cardHtml = `
+            cardHtml = `
                 <h3><span class="big_emoji">👑</span><br>${player.name}</h3>
             `;
         }else{
-            let cardHtml = `
+            cardHtml = `
                 <h3>${index + 1}. ${player.name}</h3>
             `;
         }
