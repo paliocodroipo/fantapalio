@@ -15,7 +15,7 @@
 
     --west-color1:rgb(0, 0, 0);
     --west-color2:rgb(255, 221, 0);
-    --west-color3:rgb(180, 156, 0);
+    --west-color3:rgb(210, 182, 0);
 
     --est-color1:rgb(4, 0, 218);
     --est-color2:rgb(255, 26, 26);
@@ -845,5 +845,53 @@ td { /* tutto serve per sfondo immagine*/
 }
 .margin_top_and_bottom{
     margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.fanta_gonfalone_24 img {
+    width: 100%;
+    max-width: 600px; /* Optional: limits size on large screens */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* On smaller screens (mobile) */
+@media screen and (max-width: 1000px) {
+    .fanta_gonfalone_24 img {
+        width: 90%;
+    }
+}
+ /*STEMMI HOF */
+
+.hof_stemmi_container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: nowrap; /* Keep them on the same line */
+    overflow-x: auto;   /* Allow horizontal scroll on very small screens if needed */
+    margin-top: 20px;
     margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.hof_stemma {
+    flex: 0 0 auto;
+    max-width: 150px;
+}
+
+.hof_stemma img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive adjustment for smaller screens */
+@media screen and (max-width: 600px) {
+    .hof_stemma {
+        max-width: 80px; /* Smaller logos on mobile */
+    }
+
+    .hof_stemmi_container {
+        gap: 20px; /* Smaller gap between logos on mobile */
+    }
 }
