@@ -39,7 +39,8 @@ const player_type = {
     cost: 0,
     
     meme_tot:0,
-    extra_bonus:0
+    extra_bonus:0,
+    player_position_total:0
 };
 //questo array sarà da riempire per ogni giocatore per ogni partita
 //poi il resto (player.g1 ecc viene calcolato in automatico)
@@ -460,10 +461,16 @@ EST25.chiosco_martedi   = 965 - 811; // 154
 SUD25.chiosco_martedi   = 688 - 560; // 128
 NORD25.chiosco_martedi  = 606 - 492; // 114
 
-WEST25.chiosco_g3    = 1175 - 777; // 398
-EST25.chiosco_g3     = 1276 - 965; // 311
-SUD25.chiosco_g3     = 1062 - 688; // 374
-NORD25.chiosco_g3    = 868 - 606; // 262
+// WEST25.chiosco_g3    = 1175 - 777; // 398
+// EST25.chiosco_g3     = 1276 - 965; // 311
+// SUD25.chiosco_g3     = 1062 - 688; // 374
+// NORD25.chiosco_g3    = 868 - 606; // 262
+
+//giovanni anedda inizio sera giovedì
+WEST25.chiosco_g3    = 1180 - 777; // 403
+EST25.chiosco_g3     = 1300 - 965; // 335
+SUD25.chiosco_g3     = 1075 - 688; // 387
+NORD25.chiosco_g3    = 875 - 606; // 269
 
 NORD25.chiosco_semi = 0;
 SUD25.chiosco_semi = 0;
@@ -1476,7 +1483,7 @@ GabrieleAzzarone25.stats_g3             =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 FilippoAgnoluzzi25.stats_g3             =      [0, 0, 1, 0, 3, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]; //
 GabrieleIndri25.stats_g3                =      [0, 3, 7, 0, 3, 3, 2, 6, 5, 0, 8, 1, 2, 0, 0, 0, 0, 0, 4]; //
 MarcoSerrao25.stats_g3                  =      [0, 0, 4, 1, 5, 2, 0, 4, 1, 0, 2, 1, 1, 0, 0, 0, 0, 0, 3]; //
-WilliamIob25.stats_g3                   =      [0, 4, 4, 0, 0, 1, 1, 4, 1, 0, 2, 1, 0, 0, 0, 0, 0, 0, 3]; //
+WilliamIob25.stats_g3                   =      [0, 4, 4, 0, 0, 1, 1, 4, 1, 0, 2, 1, 0, 0, 0, 0, 0, 0, 5]; //
 MattiaMasotti25.stats_g3                =      [0, 2, 4, 0, 1, 2, 4, 2, 3, 0, 2, 1, 0, 0, 0, 0, 0, 0, 3]; //
 MassimilianoRossi25.stats_g3            =      [0, 1, 1, 0, 1, 3, 3, 4, 4, 0, 2, 4, 1, 0, 0, 0, 0, 0, 3]; //
 EnricoSant25.stats_g3                   =      [0, 0, 1, 1, 2, 0, 0, 2, 1, 0, 0, 2, 2, 1, 0, 0, 0, 0, 3]; //
@@ -2644,11 +2651,18 @@ const fantateams24 = [
     const players = players25;
 
     const sorted_fantateams = [...fantateams].sort((a, b) => b.tot_team - a.tot_team);
-    let position = 0;
+    let position_t = 0;
     sorted_fantateams.forEach(sorted_team => {
-        position++;
-        sorted_team.team_position_total = position;
+        position_t++;
+        sorted_team.team_position_total = position_t;
         console.log(sorted_team.name, sorted_team.team_position_total);
+    });
+    const sorted_players = [...players].sort((a, b) => b.tot - a.tot);
+    let position_p = 0;
+    sorted_players.forEach(sorted_player => {
+        position_p++;
+        sorted_player.player_position_total = position_p;
+        console.log(sorted_player.name, sorted_player.player_position_total);
     });
 
 

@@ -39,7 +39,8 @@ const player_type = {
     cost: 0,
     
     meme_tot:0,
-    extra_bonus:0
+    extra_bonus:0,
+    player_position_total:0
 };
 //questo array sarà da riempire per ogni giocatore per ogni partita
 //poi il resto (player.g1 ecc viene calcolato in automatico)
@@ -2644,11 +2645,18 @@ const fantateams24 = [
     const players = players25;
 
     const sorted_fantateams = [...fantateams].sort((a, b) => b.tot_team - a.tot_team);
-    let position = 0;
+    let position_t = 0;
     sorted_fantateams.forEach(sorted_team => {
-        position++;
-        sorted_team.team_position_total = position;
+        position_t++;
+        sorted_team.team_position_total = position_t;
         console.log(sorted_team.name, sorted_team.team_position_total);
+    });
+    const sorted_players = [...players].sort((a, b) => b.tot_team - a.tot_team);
+    let position_p = 0;
+    sorted_players.forEach(sorted_player => {
+        position_p++;
+        sorted_player.player_position_total = position_p;
+        console.log(sorted_player.name, sorted_player.player_position_total);
     });
 
 
