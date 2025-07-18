@@ -1506,7 +1506,7 @@ MattiaAnedda25.stats_g3                 =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 SamuelMasotti25.stats_g3                =      [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]; //
 DenisVanin25.stats_g3                   =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]; //
 MarcoPolo25.stats_g3                    =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]; //
-MassimilianoMoretti25.stats_g3          =      [0, 2, 1, 1, 0, 0, 0, 3, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 3]; //
+MassimilianoMoretti25.stats_g3          =      [0, 2, 1, 1, 0, 0, 0, 3, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 4]; //
 UmbertoNobile25.stats_g3                =      [0, 1, 2, 1, 2, 0, 0, 0, 5, 0, 1, 2, 0, 0, 0, 0, 0, 1, 2]; //
 LarryTrevisan25.stats_g3                =      [0, 4, 3, 0, 1, 1, 1, 3, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1]; //
 AlessandroCostantini25.stats_g3         =      [0, 1, 2, 2, 2, 3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 8]; //
@@ -1515,7 +1515,7 @@ ChristianZanet25.stats_g3               =      [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0,
 AndreaMoretti25.stats_g3                =      [0, 1, 3, 0, 1, 4, 4, 1, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 1]; //
 GiacomoPiacentini25.stats_g3            =      [0, 2, 0, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3]; //
 MicheleGorasso25.stats_g3               =      [0, 1, 3, 0, 0, 0, 2, 2, 2, 0, 0, 1, 2, 0, 0, 0, 0, 1, 1]; //
-ValentinoCigainero25.stats_g3           =      [0, 1, 0, 0, 0, 2, 2, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 1, 3]; //
+ValentinoCigainero25.stats_g3           =      [0, 1, 0, 0, 0, 2, 2, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 1, 4]; //
 GiovanniDalFarra25.stats_g3             =      [0, 1, 2, 0, 2, 0, 0, 1, 0, 0, 1, 3, 3, 0, 0, 0, 0, 1, 1]; //
 MiracleObichukwu25.stats_g3             =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]; //
 LucaDellaLonga25.stats_g3               =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1]; //
@@ -1538,7 +1538,7 @@ FilippoPasquon25.stats_semi             =      [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1,
 VittorioGri25.stats_semi                =      [0, 0, 2, 0, 4, 0, 2, 3, 2, 0, 2, 1, 1, 0, 0, 0, 0, 1, 4]; //
 VittorioBasso25.stats_semi              =      [0, 1, 2, 1, 2, 0, 0, 2, 2, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1]; //
 DanieleGanzit25.stats_semi              =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]; //
-GiacomoSilvestri25.stats_semi           =      [0, 1, 1, 0, 0, 2, 0, 1, 2, 0, 2, 4, 1, 0, 0, 0, 0, 1, 4]; //
+GiacomoSilvestri25.stats_semi           =      [0, 1, 1, 0, 0, 2, 0, 1, 2, 0, 2, 4, 1, 0, 0, 0, 0, 1, 5]; //
 MicheleVendrame25.stats_semi            =      [0, 1, 3, 1, 1, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 3]; //
 MarcoRizzi25.stats_semi                 =      [0, 0, 1, 0, 0, 0, 0, 1, 2, 0, 1, 1, 0, 0, 0, 0, 0, 1, 5]; //
 AntonioGri25.stats_semi                 =      [0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]; //
@@ -1584,14 +1584,14 @@ MauroPerina25.stats_semi                =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 MatteoGrillo25.stats_semi               =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
 EmanueleStorace25.stats_semi            =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
 LucaGrillo25.stats_semi                 =      [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2]; //
-MattiaAnedda25.stats_semi               =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6]; //
+MattiaAnedda25.stats_semi               =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9]; //
 SamuelMasotti25.stats_semi              =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
 DenisVanin25.stats_semi                 =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]; //
 MarcoPolo25.stats_semi                  =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
-MassimilianoMoretti25.stats_semi        =      [0, 4, 3, 0, 1, 1, 4, 4, 6, 0, 3, 1, 1, 0, 0, 0, 0, 1, 12]; //
+MassimilianoMoretti25.stats_semi        =      [0, 4, 3, 0, 1, 1, 4, 4, 6, 0, 3, 1, 1, 0, 0, 0, 0, 1, 11]; //
 UmbertoNobile25.stats_semi              =      [0, 2, 2, 1, 4, 2, 0, 7, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 3]; //
 LarryTrevisan25.stats_semi              =      [0, 2, 4, 0, 1, 5, 1, 2, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1]; //
-AlessandroCostantini25.stats_semi       =      [0, 1, 2, 2, 2, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 9]; //
+AlessandroCostantini25.stats_semi       =      [0, 1, 2, 2, 2, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 8]; //
 MicheleDeAnna25.stats_semi              =      [0, 2, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 4]; //
 ChristianZanet25.stats_semi             =      [0, 0, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1]; //
 AndreaMoretti25.stats_semi              =      [0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0]; //
@@ -1911,7 +1911,7 @@ const players25 = [
         player.stats_g1[9] = player.stats_g1[7] + player.stats_g1[8];
     
         // Calcolo DD e TD
-        const valuesToCheck = [player.stats_g1[0], player.stats_g1[9], player.stats_g1[10], player.stats_g1[12], player.stats_g1[13]];
+        const valuesToCheck = [player.stats_g1[0], player.stats_g1[9], player.stats_g1[10], player.stats_g1[12], player.stats_g1[13], player.stats_g1[18]];
         const countGreaterThanNine = valuesToCheck.filter(value => value > 9).length;
         
         // Imposta player.stats_g1[15] e player.stats_g1[16]
@@ -1926,7 +1926,7 @@ const players25 = [
         //da scommentare altre giornate
         player.stats_g2[0] = player.stats_g2[1] * 2 + player.stats_g2[3] * 3 + player.stats_g2[5];
         player.stats_g2[9] = player.stats_g2[7] + player.stats_g2[8];
-        const valuesToCheckG2 = [player.stats_g2[0], player.stats_g2[9], player.stats_g2[10], player.stats_g2[12], player.stats_g2[13]];
+        const valuesToCheckG2 = [player.stats_g2[0], player.stats_g2[9], player.stats_g2[10], player.stats_g2[12], player.stats_g2[13], player.stats_g2[18]];
         const countGreaterThanNineG2 = valuesToCheckG2.filter(value => value > 9).length;
         player.stats_g2[15] = countGreaterThanNineG2 >= 2 ? 1 : 0;
         player.stats_g2[16] = countGreaterThanNineG2 >= 3 ? 1 : 0;
@@ -1934,7 +1934,7 @@ const players25 = [
     
         player.stats_g3[0] = player.stats_g3[1] * 2 + player.stats_g3[3] * 3 + player.stats_g3[5];
         player.stats_g3[9] = player.stats_g3[7] + player.stats_g3[8];
-        const valuesToCheckG3 = [player.stats_g3[0], player.stats_g3[9], player.stats_g3[10], player.stats_g3[12], player.stats_g3[13]];
+        const valuesToCheckG3 = [player.stats_g3[0], player.stats_g3[9], player.stats_g3[10], player.stats_g3[12], player.stats_g3[13], player.stats_g3[18]];
         const countGreaterThanNineG3 = valuesToCheckG3.filter(value => value > 9).length;
         player.stats_g3[15] = countGreaterThanNineG3 >= 2 ? 1 : 0;
         player.stats_g3[16] = countGreaterThanNineG3 >= 3 ? 1 : 0;
@@ -1942,7 +1942,7 @@ const players25 = [
     
         player.stats_semi[0] = player.stats_semi[1] * 2 + player.stats_semi[3] * 3 + player.stats_semi[5];
         player.stats_semi[9] = player.stats_semi[7] + player.stats_semi[8];
-        const valuesToCheckSemi = [player.stats_semi[0], player.stats_semi[9], player.stats_semi[10], player.stats_semi[12], player.stats_semi[13]];
+        const valuesToCheckSemi = [player.stats_semi[0], player.stats_semi[9], player.stats_semi[10], player.stats_semi[12], player.stats_semi[13], player.stats_semi[18]];
         const countGreaterThanNineSemi = valuesToCheckSemi.filter(value => value > 9).length;
         player.stats_semi[15] = countGreaterThanNineSemi >= 2 ? 1 : 0;
         player.stats_semi[16] = countGreaterThanNineSemi >= 3 ? 1 : 0;
@@ -1952,7 +1952,7 @@ const players25 = [
 
         player.stats_final[0] = player.stats_final[1] * 2 + player.stats_final[3] * 3 + player.stats_final[5];
         player.stats_final[9] = player.stats_final[7] + player.stats_final[8];
-        const valuesToCheckFinal = [player.stats_final[0], player.stats_final[9], player.stats_final[10], player.stats_final[12], player.stats_final[13]];
+        const valuesToCheckFinal = [player.stats_final[0], player.stats_final[9], player.stats_final[10], player.stats_final[12], player.stats_final[13], player.stats_final[18]];
         const countGreaterThanNineFinal = valuesToCheckFinal.filter(value => value > 9).length;
         player.stats_final[15] = countGreaterThanNineFinal >= 2 ? 1 : 0;
         player.stats_final[16] = countGreaterThanNineFinal >= 3 ? 1 : 0;
@@ -1971,7 +1971,7 @@ const players25 = [
         player.stats_g1[9] = player.stats_g1[7] + player.stats_g1[8];
     
         // Calcolo DD e TD
-        const valuesToCheck = [player.stats_g1[0], player.stats_g1[9], player.stats_g1[10], player.stats_g1[12], player.stats_g1[13]];
+        const valuesToCheck = [player.stats_g1[0], player.stats_g1[9], player.stats_g1[10], player.stats_g1[12], player.stats_g1[13], player.stats_g1[18]];
         const countGreaterThanNine = valuesToCheck.filter(value => value > 9).length;
         
         // Imposta player.stats_g1[15] e player.stats_g1[16]
@@ -1986,7 +1986,7 @@ const players25 = [
         //da scommentare altre giornate
         player.stats_g2[0] = player.stats_g2[1] * 2 + player.stats_g2[3] * 3 + player.stats_g2[5];
         player.stats_g2[9] = player.stats_g2[7] + player.stats_g2[8];
-        const valuesToCheckG2 = [player.stats_g2[0], player.stats_g2[9], player.stats_g2[10], player.stats_g2[12], player.stats_g2[13]];
+        const valuesToCheckG2 = [player.stats_g2[0], player.stats_g2[9], player.stats_g2[10], player.stats_g2[12], player.stats_g2[13], player.stats_g2[18]];
         const countGreaterThanNineG2 = valuesToCheckG2.filter(value => value > 9).length;
         player.stats_g2[15] = countGreaterThanNineG2 >= 2 ? 1 : 0;
         player.stats_g2[16] = countGreaterThanNineG2 >= 3 ? 1 : 0;
@@ -1994,7 +1994,7 @@ const players25 = [
     
         player.stats_g3[0] = player.stats_g3[1] * 2 + player.stats_g3[3] * 3 + player.stats_g3[5];
         player.stats_g3[9] = player.stats_g3[7] + player.stats_g3[8];
-        const valuesToCheckG3 = [player.stats_g3[0], player.stats_g3[9], player.stats_g3[10], player.stats_g3[12], player.stats_g3[13]];
+        const valuesToCheckG3 = [player.stats_g3[0], player.stats_g3[9], player.stats_g3[10], player.stats_g3[12], player.stats_g3[13], player.stats_g3[18]];
         const countGreaterThanNineG3 = valuesToCheckG3.filter(value => value > 9).length;
         player.stats_g3[15] = countGreaterThanNineG3 >= 2 ? 1 : 0;
         player.stats_g3[16] = countGreaterThanNineG3 >= 3 ? 1 : 0;
@@ -2002,7 +2002,7 @@ const players25 = [
     
         player.stats_semi[0] = player.stats_semi[1] * 2 + player.stats_semi[3] * 3 + player.stats_semi[5];
         player.stats_semi[9] = player.stats_semi[7] + player.stats_semi[8];
-        const valuesToCheckSemi = [player.stats_semi[0], player.stats_semi[9], player.stats_semi[10], player.stats_semi[12], player.stats_semi[13]];
+        const valuesToCheckSemi = [player.stats_semi[0], player.stats_semi[9], player.stats_semi[10], player.stats_semi[12], player.stats_semi[13], player.stats_semi[18]];
         const countGreaterThanNineSemi = valuesToCheckSemi.filter(value => value > 9).length;
         player.stats_semi[15] = countGreaterThanNineSemi >= 2 ? 1 : 0;
         player.stats_semi[16] = countGreaterThanNineSemi >= 3 ? 1 : 0;
@@ -2012,7 +2012,7 @@ const players25 = [
 
         player.stats_final[0] = player.stats_final[1] * 2 + player.stats_final[3] * 3 + player.stats_final[5];
         player.stats_final[9] = player.stats_final[7] + player.stats_final[8];
-        const valuesToCheckFinal = [player.stats_final[0], player.stats_final[9], player.stats_final[10], player.stats_final[12], player.stats_final[13]];
+        const valuesToCheckFinal = [player.stats_final[0], player.stats_final[9], player.stats_final[10], player.stats_final[12], player.stats_final[13], player.stats_final[18]];
         const countGreaterThanNineFinal = valuesToCheckFinal.filter(value => value > 9).length;
         player.stats_final[15] = countGreaterThanNineFinal >= 2 ? 1 : 0;
         player.stats_final[16] = countGreaterThanNineFinal >= 3 ? 1 : 0;
