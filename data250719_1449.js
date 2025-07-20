@@ -490,11 +490,17 @@ WEST25.chiosco_final = 0;
 EST25.chiosco_final = 0;
 // end BIRRE CHIOSCO
 
-// BONUS CLASSIFICA RIONI
-NORD25.classifica_bonus = 0;
+// BONUS COPPA CHIOSCO PIAZZAMENTO RIONI
+NORD25.classifica_bonus = -5;
 SUD25.classifica_bonus = 0;
-WEST25.classifica_bonus = 0;
-EST25.classifica_bonus = 0;
+WEST25.classifica_bonus = 5;
+EST25.classifica_bonus = 10;
+
+// BONUS CLASSIFICA RIONI
+NORD25.classifica_bonus = 10;
+SUD25.classifica_bonus = 5;
+WEST25.classifica_bonus = 10;
+EST25.classifica_bonus = 10;
 
 //creazione array rioni e calcolo totale birre al chiosco e calcolo totale bonus classifica
 const rioni25 = [NORD25,SUD25,EST25,WEST25];

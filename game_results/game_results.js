@@ -1,6 +1,6 @@
 import {
   game_results_array   
-} from '../data250719_1847.js';
+} from '../data250721_0023.js';
 
 const teamClassMap = {
   'SUD': 'score_sud',
@@ -91,8 +91,10 @@ function renderGameResults() {
     // Then append elements to this block instead of directly to `main`
     gameDayBlock.appendChild(gameDayTitle);
     gameDayBlock.appendChild(matchA);
-    gameDayBlock.appendChild(divider);
-    gameDayBlock.appendChild(matchB);
+    if(gameDayData.game_results_day != "final"){
+      gameDayBlock.appendChild(divider);
+      gameDayBlock.appendChild(matchB);
+    }
 
     results_container.appendChild(gameDayBlock);
 

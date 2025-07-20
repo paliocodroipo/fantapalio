@@ -448,18 +448,18 @@ const EST25 = { ...rione_type,
 // EST25.chiosco_3v3 = 0;
 
 WEST25.chiosco_g1 = 345;
-EST25.chiosco_g1 = 412; // EST
+EST25.chiosco_g1 = 412;
 SUD25.chiosco_g1 = 278;
 NORD25.chiosco_g1 = 223;
 
 WEST25.chiosco_g2   = 664 - 345; // 319
-EST25.chiosco_g2    = 811 - 412; // 399 EST
+EST25.chiosco_g2    = 811 - 412; // 399
 SUD25.chiosco_g2    = 560 - 278; // 282
 NORD25.chiosco_g2   = 492 - 223; // 269
 
 
 WEST25.chiosco_martedi  = 777 - 664; // 113
-EST25.chiosco_martedi   = 965 - 811; // 154 EST
+EST25.chiosco_martedi   = 965 - 811; // 154
 SUD25.chiosco_martedi   = 688 - 560; // 128
 NORD25.chiosco_martedi  = 606 - 492; // 114
 
@@ -469,20 +469,20 @@ NORD25.chiosco_martedi  = 606 - 492; // 114
 // NORD25.chiosco_g3    = 868 - 606; // 262
 
 //giovanni anedda inizio sera giovedì
-WEST25.chiosco_g3    = 1180 - 777; // 403 WEST
+WEST25.chiosco_g3    = 1180 - 777; // 403
 EST25.chiosco_g3     = 1300 - 965; // 335
 SUD25.chiosco_g3     = 1075 - 688; // 387
 NORD25.chiosco_g3    = 875 - 606; // 269
 
-WEST25.chiosco_semi = 1791 - 1180; // 611 WEST
+WEST25.chiosco_semi = 1791 - 1180; // 611
 EST25.chiosco_semi = 1860 - 1300; // 560
-SUD25.chiosco_semi = 1298 - 1075; // 223 
+SUD25.chiosco_semi = 1298 - 1075; // 223
 NORD25.chiosco_semi = 1136 - 875; // 261
 
-WEST25.chiosco_td3 = 2234 - 1791; // 443
-EST25.chiosco_td3 = 2391 - 1860; // 531
-SUD25.chiosco_td3 = 1954 - 1298; // 656 SUD
-NORD25.chiosco_td3 = 1523 - 1136; // 387
+NORD25.chiosco_td3 = 0;
+SUD25.chiosco_td3 = 0;
+WEST25.chiosco_td3 = 0;
+EST25.chiosco_td3 = 0;
 
 NORD25.chiosco_final = 0;
 SUD25.chiosco_final = 0;
@@ -490,11 +490,17 @@ WEST25.chiosco_final = 0;
 EST25.chiosco_final = 0;
 // end BIRRE CHIOSCO
 
-// BONUS CLASSIFICA RIONI
-NORD25.classifica_bonus = 0;
+// BONUS COPPA CHIOSCO PIAZZAMENTO RIONI
+NORD25.classifica_bonus = -5;
 SUD25.classifica_bonus = 0;
-WEST25.classifica_bonus = 0;
-EST25.classifica_bonus = 0;
+WEST25.classifica_bonus = 5;
+EST25.classifica_bonus = 10;
+
+// BONUS CLASSIFICA RIONI
+NORD25.classifica_bonus = 10;
+SUD25.classifica_bonus = 5;
+WEST25.classifica_bonus = 10;
+EST25.classifica_bonus = 10;
 
 //creazione array rioni e calcolo totale birre al chiosco e calcolo totale bonus classifica
 const rioni25 = [NORD25,SUD25,EST25,WEST25];
@@ -1694,7 +1700,7 @@ MatteoMargarit25.stats_td3              =      [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 
 
 // // stats_final
-// GabrieleMiani25.stats_final             =      [0, 0, 3, 3, 0, 4, 2, 3, 1, 0, 0, 3, 4, 0, 4, 0, 0, 2, 1]; //
+GabrieleMiani25.stats_final             =      [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1]; //
 // DavidGaspardo25.stats_final             =      [0, 3, 2, 4, 2, 4, 2, 0, 1, 0, 1, 3, 4, 1, 2, 0, 0, 2, 5]; //
 // AlessandroRizzi25.stats_final           =      [0, 2, 0, 1, 0, 2, 2, 4, 2, 0, 0, 3, 1, 3, 1, 0, 0, 2, 3]; //
 // MarcoLombardo25.stats_final             =      [0, 3, 0, 4, 0, 2, 3, 2, 2, 0, 1, 0, 1, 0, 1, 0, 0, 2, 6]; //
@@ -2040,8 +2046,8 @@ const players25 = [
     
     
     let final_is_in_flag = 0;
-    let team_not_in_final_1="NOT_YET_KNOWN";
-    let team_not_in_final_2="NOT_YET_KNOWN";
+    let team_not_in_final_1="EST";
+    let team_not_in_final_2="SUD";
     let final_flag_EST = 0;
     let final_flag_SUD = 0;
     let final_flag_NORD = 0;
@@ -2664,14 +2670,14 @@ const fantateams24 = [
     sorted_fantateams.forEach(sorted_team => {
         position_t++;
         sorted_team.team_position_total = position_t;
-        console.log(sorted_team.name, sorted_team.team_position_total);
+        // console.log(sorted_team.name, sorted_team.team_position_total);
     });
     const sorted_players = [...players].sort((a, b) => b.tot - a.tot);
     let position_p = 0;
     sorted_players.forEach(sorted_player => {
         position_p++;
         sorted_player.player_position_total = position_p;
-        console.log(sorted_player.name, sorted_player.player_position_total);
+        // console.log(sorted_player.name, sorted_player.player_position_total);
     });
 
 

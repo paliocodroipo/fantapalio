@@ -490,11 +490,17 @@ WEST25.chiosco_final = 0;
 EST25.chiosco_final = 0;
 // end BIRRE CHIOSCO
 
+// BONUS COPPA CHIOSCO PIAZZAMENTO RIONI
+NORD25.chiosco_bonus = -5;
+SUD25.chiosco_bonus = 0;
+WEST25.chiosco_bonus = 5;
+EST25.chiosco_bonus = 10;
+
 // BONUS CLASSIFICA RIONI
-NORD25.classifica_bonus = 0;
-SUD25.classifica_bonus = 0;
-WEST25.classifica_bonus = 0;
-EST25.classifica_bonus = 0;
+NORD25.classifica_bonus = 10;
+SUD25.classifica_bonus = 5;
+WEST25.classifica_bonus = 10;
+EST25.classifica_bonus = 10;
 
 //creazione array rioni e calcolo totale birre al chiosco e calcolo totale bonus classifica
 const rioni25 = [NORD25,SUD25,EST25,WEST25];
@@ -1729,7 +1735,7 @@ GabrieleMiani25.stats_final             =      [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
 // CristianFedrizzi25.stats_final          =      [0, 2, 0, 1, 1, 0, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
 // GabrieleAzzarone25.stats_final          =      [0, 3, 4, 1, 4, 4, 1, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
 // FilippoAgnoluzzi25.stats_final          =      [0, 2, 1, 2, 3, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]; //
-// // GabrieleIndri25.stats_final             =      [0, 3, 0, 3, 2, 1, 3, 4, 4, 0, 0, 3, 4, 0, 4, 0, 0, 0, 0]; //
+GabrieleIndri25.stats_final             =      [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50]; //
 // // EnricoSant25.stats_final                =      [0, 0, 2, 1, 3, 1, 4, 1, 4, 0, 1, 0, 2, 0, 3, 0, 0, 0, 0]; //
 // // EugenioDeTina25.stats_final             =      [0, 1, 1, 3, 2, 4, 2, 1, 1, 0, 3, 0, 3, 0, 1, 0, 0, 0, 0]; //
 // // EdoardoPicogna25.stats_final            =      [0, 4, 2, 4, 1, 1, 4, 3, 4, 0, 4, 2, 4, 1, 3, 0, 0, 0, 0]; //
@@ -2664,14 +2670,14 @@ const fantateams24 = [
     sorted_fantateams.forEach(sorted_team => {
         position_t++;
         sorted_team.team_position_total = position_t;
-        console.log(sorted_team.name, sorted_team.team_position_total);
+        // console.log(sorted_team.name, sorted_team.team_position_total);
     });
     const sorted_players = [...players].sort((a, b) => b.tot - a.tot);
     let position_p = 0;
     sorted_players.forEach(sorted_player => {
         position_p++;
         sorted_player.player_position_total = position_p;
-        console.log(sorted_player.name, sorted_player.player_position_total);
+        // console.log(sorted_player.name, sorted_player.player_position_total);
     });
 
 
