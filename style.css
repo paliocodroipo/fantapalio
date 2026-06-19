@@ -8,6 +8,8 @@
 
     /* arancione */
     --main-color3:rgb(255,109,10);
+    /* --main-color3:rgb(000, 112, 255);
+    --main-color3:rgb(52, 221, 255); */
 
     --nord-color1:rgb(255, 50, 50);
     --nord-color2:rgb(0, 0, 0);
@@ -170,6 +172,24 @@ a button:focus {
     outline: none;
 }
 
+.submit-team-button{
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 8px;
+    border-width: 3px;
+    border-style: outset;
+    border-color: var(--main-color3);
+    background-color: var(--main-color1);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* color: var(--main-color3); */
+    cursor: pointer;
+    box-shadow: none;
+}
 /* used in all pages */
 .dropdown {
     display: block;
@@ -605,13 +625,25 @@ footer {
     box-sizing: border-box; /* Rispetta il box model */
 }
 @media (max-width: 768px) {
+    .players-container {
+        max-height: 300px; /* Altezza massima del contenitore in mobile (stretta così si vede squadra che viene creata sotto */
+        gap: 6px; /* Spazio tra le card */
+    }
     .player-card1 {
         flex: 1 0 calc(50% - 10px); /* Due card per riga su schermi più piccoli */
+        margin: 0px;
     }
+}
+.player-card1 p {
+    margin: 8px 6px;   /* PER I PARAGRAFI:Riduce il margine sopra e sotto a 4px (e 0 a destra/sinistra) */
 }
 
 
-
+.small_h3 {
+    font-size: 0.7em; /* Riduce la dimensione del testo per il sottotitolo */
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
 
 .team-container {
     display: flex; /* Utilizza flexbox */
@@ -883,4 +915,101 @@ td { /* tutto serve per sfondo immagine*/
     width: 100%;
     height: auto;
     display: block;
+}
+/* NEW26 forms for nomesquadra, email, nomecognome */
+.form-input {
+    display: block;
+    width: 280px; /* Slightly wider than the button for better typing space */
+    max-width: 90%;
+    margin: 15px auto; /* Centers them and adds space between fields */
+    padding: 12px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid var(--main-color3); /* Matching your button border */
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency looks nice on backgrounds */
+    color: #333;
+    outline: none; /* Removes the default blue highlight */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* This makes the field "glow" when the user clicks inside it */
+.form-input:focus {
+    border-color: var(--main-color1);
+    box-shadow: 0 0 8px rgba(var(--main-color1-rgb), 0.3); 
+    background-color: #ffffff;
+}
+
+/* Styling the placeholder text */
+.form-input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+#user-info-container {
+    background-color: var(--main-color1); 
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 500px;
+    
+    /* This makes everything stack vertically */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between each element */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Styling the text "prompts" before the inputs */
+.info-prompt {
+    margin: 0;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Ensure inputs and selects take up the full width */
+#user-info-container input, 
+#user-info-container select {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box; /* Crucial so padding doesn't push width past 100% */
+}
+
+/* The submit button (which we append later via JS) will also follow this flex layout */
+.submit-team-button {
+    /* width: 100%; */
+    cursor: pointer;
+}
+#rione-selector-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.rione-btn {
+    padding: 15px;
+    border: 6px solid transparent;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white; /* Default dark color */
+    color: var(--main-color1); 
+    transition: all 0.2s ease;
+}
+
+/* Individual Rione Colors (matching your cards) */
+.btn-nord:hover, .btn-nord.active { background-color:  var(--nord-color1); border-color: var(--nord-color2);  color: var(--nord-color2); }
+.btn-west:hover, .btn-west.active { background-color:  var(--west-color1); border-color: var(--west-color2);  color: var(--west-color2); }
+.btn-est:hover, .btn-est.active { background-color:  var(--est-color1); border-color: var(--est-color2);  color: var(--est-color3); }
+.btn-sud:hover, .btn-sud.active { background-color:  var(--sud-color1); border-color: var(--sud-color2);  color: var(--sud-color3); }
+
+/* Dim the buttons that aren't selected */
+.rione-btn.inactive {
+    opacity: 0.5;
+    filter: grayscale(0.5);
 }

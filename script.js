@@ -1,4 +1,4 @@
-import { fantateams , what_day_is_it} from './data250721_2306.js';
+import { fantateams , what_day_is_it, coachWeights} from './data260619_0818.js';
 
 document.addEventListener("DOMContentLoaded", function() {
     const select = document.getElementById("teamDetails");
@@ -143,12 +143,34 @@ document.addEventListener("DOMContentLoaded", function() {
         const rioneCard = document.createElement('div');
         rioneCard.classList.add('team_detail_team-card1', `cardclass${selectedTeam.rione.name}`);
         let rioneHtml =  `
-            <h3>Rione: ${selectedTeam.rione.name}</h3>
+            <p>Rione:</p>
+            <h3>${selectedTeam.rione.name}</h3>
+            <p>Coach:</p>
+            <h3>${selectedTeam.rione.coach_name}</h3>
             `
+        if (what_day_is_it >= 1) {
+            rioneHtml += `<p>G1: ${selectedTeam.rione.coach_g1}</p>`;
+        }
+        if (what_day_is_it >= 2) {
+            rioneHtml += `<p>G2: ${selectedTeam.rione.coach_g2}</p>`;
+        }
+        if (what_day_is_it >= 3) {
+            rioneHtml += `<p>G3: ${selectedTeam.rione.coach_g3}</p>`;
+        }
+        if (what_day_is_it >= 4) {
+            rioneHtml += `<p>Semifinale: ${selectedTeam.rione.coach_semi}</p>`;
+        }
+        if (what_day_is_it >= 5) {
+            rioneHtml += `<p>Tiro da 3: ${selectedTeam.rione.coach_td3}</p>`;
+        }
+        if (what_day_is_it >= 6) {
+            rioneHtml += `<p>Finale: ${selectedTeam.rione.coach_final}</p>`;
+        }
         if (what_day_is_it>=1){
             rioneHtml +=`
-                <p>Punti classifica: ${selectedTeam.rione.classifica_bonus}</p>
-                <p>Punti coppa chiosco: ${selectedTeam.rione.chiosco_bonus}</p>
+                <br>
+                <p>Punti classifica: <b>${selectedTeam.rione.classifica_bonus}</b></p>
+                <p>Punti coppa chiosco: <b>${selectedTeam.rione.chiosco_bonus}</b></p>
                 <p class="total">Totale: ${selectedTeam.rione.final_points}</p>
             `;
         }
