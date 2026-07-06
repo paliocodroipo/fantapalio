@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Crea Squadra</title>
     <link rel="icon" href="../fantapalio_icon.png">
-    <link rel="stylesheet" href="../style.css?v=260619_0841">
+    <link rel="stylesheet" href="../style.css?v=260706_2157">
 </head>
 <body>
     <div class="background"></div>
@@ -20,35 +20,37 @@
     <main>
         
         <div class="container">
-            <p class="highlighted-text team_simulation_message">Seleziona <b>5</b> giocatori, hai <b>30$</b> a disposizione.
-                <br>Poi, inserisci il tuo rione di appartenenza, il nome della squadra, la tua email, il tuo nome e cognome, e indica se ci sarai alla finale per le premiazioni.                
-                <br>Hai tempo fino a <b>domenica sera alle 20:00</b>.
+            <p class="highlighted-text team_simulation_message">Seleziona <b class="orange_text_light">5 giocatori</b>, hai <b class="orange_text_light">30$</b> a disposizione.
+                Tieni premuto su un giocatore per più info.
+                <!-- <br>Poi, inserisci il tuo <b class="orange_text_light">rione</b>, il <b class="orange_text_light">nome della squadra</b>, la tua <b class="orange_text_light">email</b>, il tuo <b class="orange_text_light">nome e cognome</b>, e indica se ci sarai alla finale per le <b class="orange_text_light">premiazioni</b>. -->
+                Hai tempo fino a <b class="orange_text_light">domenica</b> alle <b class="orange_text_light">20:00</b>.
             </p>
             
             
             <div class="players-container" id="playersContainer">
                 <!-- Qui verranno aggiunte dinamicamente le card dei giocatori -->
             </div>
-            <h3 class="highlighted-text">La tua squadra:<br><p class = "small_h3"> (tocca un giocatore per toglierlo)</p></h2>
+            <!-- <h3 class="highlighted-text2" id="your-team">La tua squadra:<br><p class = "small_h3"> (tocca un giocatore per toglierlo)</p></h2> -->
+            <p class="highlighted-text2" id="your-team"><b>La tua squadra:</b></p>
             <div class="team-container" id="teamContainer">
                 <!-- Qui verranno aggiunti dinamicamente i giocatori selezionati -->
                 <p><em>Team vuoto</em></p>
             </div>
             <div id="user-info">
                 <div id="user-info-container">
-                    <p class="info-prompt">Rione di appartenenza (se sei di Codroipo, scegli il tuo rione. I non codroipesi possono scegliere in base alla posizione geografica della residenza rispetto a Codroipo). Con il rione si seleziona anche l' allenatore.</p>
+                    <p class="info-prompt"><b class="orange_text_light">Rione</b> di appartenenza (se sei di Codroipo, scegli il <b class="orange_text_light">tuo</b> rione. I non codroipesi possono scegliere in base alla posizione geografica della residenza rispetto a Codroipo). Con il rione si seleziona anche l' <b class="orange_text_light">allenatore</b>, che potrà fare punti meme.</p>
                     <div id="rione-selector-grid">
                         <button type="button" class="rione-btn btn-nord" data-rione="NORD">NORD
-                            <br>Ciccio De Colle
+                            <br>Stefano De Colle
                         </button>
                         <button type="button" class="rione-btn btn-west" data-rione="WEST">WEST
                             <br>Alessandro Di Giusto
                         </button>
                         <button type="button" class="rione-btn btn-est" data-rione="EST">EST
-                            <br>Iacopo Pivetta
+                            <br>Emanuele Storace
                         </button>
                         <button type="button" class="rione-btn btn-sud" data-rione="SUD">SUD
-                            <br>Giovanni Zanin
+                            <br>Mr. X
                         </button>
                     </div>
                     <!-- Hidden input to store the value for your submitTeam function -->
@@ -63,9 +65,9 @@
                     <!-- 4. Nome e Cognome -->
                     <input type="text" id="fullNameInput" placeholder="Nome Cognome" class="form-input">
 
-                    <p class="info-prompt">Nome, Cognome e e-mail saranno utilizzati solo per la conferma di iscrizione che ti arriverà via email e nel caso vincessi il FantaPalio per la consegna del premio simbolico. Tutti i tuoi dati personali saranno eliminati alla fine della settimana del Palio dei Rioni.</p>
+                    <p class="info-prompt smaller-text">Nome, Cognome e e-mail saranno utilizzati solo per la conferma di iscrizione che ti arriverà via email e nel caso vincessi il FantaPalio per la consegna del premio simbolico. Tutti i tuoi dati personali saranno eliminati alla fine della settimana del Palio dei Rioni.</p>
                     <!-- 5. Presence Selection -->
-                    <p class="info-prompt">Sarai presente alle premiazioni finali sabato 18 luglio?</p>
+                    <p class="info-prompt"><b>Sarai presente alle premiazioni finali sabato 18 luglio?</b></p>
                     <select id="attendanceInput">
                         <option value="" disabled selected>Scegli...</option>
                         <option value="SI">Sì</option>
@@ -79,9 +81,9 @@
             <a href="../index.html"><button class="rectangle-button">Indietro</button></a>
         </div>
         <p class="highlighted-text team_simulation_message">
-            <span class= "orange_text">Nel caso qualcosa andasse storto, non esitare a scriverci alla pagina instagram (fantapalio_dei_rioni) o via email a fantapaliodeirioni@gmail.com</span>
+            <span class= "orange_text_light">Nel caso qualcosa andasse storto, non esitare a scriverci alla pagina instagram (fantapalio_dei_rioni) o via email a fantapaliodeirioni@gmail.com</span>
         </p>
-        <script type="module" src="team_simulation.js?v=260619_0841"></script>
+        <script type="module" src="team_simulation.js?v=260706_2157"></script>
     </main>
     <!--
     <footer>

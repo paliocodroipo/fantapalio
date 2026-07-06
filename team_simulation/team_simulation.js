@@ -1,6 +1,6 @@
 // Importa l'array di giocatori dal modulo esterno
-import { players25 } from '../data260619_0841.js';
-const players=players25; // messo questo, da updeateare ogni anno ma sticazzi
+import { players, player_history_array } from '../data260706_2157.js';
+// const players=players25; // messo questo, da updeateare ogni anno ma sticazzi
 // https://script.google.com/macros/s/AKfycbxajrln9ImXrubissUw8sgeGcYdDOspUAdrA_RlRzNsPzM05lt4mB_h7rd5h91hB8q-Hg/exec
 // Variabili globali per tenere traccia dei giocatori selezionati e dei crediti totali
 let selectedPlayers = [];
@@ -9,6 +9,335 @@ const maxCredits = 30; // Massimo credito disponibile per il team
 
 const formlinkused = 0; // se 1, mostra il link al modulo google forms, se 0 non lo mostra e lascia solo il form diretto (e nasconde il messaggio con il link)
 const directregistration = !formlinkused; // se 1, mostra il form di registrazione diretto, se 0 mostra solo il link al modulo google forms (e nasconde il form diretto)
+
+let debug_active = 1; // 1 per mostrare div nero con messaggi logMobile()
+// HISTORY POPUP
+let activePopup = null;
+
+let pressTimer = null;
+let pressedPlayer = null;
+let pressedIndex = null;
+let pressMode = null; // "add" | "remove"
+let longPressTriggered = false;
+let pressStartTime = 0;
+
+let startX = 0;
+let startY = 0;
+let activePointerId = null;
+let activeInteractionType = null;
+let pointerMoved = false;
+let gestureAborted = false;
+const useTouchEvents = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+function onPointerDownAdd(e, player) {
+    logMobile( ">> onPointerDownAdd" + player.name);
+
+    pressMode = "add";
+    pressedPlayer = player;
+    pressedIndex = null;
+
+    startPressCommon(e.currentTarget, e.clientX, e.clientY, e.pointerId, 'pointer');
+}
+
+function onPointerDownRemove(e, index, player) {
+    logMobile( ">> onPointerDownRemove" + player.name);
+
+    pressMode = "remove";
+    pressedPlayer = player;
+    pressedIndex = index;
+
+    startPressCommon(e.currentTarget, e.clientX, e.clientY, e.pointerId, 'pointer');
+}
+
+function onTouchStartAdd(e, player) {
+    if (e.touches.length !== 1) {
+        return;
+    }
+
+    const touch = e.touches[0];
+    logMobile( ">> onTouchStartAdd" + player.name);
+
+    pressMode = "add";
+    pressedPlayer = player;
+    pressedIndex = null;
+
+    startPressCommon(e.currentTarget, touch.clientX, touch.clientY, touch.identifier, 'touch');
+}
+
+function onTouchStartRemove(e, index, player) {
+    if (e.touches.length !== 1) {
+        return;
+    }
+
+    const touch = e.touches[0];
+    logMobile( ">> onTouchStartRemove" + player.name);
+
+    pressMode = "remove";
+    pressedPlayer = player;
+    pressedIndex = index;
+
+    startPressCommon(e.currentTarget, touch.clientX, touch.clientY, touch.identifier, 'touch');
+}
+
+function startPressCommon(target, clientX, clientY, identifier, interactionType) {
+    longPressTriggered = false;
+    pressStartTime = Date.now();
+    pointerMoved = false;
+    gestureAborted = false;
+    activePointerId = identifier;
+    activeInteractionType = interactionType;
+    logMobile( ">> startPressCommon");
+
+    // Salva la posizione iniziale del tocco/click
+    startX = clientX;
+    startY = clientY;
+
+    if (interactionType === 'pointer' && target && typeof target.setPointerCapture === 'function') {
+        try {
+            target.setPointerCapture(identifier);
+        } catch (err) {
+            logMobile(">> pointer capture failed: " + err.message);
+        }
+    }
+
+    pressTimer = setTimeout(() => {
+        if (gestureAborted || !pressedPlayer) {
+            return;
+        }
+        longPressTriggered = true;
+        showPlayerPopup(pressedPlayer, { clientX: startX, clientY: startY });
+    }, 500);
+}
+
+function onPointerMove(e) {
+    if (activeInteractionType !== 'pointer' || activePointerId !== e.pointerId) {
+        return;
+    }
+    logMobile(">> OnpointerMove");
+
+    handleMove(e.clientX, e.clientY, e.currentTarget, e.pointerId, 'pointer');
+}
+
+function onTouchMove(e) {
+    if (e.touches.length !== 1) {
+        return;
+    }
+
+    const touch = e.touches[0];
+    if (activeInteractionType !== 'touch' || activePointerId !== touch.identifier) {
+        return;
+    }
+
+    // logMobile(">> OnTouchMove");
+    handleMove(touch.clientX, touch.clientY, e.currentTarget, touch.identifier, 'touch');
+}
+
+function handleMove(clientX, clientY, target, identifier, interactionType) {
+    const diffX = clientX - startX;
+    const diffY = clientY - startY;
+    const distance = Math.sqrt(diffX * diffX + diffY * diffY);
+
+    if (distance >= 100 && !pointerMoved) {
+        pointerMoved = true;
+        gestureAborted = true;
+        logMobile(">> pointer moved enough (over100px), cancelling pending tap/long press");
+        cancelPendingGesture(target, identifier, interactionType);
+    }
+}
+
+function onPointerUp(e) {
+    if (activeInteractionType !== 'pointer' || activePointerId !== e.pointerId) {
+        return;
+    }
+
+    finalizeGesture(e.clientX, e.clientY, e.currentTarget, e.pointerId, 'pointer');
+}
+
+function onTouchEnd(e) {
+    if (e.changedTouches.length !== 1) {
+        return;
+    }
+
+    const touch = e.changedTouches[0];
+    if (activeInteractionType !== 'touch' || activePointerId !== touch.identifier) {
+        return;
+    }
+
+    finalizeGesture(touch.clientX, touch.clientY, e.currentTarget, touch.identifier, 'touch');
+}
+
+function finalizeGesture(clientX, clientY, target, identifier, interactionType) {
+    clearTimeout(pressTimer);
+    logMobile( ">> finalizeGesture, longPressTriggered: " + longPressTriggered + ", pressMode: " + pressMode + ", pressedPlayer: " + (pressedPlayer ? pressedPlayer.name : "null") + ", pressedIndex: " + pressedIndex);
+
+    if (gestureAborted) {
+        removeActivePopup();
+        resetPress();
+        return;
+    }
+
+    const duration = Date.now() - pressStartTime;
+
+    // LONG PRESS → only cleanup
+    if (longPressTriggered) {
+        removeActivePopup();
+        resetPress();
+        return;
+    }
+
+    // Calcola lo spostamento totale
+    const diffX = clientX - startX;
+    const diffY = clientY - startY;
+    const distance = Math.sqrt(diffX * diffX + diffY * diffY);
+
+    // SHORT PRESS → eseguito solo se il dito NON si è spostato significativamente (soglia di 10px)
+    if (duration < 500 && distance < 10) {
+        if (pressMode === "add") {
+            addPlayer(pressedPlayer);
+        }
+
+        if (pressMode === "remove") {
+            removePlayer(pressedIndex);
+        }
+    } else if (distance >= 10) {
+        logMobile(">> Tocco annullato: rilevato movimento/scroll di " + Math.round(distance) + "px");
+    }
+
+    if (interactionType === 'pointer') {
+        releasePointerCaptureIfNeeded(target, identifier);
+    }
+    resetPress();
+}
+
+function onPointerCancel(e) {
+    if (activeInteractionType !== 'pointer' || activePointerId !== e.pointerId) {
+        return;
+    }
+
+    gestureAborted = true;
+    logMobile( ">> onPointerCancel, clearing pending gesture");
+    cancelPendingGesture(e.currentTarget, e.pointerId, 'pointer');
+}
+
+function onTouchCancel(e) {
+    if (e.changedTouches.length !== 1) {
+        return;
+    }
+
+    const touch = e.changedTouches[0];
+    if (activeInteractionType !== 'touch' || activePointerId !== touch.identifier) {
+        return;
+    }
+
+    gestureAborted = true;
+    logMobile( ">> onTouchCancel, clearing pending gesture");
+    cancelPendingGesture(e.currentTarget, touch.identifier, 'touch');
+}
+
+function cancelPendingGesture(target, identifier, interactionType) {
+    clearTimeout(pressTimer);
+    removeActivePopup();
+    if (interactionType === 'pointer') {
+        releasePointerCaptureIfNeeded(target, identifier);
+    }
+    resetPress();
+}
+
+function releasePointerCaptureIfNeeded(target, identifier) {
+    if (target && typeof target.releasePointerCapture === 'function') {
+        try {
+            target.releasePointerCapture(identifier);
+        } catch (err) {
+            logMobile(">> release pointer capture failed: " + err.message);
+        }
+    }
+}
+
+function resetPress() {
+    pressedPlayer = null;
+    pressedIndex = null;
+    pressMode = null;
+    longPressTriggered = false;
+    pressStartTime = 0;
+    activePointerId = null;
+    activeInteractionType = null;
+    pointerMoved = false;
+    gestureAborted = false;
+}
+
+
+
+function showPlayerPopup(player, event) {
+    // Chiudiamo il popup attivo direttamente senza azzerare isLongPress
+    if (activePopup) {
+        activePopup.remove();
+        activePopup = null;
+    }
+
+    const history = player_history_array.find(h => h.name === player.name);
+    const hasHistory = !!history;
+
+    const popup = document.createElement('div');
+    popup.classList.add('player-history-popup');
+
+    let htmlContent = `<h4 class="player-history-popup-title"><b>${player.name}</b></h4>`;
+
+    if (hasHistory) {
+        if (history.tot_25 && history.tot_25 > 0) {
+            htmlContent += `<div class="player-history-popup-row">Tot 2025: <b class="orange_text">${history.tot_25}</b></div>`;
+        }
+        if (history.tot_25 && history.tot_25 < 0) {
+            htmlContent += `<div class="player-history-popup-row">Tot 2025: <b class="orange_text">1</b></div>`;
+        }
+        if (history.tot_24 && history.tot_24 > 0) {
+            htmlContent += `<div class="player-history-popup-row">Tot 2024: <b class="orange_text">${history.tot_24}</b></div>`;
+        }
+        if (history.note && history.note.trim() !== "") {
+            htmlContent += `<div class="player-history-popup-note">${history.note}</div>`;
+        }
+        if (!history.tot_24 && !history.tot_25 && (!history.note || history.note.trim() === "")) {
+            htmlContent += `<p style="font-size:0.9em; margin:0;">Prima volta che gioca</p>`;
+        }
+    } else {
+        htmlContent += `<p style="font-size:0.9em; margin:0;">Nessun dato storico trovato per questo giocatore.</p>`;
+    }
+
+    popup.innerHTML = htmlContent;
+    document.body.appendChild(popup);
+    activePopup = popup;
+
+    let clientX = 0;
+    let clientY = 0;
+
+    if (event.touches && event.touches.length > 0) {
+        clientX = event.touches[0].clientX;
+        clientY = event.touches[0].clientY;
+    } else {
+        clientX = event.clientX;
+        clientY = event.clientY;
+    }
+
+    popup.style.left = `${clientX - 140}px`; 
+    popup.style.top = `${clientY}px`;
+
+    const popupRect = popup.getBoundingClientRect();
+    if (popupRect.left < 10) {
+        popup.style.left = '10px';
+    } else if (popupRect.right > window.innerWidth - 10) {
+        popup.style.left = `${window.innerWidth - popupRect.width - 10}px`;
+    }
+}
+
+// Funzione di utility per distruggere il popup quando si rilascia il dito o si clicca fuori
+function removeActivePopup() {
+    logMobile( ">> removeActivePopup");
+
+    if (activePopup) {
+        activePopup.remove();
+        activePopup = null;
+    }
+}
+// HISTORY END (of starting stuff, then used in other following functions)
 
 // Funzione per aggiungere un giocatore al team
 function addPlayer(player) {
@@ -31,7 +360,7 @@ function addPlayer(player) {
     }
     // da capire se lasciare questo controllo o lasciarli arrivare in fondo da soli e poi devono cambiarne diversi quando si rendono conto
     if (totalCost + player.cost > maxCredits - 4 * (5 - (selectedPlayers.length + 1))) { // se i crediti che useresti > 4*(giocatori che mancano)
-        alert("Se prendessi questo non potresti completare la squadra, ti tocca rivedere la scelta.");
+        alert("Se prendessi questo non potresti completare la squadra, costa troppo.");
         return;
     }
 
@@ -87,24 +416,13 @@ function renderTeam() {
         if (selectedPlayers.length === 5) {
             if (!validMessage) {
                 const newValidMessage = document.createElement('p');
-                newValidMessage.textContent = 'VALIDA, continua sotto';
+                newValidMessage.textContent = 'VALIDA';
                 newValidMessage.classList.add('highlighted-text');
                 newValidMessage.classList.add('valid-message');
                 // newValidMessage.style.color = 'green';
                 newValidMessage.style.fontWeight = 'bold';
                 newValidMessage.id = 'validMessage';
                 teamContainer.parentNode.insertBefore(newValidMessage, teamContainer);
-
-                // // commented to separate link and "ricordateli bene, poi"
-                // const newSignupLink = document.createElement('a');
-                // newSignupLink.href = "https://docs.google.com/forms/d/e/1FAIpQLSe3fKik12LNEV4ZggWzvRN1ueC6tBCAwZVzjOINZ7etyKp91A/viewform?usp=header";
-                // newSignupLink.target = "_blank";
-                // newSignupLink.textContent = "ricordateli bene, poi iscrivi la squadra";
-                // newSignupLink.id = 'signupLink';
-                // newSignupLink.classList.add('highlighted-text');
-                // newSignupLink.classList.add('registrationlink');  // Aggiunge la classe registrationlink
-                
-                // newValidMessage.parentNode.insertBefore(newSignupLink, newValidMessage.nextSibling);
 
                 if(formlinkused) {
                     // Create container for the message
@@ -175,8 +493,28 @@ function renderTeam() {
                
                 <p><b>${player.team}</b> &emsp; <b>$${player.cost}</b></p>
             `;
-            // Aggiungi un evento per rimuovere il giocatore cliccando sulla card
-            playerCard.addEventListener('click', () => removePlayer(index));
+            if (useTouchEvents) {
+                playerCard.addEventListener(
+                    "touchstart",
+                    (e) => onTouchStartRemove(e, index, player),
+                    { passive: true }
+                );
+                playerCard.addEventListener('touchmove', onTouchMove, { passive: true });
+                playerCard.addEventListener('touchend', onTouchEnd, { passive: true });
+                playerCard.addEventListener('touchcancel', onTouchCancel, { passive: true });
+            } else {
+                playerCard.addEventListener(
+                    "pointerdown",
+                    (e) => onPointerDownRemove(e, index, player),
+                    { passive: false }
+                );
+                playerCard.addEventListener('pointermove', onPointerMove);
+                playerCard.addEventListener('pointerup', onPointerUp);
+                playerCard.addEventListener('pointercancel', onPointerCancel);
+            }
+            playerCard.addEventListener("contextmenu", (e) => {e.preventDefault();}); // for not having context menu on chrome mobile emulation on PC
+            //POINTER EVENT STUFF END
+
             teamContainer.appendChild(playerCard);
         });
     }
@@ -187,36 +525,9 @@ function renderTeam() {
 // Funzione per aggiornare i crediti rimanenti
 function updateCreditsCounter() {
     const creditsCounter = document.getElementById('creditsCounter');
-    creditsCounter.textContent = `Hai ancora: ${maxCredits - totalCost}$`;
+    creditsCounter.innerHTML = `Hai ancora: <b><span class="orange_text_light">${maxCredits - totalCost}$</span></b>`;
 }
 
-// // Funzione per popolare la lista dei giocatori disponibili, ORDINATI SOLO PER PREZZO E NON TEAM
-// function populatePlayersList() {
-//     const playersContainer = document.getElementById('playersContainer');
-//     playersContainer.innerHTML = '';
-
-//     // Sort players by cost descending before displaying
-//     players
-//     .slice() // Make a shallow copy, so you don't modify original "players"
-//     .sort((a, b) => b.cost - a.cost) // Sort descending by cost
-//     .forEach((player) => {
-//         const playerCard = document.createElement('div');
-//         playerCard.classList.add('player-card1', `cardclass${player.team}`);
-//         playerCard.innerHTML = `
-//             <p>${player.name}</p>
-//             <p>${player.team} &emsp; $${player.cost}</p>
-//         `;
-//         playerCard.addEventListener('click', () => addPlayer(player));
-//         playersContainer.appendChild(playerCard);
-//     });
-
-
-//     // Aggiungi l'elemento per i crediti rimanenti
-//     const creditsCounter = document.createElement('p');
-//     creditsCounter.id = 'creditsCounter';
-//     creditsCounter.textContent = `Hai ancora: ${maxCredits}$`;
-//     playersContainer.parentNode.insertBefore(creditsCounter, playersContainer.nextSibling);
-// }
 
 // Funzione per popolare la lista dei giocatori disponibili, ORDINATI SOLO PER TEAM E POI PREZZO
 function populatePlayersList() {
@@ -239,7 +550,29 @@ function populatePlayersList() {
                 <p><b>${player.name}</b></p>
                 <p><b>${player.team}</b> &emsp; <b>$${player.cost}</b></p>
             `;
-            playerCard.addEventListener('click', () => addPlayer(player));
+            if (useTouchEvents) {
+                playerCard.addEventListener(
+                    "touchstart",
+                    (e) => onTouchStartAdd(e, player),
+                    { passive: true }
+                );
+                playerCard.addEventListener('touchmove', onTouchMove, { passive: true });
+                playerCard.addEventListener('touchend', onTouchEnd, { passive: true });
+                playerCard.addEventListener('touchcancel', onTouchCancel, { passive: true });
+            } else {
+                playerCard.addEventListener(
+                    "pointerdown",
+                    (e) => onPointerDownAdd(e, player),
+                    { passive: false }
+                );
+                playerCard.addEventListener('pointermove', onPointerMove);
+                playerCard.addEventListener('pointerup', onPointerUp);
+                playerCard.addEventListener('pointercancel', onPointerCancel);
+            }
+            playerCard.addEventListener("contextmenu", (e) => {e.preventDefault();}); // for not having context menu on chrome mobile emulation on PC
+            //POINTER EVENT STUFF END
+
+
             playersContainer.appendChild(playerCard);
         });
     });
@@ -247,7 +580,7 @@ function populatePlayersList() {
     const creditsCounter = document.createElement('p');
     creditsCounter.id = 'creditsCounter';
     creditsCounter.classList.add('highlighted-text')
-    creditsCounter.textContent = `Hai ancora: ${maxCredits}$`;
+    creditsCounter.innerHTML = `Hai ancora: <b><span class="orange_text_light">${maxCredits}$</span></b>`;
     playersContainer.parentNode.insertBefore(creditsCounter, playersContainer.nextSibling);
 }
 
@@ -285,8 +618,31 @@ window.onload = () => {
     });
 };
 
+//pointer change start
+window.addEventListener('click', (e) => {
+    if (!e.target.closest('.player-card1') &&
+        !e.target.closest('.player-history-popup')) {
+        logMobile( ">> click target closest not player-card1 or player-history-popup");
+        removeActivePopup();
+    }
+});
+window.addEventListener('scroll', () => {
+    logMobile( ">> scroll");
+
+    removeActivePopup();
+});
+// window.addEventListener("touchmove", () => {
+//     // if(ActivePopup) {
+//         logMobile( ">> touchmove");
+//     // }
+
+//     removeActivePopup();
+// }, { passive: true });
+//pointer change end
+
 //NEW26
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzwUaTw0COjgjKWbNqwZNf2JpApkq0a-xhB-sHub-3vQgCCuD4zJosdMsMJFyslWWs/exec"; 
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzwUaTw0COjgjKWbNqwZNf2JpApkq0a-xhB-sHub-3vQgCCuD4zJosdMsMJFyslWWs/exec";
+
 
 //NEW26
 async function submitTeam() {
@@ -361,3 +717,23 @@ async function submitTeam() {
     }
 }
 
+
+// DEBUG CONSOLE DIV ON MOBILE ANDROID (f12 not available there)
+const debug = document.createElement('div');
+debug.style.position='fixed';
+debug.style.bottom='0';
+debug.style.left='0';
+debug.style.right='0';
+debug.style.background='black';
+debug.style.color='lime';
+debug.style.zIndex='99999';
+debug.style.fontSize='12px';
+debug.style.maxHeight='150px';
+debug.style.overflow='auto';
+if (debug_active) {
+    document.body.appendChild(debug);
+}
+
+function logMobile(msg) {
+    debug.innerHTML += msg + "<br>";
+}

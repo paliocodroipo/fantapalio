@@ -2,26 +2,40 @@
 import { player_type, players, td3Weights, players24, players25, 
     what_day_is_it, 
     team_not_in_final_1, team_not_in_final_2,
-    PTS   ,
-    T2P   ,
-    T2PX  ,
-    T3P   ,
-    T3PX  ,
-    FT    ,
-    FTX   ,
-    DREB  ,
-    OREB  ,
-    REB   ,
-    AST   ,
-    TO    ,
-    STL   ,
-    BLK   ,
-    EXP   ,
-    DD    ,
-    TD    ,
-    WIN   ,
-    MEME  ,
-} from '../data260619_0841.js';
+        game_results_array,
+        PTS   ,
+        T2P   ,
+        T2PX  ,
+        T3P   ,
+        T3PX  ,
+        FT    ,
+        FTX   ,
+        DREB  ,
+        OREB  ,
+        REB   ,
+        AST   ,
+        TO    ,
+        STL   ,
+        BLK   ,
+        EXP   ,
+        DD    ,
+        TD    ,
+        WIN   ,
+        MEME  ,
+        TD3_PARTECIPA      ,
+        TD3_NONPARTECIPA   ,
+        TD3_PASSA1         ,
+        TD3_PASSA2         ,
+        TD3_PASSA3         ,
+        TD3_PASSA4         ,
+        TD3_FINALE         ,
+        TD3_3RD            ,
+        TD3_2ND            ,
+        TD3_1ST            ,
+        TD3_0SU10          ,
+        TD3_CIAB           ,
+        TD3_ALTRI_MEME     ,
+} from '../data260706_2157.js';
 console.log("inizio boxscore js"); // inizio
 
 
@@ -600,40 +614,40 @@ function populateTable_td3(team, players) {
             //giocatore
             playerRow += `<td>${player.name}</td>`;
             //partecipazione
-            if(player.stats_td3[0] == 1){
-                playerRow += `<td>${player.stats_td3[0]*td3Weights[0]}</td>`;
+            if(player.stats_td3[TD3_PARTECIPA] == 1){
+                playerRow += `<td>${player.stats_td3[TD3_PARTECIPA]*td3Weights[TD3_PARTECIPA]}</td>`;
             }else{
-                playerRow += `<td>${player.stats_td3[1]*td3Weights[1]}</td>`;
+                playerRow += `<td>${player.stats_td3[TD3_NONPARTECIPA]*td3Weights[TD3_NONPARTECIPA]}</td>`;
             }
             
             //secondo turno
-            playerRow += `<td>${player.stats_td3[2]*td3Weights[2]}</td>`;
+            playerRow += `<td>${player.stats_td3[TD3_PASSA1]*td3Weights[TD3_PASSA1]}</td>`;
             //terzo turno
-            playerRow += `<td>${player.stats_td3[3]*td3Weights[3]}</td>`;
+            playerRow += `<td>${player.stats_td3[TD3_PASSA2]*td3Weights[TD3_PASSA2]}</td>`;
             //quarto turno
-            playerRow += `<td>${player.stats_td3[4]*td3Weights[4]}</td>`;
+            playerRow += `<td>${player.stats_td3[TD3_PASSA3]*td3Weights[TD3_PASSA3]}</td>`;
             //quinto turno
-            playerRow += `<td>${player.stats_td3[5]*td3Weights[5]}</td>`;
+            playerRow += `<td>${player.stats_td3[TD3_PASSA4]*td3Weights[TD3_PASSA4]}</td>`;
             //finale 
-            playerRow += `<td>${player.stats_td3[6]*td3Weights[6]}</td>`;
+            playerRow += `<td>${player.stats_td3[TD3_FINALE]*td3Weights[TD3_FINALE]}</td>`;
             //posizionamento
-            if(player.stats_td3[7] == 0 && player.stats_td3[8] == 0 && player.stats_td3[9] == 0){ //non nei primi 3
-                playerRow += `<td>${player.stats_td3[9]*td3Weights[9]}</td>`; //zero qui
+            if(player.stats_td3[TD3_3RD] == 0 && player.stats_td3[TD3_2ND] == 0 && player.stats_td3[TD3_1ST] == 0){ //non nei primi 3
+                playerRow += `<td>${player.stats_td3[TD3_1ST]*td3Weights[TD3_1ST]}</td>`; //zero qui
             }else{
-                if (player.stats_td3[7] == 1){
-                    playerRow += `<td>3° : ${player.stats_td3[7]*td3Weights[7]}</td>`;//+5
-                }else if (player.stats_td3[8] == 1){
-                    playerRow += `<td>2° : ${player.stats_td3[8]*td3Weights[8]}</td>`;//+10
+                if (player.stats_td3[TD3_3RD] == 1){
+                    playerRow += `<td>3° : ${player.stats_td3[TD3_3RD]*td3Weights[TD3_3RD]}</td>`;//+5
+                }else if (player.stats_td3[TD3_2ND] == 1){
+                    playerRow += `<td>2° : ${player.stats_td3[TD3_2ND]*td3Weights[TD3_2ND]}</td>`;//+10
                 }else{
-                    playerRow += `<td>1° : ${player.stats_td3[9]*td3Weights[9]}</td>`;//+20
+                    playerRow += `<td>1° : ${player.stats_td3[TD3_1ST]*td3Weights[TD3_1ST]}</td>`;//+20
                 }
             }
             //0 su 10
-            playerRow += `<td>${player.stats_td3[10]*td3Weights[10]}</td>`;
+            playerRow += `<td>${player.stats_td3[TD3_0SU10]*td3Weights[TD3_0SU10]}</td>`;
             //Ciabatte
-            playerRow += `<td>${player.stats_td3[11]*td3Weights[11]}</td>`;
+            playerRow += `<td>${player.stats_td3[TD3_CIAB]*td3Weights[TD3_CIAB]}</td>`;
             //Altri meme
-            playerRow += `<td>${player.stats_td3[12]*td3Weights[12]}</td>`;
+            playerRow += `<td>${player.stats_td3[TD3_ALTRI_MEME]*td3Weights[TD3_ALTRI_MEME]}</td>`;
             //totale td3
             playerRow += `<td><strong>${player.td3}</strong></td>`;
             tableBody.innerHTML += playerRow;
@@ -644,6 +658,10 @@ function populateTable_td3(team, players) {
         }
     });
     // tableBody.innerHTML += headerRow;
+}
+
+function getDayResults(dayTag) {
+    return game_results_array.find(res => res.game_results_day === dayTag);
 }
 
 
@@ -661,7 +679,17 @@ function populateTable_td3(team, players) {
 
 
 if (what_day_is_it >= 1){
-players.sort((a, b) => b.g1 - a.g1);
+    document.getElementById("boxscore-section-g1").style.display = "block";
+    const res = getDayResults("g1");
+    if (res) {
+        document.getElementById("boxscore-score-g11").textContent = `${res.match_A_home_team} ${res.match_A_home_score} - ${res.match_A_away_score} ${res.match_A_away_team}`;
+        document.getElementById("boxscore-score-g11-team1").textContent = `${res.match_A_home_team}`;
+        document.getElementById("boxscore-score-g11-team2").textContent = `${res.match_A_away_team}`;
+        document.getElementById("boxscore-score-g12").textContent = `${res.match_B_home_team} ${res.match_B_home_score} - ${res.match_B_away_score} ${res.match_B_away_team}`;
+        document.getElementById("boxscore-score-g12-team1").textContent = `${res.match_B_home_team}`;
+        document.getElementById("boxscore-score-g12-team2").textContent = `${res.match_B_away_team}`;
+    }
+    players.sort((a, b) => b.g1 - a.g1);
     // Chiamata alla funzione per popolare le tabelle per ciascun team
     populateTable_g1("NORD", players);
     // Popola le tabelle per EST, SUD e WEST allo stesso modo
@@ -670,6 +698,16 @@ players.sort((a, b) => b.g1 - a.g1);
     populateTable_g1("WEST", players);
 }
 if (what_day_is_it >= 2){
+    document.getElementById("boxscore-section-g2").style.display = "block";
+    const res = getDayResults("g2");
+    if (res) {
+        document.getElementById("boxscore-score-g21").textContent = `${res.match_A_home_team} ${res.match_A_home_score} - ${res.match_A_away_score} ${res.match_A_away_team}`;
+        document.getElementById("boxscore-score-g21-team1").textContent = `${res.match_A_home_team}`;
+        document.getElementById("boxscore-score-g21-team2").textContent = `${res.match_A_away_team}`;
+        document.getElementById("boxscore-score-g22").textContent = `${res.match_B_home_team} ${res.match_B_home_score} - ${res.match_B_away_score} ${res.match_B_away_team}`;
+        document.getElementById("boxscore-score-g22-team1").textContent = `${res.match_B_home_team}`;
+        document.getElementById("boxscore-score-g22-team2").textContent = `${res.match_B_away_team}`;
+    }
     players.sort((a, b) => b.g2 - a.g2);
     populateTable_g2("NORD", players);
     populateTable_g2("EST", players);
@@ -677,6 +715,16 @@ if (what_day_is_it >= 2){
     populateTable_g2("WEST", players);
 }
 if (what_day_is_it >= 3){
+    document.getElementById("boxscore-section-g3").style.display = "block";
+    const res = getDayResults("g3");
+    if (res) {
+        document.getElementById("boxscore-score-g31").textContent = `${res.match_A_home_team} ${res.match_A_home_score} - ${res.match_A_away_score} ${res.match_A_away_team}`;
+        document.getElementById("boxscore-score-g31-team1").textContent = `${res.match_A_home_team}`;
+        document.getElementById("boxscore-score-g31-team2").textContent = `${res.match_A_away_team}`;
+        document.getElementById("boxscore-score-g32").textContent = `${res.match_B_home_team} ${res.match_B_home_score} - ${res.match_B_away_score} ${res.match_B_away_team}`;
+        document.getElementById("boxscore-score-g32-team1").textContent = `${res.match_B_home_team}`;
+        document.getElementById("boxscore-score-g32-team2").textContent = `${res.match_B_away_team}`;
+    }
     players.sort((a, b) => b.g3 - a.g3);
     populateTable_g3("NORD", players);
     populateTable_g3("EST", players);
@@ -684,6 +732,16 @@ if (what_day_is_it >= 3){
     populateTable_g3("WEST", players);
 }
 if (what_day_is_it >= 4){
+    document.getElementById("boxscore-section-semi").style.display = "block";
+    const res = getDayResults("semi");
+    if (res) {
+        document.getElementById("boxscore-score-semi1").textContent = `${res.match_A_home_team} ${res.match_A_home_score} - ${res.match_A_away_score} ${res.match_A_away_team}`;
+        document.getElementById("boxscore-score-semi1-team1").textContent = `${res.match_A_home_team}`;
+        document.getElementById("boxscore-score-semi1-team2").textContent = `${res.match_A_away_team}`;
+        document.getElementById("boxscore-score-semi2").textContent = `${res.match_B_home_team} ${res.match_B_home_score} - ${res.match_B_away_score} ${res.match_B_away_team}`;
+        document.getElementById("boxscore-score-semi2-team1").textContent = `${res.match_B_home_team}`;
+        document.getElementById("boxscore-score-semi2-team2").textContent = `${res.match_B_away_team}`;
+    }
     players.sort((a, b) => b.semi - a.semi);
     populateTable_semi("NORD", players);
     populateTable_semi("EST", players);
@@ -691,6 +749,7 @@ if (what_day_is_it >= 4){
     populateTable_semi("WEST", players);
 }
 if (what_day_is_it >= 5){
+    document.getElementById("boxscore-section-td3").style.display = "block";
     players.sort((a, b) => b.td3 - a.td3);
     populateTable_td3("WEST", players);
     populateTable_td3("NORD", players);
@@ -698,6 +757,13 @@ if (what_day_is_it >= 5){
     populateTable_td3("SUD", players);
 }
 if (what_day_is_it >= 6){
+    document.getElementById("boxscore-section-final").style.display = "block";
+    const res = getDayResults("final");
+    if (res) {
+        document.getElementById("boxscore-score-final").textContent = `${res.match_A_home_team} ${res.match_A_home_score} - ${res.match_A_away_score} ${res.match_A_away_team}`;
+        document.getElementById("boxscore-score-final-team1").textContent = `${res.match_A_home_team}`;
+        document.getElementById("boxscore-score-final-team2").textContent = `${res.match_A_away_team}`;
+    }
     players.sort((a, b) => b.final - a.final); 
     populateTable_final("NORD", players);
     populateTable_final("WEST", players);
