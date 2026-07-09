@@ -1,19 +1,19 @@
 // Importa l'array di giocatori dal modulo esterno
-import { players, player_history_array } from '../data260708_1344.js';
+import { players, player_history_array } from '../data260709_1842.js';
 // const players=players25; // messo questo, da updeateare ogni anno ma sticazzi
 // https://script.google.com/macros/s/AKfycbxajrln9ImXrubissUw8sgeGcYdDOspUAdrA_RlRzNsPzM05lt4mB_h7rd5h91hB8q-Hg/exec
 // Variabili globali per tenere traccia dei giocatori selezionati e dei crediti totali
 let selectedPlayers = [];
 let totalCost = 0;
 const maxCredits = 30; // Massimo credito disponibile per il team
+const sort_by_cost_only = 0; // 1 per ordinare solo per costo decrescente, 0 per raggruppare per team
 
 const formlinkused = 0; // se 1, mostra il link al modulo google forms, se 0 non lo mostra e lascia solo il form diretto (e nasconde il messaggio con il link)
 const directregistration = !formlinkused; // se 1, mostra il form di registrazione diretto, se 0 mostra solo il link al modulo google forms (e nasconde il form diretto)
 
-let debug_active = 1; // 1 per mostrare div nero con messaggi logMobile()
+let debug_active = 0; // 1 per mostrare div nero con messaggi logMobile()
 // HISTORY POPUP
 let activePopup = null;
-
 let pressTimer = null;
 let pressedPlayer = null;
 let pressedIndex = null;
@@ -321,11 +321,19 @@ function showPlayerPopup(player, event) {
     popup.style.top = `${clientY}px`;
 
     const popupRect = popup.getBoundingClientRect();
+    const popupHeight = popupRect.height;
+
     if (popupRect.left < 10) {
         popup.style.left = '10px';
     } else if (popupRect.right > window.innerWidth - 10) {
         popup.style.left = `${window.innerWidth - popupRect.width - 10}px`;
     }
+
+    const visibleTop = Math.min(
+        Math.max(10, clientY - popupHeight - 50),
+        window.innerHeight - popupHeight - 10
+    );
+    popup.style.top = `${visibleTop + popupHeight + 50}px`;
 }
 
 // Funzione di utility per distruggere il popup quando si rilascia il dito o si clicca fuori
@@ -493,6 +501,13 @@ function renderTeam() {
                
                 <p><b>${player.team}</b> &emsp; <b>$${player.cost}</b></p>
             `;
+            if(player.name === "Gabriele Miani") {
+                playerCard.innerHTML = `
+                    <p><b>${player.name}</b><br>⚠️</p>
+                
+                    <p><b>${player.team}</b> &emsp; <b>$${player.cost}</b></p>
+            `;
+            }
             if (useTouchEvents) {
                 playerCard.addEventListener(
                     "touchstart",
@@ -530,56 +545,71 @@ function updateCreditsCounter() {
 
 
 // Funzione per popolare la lista dei giocatori disponibili, ORDINATI SOLO PER TEAM E POI PREZZO
+// Funzione per popolare la lista dei giocatori disponibili
 function populatePlayersList() {
     const playersContainer = document.getElementById('playersContainer');
     playersContainer.innerHTML = '';
 
-    // Group players by team
-    const teams = ['NORD', 'WEST', 'EST', 'SUD']; // Adjust if you have other team names
-    teams.forEach((teamName) => {
-        // Filter players belonging to the current team
-        const playersOfTeam = players
-            .filter(player => player.team === teamName)
-            .sort((a, b) => b.cost - a.cost); // Sort descending by cost inside the team
-
-        // Now display players of this team
-        playersOfTeam.forEach((player) => {
-            const playerCard = document.createElement('div');
-            playerCard.classList.add('player-card1', `cardclass${player.team}`);
+    // Funzione interna per iniettare la card nel DOM (evita di duplicare il codice degli eventi)
+    function renderPlayerCard(player) {
+        const playerCard = document.createElement('div');
+        playerCard.classList.add('player-card1', `cardclass${player.team}`);
+        playerCard.innerHTML = `
+            <p><b>${player.name}</b></p>
+            <p><b>${player.team}</b> &emsp; <b>$${player.cost}</b></p>
+        `;
+        if(player.name === "Gabriele Miani") {
             playerCard.innerHTML = `
-                <p><b>${player.name}</b></p>
+                <p><b>${player.name}</b><br>⚠️</p>
+            
                 <p><b>${player.team}</b> &emsp; <b>$${player.cost}</b></p>
-            `;
-            if (useTouchEvents) {
-                playerCard.addEventListener(
-                    "touchstart",
-                    (e) => onTouchStartAdd(e, player),
-                    { passive: true }
-                );
-                playerCard.addEventListener('touchmove', onTouchMove, { passive: true });
-                playerCard.addEventListener('touchend', onTouchEnd, { passive: true });
-                playerCard.addEventListener('touchcancel', onTouchCancel, { passive: true });
-            } else {
-                playerCard.addEventListener(
-                    "pointerdown",
-                    (e) => onPointerDownAdd(e, player),
-                    { passive: false }
-                );
-                playerCard.addEventListener('pointermove', onPointerMove);
-                playerCard.addEventListener('pointerup', onPointerUp);
-                playerCard.addEventListener('pointercancel', onPointerCancel);
-            }
-            playerCard.addEventListener("contextmenu", (e) => {e.preventDefault();}); // for not having context menu on chrome mobile emulation on PC
-            //POINTER EVENT STUFF END
+        `;
+        }
+        if (useTouchEvents) {
+            playerCard.addEventListener(
+                "touchstart",
+                (e) => onTouchStartAdd(e, player),
+                { passive: true }
+            );
+            playerCard.addEventListener('touchmove', onTouchMove, { passive: true });
+            playerCard.addEventListener('touchend', onTouchEnd, { passive: true });
+            playerCard.addEventListener('touchcancel', onTouchCancel, { passive: true });
+        } else {
+            playerCard.addEventListener(
+                "pointerdown",
+                (e) => onPointerDownAdd(e, player),
+                { passive: false }
+            );
+            playerCard.addEventListener('pointermove', onPointerMove);
+            playerCard.addEventListener('pointerup', onPointerUp);
+            playerCard.addEventListener('pointercancel', onPointerCancel);
+        }
+        playerCard.addEventListener("contextmenu", (e) => {e.preventDefault();});
 
+        playersContainer.appendChild(playerCard);
+    }
 
-            playersContainer.appendChild(playerCard);
+    // LOGICA DI ORDINAMENTO BASATA SUL CONFIG
+    if (sort_by_cost_only) {
+        // Ordina TUTTI i giocatori per costo decrescente (senza distinzione di team)
+        const sortedPlayers = [...players].sort((a, b) => b.cost - a.cost);
+        sortedPlayers.forEach(player => renderPlayerCard(player));
+    } else {
+        // Vecchio comportamento: Raggruppati per Team e ordinati per costo all'interno del team
+        const teams = ['NORD', 'WEST', 'EST', 'SUD'];
+        teams.forEach((teamName) => {
+            const playersOfTeam = players
+                .filter(player => player.team === teamName)
+                .sort((a, b) => b.cost - a.cost);
+
+            playersOfTeam.forEach(player => renderPlayerCard(player));
         });
-    });
+    }
 
+    // Contatore crediti finale (invariato)
     const creditsCounter = document.createElement('p');
     creditsCounter.id = 'creditsCounter';
-    creditsCounter.classList.add('highlighted-text')
+    creditsCounter.classList.add('highlighted-text');
     creditsCounter.innerHTML = `Hai ancora: <b><span class="orange_text_light">${maxCredits}$</span></b>`;
     playersContainer.parentNode.insertBefore(creditsCounter, playersContainer.nextSibling);
 }
