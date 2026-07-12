@@ -14,19 +14,19 @@
 
     --nord-color1:rgb(255, 50, 50);
     --nord-color2:rgb(0, 0, 0);
-    --nord-color3:rgb(200, 0, 0);
+    --nord-color3:rgb(179, 0, 0);
 
     --west-color1:rgb(0, 0, 0);
     --west-color2:rgb(255, 221, 0);
-    --west-color3:rgb(210, 182, 0);
+    --west-color3:rgb(230, 195, 0);
 
-    --est-color1:rgb(4, 0, 218);
-    --est-color2:rgb(255, 26, 26);
+    --est-color1:rgb(48, 69, 165);
+    --est-color2:rgb(214, 18, 18);
     --est-color3:rgb(255, 255,255);
 
     --sud-color1:rgb(255, 255, 255);
-    --sud-color2:rgb(34, 145, 0);
-    --sud-color3:red;
+    --sud-color2:rgb(44, 104, 47);
+    --sud-color3:rgb(192, 27, 27);
 
 }
 /* 
@@ -319,24 +319,86 @@ footer {
 
 /* Scheda */
 .team-card{
-    background-color: #f9f9f9;
-    color: black;
+    /* background-color: #f9f9f9; */
+    /* color: black; */
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 16px;
+    /* padding: 16px; */
     width: 100%;
     max-width: 400px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+
+    color: white;
+
+    /* Perfect aspect ratio for portrait A4/ISO geometry */
+    aspect-ratio: 1 / 1.4142; 
+    box-sizing: border-box;
+
+    /* LAYOUT CONTROL */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes header to top, body to bottom */
+
+    /* BACKGROUND FIXES */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+
 }
 
 /* Intestazioni e informazioni */
-.team-card-header {
+/* .team-card-header {
     font-size: 1.5em;
     margin-bottom: 8px;
+
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .team-card-body {
     font-size: 1.2em;
+} */
+/* Protected Text Box at the TOP (Header) */
+.team-card-header {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    text-align: center;
+    color: white;
+    padding: 15px 10px; 
+    padding-bottom:30px;
+    
+    /* 1. Your exact original vertical gradient */
+    background: linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 1) 0%, 
+        rgba(0, 0, 0, 0.7) 30%, 
+        rgba(0, 0, 0, 0.5) 70%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+
+    /* 2. The side-to-side transparency mask */
+    /* This makes the left and right 10% completely fade away */
+    /* -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 10%, rgba(0,0,0,0.4) 90%, rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%); */
+}
+
+/* Protected Text Box at the BOTTOM (Body text) */
+.team-card-body {
+    font-size: 1.2em;
+    color: white;
+    
+    /* Extra padding at the top and bottom of the text container so the fade has room to blend away */
+    padding: 25px 15px 15px 15px; 
+    
+    /* Fades in smoothly from the top edge, remains dark behind the data, and fades slightly at the very bottom */
+    background: linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.6) 20%, 
+        rgba(0, 0, 0, 0.6) 90%, 
+        rgba(0, 0, 0, 0) 100%
+    );
 }
 
 .team-card.bold {
@@ -590,19 +652,33 @@ footer {
     border-radius: 12px;
 }
 
-.cardclasssoftWEST{
+.cardclasssoftWEST {
     border: 10px solid var(--west-color3);
-}
-.cardclasssoftNORD{
-    border: 10px solid var(--nord-color3);
-}
-.cardclasssoftSUD{
-    border: 10px solid var(--sud-color2);
-}
-.cardclasssoftEST{
-    border: 10px solid var(--est-color1);
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,0.85) 90%),
+                url('./images/carte2026/WEST-cropped.svg');
 }
 
+.cardclasssoftNORD {
+    border: 10px solid var(--nord-color3);
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,0.85) 90%),
+                url('./images/carte2026/NORD-cropped.svg');
+}
+
+.cardclasssoftSUD {
+    border: 10px solid var(--sud-color2);
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,0.85) 90%),
+                url('./images/carte2026/SUD-cropped.svg');
+}
+
+.cardclasssoftEST {
+    border: 10px solid var(--est-color1);
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,0.85) 90%),
+                url('./images/carte2026/EST-cropped.svg');
+}
 
 
 
