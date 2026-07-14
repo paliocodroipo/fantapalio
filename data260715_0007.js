@@ -699,6 +699,59 @@ const WEST26 = { ...rione_type,
     //altri campi rimangono a zero
 };
 
+WEST26.chiosco_g1 = 330;
+EST26.chiosco_g1 = 296;
+SUD26.chiosco_g1 = 198;
+NORD26.chiosco_g1 = 248;
+
+WEST26.chiosco_g2   = 484 - 330; // 319
+EST26.chiosco_g2    = 641 - 296; // 399
+SUD26.chiosco_g2    = 452 - 198; // 282
+NORD26.chiosco_g2   = 404 - 248; // 269
+
+
+// WEST26.chiosco_martedi  = 777 - 664; // 113
+// EST26.chiosco_martedi   = 965 - 811; // 154
+// SUD26.chiosco_martedi   = 688 - 560; // 128
+// NORD26.chiosco_martedi  = 606 - 492; // 114
+
+// WEST26.chiosco_g3    = 1175 - 777; // 398
+// EST26.chiosco_g3     = 1276 - 965; // 311
+// SUD26.chiosco_g3     = 1062 - 688; // 374
+// NORD26.chiosco_g3    = 868 - 606; // 262
+
+//
+// WEST26.chiosco_g3    = 1180 - 777; // 403
+// EST26.chiosco_g3     = 1300 - 965; // 335
+// SUD26.chiosco_g3     = 1075 - 688; // 387
+// NORD26.chiosco_g3    = 875 - 606; // 269
+
+// WEST26.chiosco_semi = 1791 - 1180; // 611
+// EST26.chiosco_semi = 1860 - 1300; // 560
+// SUD26.chiosco_semi = 1298 - 1075; // 223
+// NORD26.chiosco_semi = 1136 - 875; // 261
+
+    // manca td3 skippato dato preciso
+
+// WEST26.chiosco_final = 2730 - 1791;
+// EST26.chiosco_final = 2970 - 1860;
+// SUD26.chiosco_final = 1934 - 1298;
+// NORD26.chiosco_final = 1848 - 1136;
+
+// end BIRRE CHIOSCO
+
+// // BONUS COPPA CHIOSCO PIAZZAMENTO RIONI 26
+// NORD26.chiosco_bonus = -5;
+// SUD26.chiosco_bonus = 0;
+// WEST26.chiosco_bonus = 5;
+// EST26.chiosco_bonus = 10;
+
+// // BONUS CLASSIFICA RIONI 26
+// NORD26.classifica_bonus = 10;
+// SUD26.classifica_bonus = 5;
+// WEST26.classifica_bonus = 20;
+// EST26.classifica_bonus = 10;
+
 // ----------------------------------------------------------
 // --------------------  STATISTICHE COACH/RIONI 2026
 // ----------------------------------------------------------
@@ -761,7 +814,6 @@ if(coachTM >= 6){
 
 
 
-// CHIOSCO nel 2026 non messo su sito
 
 //creazione array rioni e calcolo totale birre al chiosco e calcolo totali coach e punteggio totale finale
 const rioni26 = [NORD26,SUD26,EST26,WEST26];
@@ -784,7 +836,7 @@ const NORD = NORD26;
 const SUD  = SUD26;
 const EST  = EST26;
 const WEST = WEST26;
-
+const rioni = rioni26
 // 
 
 // -----------------------------------------------------------------------------------------------
@@ -3750,7 +3802,7 @@ for (const team of fantateams26) { // assegna lega a ogni squadra in base al rio
 
         NORD, SUD, EST, WEST,
 
-        fantateams, players, players24, players25, players26, pdkWeights,td3Weights,rioni25,
+        fantateams, players, players24, players25, players26, pdkWeights,td3Weights,rioni,
         what_day_is_it, team_not_in_final_1, team_not_in_final_2,
         game_results_array,
         td3_bonus_passadaprimoultimo,

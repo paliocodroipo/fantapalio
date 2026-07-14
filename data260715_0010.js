@@ -751,6 +751,7 @@ NORD26.chiosco_g2   = 404 - 248; // 269
 // SUD26.classifica_bonus = 5;
 // WEST26.classifica_bonus = 20;
 // EST26.classifica_bonus = 10;
+
 // ----------------------------------------------------------
 // --------------------  STATISTICHE COACH/RIONI 2026
 // ----------------------------------------------------------
@@ -835,7 +836,7 @@ const NORD = NORD26;
 const SUD  = SUD26;
 const EST  = EST26;
 const WEST = WEST26;
-
+const rioni = rioni26;
 // 
 
 // -----------------------------------------------------------------------------------------------
@@ -3801,7 +3802,7 @@ for (const team of fantateams26) { // assegna lega a ogni squadra in base al rio
 
         NORD, SUD, EST, WEST,
 
-        fantateams, players, players24, players25, players26, pdkWeights,td3Weights,rioni25,
+        fantateams, players, players24, players25, players26, pdkWeights,td3Weights,rioni,
         what_day_is_it, team_not_in_final_1, team_not_in_final_2,
         game_results_array,
         td3_bonus_passadaprimoultimo,
