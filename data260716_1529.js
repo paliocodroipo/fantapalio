@@ -716,10 +716,10 @@ EST26.chiosco_martedi   = 700 - 641;
 SUD26.chiosco_martedi   = 530 - 452; 
 NORD26.chiosco_martedi  = 458 - 404; 
 
-WEST26.chiosco_g3    =  726 - 547; 
-EST26.chiosco_g3     =  911 - 700; 
-SUD26.chiosco_g3     =  708 - 530; 
-NORD26.chiosco_g3    =  576 - 458; 
+WEST26.chiosco_g3    =  725 - 547; 
+EST26.chiosco_g3     =  910 - 700; 
+SUD26.chiosco_g3     =  713 - 530; 
+NORD26.chiosco_g3    =  580 - 458; 
 
 // WEST26.chiosco_semi = 1791 - 1180; 
 // EST26.chiosco_semi = 1860 - 1300; 

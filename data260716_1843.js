@@ -716,10 +716,10 @@ EST26.chiosco_martedi   = 700 - 641;
 SUD26.chiosco_martedi   = 530 - 452; 
 NORD26.chiosco_martedi  = 458 - 404; 
 
-WEST26.chiosco_g3    =  726 - 547; 
-EST26.chiosco_g3     =  911 - 700; 
-SUD26.chiosco_g3     =  708 - 530; 
-NORD26.chiosco_g3    =  576 - 458; 
+WEST26.chiosco_g3    =  725 - 547; 
+EST26.chiosco_g3     =  910 - 700; 
+SUD26.chiosco_g3     =  713 - 530; 
+NORD26.chiosco_g3    =  580 - 458; 
 
 // WEST26.chiosco_semi = 1791 - 1180; 
 // EST26.chiosco_semi = 1860 - 1300; 
@@ -2045,7 +2045,7 @@ AntonioGri26.stats_g2                   =      [0, 1, 2, 0, 0, 0, 2, 1, 1, 0, 1,
 FrancescoSchiavone26.stats_g2           =      [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2]; //
 NicolaCollavini26.stats_g2              =      [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2]; //
 LeonardoTirelli26.stats_g2              =      [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2]; //
-MattiaCollavini26.stats_g2              =      [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 2]; //
+MattiaCollavini26.stats_g2              =      [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0]; //
 JacopoLoPiccolo26.stats_g2              =      [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2]; //
 ThomasGrillo26.stats_g2                 =      [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2]; //
 LuigiValentino26.stats_g2               =      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; //
