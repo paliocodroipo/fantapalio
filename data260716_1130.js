@@ -206,10 +206,11 @@ const game_results2025_array = [
 //2026
 const game_results2026_g1 = createGameResults("NORD", 58, "EST", 48, "SUD", 21, "WEST", 53, "g1");
 const game_results2026_g2 = createGameResults("NORD", 37, "SUD", 38, "EST", 47, "WEST", 50, "g2");
-// const game_results2026_g3 = createGameResults("SUD", 460, "EST", 440, "NORD", 630, "WEST", 590, "g3");
+const game_results2026_g3 = createGameResults("SUD", 55, "EST", 61, "NORD", 48, "WEST", 67, "g3");
 // const game_results2026_semi = createGameResults("NORD", 540, "SUD", 390, "WEST", 570, "EST", 540, "semi");
 // const game_results2026_final = createGameResults("WEST", 680, "NORD", 610, "NO", 0, "NO", 0, "final");
 const game_results2026_array = [
+    game_results2026_g3,
     game_results2026_g2,
     game_results2026_g1
     ];
@@ -3614,7 +3615,7 @@ const ft113 = createFantateam(113, "CIORDES", NORD, [DevinChiarcos26, MattiaMaso
 const ft114 = createFantateam(114, "LVDP", NORD, [UmbertoNobile26, MattiaMasotti26, ChristianZanet26, MarcoGemo26, GabrieleVecciolini26]);
 const ft115 = createFantateam(115, "Le gocciole", WEST, [MassimilianoMoretti26, LarryTrevisan26, MatteoMargarit26, AntonioGri26, MiracleObichukwu26]);
 const ft116 = createFantateam(116, "Chicago Sbulls", WEST, [UmbertoNobile26, GiacomoFerigo26, MarcoRizzi26, FilippoAgnoluzzi26, DevinChiarcos26]);
-const ft117 = createFantateam(117, "Tessitori non esiste", NORD, [MassimilianoMoretti26, MattiaMasotti26, GiacomoPiacentini26, DanieleGanzit26, AlessandroGalassi26]);
+const ft117 = createFantateam(117, "Tessitori non esiste", NORD, [MassimilianoMoretti26, MattiaMasotti26, GiacomoPiacentini26, DanieleGanzit26, AlessandroGalassi26]); 
 const ft118 = createFantateam(118, "AZZ", EST, [EnricoBravin26, MarcoGemo26, AlessandroSantin26, AlessandroCostantini26, AndreaMoretti26]);
 const ft119 = createFantateam(119, "Non lo so", WEST, [AlessandroRizzi26, PietroSoramel26, AlessandroSant26, ValentinoCigainero26, MiracleObichukwu26]);
 const ft120 = createFantateam(120, "Prostatas", NORD, [UmbertoNobile26, VittorioBasso26, AlexMicottis26, LucaDellaLonga26, ValentinoCigainero26]);
