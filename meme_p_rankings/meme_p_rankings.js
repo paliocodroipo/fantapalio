@@ -36,7 +36,7 @@ import {
         TD3_0SU10          ,
         TD3_CIAB           ,
         TD3_ALTRI_MEME     ,
-} from '../data260718_1932.js';
+} from '../data260719_1810.js';
 
 
 document.addEventListener('DOMContentLoaded', function() {
